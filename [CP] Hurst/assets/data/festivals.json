@@ -1,0 +1,654 @@
+{
+    "Changes": [
+
+
+		{	
+			"LogName": "Hurst Egg Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {"HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true, "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"TextOperations":
+   			[
+   				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "WoodsmanHurst 54 53 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "WoodsmanHurst 54 53 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up_y2", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+			]
+		},
+
+		{	
+			"LogName": "Hurst Egg Festival - SVE Compat",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {"HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true, "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"TextOperations":
+   			[
+   				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "WoodsmanHurst 23 100 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "WoodsmanHurst 23 100 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up_y2", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+			]
+		},
+
+		{	
+			"LogName": "Egg Festival - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": 
+			{ 
+			  "WoodsmanHurst": "{{i18n:WoodsmanHurst.EggFestival.1}} #$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.EggFestival}}#{{i18n:WoodsmanHurst.EggFestival.2}}",
+			  "WoodsmanHurst_y2": "{{i18n:WoodsmanHurst.EggFestival2}} #$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.EggFestival2}}#{{i18n:WoodsmanHurst.EggFestival.2.2}}",
+
+			}
+		},
+
+		{	
+			"LogName": "Hurst Flower Dance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {"HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true, "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"TextOperations":
+   			[
+   				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "WoodsmanHurst 56 39 left",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "WoodsmanHurst 56 39 left",
+   				    "Delimiter": "/"
+				}
+			]
+		},
+
+		{	
+			"LogName": "Hurst Flower Dance - SVE Compat",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {"HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true, "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"TextOperations":
+   			[
+   				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "WoodsmanHurst 56 39 left",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "WoodsmanHurst 56 39 left",
+   				    "Delimiter": "/"
+				}
+			]
+		},
+	
+		{	
+			"LogName": "Flower Dance - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{ 
+			  "WoodsmanHurst": "{{i18n:WoodsmanHurst.FlowerDance}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.FlowerDance}} #$action EmoteNpc WoodsmanHurst 28",
+			  "WoodsmanHurst_y2": "{{i18n:WoodsmanHurst.FlowerDance2}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.FlowerDance2}} #$action EmoteNpc WoodsmanHurst 28",
+		
+			}
+		},
+
+        {	
+			"LogName": "Hurst Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations":
+   			[
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "WoodsmanHurst 83 40 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "WoodsmanHurst 83 40 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up_y2", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+			],
+			"When": {
+				"HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true,
+
+			}
+		},	
+	
+
+		{	
+			"LogName": "Luau - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": 
+			{ 
+			  "WoodsmanHurst": "{{i18n:WoodsmanHurst.Luau}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.Luau}}",
+			  "WoodsmanHurst_y2": "{{i18n:WoodsmanHurst.Luau2}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.Luau2}}#$action EmoteNpc WoodsmanHurst 60",
+		
+			}
+		},
+
+		{	
+			"LogName": "Hurst Moonlight Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {"HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true, "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"TextOperations":
+   			[
+   				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "WoodsmanHurst 26 4 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "WoodsmanHurst 19 6 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up_y2", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+			]
+		},
+
+		{	
+			"LogName": "Hurst Moonlight Jellies - SVE Compat",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {"HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true, "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"TextOperations":
+   			[
+   				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "WoodsmanHurst 26 4 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "WoodsmanHurst 19 6 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up_y2", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+			]
+		},
+	
+		{	
+			"LogName": "Moonlight Jellies - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": 
+			{ 
+			  "WoodsmanHurst": "{{i18n:WoodsmanHurst.MoonlightJellies}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.MoonlightJellies}}",
+			  "WoodsmanHurst_y2": "{{i18n:WoodsmanHurst.MoonlightJellies2}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.MoonlightJellies2}}",
+			
+			}
+		},
+
+		{	
+			"LogName": "Hurst Fair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {"HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true, "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"TextOperations":
+   			[
+   				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "WoodsmanHurst 23 100 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "WoodsmanHurst 23 100 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up_y2", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+			]
+		},
+
+		{	
+			"LogName": "Hurst Fair - SVE Compat",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {"HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true, "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"TextOperations":
+   			[
+   				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "WoodsmanHurst 30 103 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "WoodsmanHurst 45 102 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up_y2", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+			]
+		},
+
+		{	
+			"LogName": "Fair - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": 
+			{ 
+			  "WoodsmanHurst": "{{i18n:WoodsmanHurst.Fair}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.Fair}}",
+			  "WoodsmanHurst_y2": "{{i18n:WoodsmanHurst.Fair2}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.Fair2}}",
+		
+			}
+		},
+
+		{	
+			"LogName": "Hurst Spirit's Eve",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,},
+			"Target": "Data/Festivals/fall27",
+			"TextOperations":
+			[
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "WoodsmanHurst 25 10 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "WoodsmanHurst 20 57 right",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+			]
+			
+		},	
+		
+		{	
+			"LogName": "Hurst Spirit's Eve - SVE compat",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,},
+			"Target": "Data/Festivals/fall27",
+			"TextOperations":
+			[
+				
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "WoodsmanHurst 49 85 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+					"Value": "WoodsmanHurst 14 57 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters_y3"],
+					"Value": "WoodsmanHurst 50 86 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up_y2", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up_y3", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+			]
+		},
+
+		{	
+			"LogName": "Spirit's Eve - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{ 
+				"WoodsmanHurst": "{{i18n:WoodsmanHurst.SpiritsEve}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.SpiritsEve}}",
+			    "WoodsmanHurst_y2": "{{i18n:WoodsmanHurst.SpiritsEve2}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.SpiritsEve2}}",
+		
+			}
+		},
+		
+		{	
+			"LogName": "Hurst Ice Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {"HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true, "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"TextOperations":
+   			[
+   				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "WoodsmanHurst 83 16 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "WoodsmanHurst 83 16 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up_y2", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+			]
+		},
+
+		{	
+			"LogName": "Hurst Ice Festival - SVE Compat",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {"HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true, "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"TextOperations":
+   			[
+   				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "WoodsmanHurst 83 16 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "WoodsmanHurst 83 16 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up_y2", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+			]
+		},
+
+		
+		{	
+			"LogName": "Ice Festival - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": 
+			{ 
+			  "WoodsmanHurst": "{{i18n:WoodsmanHurst.IceFestival}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.IceFestival}}",
+			  "WoodsmanHurst_y2": "{{i18n:WoodsmanHurst.IceFestival2}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.IceFestival2}}",
+		
+			}
+		},
+		
+		{	
+			"LogName": "Hurst Winter Star",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {"HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true, "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"TextOperations":
+   			[
+   				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "WoodsmanHurst 49 80 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "WoodsmanHurst 22 76 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up_y2", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+			]
+		},
+	
+		{	
+			"LogName": "Hurst Winter Star - SVE Compat",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {"HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true, "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"TextOperations":
+   			[
+   				
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "WoodsmanHurst 49 80 down",
+   				    "Delimiter": "/"
+				},
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+   				    "Value": "WoodsmanHurst 49 80 down",
+   				    "Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up_y2", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+			]
+		},
+
+		{	
+			"LogName": "Winter Star - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": 
+			{ 
+			  "WoodsmanHurst": "{{i18n:WoodsmanHurst.WinterStar}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.WinterStar}}",
+			  "WoodsmanHurst_y2": "{{i18n:WoodsmanHurst.WinterStar2}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.WinterStar2}}",
+	
+			}
+		},
+		
+		{	
+			"LogName": "Hurst Ridgeside Gathering",
+			"Action": "EditData",
+			"When": { "HasMod":"Rafseazz.RSVCP", "HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true },
+			"Target": "Data/Festivals/Fall20",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "WoodsmanHurst 60 36 down",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "set-up", 5],
+					"Value": "/animate WoodsmanHurst false true 250 16 17 18",
+				},
+			
+			]
+		},
+	
+		{	
+			"LogName": "Ridgeside Gathering - Dialogue",
+			"Action": "EditData",
+			"When": { "HasMod":"Rafseazz.RSVCP", "HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true },
+			"Target": "Data/Festivals/fall20",
+			"Entries": 
+			{ 
+				"WoodsmanHurst": "{{i18n:WoodsmanHurst.RidgesideGathering}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.RidgesideGathering}}",
+			}
+		},
+		{	
+			"LogName": "Hurst Ember of Resolutions",
+			"Action": "EditData",
+			"When": { "HasMod":"Rafseazz.RSVCP", "HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true  },
+			"Target": "Data/Festivals/winter28",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "WoodsmanHurst 25 34 right",
+					"Delimiter": "/"
+				},
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "WoodsmanHurst 27 52 up",
+					"Delimiter": "/"
+				}
+			]
+		},
+
+		{	
+			"LogName": "Ember of Resolutions - Dialogue",
+			"Action": "EditData",
+			"When": { "HasMod":"Rafseazz.RSVCP", "HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true  },
+			"Target": "Data/Festivals/winter28",
+			"Entries": 
+			{ 
+				"WoodsmanHurst": "{{i18n:WoodsmanHurst.EmberOfResolutions}}#$action Spiderbuttons.BETAS_DialogueBox JunimoWard {{i18n:JunimoWard.EmberOfResolutions}}",
+			}
+		}
+
+    ]
+}
+

@@ -1,0 +1,265 @@
+{
+    "Changes":[
+          {
+            "Action":"Load",
+            "Target": "Mods/WH/TAS",
+            "FromFile": "assets/images/ShopkeeperSpiritSprites.png"
+          },
+          {
+            "LogName": "Hurst Letter Shrine",
+            "Action": "EditMap",
+            "Update": "OnLocationChange",
+            "Target": "Maps/{{ModID}}_HurstsClearing",
+            "FromFile": "assets/Maps/HurstGoodEnding.tmx",
+            "ToArea": {"X": 13 , "Y": 5, "Width": 5, "Height": 3},
+            "When": {
+               "HasSeenEvent |contains=sprinton.hurst.Hurst4H": true
+            }
+           },
+            {
+            "Action": "Load",
+            "Target": "Maps/{{ModID}}_HurstLinusForage",
+            "FromFile": "assets/Maps/HurstLinusForage.tmx"
+            },
+            {
+               "Action": "Load",
+               "Target": "Maps/{{ModID}}_HurstsClearing",
+               "FromFile": "Assets/Maps/HurstsClearing.tmx"
+            },
+            {
+               "LogName": "Add Locations",
+               "Action": "EditData",
+               "Target": "Data/Locations",
+               "Entries": {
+                  "{{ModID}}_HurstsClearing": {
+                     "DisplayName": "Hurst's Clearing",
+                     "DefaultArrivalTile": {"X": 25, "Y": 26},
+                     "CreateOnLoad": {"MapPath": "Maps/{{ModID}}_HurstsClearing"}
+                  }
+                 
+               }
+            },
+            {
+               "LogName": "Map Patch",
+               "Action": "EditMap",
+               "Target": "Maps/EastScarp_DeepMountains",
+               "PatchMode": "Replace",
+               "FromFile": "Assets/Maps/HurstClearingPatch.tmx",
+               "FromArea": {"X": 0, "Y": 0, "Width": 2, "Height": 5},
+               "ToArea": {"X": 0, "Y": 44, "Width": 2, "Height": 5}
+            },
+            {
+               "LogName": "Add Warps To Clearing",
+               "Action": "EditMap",
+               "Target": "Maps/EastScarp_DeepMountains",
+               "AddWarps": [
+                  "0 44 {{ModID}}_HurstsClearing 27 26", 
+                  "0 45 {{ModID}}_HurstsClearing 27 26", 
+                  "0 46 {{ModID}}_HurstsClearing 27 26",
+                  "0 47 {{ModID}}_HurstsClearing 27 26"
+               ]
+            },
+            /*
+            {
+               "LogName": "MistTest",
+               "Action": "EditMap",
+               "Target": "Maps/{{ModID}}_HurstsClearing",
+               "MapProperties": {
+                  "mushymato.MMAP_SteamOverlay": "T .2 .1 #AF69EE 0.75 8"              
+                }
+            },
+            */
+            {
+               "LogName": "Friday Spirits",
+               "Action": "EditMap",
+               "Target": "Maps/{{ModID}}_HurstsClearing",
+               "When": {"DayOfWeek |contains=Friday": true},
+               "MapTiles": [
+                  {
+                     "Position": {
+                        "X": "13",
+                        "Y": "4"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit1" 
+                     }
+                  },
+                  {
+                     "Position": {
+                        "X": "24",
+                        "Y": "18"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit1" 
+                     }
+                  },
+                  {
+                     "Position": {
+                        "X": "8",
+                        "Y": "18"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit1" 
+                     }
+                  },
+                  {
+                     "Position": {
+                        "X": "4",
+                        "Y": "26"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit1" 
+                     }
+                  },
+                  {
+                     "Position": {
+                        "X": "14",
+                        "Y": "4"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit2" 
+                     }
+                  },
+                  {
+                     "Position": {
+                        "X": "25",
+                        "Y": "23"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit2" 
+                     }
+                  },
+                  {
+                     "Position": {
+                        "X": "6",
+                        "Y": "15"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit2" 
+                     }
+                  },
+                  {
+                     "Position": {
+                        "X": "9",
+                        "Y": "9"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit2" 
+                     }
+                  },{
+                     "Position": {
+                        "X": "16",
+                        "Y": "4"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit3" 
+                     }
+                  },
+                  {
+                     "Position": {
+                        "X": "24",
+                        "Y": "7"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit3" 
+                     }
+                  },
+                  {
+                     "Position": {
+                        "X": "6",
+                        "Y": "4"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit3" 
+                     }
+                  },
+                  {
+                     "Position": {
+                        "X": "19",
+                        "Y": "18"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit3" 
+                     }
+                  },
+                  {
+                     "Position": {
+                        "X": "17",
+                        "Y": "4"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit4" 
+                     }
+                  },
+                  {
+                     "Position": {
+                        "X": "12",
+                        "Y": "14"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit4" 
+                     }
+                  },
+                  {
+                     "Position": {
+                        "X": "10",
+                        "Y": "22"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit4" 
+                     }
+                  },
+                  {
+                     "Position": {
+                        "X": "20",
+                        "Y": "11"
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModID}}_Spirit4" 
+                     }
+                  },
+
+               ]
+            },
+             {
+               "LogName": "Friday Spirits",
+               "Action": "EditMap",
+               "Target": "Maps/{{ModID}}_HurstsClearing",
+               "When": {
+                  "DayOfWeek |contains=Friday": true,
+                  "HasSeenEvent |contains={{SpiritShopUnlockEvent}}": true
+            },
+               "MapTiles": [
+                  {
+                     "Position": {
+                        "X": 12,
+                        "Y": 5
+                     },
+                     "Layer": "Back",
+                     "SetProperties": {
+                        "mushymato.MMAP_TAS": "{{ModId}}_ShopkeeperSpirits"
+                     }
+                  }
+               ]
+            }
+         
+      ]
+   }
+   
+
