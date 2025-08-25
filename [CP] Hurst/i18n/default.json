@@ -660,6 +660,22 @@
     "WoodsmanHurst.ThistleIntro.false": "Have you encountered the crow that follows Dylan about?$0#$e#I wonder if it is some kind of familiar.$7",
     "WoodsmanHurst.ThistleIntro.true": "Have you encountered the crow that follows Dylan about?$7#$e#I fear it may be the same kind of creature as Orchid.$6#$e#I hope it is not. I do not need another creature to fear.$2",
     
+    //SnS
+    "WoodsmanHurst.ValIntro": "You were saved by Val? That is good.$0#$e#I often hear of them from the spirits of the deep mines.$3",
+    "WoodsmanHurst.ValEmertiusIntro": "Val has somehow tamed a monster.$0#$e#I believe they will ensure Emeritus not pose a threat to those in the valley.$1",
+    "WoodsmanHurst.ValMinibossBattle": "}You and Val encountered a demon on the beach?$0#$e#I hope you keep yourselves safe. Such creatures existing in this town concern me greatly.$2",
+
+    //TcG
+    "WoodsmanHurst.TCG_TwinsLeave": "Joseph has been quite sad without his grandchildren.$2#$e#I hope he can see them again soon.$1",
+
+    //Nora
+    "WoodsmanHurst.NoraIntro": "I have often seen the woman Nora in the woods.$0#$e#She seems to have trouble hearing. I mistakenly scared her once while walking past.$2",
+
+    //Other Mod CTs
+
+    "WoodsmanHurst.LucikielArrives": "A new god appears!$6#$e#Lucikiel was it? I must gather the proper offerings!$3",
+    "WoodsmanHurst.MeetTheCats": "The cats speak.$0#$e#Are they another type of god?$7#$b#I shall prepare offerings just in case.$3",
+
     //Hurst
     "JunimoWard.DailyPool.1": "We first saw Hurst when he was a kid.$0#$e#The old Warden found him being attacked by a demon!$3#$b#He doesn't talk about that story a lot.$1",
     "JunimoWard.DailyPool.2": "Hurst really cares about you!$0#$e#Everytime we visit him, he's thinking about you!$2",

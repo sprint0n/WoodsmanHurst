@@ -48,11 +48,12 @@
                     "EliIntro": "{{i18n:WoodsmanHurst.EliIntro}}",
                     "EliJunimo2": "{{i18n:WoodsmanHurst.EliJunimo2}}",
                     "ThistleIntro": "{{i18n:WoodsmanHurst.ThistleIntro.{{HasMod |contains=Squeaks.MGC.CP}}}}",
-                    "NoraIntro": "I have often seen the woman Nora in the woods.$0#$e#She seems to have trouble hearing. I mistakenly scared her once while walking past.$2",
+                    "NoraIntro": "{{i18n:WoodsmanHurst.NoraIntro}}",
+                    "ValIntro": "{{i18n:WoodsmanHurst.ValIntro}}",
                     
                     //Other Modded CTs
-                    "LucikielArrives": "A new god appears!$6#$e#Lucikiel was it? I must gather the proper offerings!$3",
-                    "MeetTheCats": "The cats speak.$0#$e#Are they another type of god?$7#$b#I shall prepare offerings just in case.$3"
+                    "LucikielArrives": "{{i18n:WoodsmanHurst.LucikielArrives}}",
+                    "MeetTheCats": "{{i18n:WoodsmanHurst.MeetTheCats}}"
                    
             }
         },
@@ -64,8 +65,9 @@
             "When": {"HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true},
             "Entries": {
                 "CamieOrchidKnife": "{{i18n:WoodsmanHurst.CamieOrchidKnife}}",  
-                "TGC_TwinsLeave": "Joseph has been quite sad without his grandchildren.$2#$e#I hope he can see them again soon.$1",
-                
+                "TGC_TwinsLeave": "{{i18n:WoodsmanHurst.TGC_TwinsLeave}}",
+                "ValEmeritusIntro": "{{i18n:WoodsmanHurst.ValEmeritusIntro}}",
+                "ValMinibossBattle": "{{i18n:WoodsmanHurst.ValMinibossBattle}"
             }
         },
         {
