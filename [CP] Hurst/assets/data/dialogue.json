@@ -58,7 +58,6 @@
             }
         },
         {
-            //Split into 2 sections for narrative reasons
             "LogName": "Hurst CTs",
             "Action": "EditData",
             "Target": "Characters/Dialogue/WoodsmanHurst",
@@ -67,7 +66,7 @@
                 "CamieOrchidKnife": "{{i18n:WoodsmanHurst.CamieOrchidKnife}}",  
                 "TGC_TwinsLeave": "{{i18n:WoodsmanHurst.TGC_TwinsLeave}}",
                 "ValEmeritusIntro": "{{i18n:WoodsmanHurst.ValEmeritusIntro}}",
-                "ValMinibossBattle": "{{i18n:WoodsmanHurst.ValMinibossBattle}"
+                "ValMinibossBattle": "{{i18n:WoodsmanHurst.ValMinibossBattle}}"
             }
         },
         {

@@ -19,6 +19,8 @@
                         "Action": "OpenShop WH.SpiritsShop none 600 2600"
                     }
                 }
+
+                
             ]
         },
         
@@ -81,7 +83,7 @@
                         },
                         {
                             "ID": "Random Filler Items",
-                            "MaxItems": "2",
+                            "MaxItems": 2,
                             "ItemID": "RANDOM_ITEMS (O)",
                             "PerItemCondition": "RANDOM_BASE_SEASON_ITEM"
                         },

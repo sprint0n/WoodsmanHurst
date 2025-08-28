@@ -280,13 +280,13 @@
     "WoodsmanHurst.GreenRain": "Why do the others hide?$7#$e#Is this not a blessing from the gods?$3",
     "WoodsmanHurst.GreenRainFinished": "I must gather more offerings.$0#$e#I need to give thanks for this blessing.$3",
     "WoodsmanHurst.GreenRain_2": "The blessing returns!$1#I must gather special offerings.$1",
-    "WoodsmanHurst.Introduction.false": "Hello there. You must be @.$0#$e#I am Hurst. The spirits of the land have been excited for your arrival.$3",
+    "WoodsmanHurst.Introduction.false": "Hello there. You must be @.$0#$b#I am Hurst. The spirits of the land have been excited for your arrival.$3",
     "WoodsmanHurst.Introduction.true": "@.$0#$b#The spirits have warned me of your arrival.$3#$e#I shall keep an eye on you.$0",
     "WoodsmanHurst.luauBest": "The spirits swirling about the luau pot were a sight to behold.$0#$b#Such marvelous food must be a wonder to them.$3",
     "WoodsmanHurst.HurstMorrisArgument": "I...caused quite a disturbance in the demon den yesterday.$2#$e#I try to avoid anger, but that creature Morris crossed a line. I could not let that stand.$3",
-    "WoodsmanHurst.HurstReligion": "The power of the Pomegranate grows ever fainter.$0#$e#I worry I may have caused grave offense.$2",
-    "WoodsmanHurst.HurstMet": "You seem to have the power to see the Junimo.$0#$e#This means you must be one of the Apostles! Such a gift is quite rare.$3",
-    "WoodsmanHurst.HurstCommandmentRenewed": "I hope this is the right path.$0#$e#I would not do this if I did not believe it would save the Pomegranate.$2",
+    "WoodsmanHurst.HurstReligion": "The power of the Pomegranate grows ever fainter.$0#$b#I worry I may have caused grave offense.$2",
+    "WoodsmanHurst.HurstMet": "You seem to have the power to see the Junimo.$0#$b#This means you must be one of the Apostles! Such a gift is quite rare.$3",
+    "WoodsmanHurst.HurstCommandmentRenewed": "I hope this is the right path.$0#$b#I would not do this if I did not believe it would save the Pomegranate.$2",
     "WoodsmanHurst.HurstSpiritCommandment" : "The gods have spoken with me, saying I have taken my Commandment too far. The Pomegranate continues to fade, which means speaking with you was not the cause.$0#$b#...I missed our conversations. I hope you will be willing to speak with me once again.$2#$e#Thank you.$4#$b#I have asked the spirits to assist me with something, I hope it will help repair our friendship.$1",
     "WoodsmanHurst.HurstStopsObeying": "You truly are the most marvelous person I have ever met. I promise I will repay my debt to you one day.$1",
 
@@ -502,11 +502,11 @@
 
 
     "WoodsmanHurst.Commandment.1": "%Hurst nods respectfully, but doesn't stop to talk.",
-    "WoodsmanHurst.Commandment.2": "%Hurst notices you, but keeps walking.",
+    "WoodsmanHurst.Commandment.2": "%Hurst notices you, but keeps walking. He doesn't seem interested in talking.",
     "WoodsmanHurst.Commandment.3": "%Hurst seems to be focused on something moving above your head. He bows to it, and continues onward.",
-    "WoodsmanHurst.Commandment.4": "%Hurst raises his hand in greeting, but doesn't speak.",
-    "WoodsmanHurst.Commandment.5": "%Hurst seems quite sad, but doesn't want to talk right now.",
-    "WoodsmanHurst.Commandment.6": "%Hurst offers a polite smile.",
+    "WoodsmanHurst.Commandment.4": "%Hurst raises his hand in greeting, but doesn't stop to talk.",
+    "WoodsmanHurst.Commandment.5": "%Hurst seems quite sad, but doesn't want to talk right now. He nods to you respectfully.",
+    "WoodsmanHurst.Commandment.6": "%Hurst offers a polite smile, but he doesn't say anything.",
     "WoodsmanHurst.Commandment.7": "%Hurst continues past you, not even stopping to wave.",
     "WoodsmanHurst.Commandment.8": "My apologies, but I must continue gathering my offerings.$3",
     "WoodsmanHurst.Commandment.9": "The spirits require me to finish gathering my offerings today.$3",
@@ -600,7 +600,7 @@
     "WoodsmanHurst.HighHearts.60": "The writer is an entertaining person, is he not?$1#$b#I spoke with him while at the beach a few days ago.$0#$b#He tells such fascinating stories.$1",
     "WoodsmanHurst.HighHearts.61": "The young man Alex is quite energetic.$0#$b#Nearly every time I see him, he is doing something athletic.$0#$b#I can respect such a dedication to ones lifetsyle.$3",
     "WoodsmanHurst.HighHearts.62": "Sebastian is quite closed off.$0#$b#I realize the irony in me saying such a thing, but I hope he is well. The spirits around him are odd.$3",
-    "WoodsmanHurst.HighHearts.63": "The photographer seems to be quite...interesting.$0#$b#Her first response to seeing me was judging my clothes, but the gods seem to think well of her.$3",
+    "WoodsmanHurst.HighHearts.63": "The children of Mistgrove would play a dangerous game. They would run deep into the woods. The one who went the deepest won.$0#$b#I feel guilty, but I am the reason they stopped. I did not force them to, but one of the children ran directly into me. I believe I was quite intimidating in her eyes.$2",
     "WoodsmanHurst.HighHearts.64": "Maru is quite an intelligent person.$1#$b#Technology and I have always been at odds, but I find her ability to create such marvels quite respectable. I wonder what the gods think of her creations?$3",
     "WoodsmanHurst.HighHearts.65": "Penny seems to be quite good with children.$0#$b#I wonder if she would do well with the gods?$7#$b#They can be quite childlike in their activities.$3", 
     "WoodsmanHurst.HighHearts.66": "The man George is quite harsh, but I believe he is kind.$0#$b#He always seems to have at least a couple of spirits around him.$3",
@@ -639,8 +639,8 @@
     "WoodsmanHurst.Cambria.4": "The cove is quite a beautiful place.$0#$e#Cambria has invited me to her home on occasion. Typically whenever I have been unable to obtain enough food for myself.$1",
     "WoodsmanHurst.Cambria.5": "There is an powerful magic surrounding Cambria. I believe it strengthens her.$0#$e#I do not think she is the source of it however. I wonder what is?$7",
     "WoodsmanHurst.Cambria.6": "%Hurst beckons you closer, lowering his voice to be barely audible and glances around furtively.$0#$e#Farmer, if I am to disappear, find Orchid. She will most likely be the cause.$2",
-    "WoodsmanHurst.CamieIntro": "Cambria is quite kind.$0#$e#I worry for her however. Her bird is quite...odd.$0",
-    "WoodsmanHurst.CamieOrchidKnife": "I once told Cambria that her companion seemed more than merely a bird.$0#$e#When I arrived at home, there was a single knife laying on my shrine.$6#$e#The message was clear.$0",
+    "WoodsmanHurst.CamieIntro": "Cambria is quite kind.$0#$b#I worry for her however. Her bird is quite...odd.$0",
+    "WoodsmanHurst.CamieOrchidKnife": "I once told Cambria that her companion seemed more than merely a bird.$0#$b#When I arrived at home, there was a single knife laying on my shrine.$6#$b#The message was clear.$0",
 
     //EnD
     "WoodsmanHurst.EnD.1": "The apostle Eli has bombarded me with questions about Mistgrove.$1#$e#I hope he is not too disappointed when he learns I am not permitted to take him there.$2",
@@ -654,27 +654,27 @@
     "WoodsmanHurst.EnD.8": "The younger Moray would have been a good Warden, if he were born into such a life.$0#$e#He has the calm demeanor required for the most dangerous aspects of such a role.$3",
     "WoodsmanHurst.EnD.9": "The fish of Mistgrove are unlike any Dylan has ever encountered.$7#$e#I spoke of them in conversation with him, and ended up being interviewed for nearly an hour.$1",
     "WoodsmanHurst.EnD.10": "Sometimes I wish Mistgrove would permit me to send visitors.$0#$e#There exist some fish I think Dylan enjoy to study.$1",
-    "WoodsmanHurst.DylanIntro": "You spoke with Dylan?$0#$e#He seems to know as much about fish as I do spirits.$1",
-    "WoodsmanHurst.EliIntro": "You have met the Apostle Eli?$0#$e#He is quite an interesting man. He know far more about the gods than I thought one of this land would.$3",
-    "WoodsmanHurst.EliJunimo2": "One of the gods seems to have taken an interest in Eli.$3#$e#I wonder what they want from him?$7",
-    "WoodsmanHurst.ThistleIntro.false": "Have you encountered the crow that follows Dylan about?$0#$e#I wonder if it is some kind of familiar.$7",
-    "WoodsmanHurst.ThistleIntro.true": "Have you encountered the crow that follows Dylan about?$7#$e#I fear it may be the same kind of creature as Orchid.$6#$e#I hope it is not. I do not need another creature to fear.$2",
+    "WoodsmanHurst.DylanIntro": "You spoke with Dylan?$0#$b#He seems to know as much about fish as I do spirits.$1",
+    "WoodsmanHurst.EliIntro": "You have met the Apostle Eli?$0#$b#He is quite an interesting man. He know far more about the gods than I thought one of this land would.$3",
+    "WoodsmanHurst.EliJunimo2": "One of the gods seems to have taken an interest in Eli.$3#$b#I wonder what they want from him?$7",
+    "WoodsmanHurst.ThistleIntro.false": "Have you encountered the crow that follows Dylan about?$0#$b#I wonder if it is some kind of familiar.$7",
+    "WoodsmanHurst.ThistleIntro.true": "Have you encountered the crow that follows Dylan about?$7#$b#I fear it may be the same kind of creature as Orchid.$6#$b#I hope it is not. I do not need another creature to fear.$2",
     
     //SnS
-    "WoodsmanHurst.ValIntro": "You were saved by Val? That is good.$0#$e#I often hear of them from the spirits of the deep mines.$3",
-    "WoodsmanHurst.ValEmertiusIntro": "Val has somehow tamed a monster.$0#$e#I believe they will ensure Emeritus not pose a threat to those in the valley.$1",
-    "WoodsmanHurst.ValMinibossBattle": "}You and Val encountered a demon on the beach?$0#$e#I hope you keep yourselves safe. Such creatures existing in this town concern me greatly.$2",
+    "WoodsmanHurst.ValIntro": "You were saved by Val? That is good.$0#$b#I often hear of them from the spirits of the deep mines.$3",
+    "WoodsmanHurst.ValEmertiusIntro": "Val has somehow tamed a monster.$0#$b#I believe they will ensure Emeritus not pose a threat to those in the valley.$1",
+    "WoodsmanHurst.ValMinibossBattle": "}You and Val encountered a demon on the beach?$0#$b#I hope you keep yourselves safe. Such creatures existing in this town concern me greatly.$2",
 
     //TcG
-    "WoodsmanHurst.TCG_TwinsLeave": "Joseph has been quite sad without his grandchildren.$2#$e#I hope he can see them again soon.$1",
+    "WoodsmanHurst.TCG_TwinsLeave": "Joseph has been quite sad without his grandchildren.$2#$b#I hope he can see them again soon.$1",
 
     //Nora
-    "WoodsmanHurst.NoraIntro": "I have often seen the woman Nora in the woods.$0#$e#She seems to have trouble hearing. I mistakenly scared her once while walking past.$2",
+    "WoodsmanHurst.NoraIntro": "I have often seen the woman Nora in the woods.$0#$b#She seems to have trouble hearing. I mistakenly scared her once while walking past.$2",
 
     //Other Mod CTs
 
-    "WoodsmanHurst.LucikielArrives": "A new god appears!$6#$e#Lucikiel was it? I must gather the proper offerings!$3",
-    "WoodsmanHurst.MeetTheCats": "The cats speak.$0#$e#Are they another type of god?$7#$b#I shall prepare offerings just in case.$3",
+    "WoodsmanHurst.LucikielArrives": "A new god appears!$6#$b#Lucikiel was it? I must gather the proper offerings!$3",
+    "WoodsmanHurst.MeetTheCats": "The cats speak.$0#$b#Are they another type of god?$7#$b#I shall prepare offerings just in case.$3",
 
     //Hurst
     "JunimoWard.DailyPool.1": "We first saw Hurst when he was a kid.$0#$e#The old Warden found him being attacked by a demon!$3#$b#He doesn't talk about that story a lot.$1",

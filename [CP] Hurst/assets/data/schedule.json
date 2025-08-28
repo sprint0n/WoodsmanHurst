@@ -16,6 +16,7 @@
                    "Sun": "610 {{ModID}}_HurstsClearing 22 10 2/800 EastScarp_Village 20 68 1 WoodsmanHurst_offerings/1200 EastScarp_Village 44 130 2 WoodsmanHurst_offerings/1700 EastScarp_Village 35 99 2 WoodsmanHurst_Spirits/2100 {{ModID}}_HurstsClearing 22 10 2",
                    "Sun8": "MAIL sprinton.hurst.WardRevived/GOTO Sun/610 {{ModID}}_HurstsClearing 22 10 2/800 EastScarp_VillageInn 44 17 0/1100 EastScarp_Village 35 99 2 WoodsmanHurst_Junimos/1600 EastScarp_Village 83 92 1 WoodsmanHurst_offerings/2000 {{ModID}}_HurstsClearing 22 10 2",
                    "Thu8": "MAIL sprinton.hurst.WardRevived/GOTO Thu/610 {{ModID}}_HurstsClearing 22 10 2/800 EastScarp_Village 25 70 0/1100 EastScarp_Village 35 99 2 WoodsmanHurst_offerings/1600 EastScarp_Village 83 92 1 WoodsmanHurst_Spirits/2000 {{ModID}}_HurstsClearing 22 10 2",
+                   "Sat8": "MAIL sprinton.hurst.WardRevived/GOTO Sat/610 {{ModID}}_HurstsClearing 22 10 2/830 {{ModID}}_HurstsClearing 15 8 0 WoodsmanHurst_Spirits/1100 {{ModID}}_HurstsClearing 10 17 2 WoodsmanHurst_Junimos/1600 {{ModID}}_HurstsClearing 21 21 2 WoodsmanHurst_Spirits/2000 {{ModID}}_HurstsClearing 22 16 2 WoodsmanHurst_Junimos/2300 {{ModID}}_HurstsClearing 22 10 0",
                    "spring": "610 {{ModID}}_HurstsClearing 22 10 2/630 Beach 9 12 3/1000 Beach 48 24 2 WoodsmanHurst_Foraging/1400 EastScarp_Village 15 122 2 WoodsmanHurst_offerings/1900 {{ModID}}_HurstsClearing 22 10 2"
                 }
             },
@@ -26,7 +27,7 @@
                 "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true},
                 "Entries": {
             
-                    "Thu": "610 {{ModID}}_HurstsClearing 22 10 2/630 Custom_ForestWest 62 18 0 WoodsmanHurst_Foraging/1200 Custom_ForestWest 52 26 3 WoodsmanHurst_offerings/1500 Custom_ForestWest 66 36 0 WoodsmanHurst_Junimos/1900 {{ModID}}_HurstsClearing 22 10 2"                }
+                    "Thu": "610 {{ModID}}_HurstsClearing 22 10 2/630 Custom_ForestWest 62 18 0 WoodsmanHurst_Foraging/1200 Custom_ForestWest 52 26 3 WoodsmanHurst_offerings/1500 Custom_ForestWest 66 36 0 WoodsmanHurst_Junimos/1900 {{ModID}}_HurstsClearing 22 10 2"}
             },
             {
                 "LogName": "Ward Schedule",
@@ -36,7 +37,7 @@
                     "Fri": "610 {{ModID}}_HurstsClearing 11 6 2/1000 {{ModID}}_HurstsClearing 15 14 2 square_5_5/1600 {{ModID}}_HurstsClearing 25 7 0/2000 {{ModID}}_HurstsClearing 7 9 0/2350 {{ModID}}_HurstsClearing 23 10 2",
                     "Sat": "GOTO Fri",
                     "Sun": "610 {{ModID}}_HurstsClearing 23 10 2/900 EastScarp_DeepMountains 100 43 2 JunimoWard_Waving/1500 EastScarp_DeepMountains 102 20 2 JunimoWard_Playing/2100 {{ModID}}_HurstsClearing 23 10 2",
-                    "spring": ""
+                    "spring": "610 {{ModID}}_HurstsClearing 29 16 0/620 {{ModID}}_HUrstsClearing 29 16 0"
                 }
             },
             {
@@ -44,7 +45,7 @@
                 "Action": "EditData",
                 "Target": "Characters/Schedules/WoodsmanHurst",
                 "Entries": {
-                    "2": "610 {{ModID}}_HurstsClearing 22 10 2/620 Daine.TPOChoice_Aliyah_House 13 33 0/1300 EastScarp_DeepMountains 38 16 2 square_3_3/1900 {{ModID}}_HurstsClearing 22 10 2"
+                    "2": "610 {{ModID}}_HurstsClearing 22 10 2/a 800 Daine.TPOChoice_Aliyah_House 13 33 0/1300 EastScarp_DeepMountains 38 16 2 square_3_3/1900 {{ModID}}_HurstsClearing 22 10 2"
                 },
                 "When": {
                     "HasMod |contains=Daine.TPOChoice": true,
