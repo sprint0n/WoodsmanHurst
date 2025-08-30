@@ -37,7 +37,7 @@
                     "Fri": "610 {{ModID}}_HurstsClearing 11 6 2/1000 {{ModID}}_HurstsClearing 15 14 2 square_5_5/1600 {{ModID}}_HurstsClearing 25 7 0/2000 {{ModID}}_HurstsClearing 7 9 0/2350 {{ModID}}_HurstsClearing 23 10 2",
                     "Sat": "GOTO Fri",
                     "Sun": "610 {{ModID}}_HurstsClearing 23 10 2/900 EastScarp_DeepMountains 100 43 2 JunimoWard_Waving/1500 EastScarp_DeepMountains 102 20 2 JunimoWard_Playing/2100 {{ModID}}_HurstsClearing 23 10 2",
-                    "spring": "610 {{ModID}}_HurstsClearing 29 16 0/620 {{ModID}}_HUrstsClearing 29 16 0"
+                    "spring": "610 {{ModID}}_HurstsClearing 29 16 0/620 {{ModID}}_HurstsClearing 29 16 0"
                 }
             },
             {
@@ -45,7 +45,7 @@
                 "Action": "EditData",
                 "Target": "Characters/Schedules/WoodsmanHurst",
                 "Entries": {
-                    "2": "610 {{ModID}}_HurstsClearing 22 10 2/a 800 Daine.TPOChoice_Aliyah_House 13 33 0/1300 EastScarp_DeepMountains 38 16 2 square_3_3/1900 {{ModID}}_HurstsClearing 22 10 2"
+                    "2": "a800 Daine.TPOChoice_Aliyah_House 17 32 2/1300 EastScarp_DeepMountains 38 16 2 square_3_3/1900 {{ModID}}_HurstsClearing 22 10 2"
                 },
                 "When": {
                     "HasMod |contains=Daine.TPOChoice": true,

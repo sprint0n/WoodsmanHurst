@@ -631,6 +631,7 @@
     //ES Mod References
 
 
+
     //MGC - He's terrifed of that bird
 
     "WoodsmanHurst.Cambria.1": "I nearly drowned within the witches river trying to obtain a void salmon for Cambria.$7#$e#I try to avoid such places, but I wished to repay her kindness towards me.$4",
@@ -670,6 +671,19 @@
 
     //Nora
     "WoodsmanHurst.NoraIntro": "I have often seen the woman Nora in the woods.$0#$b#She seems to have trouble hearing. I mistakenly scared her once while walking past.$2",
+
+    //The Promise of Choice
+    "AliyahTherapyShoo": "Farmer, I am sorry, but these sessions are confidential. I can catch up with you later, if you like.$15",
+    "HurstTherapy.1": "I worry about never being able to forgive myself. What if I fail?$8",
+    "HurstTherapy.2": "I still remember the looks on their faces. I know they have told me they do not blame me. But how can I forget that fear?$8",
+    "HurstTherapy.3": "Sylva is not perfect. I know this. But she is still my Prophet. It is hard to find myself disagreeing with her.$2",    
+    "HurstTherapy.4": "The spirits tell me that this seems to be helping me. I admit it has been. I appreciate your help very much.$4",
+    "HurstTherapy.5": "Sylva was my closest friend when we were children. I was quite... bad at making friends as a child. She pushed me to be better at it.$1",
+    "HurstTherapy.6": "When I first arrived here, I was too afraid to be alone in the dark. I would... remember.$2",
+    "HurstTherapy.7": "Aera, Merri, and Eon are some of the kindest people I have ever met. I...$2",
+    "HurstTherapy.8": "My master sacrificed herself to protect me. It is something of a tradition for my role. Each mentor dying to save their apprentice.$9",
+    "HurstTherapy.9": "Sometimes I wish I could return to the town in Mistgrove itself. At other times I am glad I am exiled. Is that not strange?$6",
+    "HurstTherapy.10": "Ward is glad I have been attending. I have been telling them of our sessions. They seem to believe it helps them as well.$1",
 
     //Other Mod CTs
 

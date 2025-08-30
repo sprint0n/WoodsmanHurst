@@ -53,7 +53,9 @@
                     
                     //Other Modded CTs
                     "LucikielArrives": "{{i18n:WoodsmanHurst.LucikielArrives}}",
-                    "MeetTheCats": "{{i18n:WoodsmanHurst.MeetTheCats}}"
+                    "MeetTheCats": "{{i18n:WoodsmanHurst.MeetTheCats}}",
+
+                    "Daine.TPOChoice_Aliyah_House_17_32": "{{i18n:WoodsmanHurst.Therapy.{{Random{{Range:1, 10}}}}}}#$action Spiderbuttons.BETAS_DialogueBox Daine.TPOChoice_Aliyah \"{{i18n:AliyahTherapyShoo}}\"#$action emote WoodsmanHurst "
                    
             }
         },
