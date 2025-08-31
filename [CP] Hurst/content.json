@@ -5,121 +5,54 @@
     [
 
       
-        {
+         {
    		 "LogName": "Blank JSON load",
         	"Action": "Load",
         	"Target": "Characters/Dialogue/WoodsmanHurst, Characters/Schedules/WoodsmanHurst, Characters/Dialogue/JunimoWard, Characters/Schedules/JunimoWard",
-        	"FromFile": "assets/data/blank.json"
-   	 },
-
-     {
-        "LogName": "NPC Dispos",
-        "Action": "Include",
-        "FromFile": "assets/data/dispos.json"
-     },
-     {
-      "LogName": "Mail data",
-      "Action": "Include",
-      "FromFile": "assets/data/Mail.json"
-     },
-     {
-      "LogName": "MapData load",
-      "Action": "Include",
-      "FromFile": "assets/data/mapData.json"
-     },
-       {
-      "LogName": "Hurst Portraits",
-      "Action": "Load",
-      "Target": "Portraits/WoodsmanHurst",
-      "FromFile": "assets/images/Hurst.png"
-      },
-     {
-        "LogName": "Hurst Sprites",
-        "Action": "Load",
-        "Target": "Characters/WoodsmanHurst",
-        "FromFile": "assets/images/HurstSprites.png"
-     },
-     {
-        "LogName": "Hurst Dialogue",
-        "Action": "Include",
-        "FromFile": "assets/data/dialogue.json"
-     },
-     
-     {
-      "LogName": "Ward Sprites",
-      "Action": "Load",
-      "Target": "Characters/JunimoWard",
-      "FromFile": "assets/images/WardSprites.png"
-  },
-  {
-      "LogName": "Ward Portraits",
-      "Action": "Load",
-      "Target": "Portraits/JunimoWard",
-      "FromFile": "assets/images/Ward.png"
-  },
-  
-     {
-      "LogName": "Schedule Data",
-      "Action": "Include",
-      "FromFile": "assets/data/schedule.json"
-     },
-     {
-      "LogName": "Gift Taste Data",
-      "Action": "Include",
-      "FromFile": "assets/data/gifttastes.json"
-     },
-     {
-      "LogName": "Event Data",
-      "Action": "Include",
-      "FromFile": "assets/data/events.json"
-     },
-     {
-      "LogName": "Festival Data",
-      "Action": "Include",
-      "FromFile": "assets/data/festivals.json"
-     },
-     {
-      "LogName": "ConversationTopics",
-      "Action": "Include",
-      "FromFile": "assets/data/conversationTopics.json"
-     },
-     {
-      "Logname": "Load Clearing Events",
-      "Action": "Load",
-      "Target": "Data/Events/{{ModID}}_HurstsClearing",
-      "FromFile": "assets/data/blank.json"
-     },
-     {
-      "LogName": "TempActor Load",
-      "Action": "Include",
-      "FromFile": "assets/data/tempActors.json"
-     },
-     {
-      "LogName": "Animation Data Load",
-      "Action": "Include",
-      "FromFile": "assets/data/animationData.json"
-     },
-     {
-      "LogName": "Items Load",
-      "Action": "Include",
-      "FromFile": "assets/data/itemData.json"
-     },
-     {
-      "LogName": "Shop Load",
-      "Action": "Include",
-      "FromFile": "assets/data/shopData.json"
-     },
-     {
-      "LogName": "String Load",
-      "Action": "Include",
-      "FromFile": "assets/data/Strings.json"
-     },
-     {
-      "LogName": "Secret Note Load",
-      "Action": "Include",
-      "FromFile": "assets/data/SecretNotes.json",
-      "When": {"HasMod |contains=ichortower.SecretNoteFramework": true}
-     }
+        	"FromFile": "data/blank.json"
+   	   },
+         {
+            "LogName": "Includes",
+            "Action" : "Include",
+            "FromFile": "data/dispos.json, data/Mail.json, data/mapData.json, data/events.json, data/dialogue.json, data/schedule.json, data/gifttastes.json, data/animationData.json, data/conversationTopics.json, data/festivals.json, data/itemData.json, data/Strings.json, data/tempActors.json, data/shopData.json"
+         },
+         {
+            "LogName": "Hurst Portraits",
+            "Action": "Load",
+            "Priority": "Low",
+            "Target": "Portraits/WoodsmanHurst",
+            "FromFile": "assets/Portraits/{{TargetWithoutPath}}.png"
+         },
+         {
+            "LogName": "Hurst Sprites",
+            "Action": "Load",
+            "Target": "Characters/WoodsmanHurst",
+            "FromFile": "assets/Characters/{{TargetWithoutPath}}.png"
+         },
+         {
+            "LogName": "Ward Sprites",
+            "Action": "Load",
+            "Target": "Characters/JunimoWard",
+            "FromFile": "assets/Characters/{{TargetWithoutPath}}.png"
+         },
+         {
+            "LogName": "Ward Portraits",
+            "Action": "Load",
+            "Target": "Portraits/JunimoWard",
+            "FromFile": "assets/Portraits/{{TargetWithoutPath}}.png"
+         },
+         {
+            "Logname": "Load Clearing Events",
+            "Action": "Load",
+            "Target": "Data/Events/{{ModID}}_HurstsClearing",
+            "FromFile": "data/blank.json"
+         },
+         {
+            "LogName": "Secret Note Load",
+            "Action": "Include",
+            "FromFile": "data/SecretNotes.json",
+            "When": {"HasMod |contains=ichortower.SecretNoteFramework": true}
+         }
     ],
     "DynamicTokens": [
     
@@ -349,25 +282,16 @@
          "Value": "temporaryAnimatedSprite WH\\GreenSpirit 0 0 16 32 150 8 1000 15 14 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\GreenSpirit 0 0 16 32 150 8 1000 8 26 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\GreenSpirit 0 0 16 32 150 8 1000 26 14 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\GreenSpirit 0 0 16 32 150 8 1000 29 14 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\YellowSpirit 0 0 16 32 150 8 1000 8 3 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\YellowSpirit 0 0 16 32 150 8 1000 21 4 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\YellowSpirit 0 0 16 32 150 8 1000 8 16 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\YellowSpirit 0 0 16 32 150 8 1000 20 20 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\OrangeSpirit 0 0 16 32 150 8 1000 15 10 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\OrangeSpirit 0 0 16 32 150 8 1000 7 11 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\OrangeSpirit 0 0 16 32 150 8 1000 19 24 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\OrangeSpirit 0 0 16 32 150 8 1000 1 25 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\BlueSpirit 0 0 16 32 150 8 1000 10 12 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\BlueSpirit 0 0 16 32 150 8 1000 15 29 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\BlueSpirit 0 0 16 32 150 8 1000 15 3 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\BlueSpirit 0 0 16 32 150 8 1000 24 6 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\Shopkeepers 0 0 16 32 150 6 1000 16 15 false false 1 0 1 0 0 0"
        },
        {
-         "Name": "BabysittingStatus",
-         "Value": "Isolating",
-         "When": {"HurstIsolating": true,}
+         "Name": "FatherJoseph4HCrossover",
+         "Value": "warp FatherJoseph 36 18/speak FatherJoseph \"{{i18n:FatherJoseph4H.1}}\"/emote WoodsmanHurst 40 false/pause 100/speak WoodsmanHurst \"{{i18n:WoodsmanHurst.FatherJoseph4H.1}}\"/pause 100/speak FatherJoseph \"{{i18n:FatherJoseph4H.2}}\"/pause 100/speak WoodsmanHurst \"{{i18n:WoodsmanHurst.FatherJoseph4H.2}}\"/emote FatherJoseph 32 false/pause 100/speak FatherJoseph \"{{i18n:FatherJoseph4H.3}}\"/advancedMove FatherJoseph false -1 0 0 3 -10 0 0 -7 -5 0 1 10/pause 1500",
+           "When": {"HasMod |contains=AvianRPG.TheGardenCottage": true}
        },
        {
-          "Name": "BabysittingStatus",
-         "Value": "Pre4H",
-         "When": {"HurstIsolating": false, "HasSeenEvent |contains=sprinton.hurst.Hurst4H": false}
-       },
-       {
-          "Name": "BabysittingStatus",
-         "Value": "Post4H",
-         "When": {"HurstIsolating": false, "HasSeenEvent |contains=sprinton.hurst.Hurst4H": true}
-       },
-        {
-          "Name": "BabysittingStatus",
-         "Value": "WardAlive",
-         "When": {"HurstIsolating": false, "HasSeenEvent |contains=sprinton.hurst.Hurst4H": true, "HasFlag |contains=sprinton.hurst.WardRevived": true}
+         "Name": "FatherJoseph4HCrossover",
+         "Value": "emote WoodsmanHurst 40 false",
+         "When": {"HasMod |contains=AvianRPG.TheGardenCottage": false}
        }
+     
     ],
     "ConfigSchema":
     {

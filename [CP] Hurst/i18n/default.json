@@ -89,9 +89,14 @@
     "sprinton.hurst.Hurst4H.35": "I thank you for understanding.",
     "sprinton.hurst.Hurst4H.36": "...I see.$5",
 
-    "sprinton.hurst.FatherJoseph4HCompat.false": "emote WoodsmanHurst 40 false",
-    //Note for Translators: There is some dialogue text in the line below
-    "sprinton.hurst.FatherJoseph4HCompat.true": "warp FatherJoseph 36 18/speak FatherJoseph \"I don't quite know what to tell you Hurst. My religion is quite different from yours.$2\"/emote WoodsmanHurst 40 false/pause 100/speak WoodsmanHurst \"I admit I expected as much. I thank you for trying to help.$3\"/pause 100/speak FatherJoseph \"I don't want to push you to do anything you don't want to do, but are you sure about this?$2#$b#You seem to be suffering quite a bit.$2\"/pause 100/speak WoodsmanHurst \"Yes. I am certain. I appreciate your concern, but I shall be ok.$1\"/emote FatherJoseph 32 false/pause 100/speak FatherJoseph \"Well if you ever need a listening ear or a warm meal, come on by!$1\"/advancedMove FatherJoseph false -1 0 0 3 -10 0 0 -7 -5 0 1 10/pause 1500",
+     
+    "FatherJoseph4H.1": "I don't quite know what to tell you Hurst. My religion is quite different from yours.$2",
+    "FatherJoseph4H.2": "I don't want to push you to do anything you don't want to do, but are you sure about this?$2#$b#You seem to be suffering quite a bit.$2",
+    "FatherJoseph4H.3": "Well if you ever need a listening ear or a warm meal, come on by!$1",
+    "WoodsmanHurst.FatherJoseph4H.1": "I admit I expected as much. I thank you for trying to help.$3",
+    "WoodsmanHurst.FatherJoseph4H.2": "Yes. I am certain. I appreciate your concern, but I shall be ok.$1",
+
+    
     //5H
     "sprinton.hurst.Hurst5H.0": "Ah, my apologies. I did not realize others came this deep into the woods.$3",
     "sprinton.hurst.Hurst5H.1": "I didn't know you came this far either.$0",
@@ -154,8 +159,8 @@
     "sprinton.hurst.Hurst7H.3": "..until he stops ...he'll never let himself... be happy again...$5",
     "sprinton.hurst.Hurst7H.4": "He's trying to save you by obeying it! What if he stops and it kills you?",
     "sprinton.hurst.Hurst7H.5": "Hurst won't accept that. He thinks it's the only way to atone for his mistakes.",
-    "sprinton.hurst.Hurst7H.6": "That doesn't matter... he deserves to be happy... besides... he's not the one who needs Atonement... we do....$4",
-    "sprinton.hurst.Hurst7H.7": "It wasn't his fault... he doesn't have to atone... we do... we failed, not him...$4",
+    "sprinton.hurst.Hurst7H.6": "That doesn't matter... he deserves to be happy... besides... his friends... didn't blame him.....$4",
+    "sprinton.hurst.Hurst7H.7": "It wasn't his fault... he doesn't have to atone... his friends... already forgive him...$4",
     "sprinton.hurst.Hurst7H.8": "We're the Ward of Mistgrove... we protect when the Warden can't... we failed...$5",
     "sprinton.hurst.Hurst7H.9": "Do you really think Hurst could be happy at the cost of your life?",
     "sprinton.hurst.Hurst7H.10": "Why does Hurst have a Commandment like this? It's destroying both of you!",
@@ -173,7 +178,7 @@
     "sprinton.hurst.Hurst7H.22": "I need to talk to Hurst.",
 
     //8H Part 1
-    "sprinton.hurst.Hurst8H.P1.0": "I apologize for the state I was in during our previous meetings.$0#$b#I have managed to come to a decision, but I would like you ask you something first.$0",
+    "sprinton.hurst.Hurst8H.P1.0": "I apologize for the state I was in during our previous meetings.$0#$b#I have found the solution to my dilemma. I just wish to ask you a simple question now.$0",
     "sprinton.hurst.Hurst8H.P1.1": "Are you certain Ward said the Commandment was destroying them?$7",
     "sprinton.hurst.Hurst8H.P1.2": "#I'm certain.#That's what they told me.",
     "sprinton.hurst.Hurst8H.P1.3": "If Ward is certain of the cause, then I shall abandon my Commandment.$3#$b#Their life is far more important.$1",
@@ -674,16 +679,16 @@
 
     //The Promise of Choice
     "AliyahTherapyShoo": "Farmer, I am sorry, but these sessions are confidential. I can catch up with you later, if you like.$15",
-    "HurstTherapy.1": "I worry about never being able to forgive myself. What if I fail?$8",
-    "HurstTherapy.2": "I still remember the looks on their faces. I know they have told me they do not blame me. But how can I forget that fear?$8",
-    "HurstTherapy.3": "Sylva is not perfect. I know this. But she is still my Prophet. It is hard to find myself disagreeing with her.$2",    
-    "HurstTherapy.4": "The spirits tell me that this seems to be helping me. I admit it has been. I appreciate your help very much.$4",
-    "HurstTherapy.5": "Sylva was my closest friend when we were children. I was quite... bad at making friends as a child. She pushed me to be better at it.$1",
-    "HurstTherapy.6": "When I first arrived here, I was too afraid to be alone in the dark. I would... remember.$2",
-    "HurstTherapy.7": "Aera, Merri, and Eon are some of the kindest people I have ever met. I...$2",
-    "HurstTherapy.8": "My master sacrificed herself to protect me. It is something of a tradition for my role. Each mentor dying to save their apprentice.$9",
-    "HurstTherapy.9": "Sometimes I wish I could return to the town in Mistgrove itself. At other times I am glad I am exiled. Is that not strange?$6",
-    "HurstTherapy.10": "Ward is glad I have been attending. I have been telling them of our sessions. They seem to believe it helps them as well.$1",
+    "WoodsmanHurst.Therapy.1": "I worry about never being able to forgive myself. What if I fail?$8",
+    "WoodsmanHurst.Therapy.2": "I still remember the looks on their faces. I know they have told me they do not blame me. But how can I forget that fear?$8",
+    "WoodsmanHurst.Therapy.3": "Sylva is not perfect. I know this. But she is still my Prophet. It is hard to find myself disagreeing with her.$2",    
+    "WoodsmanHurst.Therapy.4": "The spirits tell me that this seems to be helping me. I admit it has been. I appreciate your help very much.$4",
+    "WoodsmanHurst.Therapy.5": "Sylva was my closest friend when we were children. I was quite... bad at making friends as a child. She pushed me to be better at it.$1",
+    "WoodsmanHurst.Therapy.6": "When I first arrived here, I was too afraid to be alone in the dark. I would... remember.$2",
+    "WoodsmanHurst.Therapy.7": "Aera, Merri, and Eon are some of the kindest people I have ever met. I...$2",
+    "WoodsmanHurst.Therapy.8": "My master sacrificed herself to protect me. It is something of a tradition for my role. Each mentor dying to save their apprentice.$9",
+    "WoodsmanHurst.Therapy.9": "Sometimes I wish I could return to the town in Mistgrove itself. At other times I am glad I am exiled. Is that not strange?$6",
+    "WoodsmanHurst.Therapy.10": "Ward is glad I have been attending. I have been telling them of our sessions. They seem to believe it helps them as well.$1",
 
     //Other Mod CTs
 

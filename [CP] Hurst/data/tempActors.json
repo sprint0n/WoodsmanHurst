@@ -1,0 +1,48 @@
+{
+    "Changes": [
+           {
+            "LogName": "Ward Temp Actor Sprite",
+            "Action": "Load",
+            "Target": "Characters/Pomegranate",
+            "FromFile": "assets/Characters/JunimoWard.png"
+           },
+           {
+            "LogName": "Ward Temp Actor Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Pomegranate",
+            "FromFile": "assets/Portraits/JunimoWard.png"
+           },
+           //Event Spirit TAS
+           {    
+            "LogName": "Green Spirit Load",
+            "Action": "Load",
+            "Target": "WH/GreenSpirit",
+            "FromFile": "assets/images/GreenSpirit.png"
+           },
+           {    
+            "LogName": "Yellow Spirit Load",
+            "Action": "Load",
+            "Target": "WH/YellowSpirit",
+            "FromFile": "assets/images/YellowSpirit.png"
+           },
+           {    
+            "LogName": "Orange Spirit Load",
+            "Action": "Load",
+            "Target": "WH/OrangeSpirit",
+            "FromFile": "assets/images/OrangeSpirit.png"
+           },
+           {    
+            "LogName": "Blue Spirit Load",
+            "Action": "Load",
+            "Target": "WH/BlueSpirit",
+            "FromFile": "assets/images/BlueSpirit.png"
+           },
+            {    
+            "LogName": "Shopkeeper Spirit Load",
+            "Action": "Load",
+            "Target": "WH/Shopkeepers",
+            "FromFile": "assets/images/ShopkeeperSpiritSprites.png"
+           }
+
+    ]
+}
