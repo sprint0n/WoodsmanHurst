@@ -87,7 +87,7 @@
             "Year": "1"
          }
       },
-      //Thank you maddog for making this and making my life less of a nightmare
+      //Thank you Mads for making this and making my life less of a nightmare
       {
          "Name": "Gunther",
          "Value": "Gunther"
@@ -290,6 +290,62 @@
          "Name": "FatherJoseph4HCrossover",
          "Value": "emote WoodsmanHurst 40 false",
          "When": {"HasMod |contains=AvianRPG.TheGardenCottage": false}
+       },
+       //Welcome to the home of my eternal suffering (If you're reading this Nova, I blame you for inspiring this idea (joking))
+       {
+         "Name": "SpiritWalk_BearFamSetup",
+         "Value": "MadDog.HashtagBearFam.Sigurd? 999 999 2 MadDog.HashtagBearFam.Sonda? 999 999 2"
+       },
+       {
+         "Name": "SpiritWalk_BearFamSetup",
+         "Value": "MadDog.HashtagBearFam.Sigurd? 999 999 2 MadDog.HashtagBearFam.Sonda? 999 999 2 MadDog.HashtagBearFam.Gunnar? 999 999 2 MadDog.HashtagBearFam.Gudrun? 999 999 2",
+         "When": {"HasFlag |contains=BearFamExtraMembers": true}
+       },
+       {
+         "Name": "SpiritWalk_TownSetup",
+         "Value": "/warp MadDog.HashtagBearFam.Sigurd? 50 15/warp MadDog.HashtagBearFam.Sonda? 51 51/warp MadDog.HashtagBearFam.Gunnar? 53 12/warp MadDog.HastagBearFam.Gudrun? 54 14/warp RodneyOBrien? 61 39/warp DaleWaede 55 36/warp Jacob 31 32/warp Eloise 32 32/warp Jessie 37 52/warp Jasper 50 51/warp Nora? 42 49/warp Otter.Cambria? 25 57/warp Aideen 16 51/warp ToriLK 9 62/warp Jade 7 68/warp Rosa 20 102/warp Juliet 21 102/warp Nova.Eli? 45 110/warp Nova.Dylan? 46 10/warp JosephineK? 30 102/warp OliverK? 31 102/warp Val? 43 88/warp Hector? 44 88/warp Coriander? 45 88/warp Dandelion? 46 88/warp Roslin? 46 88/warp AidaSaura? 54 85/warp MaggieSaura? 56 85/warp Beatrice 70 118/warp FatherJoseph? 70 119/warp EdithHart 61 113/warp MichaelHart 62 113/warp EthanHart 63 113/warp Daine.TPOChoice_Dahlia? 46 130/"
+       },
+       {
+         "Name": "SpiritWalk_Aliyah",
+         "Value": "warp Daine.TPOChoice_Aliyah 29 38/faceDirection Daine.TPOChoice_Aliyah 2/viewport 27 44 true/fade false/advancedMove farmer false 0 1 3 0 1 10/advancedMove WoodsmanHurst false 0 1 3 0 1 10/advancedMove Daine.TPOChoice_Aliyah false 0 6 2 10/waitForAllStationary/emote WoodsmanHurst 32/speak WoodsmanHurst \"Greetings! Does your day go well?$1\"/speak Daine.TPOChoice_Aliyah \"Quite well. I see you two are enjoying a walk together.\"/quickQuestion #It's quite a nice day!#What's that storm behind you??(break)speak Daine.TPOChoice_Aliyah \"It is indeed.$1\"\\speak WoodsmanHurst \"A beautiful day calls for enjoying the outdoors, does it not?$1\"(break)speak Daine.TPOChoice_Aliyah \"A storm?\"\\emote WoodsmanHurst 32\\speak WoodsmanHurst \"You will understand more later, @. Please excuse us.$3\"/emote Daine.TPOChoice_Aliyah 32",
+         "When": {"HasMod |contains=Daine.TPOChoice": true}
+        },
+        {
+         "Name": "SpiritWalk_Aliyah", 
+         "Value": "viewport 27 44 true/fade false/advancedMove farmer false 0 1 3 0 1 10/advancedMove WoodsmanHurst false 0 1 3 0 1 10/waitForAllStationary/emote WoodsmanHurst 32/speak WoodsmanHurst \"I must warn you. When we encounter the townsfolk, you will be in for a shock.$0\"/emote farmer 8 false/quickQuestion #What do you mean?#Am I in danger?(break)speak WoodsmanHurst \"Just try to remember everything you see. It will be important.$1\"(break)speak WoodsmanHurst \"I would rather die than put you in any danger. I swear by the life of Ward.\"/screenFlash 1/warp JunimoWard 30 44/speak JunimoWard \"He means it! You're going to have fun today!$1\"/emote farmer 32 false/",
+         "When": {"HasMod |contains=Daine.TPOChoice": false}
+        },
+       {
+         "Name": "SpiritWalk_BearFam",
+         "Value": ""
+       },
+       {
+         "Name": "SpiritWalk_Rodney",
+         "Value": ""
+       },
+       {
+         "Name": "SpiritWalk_Nora",
+         "Value": ""
+       },
+       {
+         "Name": "SpiritWalk_EnD",
+         "Value": ""
+       },
+       {
+         "Name": "SpiritWalk_SnS",
+         "Value": ""
+       },
+       {
+         "Name": "SpiritWalk_FatherJoseph",
+         "Value": ""
+       },
+       {
+         "Name": "SpiritWalk_Dahlia",
+         "Value": ""
+       },
+       {
+         "Name": "SpiritWalk_Cambria",
+         "Value": ""
        }
      
     ],

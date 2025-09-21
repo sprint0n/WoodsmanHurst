@@ -16,7 +16,7 @@
                 "WoodsmanHurst": {
                     //Love
                     "0": "{{i18n:WoodsmanHurst.LovedGift}}",
-                    "1": "852 268 637 872 417 545 MysticSyrup PurpleBook FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry Rafseazz.RSVCP_Mountain_Mistbloom MV.Municipal.StampJunimo WWWA.Book.MysteriesOfTheDwarves WWWA.Book.TheJojaConspiracy TenebrousNova.EnD.Junimeel Sauri.MM_MistyEssence sprinton.hurst_TeardropSpirits sprinton.hurst._SmolderingRose",
+                    "1": "852 268 637 872 417 545 MysticSyrup PurpleBook FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry Rafseazz.RSVCP_Mountain_Mistbloom MV.Municipal.StampJunimo WWWA.Book.MysteriesOfTheDwarves WWWA.Book.TheJojaConspiracy TenebrousNova.EnD.Junimeel Sauri.MM_MistyEssence sprinton.hurst_TeardropSpirits sprinton.hurst._SmolderingRose Cornucopia_RoyalHoneyToast",
 
                     //Like
                     "2": "{{i18n:WoodsmanHurst.LikedGift}}",
@@ -24,11 +24,11 @@
 
                     //Dislike
                     "4": "{{i18n:WoodsmanHurst.DislikedGift}}",
-                    "5": "-4 445 430 101 166 198 209 212 213 214 219 225 226 227 228 242 728 730 732 733",
+                    "5": "-4 445 430 101 166 198 209 212 213 214 219 225 226 227 228 242 728 730 732 733 food_seafood food_sushi allergen_fish allergin_shellfish",
 
                     //Hate
                     "6": "{{i18n:WoodsmanHurst.HatedGift}}",
-                    "7": "167 889 890 769 Book_Mystery MysteryBox GoldenMysteryBox FlashShifter.StardewValleyExpandedCP_Joja_Berry FlashShifter.StardewValleyExpandedCP_Joja_Veggie FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola Book_Void DN.SnS_StygiumOre",
+                    "7": "167 889 890 769 Book_Mystery MysteryBox GoldenMysteryBox FlashShifter.StardewValleyExpandedCP_Joja_Berry FlashShifter.StardewValleyExpandedCP_Joja_Veggie FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola Book_Void DN.SnS_StygiumOre Cornucopia_AncientWonder",
 
                     //Neutral
                     "8": "{{i18n:WoodsmanHurst.NeutralGift}}",
@@ -116,6 +116,7 @@
                     "AcceptGift_(O)795": "{{i18n:WoodsmanHurst.AcceptGift_VoidSalmon}}",
                     "AcceptGift_(O)769": "{{i18n:WoodsmanHurst.AcceptGift_VoidEssence}}",
                     "AcceptGift_(O)Book_Void": "{{i18n:WoodsmanHurst.AcceptGift_MonsterCompendium}}",
+                    "AcceptGift_(O)Cornucopia_AncientWonder": "This dish has the taint of the void to it.$0#$b#Such things concern me. Please be careful with it.$2",
                     "RejectItem_(O)DN.SnS_StygiumOre": "{{i18n:WoodsmanHurst.RejectGift.StygiumOre}}",
 
 
