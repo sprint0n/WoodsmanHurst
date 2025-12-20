@@ -172,6 +172,35 @@
             
             }
         },
+        {
+            "LogName": "Hurst Aliyah Override",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/WoodsmanHurst",
+            "Entries": {
+                "{{Weekday}}": "{{i18n:WoodsmanHurst.Aliyah.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+            },
+            "When": {
+                "HasMod |contains=Daine.TPOChoice": true,
+                "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+                "Query: {{Random: {{Range: 1,20}}|key=WHAO}} = 1": true,
+                "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
+            }
+        },
+        {
+            "LogName": "Hurst Dahlia Override",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/WoodsmanHurst",
+            "Entries": {
+                "{{Weekday}}": "{{i18n:WoodsmanHurst.Dahlia.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+            },
+            "When": {
+                "HasMod |contains=Daine.TPOChoice": true,
+                "HasSeenEvent: |contains=Daine.Dahlia.0H": true,
+                "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+                "Query: {{Random: {{Range: 1,20}}|key=WHDO}} = 1": true,
+                "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
+            }
+        },
           {
             "LogName": "Hurst Cambria Override",
             "Action": "EditData",
@@ -186,18 +215,6 @@
                 "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
             }
         },
-        /*
-        {
-            "LogName": "Hurst Garden Cottage Babysitting",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/WoodsmanHurst",
-            "Entries": {
-                "summer_20_{{YearRepeat}}": "{{i18n:WoodsmanHurst.Babysitting.{{BabysittingStatus}}}}",
-                "fall_20_{{YearRepeat}}": "{{i18n:WoodsmanHurst.Babysitting.{{BabysittingStatus}}}}",
-            },
-            "When": {"HasMod |contains=AvianRPG.TheGardenCottage": true}
-        },
-        */
         {
             "LogName": "Ward Dialogue",
             "Action": "EditData",

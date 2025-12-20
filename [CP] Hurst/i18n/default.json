@@ -334,7 +334,7 @@
     "WoodsmanHurst.AcceptGift_VoidSalmon": "...A void salmon.$2#$e#A fish. Of the void.$2#$e#I hope you did not give this to me out of intentional malevolence.$8",
     "WoodsmanHurst.AcceptGift_VoidEssence": "Essence of the void!$6#$b#I must find a safe place to seal such a dangerous thing away!$7#$e#...Or perhaps hide it inside the demon den?$7#$e#No, that might strengthen the demon within.$2",
     "WoodsmanHurst.AcceptGift_MonsterCompendium": "A book of the void.$0#$e#It has valuable knowledge of demons, but it makes me feel uneasy. Better to keep it somewhere safe.$3",
-
+    "WoodsmanHurst.AcceptGift_AncientWonder": "This dish has the taint of the void to it.$0#$b#Such things concern me. Please be careful with it.$2", //added line in 1.3-alpha
 
     //Modded Items
     "WoodsmanHurst.AcceptGift_Sauri.MM_MistyEssence": "Such an essence reminds me of Mistgrove.$1#$e#Thank you for such a gift.$8",
@@ -353,7 +353,7 @@
     "WoodsmanHurst.AcceptGift_SylphTea": "This was my preferred drink in Mistgrove.$0#$e#Being able to move with the speed of a wind spirit made it far easier to find the children who wandered too deep into the woods.$1",
     "WoodsmanHurst.AcceptGift_TeardropSpirits": "This is my favorite drink.$4#$e#After drinking it, the water spirits lessen their hatred towards me.$1#$e#I wish I knew what I did to offend them so.$2",
     "WoodsmanHurst.RejectGift.StygiumOre": "...Where did you get this?$6#$b#It destroys the spirits around it!$6#$e#You should avoid such things.$0",
-    
+    "WoodsmanHurst.AcceptGift.MountainMistbloom": "This plant has a similar essence to those of my home Mistgrove.$0#$e#I thank you for bringing me such a gift.$1", //added line in 1.3-alpha
 
     "WoodsmanHurst.DumpsterDiveComment": "I will not judge your choices.$0#$b#...Even if they seem strange.$7",
     "WoodsmanHurst.PacifistGiftResponse": "My apologies, but I cannot accept this.$0#$e#It brings bad memories.$2",
@@ -446,7 +446,7 @@
     "WoodsmanHurst.LowHearts.1": "I must gather my offerings.$0#$e#I have yet to fail at giving a proper offering, and do not wish to start now.$1",
     "WoodsmanHurst.LowHearts.2": "The spirits have been restless recently.$0#$e#It has been some time without someone new.$1",
     "WoodsmanHurst.LowHearts.3": "Do you deal with those at blue demon den?$7#$e#I warn you to be cautious of them.$0",
-    "WoodsmanHurst.LowHearts.4": "I usually keep my emotions under control, but the demon Joja always makes my temper flare.$0$e#I do not wish violence on them, but small annoyances would be a joyous event.$0#$b#A pipe bursting, perhaps.$3",
+    "WoodsmanHurst.LowHearts.4": "I usually keep my emotions under control, but the demon Joja always makes my temper flare.$0#$e#I do not wish violence on them, but small annoyances would be a joyous event.$1#$b#A pipe bursting, perhaps.$3",
     "WoodsmanHurst.LowHearts.5": "I saw a spirit of growth swirling around %farm farm.$0#$e#They can be quite fickle.$3",
     "WoodsmanHurst.LowHearts.6": "The spirits swirl about you nearly constantly.$0#$e#It seems they find you fascinating.$1",
     "WoodsmanHurst.LowHearts.7": "I fear for what would happen if the demon known as Joja gets a stronger foothold in the town.$3#$e#It seems to be opposed to the gods.$5",
@@ -610,7 +610,7 @@
     "WoodsmanHurst.HighHearts.65": "Penny seems to be quite good with children.$0#$b#I wonder if she would do well with the gods?$7#$b#They can be quite childlike in their activities.$3", 
     "WoodsmanHurst.HighHearts.66": "The man George is quite harsh, but I believe he is kind.$0#$b#He always seems to have at least a couple of spirits around him.$3",
     "WoodsmanHurst.HighHearts.67": "The gods speak of a strange spirit within the sewer.$3#$b#I have noticed traces of the void emerging from the grate. I do not think I shall try to explore it.$2",
-    "WoodsmanHurst.HighHearts.68": "Tales of the old Wardens are passed down from master to student.$0#$e#One of the first Wardens was said to have carried a massive blade. It was said it was too big to be truthfully refered to as such.", //Berserk Reference 
+    "WoodsmanHurst.HighHearts.68": "Tales of the old Watchers are passed down from master to student.$0#$e#One of the first Watchers was said to have carried a massive blade. It was said it was too big to even be called a blade.", //Berserk Reference 
     "WoodsmanHurst.HighHearts.69": "The shopkeeper once tried to convice me his shop was better than the demon den.$0#$e#I think he forgot I do not use money.$0#$b#He was right about his shop being superior, however.$0#$b#...even if that is not much of an accomplishment.$2",
     "WoodsmanHurst.HighHearts.70": "I have spoken with the fisherman once or twice.$0#$b#Unfortunately, my dislike of fish made our conversations quite awkward.$2",
     //Mistgrove/Religion (In Depth)
@@ -630,7 +630,29 @@
     "WoodsmanHurst.BundleOverride1": "The gods asked me to gather this for you.",
     "WoodsmanHurst.BundleOverride2": "$0#$b#I hope it is useful for you.",
 
-    //Romantic Dialogues - Do once Romance is actually obtainable lmao
+    //Romantic Dialogues - Do once Romance is actually obtainable lmao (romance + more deeply personal shit)
+    "WoodsmanHurst.Dating.1": "%Hurst stares at you without saying anything.$0#$e#My apologies. I wished to enjoy...you.$4",
+    "WoodsmanHurst.Dating.2": "",
+    "WoodsmanHurst.Dating.3": "",
+    "WoodsmanHurst.Dating.4": "",
+    "WoodsmanHurst.Dating.5": "",
+    "WoodsmanHurst.Dating.6": "",
+    "WoodsmanHurst.Dating.7": "",
+    "WoodsmanHurst.Dating.8": "",
+    "WoodsmanHurst.Dating.9": "",
+    "WoodsmanHurst.Dating.10": "",
+    "WoodsmanHurst.Dating.11": "",
+    "WoodsmanHurst.Dating.12": "",
+    "WoodsmanHurst.Dating.13": "",
+    "WoodsmanHurst.Dating.14": "",
+    "WoodsmanHurst.Dating.15": "",
+    "WoodsmanHurst.Dating.16": "",
+    "WoodsmanHurst.Dating.17": "",
+    "WoodsmanHurst.Dating.18": "",
+    "WoodsmanHurst.Dating.19": "",
+    "WoodsmanHurst.Dating.20": "",
+
+    
 
     
     //ES Mod References
@@ -669,7 +691,7 @@
     //SnS
     "WoodsmanHurst.ValIntro": "You were saved by Val? That is good.$0#$b#I often hear of them from the spirits of the deep mines.$3",
     "WoodsmanHurst.ValEmertiusIntro": "Val has somehow tamed a monster.$0#$b#I believe they will ensure Emeritus not pose a threat to those in the valley.$1",
-    "WoodsmanHurst.ValMinibossBattle": "}You and Val encountered a demon on the beach?$0#$b#I hope you keep yourselves safe. Such creatures existing in this town concern me greatly.$2",
+    "WoodsmanHurst.ValMinibossBattle": "You and Val encountered a demon on the beach?$0#$b#I hope you keep yourselves safe. Such creatures existing in this town concern me greatly.$2",
 
     //TcG
     "WoodsmanHurst.TCG_TwinsLeave": "Joseph has been quite sad without his grandchildren.$2#$b#I hope he can see them again soon.$1",
@@ -689,6 +711,18 @@
     "WoodsmanHurst.Therapy.8": "My master sacrificed herself to protect me. It is something of a tradition for my role. Each mentor dying to save their apprentice.$9",
     "WoodsmanHurst.Therapy.9": "Sometimes I wish I could return to the town in Mistgrove itself. At other times I am glad I am exiled. Is that not strange?$6",
     "WoodsmanHurst.Therapy.10": "Ward is glad I have been attending. I have been telling them of our sessions. They seem to believe it helps them as well.$1",
+    "WoodsmanHurst.Aliyah.1": "I owe nearly as great a debt to Aliyah as I do you. She has helped me improve greatly.$0#$e#I admire her ability to help me understand how I can improve.$1",
+    "WoodsmanHurst.Aliyah.2": "Often I have found the wolves gathering near Aliyah. She seems to have a natural affinity with them.$1#$e#Such a talent is wonderful.$1",
+    "WoodsmanHurst.Aliyah.3": "The suprise I felt at first meeting Aliyah was quite extreme.$0#$e#I have never met one as tall as she.$6",
+    "WoodsmanHurst.Aliyah.4": "I have been trying to ensare a rabbit. Aliyah mentioned her fondness of them.$0#$e#I have not been successful in my attempts. They are quite fast creatures.$1",
+    "WoodsmanHurst.Aliyah.5": "There is a powerful spirit about Aliyah. I sometimes find myself lost staring at it when I speak with her.$0#$e#I worry she might think our conversations bore me due to this.$2",
+
+    "WoodsmanHurst.Dahlia.1": "Dahlia seemed to think I misunderstood the idols of the gods.$7#$e#She referred to them as 'plushies'. I worry I have confused her in some way.$2",
+    "WoodsmanHurst.Dahlia.2": "It appears Dahlia has undertaken a quest to befriend every resident of the Scarp.$0#$e#Her friendliness is something I find wonderful.$1",
+    "WoodsmanHurst.Dahlia.3": "The love Dahlia has for snow is quite fascinating to me. I had never encountered snow before arriving in the valley.$1#$e#It appears to me she feels as comfortable in the snow as I do in the woods.$1",
+    "WoodsmanHurst.Dahlia.4": "My old master told me tales of Dahlia's people, but I never expected to meet one of them.$0#$e#I hope I can remember to show the proper respect to her when needed.$3",
+    "WoodsmanHurst.Dahlia.5": "Sometimes I wonder if I should bring offerings to Dahlia. She is...strange to me.$3#$e#Is she a god? Or something else entirely? I do not know.$7",
+
 
     //Other Mod CTs
 
@@ -770,34 +804,34 @@
     "JunimoWard.DailyPool.66": "You're a really nice person.$0#$e#Remember that.$0",
     "JunimoWard.DailyPool.67": "Have you ever seen us at your festivals?$0#$e#We usually hide behind Hurst's legs. There's a lot of people who can see us. It makes us nervous.$8",
     "JunimoWard.DailyPool.68": "We remember everyone we've ever met.$0#$e#Sometimes we check in on our old friends families. It's a way to remember them.$2",
-    "JunimoWard.DailyPool.69": "Outsiders aren't that common in Mistgrove.$0#$e#You need to have some magic to event get past the mists!$2",
-    "JunimoWard.DailyPool.70": "We don't sleep. We do sometimes visit our Human friends while they sleep.$0#$e#Their spirits tell us what they're dreaming about.$1",
+    "JunimoWard.DailyPool.69": "Outsiders aren't that common in Mistgrove.$0#$e#You need to have some magic to even get past the mists!$2",
+    "JunimoWard.DailyPool.70": "We don't sleep. We do sometimes visit our Human friends while they sleep.$0#$e#Their spirits tell us what they're dreaming about.$2",
 
 
 
     /* --Replay/rewatch events and dialogues before writing
     //Bearfam
 
-    "WoodsmanHurst.Sig.1": "",
-    "WoodsmanHurst.Sig.2": "",
-    "WoodsmanHurst.Sig.3": "",
-    "WoodsmanHurst.Sig.4": "",
-    "WoodsmanHurst.Sig.5": "",
+    "WoodsmanHurst.Sig.1": "I was surprised at my first sight of the Sergeant of the Lodge.$6#$e#I have never met such a tall man.$1",
+    "WoodsmanHurst.Sig.2": "I made the mistake of referring to Sig by his full name.$0#$e#He did not seem very angry, but I feel guilty for the mistake. I hope he can forgive me.$2",
+    "WoodsmanHurst.Sig.3": "The bees around the Sergeant always instill me with wonder.$1#$e#The way they flow about him reminds me of the spirits.$3",
+    "WoodsmanHurst.Sig.4": "Do you speak with the Sergeant often? He can be quite gruff.$0#$e#I sometimes worry. Is that how I came off to others before you?$2",
+    "WoodsmanHurst.Sig.5": "Piercing yourself with metal was something I did not believe was done until I saw Sig.$0#$e#I find such modification of one's body... intriguing.$1",
 
-    "WoodsmanHurst.Sombra.1": "",
-    "WoodsmanHurst.Sombra.2": "",
-    "WoodsmanHurst.Sombra.3": "",
-    "WoodsmanHurst.Sombra.4": "",
-    "WoodsmanHurst.Sombra.5": "",
+    "WoodsmanHurst.Sondra.1": "Sondra is quite a warm person.$0#$e#She reminds me of my Home-Mother.$1",
+    "WoodsmanHurst.Sondra.2": "It surprised me to learn Sondra has been the same age for several years.$0#$e#I thought that was a gift bestowed on only the Prophets.$1",
+    "WoodsmanHurst.Sondra.3": "I was quite surprised to find a cookies within my mailbox today.$0#$e#I believe Sondra left them there. I must show my thanks somehow.$1",
+    "WoodsmanHurst.Sondra.4": "Ward is quite fond of Sondra as well.$0#$e#They enjoy watching the townsfolk when they visit. Sondra is one of their favorites.$3",
+    "WoodsmanHurst.Sondra.5": "I found myself offered a meal by Sondra. I was leaving her some fruit as a thanks for some baked goods she left me.$0#$e#I continue to be in her debt.$1",
 
-    "WoodsmanHurst.Gunnar.1": "",
-    "WoodsmanHurst.Gunnar.2": "",
+    "WoodsmanHurst.Gunnar.1": "I have seen Gunnar in the mines quite often.$0#$e#I believe has seen me... open a geode.$1#%Hurst mimes crushing something in between his hands.#$bAt least, the shout I heard after sounded like him.$7",
+    "WoodsmanHurst.Gunnar.2": "The spirits around the potions that Gunnar makes vary wildly.$3#$e#Some of them are new even to me. I wonder if they are drawn by the potions, or created by them.$7",
     "WoodsmanHurst.Gunnar.3": "",
     "WoodsmanHurst.Gunnar.4": "",
     "WoodsmanHurst.Gunnar.5": "",
 
     
-    "WoodsmanHurst.Gudrun.1": "",
+    "WoodsmanHurst.Gudrun.1": "I find the respect Gudrun has for nature is quite admirable.$0#$e#It is good to see such devotion in one so young.$1",
     "WoodsmanHurst.Gudrun.2": "",
     "WoodsmanHurst.Gudrun.3": "",
     "WoodsmanHurst.Gudrun.4": "",
@@ -811,15 +845,16 @@
     "WoodsmanHurst.Teren.5": "",
 
     //Nora 
-    "WoodsmanHurst.Nora.1": "",
+    "WoodsmanHurst.Nora.1": "The woman Nora is quite devoted to her reptiles. She seems to have a nearly endless supply of them.$0#$e#I wonder if she would appreciate another? I encountered a strange one while gathering offerings yesterday.$7",
     "WoodsmanHurst.Nora.2": "",
     "WoodsmanHurst.Nora.3": "",
     "WoodsmanHurst.Nora.4": "",
     "WoodsmanHurst.Nora.5": "",
+    "WoodsmanHurst.NoraChameleon": "I have learned much about the chameleon Nora has been searching for.$0#$b#Far more than I ever truly wished to know.$2#$b#I am glad she is happy however.$1",
 
     //LiTD
     
-    "WoodsmanHurst.Sen.1": "",
+    "WoodsmanHurst.Sen.1": "My first encounter with Sen was somewhat of a disaster.$0#$b#I had been unaware that those of the shadow here were peaceful.$2#e#I mistook him for a demon.$2",
     "WoodsmanHurst.Sen.2": "",
     "WoodsmanHurst.Sen.3": "",
     "WoodsmanHurst.Sen.4": "",
@@ -827,14 +862,63 @@
 
     //WWWA
 
-
     "WoodsmanHurst.Rodney.1": "",
     "WoodsmanHurst.Rodney.2": "",
     "WoodsmanHurst.Rodney.3": "",
     "WoodsmanHurst.Rodney.4": "",
     "WoodsmanHurst.Rodney.5": "",
 
-    //SnS
+    //The Garden Cottage
+
+    "WoodsmanHurst.FatherJoseph.1": "",
+    "WoodsmanHurst.FatherJoseph.2": "",
+    "WoodsmanHurst.FatherJoseph.3": "",
+    "WoodsmanHurst.FatherJoseph.4": "",
+    "WoodsmanHurst.FatherJoseph.5": "",
+
+    "WoodsmanHurst.HowienLowie.1": "",
+    "WoodsmanHurst.HowienLowie.2": "",
+    "WoodsmanHurst.HowienLowie.3": "",
+    "WoodsmanHurst.HowienLowie.4": "",
+    "WoodsmanHurst.HowienLowie.5": "",
+
+    //The Promise of Choice
+
+
+ //Sometimes The Wolf
+
+    "WoodsmanHurst.STW.1": "Sometimes the cowboy looks at me like I am one of the demons themselves.$2#$e#Did I do something to offend him?$2",
+    "WoodsmanHurst.STW.2": "",
+    "WoodsmanHurst.STW.3": "",
+    "WoodsmanHurst.STW.4": "",
+    "WoodsmanHurst.STW.5": "",
+
+
+//Right On Time
+
+   "WoodsmanHurst.ROT.1": "",
+   "WoodsmanHurst.ROT.2": "",
+   "WoodsmanHurst.ROT.3": "",
+   "WoodsmanHurst.ROT.4": "",
+   "WoodsmanHurst.ROT.5": "",
+   
+
+      //Orcas Field Guide 
+
+    "WoodsmanHurst.Calvin.1": "The boy with the orca asked if the gods will tell me the 'winning lottery numbers'.$0#$e#I have no understanding of what he speaks of. Perhaps the spirits can help enlighten me?$8",  
+    "WoodsmanHurst.Calvin.2": "",
+    "WoodsmanHurst.Calvin.3": "",
+    "WoodsmanHurst.Calvin.4": "",
+    "WoodsmanHurst.Calvin.5": "",
+
+    "WoodsmanHurst.Kobolds.1": "",
+    "WoodsmanHurst.Kobolds.2": "",
+    "WoodsmanHurst.Kobolds.3": "",
+    "WoodsmanHurst.Kobolds.4": "",
+    "WoodsmanHurst.Kobolds.5": "",
+
+
+   //SnS
     "WoodsmanHurst.Val.1": "",
     "WoodsmanHurst.Val.2": "",
     "WoodsmanHurst.Val.3": "",
@@ -877,66 +961,11 @@
     "WoodsmanHurst.Lorin.4": "",
     "WoodsmanHurst.Lorin.5": "",
 
-    //The Garden Cottage
-
-    "WoodsmanHurst.FatherJoseph.1": "",
-    "WoodsmanHurst.FatherJoseph.2": "",
-    "WoodsmanHurst.FatherJoseph.3": "",
-    "WoodsmanHurst.FatherJoseph.4": "",
-    "WoodsmanHurst.FatherJoseph.5": "",
-
-    "WoodsmanHurst.Howie.1": "",
-    "WoodsmanHurst.Howie.2": "",
-    "WoodsmanHurst.Howie.3": "",
-    "WoodsmanHurst.Howie.4": "",
-    "WoodsmanHurst.Howie.5": "",
-
-    "WoodsmanHurst.Louie.1": "",
-    "WoodsmanHurst.Louie.2": "",
-    "WoodsmanHurst.Louie.3": "",
-    "WoodsmanHurst.Louie.4": "",
-    "WoodsmanHurst.Louie.5": "",
-
-    //The Promise of Choice
-
-    "WoodsmanHurst.Aliyah.1": "",
-    "WoodsmanHurst.Aliyah.2": "",
-    "WoodsmanHurst.Aliyah.3": "",
-    "WoodsmanHurst.Aliyah.4": "",
-    "WoodsmanHurst.Aliyah.5": "",
-
-    "WoodsmanHurst.Dahlia.1": "",
-    "WoodsmanHurst.Dahlia.2": "",
-    "WoodsmanHurst.Dahlia.3": "",
-    "WoodsmanHurst.Dahlia.4": "",
-    "WoodsmanHurst.Dahlia.5": "",
-
-    //Orcas Field Guide 
-
-    "WoodsmanHurst.Calvin.1": "",
-    "WoodsmanHurst.Calvin.2": "",
-    "WoodsmanHurst.Calvin.3": "",
-    "WoodsmanHurst.Calvin.4": "",
-    "WoodsmanHurst.Calvin.5": "",
-
-    "WoodsmanHurst.Kobolds.1": "",
-    "WoodsmanHurst.Kobolds.2": "",
-    "WoodsmanHurst.Kobolds.3": "",
-    "WoodsmanHurst.Kobolds.4": "",
-    "WoodsmanHurst.Kobolds.5": "",
-
- 
 
 */
 
-    "WoodsmanHurst.BabySitting.Pre4H": "The man Joseph asked if I will watch his grandchildren.$0#$e#I have a soft spot for children and those who need help. I could not say no.$4",
-    "WoodsmanHurst.BabySitting.Post4H": "Joseph has asked me to watch the children.$0#$e#He gave me insight on his religion when I asked him this is the least I can do to thank him.$1#$e#I hope the gods will not consider this disobedience, merely repayment.$3",
-    "WoodsmanHurst.BabySitting.Isolating": "I have been tasked with watching these children.$0#$e#I shall do so.",
-    "WoodsmanHurst.BabySitting.WardAlive": "I watch over Howie and Louie when Joseph attends his bookclub.$0#$e#I like children. They are always so curious about the world, finding everything fascinating.$1",
-
-
+    
 //VANILLA NPC CONVERSATION TOPICS
-      
    
       //HurstMorrisArgument
       "PamCT.HurstMorrisArgument": "I wonder if Morris will give us a discount to make up for that fight the other day.$1#$e#I don't care who started it! I want my discount!$3",
@@ -952,9 +981,8 @@
 
       //HurtReligion
       "WizardCT.HurstReligion": "Ah, the Woodsman spoke of the religion of Mistgrove?$0#$e#They have a strange fascination with those connected to magic.$1",
-      "LinusCT.HurtReligion": "I asked if Hurst wanted to join me in foraging recently.$0#$e#He turned me down, but seemed quite sad about it.$s",
+      "LinusCT.HurstReligion": "I asked if Hurst wanted to join me in foraging recently.$0#$e#He turned me down, but seemed quite sad about it.$s",
 
-      
       //HurstCommandmentRenewed
       "WizardCT.HurstCommandmentRenewed": "The Woodsman has returned to obeying his Prophet?$0#$e#Strange. I felt the Pomegranate strengthen the more he spoke with you.$0",
 
@@ -965,8 +993,6 @@
       "RobinCT.HurstStopsObeying": "Something strange happened, Hurst started conversation with me recently! He's usually so closed off.$2#$e#He asked if I can teach him ways to protect stone carvings. I gave him some wax coating to cover his shrine with.$0#$b#He said he had to repay me, so I had him chop some logs for me. We ended up talking the entire time he worked! He's more friendly than I thought.$1",
       "KentCT.HurstStopsObeying": "That man Hurst spoke with me a few days ago. He said something about spirits?$0#$b#He's actually quite friendly. He also seems to understand my...problems.$5#",
 
-
-          
       //Mail
       "WoodsmanHurst.Mail.sprinton.hurst.HurstCommandmentLetter": "Warden Hurst. ^ The gods have dispensed your Commandment. Your Commandment is to be Friendless. ^ You shall not make new friends. You may not speak to infidels more than neccessary. ^ If any Apostles are found in the godless land, you may speak to them rarely. Such is the Command of the spirits. ^ I pray you find forgiveness. ^ Prophet Sylva",
       "WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopOpened": "I thank you for listening to my story, even if it was rather grim. ^ I apologize for causing an argument with you. I did not wish to spark anger between us. In an attempt to apologize for everything I have done to you, I have sought help from the spirits. ^ From now on, when you visit my clearings on Fridays, the spirits by my shrine should be visible. They shall have offerings for you. ^ - Hurst",
@@ -999,7 +1025,6 @@
       "WoodsmanHurst.Items.AncientsTears" : "Ancient's Tears",
       "WoodsmanHurst.Items.AncientsTears.Description": "This soup fills you with a deep sorrow.",
 
-
       //Map Strings
       "WoodsmanHurst.SpiritShopDialogue": "The spirits swirl wildly around you.",
       "ClearingStrings.HurstCrops": "Even out of season, the crops are still ripe.",
@@ -1010,7 +1035,6 @@
       "ClearingStrings.HurstMailbox": "The inside of the mailbox is coated with dust.",
       "ClearingStrings.HurstJunimoHut": "You see little bits of Starfruit deep inside the hut.",
       "ClearingStrings.HurstBigJunimoPlush": "How did Hurst get his hands on one of these?",
-
 
       //Secret Notes
       "WoodsmanHurst.SecretNotes.1": "To the Prophet Sylva, from Hurst. ^ Greetings. Our mission continues deep into the woods. We have discovered many ruins, some of which I believe you would find fascinating. ^ I do wish you were able to see them. My companions remain steadfast, following me into even the darkest depths of the woods. ^ I have spoken to the spirits here. They all shirk at the mention of the demon. I fear the danger it poses. ^ I pray I will have good news for my next report. ^ -Hurst",
@@ -1025,6 +1049,24 @@
       "WoodsmanHurst.SecretNotes.10": "You promised to keep yourselves safe. You PROMISED to keep yourselves safe! ^                           We're.... sorry.... we... were... too... late.... we... only... could... save... you....^                   I fear even the night. Every shadow is a beast waiting to lunge. Please spirits, take this fear away from me! ^                                                                                              Little.... squeak...... has grown..... now a...... little.... whimper?...... ha..... ha..... ha..... serves you..... right.....",
     }
 
+/*
 
+
+
+"MV.NewSheriff": (Important) New sheriff and building in town, this is the one most people would comment on.
+The new Sheriff seemed to anger Morris.$0#$b#Good.$1#$e#I enjoy seeing the schemes of that creature thwarted.$1
+"MV.SheriffWizard": (If you mod anyone to live with the wizard, they may comment.) Just the sheriff meeting the wizard/witch. Bill's interested if Wizard.
+"MV.Sheriff10H": (Important) Bill has an open discussion with the community about future decisions in policing informed by his past, with suggestions for future action. Positive community changes start happening after this point. Anyone might comment on this.
+
+"TGC_FJIntroduction": "The farmer meets Fr Joseph when clarence steals his sandwich",
+"TCG_TwinsLeave: "The twins go home at the start of Winter, Joseph is lonely"
+
+JulietAdoptsGremlin
+The woman Juliet has found herself a new companion.$0#$e#I am glad. She seems to care deeply for them.$1
+
+SensDreamOfPeace
+The shadow Sen is quite a gentle soul.$0#$e#I... was quite unkind to him when I first met him. I hope he does not despise me for it.$2
+
+*/
 
 

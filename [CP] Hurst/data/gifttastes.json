@@ -16,7 +16,7 @@
                 "WoodsmanHurst": {
                     //Love
                     "0": "{{i18n:WoodsmanHurst.LovedGift}}",
-                    "1": "852 268 637 872 417 545 MysticSyrup PurpleBook FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry Rafseazz.RSVCP_Mountain_Mistbloom MV.Municipal.StampJunimo WWWA.Book.MysteriesOfTheDwarves WWWA.Book.TheJojaConspiracy TenebrousNova.EnD.Junimeel Sauri.MM_MistyEssence sprinton.hurst_TeardropSpirits sprinton.hurst._SmolderingRose Cornucopia_RoyalHoneyToast",
+                    "1": "852 268 637 872 417 545 MysticSyrup PurpleBook FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry Rafseazz.RSVCP_Mountain_Mistbloom MV.Municipal.StampJunimo WWWA.Book.MysteriesOfTheDwarves WWWA.Book.TheJojaConspiracy TenebrousNova.EnD_Junimeel Sauri.MM_MistyEssence sprinton.hurst_TeardropSpirits sprinton.hurst_SmolderingRose Cornucopia_RoyalHoneyToast MadDog.STW_CherryLimeade ",
 
                     //Like
                     "2": "{{i18n:WoodsmanHurst.LikedGift}}",
@@ -43,7 +43,7 @@
             "Target": "Characters/Dialogue/WoodsmanHurst",
             "Entries": {
 
-                
+
                     //Vanilla
                     "AcceptGift_(O)StardropTea": "{{i18n:WoodsmanHurst.AcceptGift_StardropTea}}",
                     "AcceptGift_(O)167": "{{i18n:WoodsmanHurst.AcceptGift_JojaItem}}",
@@ -63,21 +63,21 @@
                     "RejectItem_(O)109": "{{i18n:WoodsmanHurst.PacifistGiftResponse}}",
                     "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:WoodsmanHurst.TurnDownMovie}}",
                     "RejectItem_(O)460": "{{i18n:WoodsmanHurst.RejectMermaidPendant}}",
-                    "AcceptGift_(0)852": "{{i18n:WoodsmanHurst.AcceptGift_DragonTooth}}",
-                    "AcceptGift_(0)268": "{{i18n:WoodsmanHurst.AcceptGift_Starfruit}}", 
-                    "AcceptGift_(0)637": "{{i18n:WoodsmanHurst.AcceptGift_Pomegranate.{{HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1}}}}", 
-                    "AcceptGift_(0)872": "{{i18n:WoodsmanHurst.AcceptGift_FairyDust}}", 
-                    "AcceptGift_(0)417": "{{i18n:WoodsmanHurst.AcceptGift_SweetGemBerry}}", 
-                    "AcceptGift_(0)545": "{{i18n:WoodsmanHurst.AcceptGift_Fluorapatite}}", 
-                    "AcceptGift_(0)MysticSyrup": "{{i18n:WoodsmanHurst.AcceptGift_MysticSyrup}}", 
-                    "AcceptGift_(0)PurpleBook": "{{i18n:WoodsmanHurst.AcceptGift_BookOfStars}}", 
+                    "AcceptGift_(O)852": "{{i18n:WoodsmanHurst.AcceptGift_DragonTooth}}",
+                    "AcceptGift_(O)268": "{{i18n:WoodsmanHurst.AcceptGift_Starfruit}}", 
+                    "AcceptGift_(O)637": "{{i18n:WoodsmanHurst.AcceptGift_Pomegranate.{{HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1}}}}", 
+                    "AcceptGift_(O)872": "{{i18n:WoodsmanHurst.AcceptGift_FairyDust}}", 
+                    "AcceptGift_(O)417": "{{i18n:WoodsmanHurst.AcceptGift_SweetGemBerry}}", 
+                    "AcceptGift_(O)545": "{{i18n:WoodsmanHurst.AcceptGift_Fluorapatite}}", 
+                    "AcceptGift_(O)MysticSyrup": "{{i18n:WoodsmanHurst.AcceptGift_MysticSyrup}}", 
+                    "AcceptGift_(O)PurpleBook": "{{i18n:WoodsmanHurst.AcceptGift_BookOfStars}}", 
                     //SVE
                     "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola": "{{i18n:WoodsmanHurst.AcceptGift_JojaItem}}",
                     "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Joja_Veggie": "{{i18n:WoodsmanHurst.AcceptGift_JojaItem}}",
                     "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Joja_Berry": "{{i18n:WoodsmanHurst.AcceptGift_JojaItem}}",
                     "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry": "{{i18n:WoodsmanHurst.AcceptGift_StardewValleyExpandedCP_Dewdrop_Berry}}",
                     //RSV
-                    "AcceptGift_(O)Rafseazz.RSVCP_Mountain_Mistbloom": "{{i18n:Rafseazz.RSVCP_Mountain_Mistbloom}}",
+                    "AcceptGift_(O)Rafseazz.RSVCP_Mountain_Mistbloom": "{{i18n:WoodsmanHurst.AcceptGift.MountainMistbloom}}",
                     //Saurianne's Marvelous Mythicals
                     "AcceptGift_(O)Sauri.MM_MistyEssence": "{{i18n:WoodsmanHurst.AcceptGift_Sauri.MM_MistyEssence}}",
                     //Creative Differences
@@ -89,8 +89,10 @@
                     "AcceptGift_(O)MadDog.HashtagBearFam_PeachJoja": "{{i18n:WoodsmanHurst.AcceptGift_JojaItem}}",
                     "AcceptGift_(O)MadDog.HashtagBearFam_PumpkinJoja": "{{i18n:WoodsmanHurst.AcceptGift_JojaItem}}",
                     "AcceptGift_(O)MadDog.HashtagBearFamJojaFloat": "{{i18n:WoodsmanHurst.AcceptGift_JojaItem}}",
+                    //STW
+                    "AcceptGift_(O)MadDog.STW_CherryLimeade": "What a wonderful drink! The flavor is otherworldly.$1#$e#I truly love the taste of the lime.$4",
                     //EnD
-                    "AcceptGift_(O)TenebrousNova.EnD.Junimeel": "{{i18n:WoodsmanHurst.AcceptGift_TenebrousNova.EnD.Junimeel}}",
+                    "AcceptGift_(O)TenebrousNova.EnD_Junimeel": "{{i18n:WoodsmanHurst.AcceptGift_TenebrousNova.EnD.Junimeel}}",
                     //PTM
                     "AcceptGift_(O)MV.Municipal.StampJunimo": "{{i18n:WoodsmanHurst.AcceptGift_MV.Municipal.StampJunimo}}",
                     //Mistgrove Items
@@ -116,7 +118,7 @@
                     "AcceptGift_(O)795": "{{i18n:WoodsmanHurst.AcceptGift_VoidSalmon}}",
                     "AcceptGift_(O)769": "{{i18n:WoodsmanHurst.AcceptGift_VoidEssence}}",
                     "AcceptGift_(O)Book_Void": "{{i18n:WoodsmanHurst.AcceptGift_MonsterCompendium}}",
-                    "AcceptGift_(O)Cornucopia_AncientWonder": "This dish has the taint of the void to it.$0#$b#Such things concern me. Please be careful with it.$2",
+                    "AcceptGift_(O)Cornucopia_AncientWonder": "{{i18n:WoodsmanHurst.AcceptGift_AncientWonder}}",
                     "RejectItem_(O)DN.SnS_StygiumOre": "{{i18n:WoodsmanHurst.RejectGift.StygiumOre}}",
 
 

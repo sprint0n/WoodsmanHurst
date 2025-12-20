@@ -269,42 +269,6 @@
                     ],
                     "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
                     "SpriteIndex": 11
-                },
-                "{{ModID}}_AncientsTears": {
-                    "Name": "{{ModID}}_AncientsTears",
-                    "DisplayName": "{{i18n:WoodsmanHurst.Items.AncientsTears}}",
-                    "Description": "{{i18n:WoodsmanHurst.Items.AncientsTears.Description}}",
-                    "Type": "Cooking",
-                    "Category": -7,
-                    "Price": 300,
-                    "Edibility": 80,
-                    "ExcludeFromRandomSale": true,
-                    "IsDrink": false,
-                    "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
-                    "ContextTags": [
-                        "color_blue",
-                        "mistgrove_item",
-                        "food_soup"
-                ],
-                    "Buffs": [
-                        {
-                            "Duration": 600,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0,
-                                "FishingLevel": 0,
-                                "MiningLevel": 0,
-                                "LuckLevel": 4,
-                                "ForagingLevel": 0,
-                                "MaxStamina": 0,
-                                "MagneticRadius": 0,
-                                "Speed": 0,
-                                "Defense": 0,
-                                "Attack": 0
-                            }
-                        }
-                    ],
-                    "Texture": "{{InternalAssetKey: assets/images/foods.png}}",
-                    "SpriteIndex": 20
                 }
             }
                 
@@ -397,13 +361,41 @@
                             "ItemID": "(O){{ModID}}_TeardropSpirits"
                         }
                     ],
-                    "MinutesUntilReady": 180,                
+                    "MinutesUntilReady": 180               
                 }
                      
             },
                "MoveEntries": [
                         {"Id": "sprinton.hurst.TeardropBerryToTeardropSpiritsOutput", "ToPosition": "Top"}
                 ] 
+        },
+         {
+            "LogName": "Terra Stone",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)Dehydrator",
+                "OutputRules"
+            ],
+            "Entries": {
+                "{{ModID}}_TerraStone": {
+                    "Id": "sprinton.hurst_TerraStone.TerraGourdToStoneOutput",
+                    "Triggers": [
+                        {
+                            "RequiredItemId": "(O){{ModID}}_TerraGourd",
+                            "RequiredCount": 5
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "ItemId": "(O)390",
+                            "MinStack": 25,
+                            "MaxStack": 25
+                        }
+                    ],
+                    "DaysUntilReady": 1
+                }
+            }
         }
     ]
 }

@@ -1,5 +1,6 @@
 {
   "ExcludeFromPerfection": "true",
   "EarlySpiritShopUnlock": "false",
-  "SwearFilter": "false"
+  "SwearFilter": "false",
+  "PortraitStyle": "MicrowaveFairy"
 }

@@ -21,7 +21,7 @@
             "Action": "Load",
             "Priority": "Low",
             "Target": "Portraits/WoodsmanHurst",
-            "FromFile": "assets/Portraits/{{TargetWithoutPath}}.png"
+            "FromFile": "assets/Portraits/{{PortraitStyle}}/{{TargetWithoutPath}}.png"
          },
          {
             "LogName": "Hurst Sprites",
@@ -124,9 +124,6 @@
        {
          "Name": "CraftBundlePool",
          "Value": "(O)16 (O)18 (O)20 (O)22 (O)396 (O)398 (O)402 (O)404 (O)406 (O)408 (O)410 (O)412 (O)414 (O)416 (O)418 (O)88 (O)90 (O)78 (O)420 (O)422",
-         "When": {
-            "HasFlag |contains=ccCraftsRoom" : false
-         }
        },
        {
          "Name": "CraftBundlePool",
@@ -138,9 +135,6 @@
        {
          "Name": "PantryBundlePool",
          "Value": "(O)24 (O)188 (O)190 (O)192 (O)256 (O)254 (O)258 (O)260 (O)270 (O)272 (O)276 (O)280 (O)613 (O)634 (O)635 (O)636 (O)637 (O)638",
-         "When": {
-            "HasFlag |contains=ccPantry" : false
-         }
        },
        {
          "Name": "PantryBundlePool",
@@ -152,9 +146,6 @@
        {
          "Name": "FishTankBundlePool",
          "Value": "(O)145 (O)143 (O)706 (O)699 (O)136 (O)142 (O)700 (O)698 (O)131 (O)130 (O)150 (O)701 (O)140 (O)132 (O)148 (O)718 (O)719 (O)723 (O)372 (O)128 (O)156 (O)164 (O)734", 
-         "When": {
-            "HasFlag |contains=ccFishTank" : false
-         }
        },
        {
          "Name": "FishTankBundlePool",
@@ -167,9 +158,6 @@
       {
          "Name": "BoilerBundlePool",
          "Value": "(O)334 (O)335 (O)336 (O)80 (O)82 (O)84 (O)86 (O)768 (O)769", 
-         "When": {
-            "HasFlag |contains=ccBoilerRoom" : false
-         }
        },
        {
          "Name": "BoilerBundlePool",
@@ -182,9 +170,6 @@
        {
          "Name": "BulletinBundlePool",
          "Value": "(O)724 (O)259 (O)376 (O)420 (O)397 (O)421 (O)62 (O)422 (O)392 (O)702 (O)536 (O)725 (O)348 (O)637", 
-         "When": {
-            "HasFlag |contains=ccBulletin" : false
-         }
        },
        {
          "Name": "BulletinBundlePool",
@@ -289,88 +274,127 @@
        {
          "Name": "FatherJoseph4HCrossover",
          "Value": "emote WoodsmanHurst 40 false",
-         "When": {"HasMod |contains=AvianRPG.TheGardenCottage": false}
        },
-       //Welcome to the home of my eternal suffering (If you're reading this Nova, I blame you for inspiring this idea (joking))
-       {
-         "Name": "SpiritWalk_BearFamSetup",
-         "Value": "MadDog.HashtagBearFam.Sigurd? 999 999 2 MadDog.HashtagBearFam.Sonda? 999 999 2"
-       },
-       {
-         "Name": "SpiritWalk_BearFamSetup",
-         "Value": "MadDog.HashtagBearFam.Sigurd? 999 999 2 MadDog.HashtagBearFam.Sonda? 999 999 2 MadDog.HashtagBearFam.Gunnar? 999 999 2 MadDog.HashtagBearFam.Gudrun? 999 999 2",
-         "When": {"HasFlag |contains=BearFamExtraMembers": true}
-       },
-       {
-         "Name": "SpiritWalk_TownSetup",
-         "Value": "/warp MadDog.HashtagBearFam.Sigurd? 50 15/warp MadDog.HashtagBearFam.Sonda? 51 51/warp MadDog.HashtagBearFam.Gunnar? 53 12/warp MadDog.HastagBearFam.Gudrun? 54 14/warp RodneyOBrien? 61 39/warp DaleWaede 55 36/warp Jacob 31 32/warp Eloise 32 32/warp Jessie 37 52/warp Jasper 50 51/warp Nora? 42 49/warp Otter.Cambria? 25 57/warp Aideen 16 51/warp ToriLK 9 62/warp Jade 7 68/warp Rosa 20 102/warp Juliet 21 102/warp Nova.Eli? 45 110/warp Nova.Dylan? 46 10/warp JosephineK? 30 102/warp OliverK? 31 102/warp Val? 43 88/warp Hector? 44 88/warp Coriander? 45 88/warp Dandelion? 46 88/warp Roslin? 46 88/warp AidaSaura? 54 85/warp MaggieSaura? 56 85/warp Beatrice 70 118/warp FatherJoseph? 70 119/warp EdithHart 61 113/warp MichaelHart 62 113/warp EthanHart 63 113/warp Daine.TPOChoice_Dahlia? 46 130/"
-       },
-       {
-         "Name": "SpiritWalk_Aliyah",
-         "Value": "warp Daine.TPOChoice_Aliyah 29 38/faceDirection Daine.TPOChoice_Aliyah 2/viewport 27 44 true/fade false/advancedMove farmer false 0 1 3 0 1 10/advancedMove WoodsmanHurst false 0 1 3 0 1 10/advancedMove Daine.TPOChoice_Aliyah false 0 6 2 10/waitForAllStationary/emote WoodsmanHurst 32/speak WoodsmanHurst \"Greetings! Does your day go well?$1\"/speak Daine.TPOChoice_Aliyah \"Quite well. I see you two are enjoying a walk together.\"/quickQuestion #It's quite a nice day!#What's that storm behind you??(break)speak Daine.TPOChoice_Aliyah \"It is indeed.$1\"\\speak WoodsmanHurst \"A beautiful day calls for enjoying the outdoors, does it not?$1\"(break)speak Daine.TPOChoice_Aliyah \"A storm?\"\\emote WoodsmanHurst 32\\speak WoodsmanHurst \"You will understand more later, @. Please excuse us.$3\"/emote Daine.TPOChoice_Aliyah 32",
-         "When": {"HasMod |contains=Daine.TPOChoice": true}
-        },
+       //Welcome to the home of my eternal suffering (If you're reading this Nova, I blame ***you*** for this /j)
         {
          "Name": "SpiritWalk_Aliyah", 
-         "Value": "viewport 27 44 true/fade false/advancedMove farmer false 0 1 3 0 1 10/advancedMove WoodsmanHurst false 0 1 3 0 1 10/waitForAllStationary/emote WoodsmanHurst 32/speak WoodsmanHurst \"I must warn you. When we encounter the townsfolk, you will be in for a shock.$0\"/emote farmer 8 false/quickQuestion #What do you mean?#Am I in danger?(break)speak WoodsmanHurst \"Just try to remember everything you see. It will be important.$1\"(break)speak WoodsmanHurst \"I would rather die than put you in any danger. I swear by the life of Ward.\"/screenFlash 1/warp JunimoWard 30 44/speak JunimoWard \"He means it! You're going to have fun today!$1\"/emote farmer 32 false/",
-         "When": {"HasMod |contains=Daine.TPOChoice": false}
+         "Value": "/changeLocation EastScarp_Village",
         },
-       {
-         "Name": "SpiritWalk_BearFam",
-         "Value": ""
+        {
+         "Name": "SpiritWalk_Aliyah", //Aliyah appears if she's installed
+         "Value": "warp Daine.TPOChoice_Aliyah 29 49/faceDirection Daine.TPOChoice_Aliyah 2/viewport 29 49 true/fade false/advancedMove farmer false 0 1 3 0 1 10/advancedMove WoodsmanHurst false 0 1 3 0 1 10/advancedMove Daine.TPOChoice_Aliyah false 0 -4 3 10/waitForAllStationary/emote WoodsmanHurst 32/speak WoodsmanHurst \"Greetings! Does your day go well?$1\"/speak Daine.TPOChoice_Aliyah \"Quite well. I see you two are enjoying a walk together.\"/quickQuestion #It's quite a nice day!#What's that storm behind you??(break)speak Daine.TPOChoice_Aliyah \"It is indeed.$1\"\\speak WoodsmanHurst \"A beautiful day calls for enjoying the outdoors, does it not?$1\"(break)speak Daine.TPOChoice_Aliyah \"A storm?\"\\emote WoodsmanHurst 32\\speak WoodsmanHurst \"You will understand more later, @. Please excuse us.$3\"/emote Daine.TPOChoice_Aliyah 32/advancedMove Daine.TPOChoice_Aliyah false 0 -5 2 10/advancedMove WoodsmanHurst false 2 0 0 6 2 10/advancedMove farmer false 2 0 0 6 2 10/waitForAllStationary/fade/viewport -1000 -1000/changeLocation EastScarp_Village",
+         "When": {"HasMod |contains=Daine.TPOChoice": true}
+        },
+         {
+         "Name": "SpiritWalk_BearFam", //Bearfam is replaced by conversation with Hurst
+         "Value": "/advancedMove WoodsmanHurst false 0 2 -10 0 0 10 0 2 3 0 2 100/advancedMove farmer false 0 2 -10 0 0 11 -1 0 0 3 2 0 2 10/pause 5000/viewport move -3 3 2000/speak WoodsmanHurst \"I truly love the beauty of this town. The people and the land itself are quite wonderful.$1\"/pause 250/quickQuestion #I think so too.#Do you ever miss Mistgrove?#You seem talkative today.(break)speak WoodsmanHurst \"I am glad to know you feel the same.$1\"(break)speak WoodsmanHurst \"On occasion. I miss the nature. To be truthful, I do not miss my old duties. I much prefer the peacefulness of the Scarp.$1#$b#Even if some of the residents are...strange.$7\"(break)speak WoodsmanHurst \"Merely trying to have a conversation, my friend.$1\"/waitForAllStationary/speak WoodsmanHurst \"I sometimes think about what would have happened if I had never arrived here.$0#$b#Would I have remained Watcher? Would I have given up my title for my failure? What would I have become without your help?$2\"",
        },
        {
+         "Name": "SpiritWalk_BearFam", //Sondra and Sig
+         "Value": "/beginSimultaneousCommand/warp MadDog.HashtagBearFam.Sigurd 50 15/warp MadDog.HashtagBearFam.Sondra 51 15/endSimultaneousCommand/advancedMove WoodsmanHurst false 0 2 -10 0 0 10 3 10/advancedMove farmer false 0 2 -10 0 0 11 -1 0 3 10/pause 1000/viewport move -3 3 2000/speak WoodsmanHurst \"I have started to forage with Linus. He is quite skilled at it. He has even taught me some things I did not know.$1\"/emote farmer 16 false/pause 250/speak WoodsmanHurst \"I am doing what I should have done upon arriving in the town. I am starting to connect with the people.$1\"/waitForAllStationary/faceDirection MadDog.HashtagBearFam.Sondra 1 true/faceDirection MadDog.HashtagBearFam.Sigurd 1 false/speak MadDog.HashtagBearFam.Sondra \"Hello there! How are you two doing today?$1\"/emote WoodsmanHurst 32 false/speak WoodsmanHurst \"Quite well.$1\"/speak MadDog.HashtagBearFam.Sigurd \"You two out on a walk?\"/emote farmer 32 true/emote WoodsmanHurst 32 false/pause 250/speak WoodsmanHurst \"I must thank you again for the other night. The meal was phenomenal.\"/speak MadDog.HashtagBearFam.Sondra \"We're glad you finally took us up on the offer!$1\"/emote WoodsmanHurst 32 true/emote farmer 32 false/speak WoodsmanHurst \"I shall have to return the favor sometime. Unfortunately I do not have much cooking ability, so somethign else will have to suffice.$1\"/emote MadDog.HashtagBearFam.Sondra 32 true/faceDirection WoodsmanHurst 2 true/faceDirection farmer 2 false/faceDirection MadDog.HashtagBearFam.Sondra 2 true/faceDirection MadDog.HashtagBearFam.Sigurd 2 false/advancedMove farmer false 0 2 3 0 2 10/advancedMove WoodsmanHurst false 0 3 2 0 2 10/waitForAllStationary",
+         "When": {"HasMod |contains=MadDog.HashtagBearFam": true}
+       },
+       {
+        "Name": "SpiritWalk_BearFam", //Sondra, Sig, Gudrun, Gunnar
+        "Value": "/beginSimultaneousCommand/warp MadDog.HashtagBearFam.Sigurd 50 15/warp MadDog.HashtagBearFam.Sondra 51 15/warp MadDog.HashtagBearFam.Gunnar 53 12/warp MadDog.HashtagBearFam.Gudrun 54 14/endSimultaneousCommand/advancedMove WoodsmanHurst false 0 2 -10 0 0 10 3 10/advancedMove farmer false 0 2 -10 0 0 11 -1 0 3 10/pause 700/viewport move -3 3 2000/animate MadDog.HashtagBearFam.Gunnar false true 300 16 17 18 19 20 21/animate MadDog.HashtagBearFam.Gudrun false true 250 34 33 33 33 33 33 34/speak WoodsmanHurst \"I have started to forage with Linus. He is quite skilled at it. He has even taught me some things I did not know.$1\"/emote farmer 16 false/pause 250/speak WoodsmanHurst \"I am doing what I should have done upon arriving in the town. I am starting to connect with the people.$1\"/waitForAllStationary/faceDirection MadDog.HashtagBearFam.Sondra 1 true/faceDirection MadDog.HashtagBearFam.Sigurd 1 false/speak MadDog.HashtagBearFam.Sondra \"Hello there! How are you two doing today?$1\"/emote WoodsmanHurst 32 false/faceDirection WoodsmanHurst 3 true/faceDirection farmer 3 false/speak WoodsmanHurst \"Quite well.$1\"/speak MadDog.HashtagBearFam.Sigurd \"You two out on a walk?$8\"/emote farmer 32 false/pause 500/emote MadDog.HashtagBearFam.Gudrun 16 false/speak MadDog.HashtagBearFam.Gudrun \"Hurst! Did you do what I asked?$14\"/speak WoodsmanHurst \"Yes. I believe they enjoyed such a request.$3\"/emote farmer 8 true/emote MadDog.HashtagBearFam.Gudrun 32 false/speak MadDog.HashtagBearFam.Gunnar \"Hurst! Did you manage to find the stuff I asked about?$1\"/speak WoodsmanHurst \"I did. I will bring it to you soon. I promise.$0\"/emote farmer 8 true/emote MadDog.HashtagBearFam.Sondra 8 false/faceDirection MadDog.HashtagBearFam.Sondra 1 false/speak MadDog.HashtagBearFam.Sigurd \"Have you two been bugging Hurst for stuff?$9\"/emote WoodsmanHurst 32 false/speak WoodsmanHurst \"Just a few small requests. Nothing difficult for me. I enjoy being able to help.$1\"/pause 250/speak MadDog.HashtagBearFam.Sondra \"Well as long as you don't mind...$1\"/emote WoodsmanHurst 32 true/emote farmer 32 true/pause 200/speak MadDog.HashtagBearFam.Sigurd \"What'd you do for Gudrun?$11\"/pause 200/faceDirection farmer 0/faceDirection MadDog.HashtagBearFam.Sondra 1/speak WoodsmanHurst \"I asked the spirits to play a small...prank. On the creature Morris.$1\"/emote MadDog.HashtagBearFam.Sondra 16 false/speak MadDog.HashtagBearFam.Gudrun \"Nothing dangerous! Just tying his shoes together or something! It's only fair after what he dumped in the river last week!$6\"/emote WoodsmanHurst 32 false/speak WoodsmanHurst \"Yes. Nothing dangerous...$0\"/faceDirection WoodsmanHurst 2 true/faceDirection farmer 2 true/faceDirection MadDog.HashtagBearFam.Sondra 2 true/faceDirection MadDog.HashtagBearFam.Sigurd 2 false/advancedMove farmer false 0 2 3 0 2 10/advancedMove WoodsmanHurst false 0 3 2 0 2 10/waitForAllStationary",
+        "When": {
+          "HasMod |contains=MadDog.HashtagBearFam": true,
+          "HasFlag |contains=BearFamExtraMembers": true
+        }
+        },
+        {
+        "Name": "SpiritWalk_BearFam", //Sondra, Sig, Gudrun, Gunnar, Teren WHY WONT TEREN SHOW UPPP GRAHHHHHHH
+        "Value": "/beginSimultaneousCommand/warp MadDog.HashtagBearFam.Sigurd 51 15/warp MadDog.HashtagBearFam.Sondra 52 15/warp MadDog.HashtagBearFam.Gunnar 53 12/warp MadDog.HashtagBearFam.Gudrun 54 14/warp MadDog.HashtagBearFam.Teren 50 15/endSimultaneousCommand/advancedMove WoodsmanHurst false 0 2 -10 0 0 10 3 10/advancedMove farmer false 0 2 -10 0 0 11 -1 0 3 10/pause 700/viewport move -3 3 2000/animate MadDog.HashtagBearFam.Gunnar false true 300 16 17 18 19 20 21/animate MadDog.HashtagBearFam.Gudrun false true 250 34 33 33 33 33 33 34/speak WoodsmanHurst \"I have started to forage with Linus. He is quite skilled at it. He has even taught me some things I did not know.$1\"/emote farmer 16 false/pause 250/speak WoodsmanHurst \"I am doing what I should have done upon arriving in the town. I am starting to connect with the people.$1\"/waitForAllStationary/faceDirection MadDog.HashtagBearFam.Sondra 1 true/faceDirection MadDog.HashtagBearFam.Sigurd 1 true/faceDirection MadDog.HashtagBearFam.Teren 1 false/speak MadDog.HashtagBearFam.Sondra \"Hello there! How are you two doing today?$1\"/emote WoodsmanHurst 32 false/faceDirection WoodsmanHurst 3 true/faceDirection farmer 3 false/speak WoodsmanHurst \"Quite well.$1\"/speak MadDog.HashtagBearFam.Sigurd \"You two out on a walk?$8\"/emote farmer 32 false/pause 500/emote MadDog.HashtagBearFam.Gudrun 16 false/speak MadDog.HashtagBearFam.Gudrun \"Hurst! Did you do what I asked?$14\"/speak WoodsmanHurst \"Yes. I believe they enjoyed such a request.$3\"/emote farmer 8 true/emote MadDog.HashtagBearFam.Gudrun 32 false/speak MadDog.HashtagBearFam.Gunnar \"Hurst! Did you manage to find the stuff I asked about?$1\"/speak WoodsmanHurst \"I did. I will bring it to you soon. I promise.$0\"/emote farmer 8 true/emote MadDog.HashtagBearFam.Teren 16 false/speak MadDog.HashtagBearFam.Teren \"Aw Hurst, where's my present?$1\"/emote WoodsmanHurst 28 false/speak WoodsmanHurst \"I fear I cannot recall what you requested of me. You have my sincerest apologies.$2\"/emote MadDog.HashtagBearFam.Teren 60 false/pause 200/speak MadDog.HashtagBearFam.Sigurd \"Ignore him, he's just pulling your leg.$9\"/emote WoodsmanHurst 8 false/speak WoodsmanHurst \"How is he able to pull my leg from such a distance? His arms are of normal length?$7\"/emote farmer 28 false/speak MadDog.HashtagBearFam.Sondra \"It's just a figure of speech. He's not actually pulling your leg.$6\"/emote WoodsmanHurst 40 false/pause 200/message \"Hurst starts muttering to himself.\"/speak WoodsmanHurst \"...yet my leg remains stationary...\"/emote MadDog.HashtagBearFam.Sondra 28 true/emote MadDog.HashtagBearFam.Sigurd 28 true/emote MadDog.HashtagBearFam.Teren 32 false/faceDirection MadDog.HashtagBearFam.Sondra 2 true/faceDirection MadDog.HashtagBearFam.Teren 2 true/faceDirection MadDog.HashtagBearFam.Sigurd 2 false/advancedMove farmer false 0 2 3 0 2 10/advancedMove WoodsmanHurst false 0 3 2 0 2 10/waitForAllStationary",
+        "When": {
+          "HasMod |contains=MadDog.HashtagBearFam": true,
+          "HasFlag |contains=TerenMysteryMail": true
+        }
+        },
+        {
          "Name": "SpiritWalk_Rodney",
-         "Value": ""
-       },
-       {
+         "Value": "pause 250/quickQuestion Hurst looks toward Jacob and Eloise...#Is something wrong?#What are you looking at?#Did Jacob do something?(break)speak WoodsmanHurst \"Thankfully not. I check the spirits around Eloise whenever I see her. A demon took notice of her. Such things can leave...marks.$2\"(break)speak WoodsmanHurst \"I routinely check on the spirits about Eloise. She was nearly abducted by a demon in the past. I want to ensure she is safe now.$1\"(break)speak WoodsmanHurst \"Not at all. I merely wish to ensure Eloise is doing well. A demon... tried to attack her. I stopped it, but I worry such a thing would leave scars.$2\"/emote farmer 32 false/question null \"#Demons in East Scarp?#You still do that?\"/speak WoodsmanHurst \"Demons here are rare. I have only encountered the one. I believe the presence of so many gods and apostles scares them away.$1\"",
+        },
+        {
+         "Name": "SpiritWalk_Rodney",
+         "Value": "pause 250/speak RodneyOBrien \"There you are!$4\"/emote farmer 8 false/pause 250/question null \"#What's up?#Is everything ok?\"/emote RodneyOBrien 8 false/pause 250/speak RodneyOBrien \"Hurst was telling me about a new way to read the tarot!$1\"/pause 250/speak WoodsmanHurst \"I merely spoke of the spirits occasionally gifting me with knowledge.$3\"/emote RodneyOBrien 32 false/speak RodneyOBrien \"We should talk some more! I've been considering which arcana you'd fit into.$3\"/emote WoodsmanHurst 32 false/pause 250/speak WoodsmanHurst \"I shall visit you another time to discuss then.$1\"/emote RodneyOBrien 32 true/emote WoodsmanHurst 32 false",
+         "When": {"HasMod |contains=TheFrenchDodo.RodneyOBrien": true}
+        },
+        {
+          "Name": "SpiritWalk_Nora",
+          "Value": "/quickQuestion Hurst waves towards Jessie and Jasper...#You've spoken to Jasper?#You're friendly with Jessie now!\"(break)speak WoodsmanHurst \"I have. He is quite a fascinating man. I find his interest in the gods of the mountains quite intriguing. I hope he does not put himself in danger trying to discover them.$3\"(break)speak WoodsmanHurst \"We have come to an arrangement. I bring her whatever plants and herbs she requires and she teaches me their uses. It is quite a beneficial relationship.$1\"/faceDirection WoodsmanHurst 1 true/faceDirection farmer 3 false/speak WoodsmanHurst \"I have done what I believe is right. I offered apologies to all the townsfolk for my... standoffishness.$2\"/emote farmer 32 false/"
+          //Jasper Dialogue changes based on if you've seen his Injured event or not
+        },
+        {
          "Name": "SpiritWalk_Nora",
-         "Value": ""
-       },
-       {
-         "Name": "SpiritWalk_EnD",
-         "Value": ""
-       },
-       {
-         "Name": "SpiritWalk_SnS",
-         "Value": ""
-       },
-       {
-         "Name": "SpiritWalk_FatherJoseph",
-         "Value": ""
-       },
-       {
-         "Name": "SpiritWalk_Dahlia",
-         "Value": ""
+         "Value": "/advancedMove Nora false 0 -6 4 10/pause 2000/emote WoodsmanHurst 16 true/emote Nora 32 false/waitForAllStationary/emote WoodsmanHurst 32 false/pause 250/message \"Hurst makes several guestures with his hands, causing Nora's eyes to light up in delight. She responds in kind.\"/pause 250/emote farmer 8 false/quickQuestion #Hurst, you know sign language?#Where'd you learn sign language?#Have you always known how to do that?(break)speak WoodsmanHurst \"I learned it after Nora informed me of it. It is proper for one to speak to others in the form they prefer.$1\"(break)speak Nora \"I gave him a couple tips on how to learn recently! I'm surprised he's gotten so good at it so quick.$3\"(break)speak WoodsmanHurst \"I learned it rather recently. Such a language is far easier to grasp than the language of the gods.$3\"/pause 250/message \"Hurst and Nora continue speaking in sign language. A few minutes later, they put their hands down and nod to each other.\"/speak WoodsmanHurst \"My apologies if I caused you to feel bored, I was speaking with Nora about the strange lizards I have seen within Mistgrove.$1\"/emote Nora 32 false/pause 250/speak Nora \"If you ever go back you should take a picture! I'd love to see if I can track down what family they'd belong to!$4\"/emote farmer 32 false/advancedMove Nora false -1 0 0 -5 2 10",
+         "When": {"HasMod |contains=Bagi.Nora.CP": true}
        },
        {
          "Name": "SpiritWalk_Cambria",
          "Value": ""
-       }
+       },
+       {
+        "Name": "SpiritWalk_Cambria",
+        "Value": "/pause 3000/advancedMove Otter.Cambria false 7 0 1 10/pause 1000/emote Otter.Cambria 16 false/waitForAllStationary/speak Otter.Cambria? \"I too am in this episode!$8\"/emote WoodsmanHurst 32 true/emote farmer 32 false/message \"Hurst leans over to whisper in your ear...\"/speak WoodsmanHurst \"They often cloak themselves from me, do you see Orchid nearby?$2\"/quickQuestion #Yes.#No.(break)speak WoodsmanHurst \"May the spirits preserve me.$2\"(break)speak WoodsmanHurst \"Thank the gods themselves.$1\"/emote Otter.Cambria 8 false/speak WoodsmanHurst \"Cambria! Did you find the gift I left for you?$1\"/pause 250/speak Otter.Cambria \"I did! Thanks!$1#$b#How'd you get your hands on a Void Salmon though? I thought you couldn't swim?$1\"/speak WoodsmanHurst \"I had assistance from Ward. They are quite proficient at swimming.$1\"/emote Otter.Cambria 32 false/quickQuestion #How's Orchid doing?#Did you get your hands on any weird Void food recently?(break)emote WoodsmanHurst 28 false\\speak Otter.Cambria \"I don't know where she keeps getting these knives. I've found *seven* this week.$2\"(break)speak Otter.Cambria \"I've got a few! I'll share the recipe with you if you want!$1\"\\emote farmer 28 true\\emote WoodsmanHurst 28 true\\emote Otter.Cambria 32 true/pause 250/advancedMove Otter.Cambria false 0 -1 11 0 0 2 2 10/",
+        "When": {"HasMod |contains=Squeaks.MGC.CP": true}
+       },
+       {
+        "Name": "SpiritWalk_Bill",
+        "Value": "/faceDirection MV.Municipal_SheriffBill 0 false/speak MV.Municipal_SheriffBill \"'Scuse me, have ya seen that Hurst fella anywhere?$9\"/speak ToriLK \"Hurst? He and the farmer are right up the road.$0\"/speak MV.Municipal_SheriffBill \"Is that so? Thank you.$1\"/advancedMove MV.Municipal_SheriffBill false 4 0 0 -5 4 10/waitForAllStationary/emote WoodsmanHurst 8 false/speak WoodsmanHurst \"Greetings Sheriff. Have I caused some offense?$7\"/emote farmer 28 false/pause 250/speak MV.Municipal_SheriffBill \"Ras was tellin' me ya were up to somethin' weird today. Just wanted to keep an eye out. Make sure nothin' dangerous was goin' on.$10\"/speak WoodsmanHurst \"I swear I would not willingly put anyone in danger.$3\"/pause 250/quickQuestion Bill glances towards you...#He's just showing me something.#Hurst casted some weird spell on me, and now I can see the stuff he sees.#He means it. He wouldn't put anyone in danger.(break)speak MV.Municipal_SheriffBill \"As long as ye ain't puttin' anyone in danger.$11\"(break)speak WoodsmanHurst \"That is the truth.$3\"\\speak MV.Municipal_SheriffBill \"That don't seem to be dangerous.$0\"(break)speak MV.Municipal_SheriffBill \"I know that. I just worry he was messin' with stuff he ain't too used too.$2#$b#If you're safe, that's good enough for me.$1\"/speak MV.Municipal_SheriffBill \"Well as long as you two are bein' safe, can't say I have any issues.$1\"/emote farmer 32 false"
+       },
+       {
+         "Name": "SpiritWalk_EnD",
+         "Value": "/warp Nova.Eli? 45 110/warp Nova.Dylan? 46 110"
+       },
+       {
+         "Name": "SpiritWalk_SnS",
+         "Value": "/warp Val? 43 88/warp Hector? 44 88/warp Coriander? 45 88/warp Dandelion? 46 88/warp Roslin? 46 88"
+       },
+       {
+         "Name": "SpiritWalk_FatherJoseph",
+         "Value": "/warp FatherJoseph? 70 119"
+       },
+       {
+         "Name": "SpiritWalk_Dahlia",
+         "Value": "/warp Daine.TPOChoice_Dahlia? 46 130"
+       },
+      
+       {
+        "Name": "SpiritWalk_CITV",
+        "Value": "/warp AidaSaura? 54 85/warp MaggieSaura? 56 85"
+       },
+       
      
     ],
     "ConfigSchema":
     {
       "ExcludeFromPerfection": {
          "AllowValues": "true, false",
-         "Default": "true",
-         "AllowBlank": "false",
+         "Default": true,
+         "AllowBlank": false,
          "Description": "Exclude Ward and Hurst from perfection",
          "Section": "General"
       },
       "EarlySpiritShopUnlock": {
          "AllowValues": "true, false",
-         "Default": "false",
-         "AllowBlank": "false",
+         "Default": false,
+         "AllowBlank": false,
          "Description": "Open the shop in Hurst's clearing after seeing his intro event instead of 6 Heart",
          "Section": "General"
       },
       "SwearFilter": {
          "AllowValues": "true, false",
-         "Default": "false",
-         "AllowBlank": "false",
+         "Default": false,
+         "AllowBlank": false,
          "Description": "Replace Explicit language with non-explicit language",
          "Section": "General"
+      },
+      "PortraitStyle": {
+        "AllowValues": "MicrowaveFairy, HeartOfFlowers",
+        "Default": "MicrowaveFairy",
+        "AllowBlank": false,
+        "Description": "Set the style of Hurst's portraits to MicrowaveFairy or HeartOfFlowers",
+        "Section": "General"
       }
     },
     
