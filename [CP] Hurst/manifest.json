@@ -1,37 +1,36 @@
 {
-    "Name":"Woodsman Hurst",
-    "Author":"Sprinton",
-    "Version":"1.2.0-alpha",
-    "Description":"Adds a simple Woodsman to the game",
-    "UniqueID":"sprinton.hurst",
-    "UpdateKeys":["Nexus:28800"],
-    "ContentPackFor":{
-        "UniqueID": "Pathoschild.ContentPatcher"
+  "Name": "Woodsman Hurst",
+  "Author": "Sprinton",
+  "Version": "1.2.0-alpha",
+  "Description": "Adds a simple Woodsman to the game",
+  "UniqueID": "sprinton.hurst",
+  "UpdateKeys": ["Nexus:28800"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "DH.MEEP": "2.0.0",
+  "DH.MEEP.CloseupInteractions": "",
+  "DH.MEEP.VanillaLetters": "",
+  "Dependencies": [
+    {
+      "UniqueID": "Lemurkat.EastScarp",
+      "IsRequired": true
     },
-    "DH.MEEP": "2.0.0",
-    "DH.MEEP.CloseupInteractions": "",
-    "DH.MEEP.VanillaLetters": "",
-    "Dependencies": [
-         {
-            "UniqueID": "Lemurkat.EastScarp",
-            "IsRequired": true
-        },
-        {
-            "UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties",
-            "IsRequired": true
-        },
-        {
-            "UniqueID": "spacechase0.SpaceCore",
-            "IsRequired": true
-        },
-        {
-            "UniqueID": "mushymato.MMAP",
-            "IsRequired": true
-        },
-        {
-            "UniqueID": "Spiderbuttons.BETAS",
-            "IsRequired": true
-        }
-        
-    ]
+    {
+      "UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "mushymato.MMAP",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Spiderbuttons.BETAS",
+      "IsRequired": true
+    }
+  ]
 }

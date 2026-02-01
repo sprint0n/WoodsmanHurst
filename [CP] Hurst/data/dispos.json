@@ -1,120 +1,115 @@
 {
-    "Changes": [
-        {
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "Entries": {
-                "WoodsmanHurst":{
-                    "DisplayName": "{{i18n:WoodsmanHurst.DisplayName}}",
-                    "Gender": "Male",
-                    "Age": "Adult",
-                    "Manner": "Neutral",
-                    "SocialAnxiety": "Shy",
-                    "Optimism": "Positive",
-                    "BirthSeason": "Fall",
-                    "BirthDay": "28",
-                    "HomeRegion": "Town",
-                    "CanBeRomanced": "{{HurstRomanceStatus}}",
-                    "CanVisitIsland": false,
-                    "IntroductionsQuest": false,
-                    "ItemDeliveryQuests": "{{HurstSocialStatus}}",
-                    "WinterStarParticipant": "{{HurstSocialStatus}}",
-                    "FlowerDanceCanDance": "{{HurstSocialStatus}}",
-                    "CanReceiveGifts": true,
-                    "SpawnIfMissing": true,
-                    "CanGreetNearbyCharacters": "{{HurstSocialStatus}}",
-                    "PerfectionScore": "{{ExcludeFromPerfection}}",
-                    "CanCommentOnPurchasedShopItems": false,
-                    "DumpsterDiveEmote": 40,
-                    "DumpsterDiveFriendshipEffect": 0,
-                    "Home": [
-                        {
-                            "Id": "Default",
-                            "Location": "{{ModID}}_HurstsClearing",
-                            "Tile":{
-                                "X": 22,
-                                "Y": 10
-                            },
-                            "Direction": "down"
-                        }
-                    ],
-                    "Appearance": [
-                        {
-                            "Id": "DefaultHurst",
-                            "Portrait": "Portraits/WoodsmanHurst",
-                            "Sprite": "Characters/WoodsmanHurst"
-                        }
-                    ],
-                    
-                    "HiddenProfileEmoteSound": "junimoMeep1",
-                    "HiddenProfileEmoteDuration": -1,
-                    "HiddenProfileEmoteStartFrame": 60,
-                    "HiddenProfileEmoteFrameCount": 7,
-                    "HiddenProfileEmoteFrameDuration": 200.0
-                    
-                }
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "WoodsmanHurst": {
+          "DisplayName": "{{i18n:WoodsmanHurst.DisplayName}}",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Neutral",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Positive",
+          "BirthSeason": "Fall",
+          "BirthDay": "28",
+          "HomeRegion": "Town",
+          "CanBeRomanced": "{{HurstRomanceStatus}}",
+          "CanVisitIsland": false,
+          "IntroductionsQuest": false,
+          "ItemDeliveryQuests": "{{HurstSocialStatus}}",
+          "WinterStarParticipant": "{{HurstSocialStatus}}",
+          "FlowerDanceCanDance": "{{HurstSocialStatus}}",
+          "CanReceiveGifts": true,
+          "SpawnIfMissing": true,
+          "CanGreetNearbyCharacters": "{{HurstSocialStatus}}",
+          "PerfectionScore": "{{ExcludeFromPerfection}}",
+          "CanCommentOnPurchasedShopItems": false,
+          "DumpsterDiveEmote": 40,
+          "DumpsterDiveFriendshipEffect": 0,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "{{ModID}}_HurstsClearing",
+              "Tile": {
+                "X": 22,
+                "Y": 10
+              },
+              "Direction": "down"
             }
-        },
-        
-        {
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "Entries": {
-                "JunimoWard":{
-                    "DisplayName": "{{i18n:JunimoWard.DisplayName}}",
-                    "Gender": "Undefined",
-                    "CanSocialize": false,
-                    "Age": "Child",
-                    "Manner": "Polite",
-                    "SocialAnxiety": "Outgoing",
-                    "Optimism": "Positive",
-                    "HomeRegion": "Other",
-                    "CanBeRomanced": false,
-                    "CanVisitIsland": false,
-                    "Calendar": "HiddenUntilMet",
-                    "SocialTab": "HiddenUntilMet",
-                    "IntroductionsQuest": false,
-                    "HiddenUntilMet": true,
-                    "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Any sprinton.hurst.Hurst8H.P1",
-                    "WinterStarParticipant": false,
-                    "SpawnIfMissing": true,
-                    "CanCommentOnPurchasedShopItems": false,
-                    "CanGreetNearbyCharacters": false,
-                    "ItemDeliveryQuests": false,
-                    "CanReceiveGifts": false,
-                    "PerfectionScore": "{{ExcludeFromPerfection}}",
-                    "DumpsterDiveEmote": 8,
-                    "DumpsterDiveFriendshipEffect": 0,
-                    "Home": [
-                        {
+          ],
+          "Appearance": [
+            {
+              "Id": "DefaultHurst",
+              "Portrait": "Portraits/WoodsmanHurst",
+              "Sprite": "Characters/WoodsmanHurst"
+            }
+          ],
 
-                            "Id": "Default",
-                            "Condition": null,
-                            "Location": "{{ModID}}_HurstsClearing",
-                            "Tile":{
-                                "X": 23,
-                                "Y": 10
-                            },
-                            "Direction": "Down"
-                        }
-                      
-                    ],
-                    "Appearance": [
-                        {
-                            "Id": "DefaultWard",
-                            "Portrait": "Portraits/JunimoWard",
-                            "Sprite": "Characters/JunimoWard"
-                        }
-                    ],
-                    "HiddenProfileEmoteSound": "junimoMeep1",
-                    "HiddenProfileEmoteDuration": -1,
-                    "HiddenProfileEmoteStartFrame": 28,
-                    "HiddenProfileEmoteFrameCount": 7,
-                    "HiddenProfileEmoteFrameDuration": 200.0
-                }
-            }
-           
+          "HiddenProfileEmoteSound": "junimoMeep1",
+          "HiddenProfileEmoteDuration": -1,
+          "HiddenProfileEmoteStartFrame": 60,
+          "HiddenProfileEmoteFrameCount": 7,
+          "HiddenProfileEmoteFrameDuration": 200.0
         }
-        
-    ]   
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "JunimoWard": {
+          "DisplayName": "{{i18n:JunimoWard.DisplayName}}",
+          "Gender": "Undefined",
+          "CanSocialize": false,
+          "Age": "Child",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "HomeRegion": "Other",
+          "CanBeRomanced": false,
+          "CanVisitIsland": false,
+          "Calendar": "HiddenUntilMet",
+          "SocialTab": "HiddenUntilMet",
+          "IntroductionsQuest": false,
+          "HiddenUntilMet": true,
+          "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Any sprinton.hurst.Hurst8H.P1",
+          "WinterStarParticipant": false,
+          "SpawnIfMissing": true,
+          "CanCommentOnPurchasedShopItems": false,
+          "CanGreetNearbyCharacters": false,
+          "ItemDeliveryQuests": false,
+          "CanReceiveGifts": false,
+          "PerfectionScore": "{{ExcludeFromPerfection}}",
+          "DumpsterDiveEmote": 8,
+          "DumpsterDiveFriendshipEffect": 0,
+          "Home": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Location": "{{ModID}}_HurstsClearing",
+              "Tile": {
+                "X": 23,
+                "Y": 10
+              },
+              "Direction": "Down"
+            }
+          ],
+          "Appearance": [
+            {
+              "Id": "DefaultWard",
+              "Portrait": "Portraits/JunimoWard",
+              "Sprite": "Characters/JunimoWard"
+            }
+          ],
+          "HiddenProfileEmoteSound": "junimoMeep1",
+          "HiddenProfileEmoteDuration": -1,
+          "HiddenProfileEmoteStartFrame": 28,
+          "HiddenProfileEmoteFrameCount": 7,
+          "HiddenProfileEmoteFrameDuration": 200.0
+        }
+      }
+    }
+  ]
 }

@@ -1,61 +1,60 @@
 {
-    "Changes":[
+  "Changes": [
+    {
+      "LogName": "Hurst Letterhead",
+      "Action": "Load",
+      "Target": "Mods/sprinton.hurst.CP/LetterBackgrounds",
+      "FromFile": "assets/images/HurstLetterhead.png"
+    },
+    {
+      "LogName": "MEEP-Letterhead",
+      "Action": "Load",
+      "Target": "Mods/sprinton.hurst.CP/MEEP.HurstLetterhead",
+      "FromFile": "assets/images/HurstLetterhead.png"
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModID}}_HurstsClearing",
+      "When": { "HasSeenEvent |contains=sprinton.hurst.Hurst4H": true },
+      "Priority": "Late",
+      "MapTiles": [
         {
-            "LogName": "Hurst Letterhead",
-            "Action": "Load",
-            "Target": "Mods/sprinton.hurst.CP/LetterBackgrounds",
-            "FromFile": "assets/images/HurstLetterhead.png"
-           },
-           {
-            "LogName": "MEEP-Letterhead",
-            "Action": "Load",
-            "Target": "Mods/sprinton.hurst.CP/MEEP.HurstLetterhead",
-            "FromFile": "assets/images/HurstLetterhead.png"
-           },
-           {
-            "Action": "EditMap",
-            "Target": "Maps/{{ModID}}_HurstsClearing",
-            "When": {"HasSeenEvent |contains=sprinton.hurst.Hurst4H": true},
-            "Priority": "Late",
-            "MapTiles": [
-                {
-                    "Position":{
-                        "X": 15,
-                        "Y": 6
-                    },
-                "Layer": "Buildings",
-                "SetProperties": {
-                    "Action": "MEEP_Letter {{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstCommandmentLetter}}",
-                }
-                }
-            ]
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Mail",
-            "Entries": {
-                "sprinton.hurst.HurstSpiritShopOpened": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopOpened}}",
-                "sprinton.hurst.HurstSpiritShopEarlyOpen": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopEarlyOpen}}"
-            }
-        },
-        {
-            "LogName": "Guarantee Early Shop Letter",
-            "Action": "EditData",
-            "Target": "Data/TriggerActions",
-            "When": {
-                "HasSeenEvent |contains=sprinton.hurst.HurstIntro": true,
-                "HasFlag |contains=sprinton.hurst.HurstSpiritShopEarlyOpen": false,
-                "EarlySpiritShopUnlock": true,
-            },
-            "Entries": {
-                "sprinton.hurst.TriggerActions.WoodsmanHurst.EarlyShopLetter.Check": {
-                    "Id": "sprinton.hurst.TriggerActions.WoodsmanHurst.EarlyShopLetter.Check",
-                    "MarkActionApplied": true,
-                    "Trigger": "DayEnding",
-                    "Action": "AddMail Current sprinton.hurst.HurstSpiritShopEarlyOpen tomorrow"
-                }
-                
-            }
+          "Position": {
+            "X": 15,
+            "Y": 6
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "MEEP_Letter {{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstCommandmentLetter}}"
+          }
         }
-        ]
+      ]
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "sprinton.hurst.HurstSpiritShopOpened": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopOpened}}",
+        "sprinton.hurst.HurstSpiritShopEarlyOpen": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopEarlyOpen}}"
+      }
+    },
+    {
+      "LogName": "Guarantee Early Shop Letter",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "When": {
+        "HasSeenEvent |contains=sprinton.hurst.HurstIntro": true,
+        "HasFlag |contains=sprinton.hurst.HurstSpiritShopEarlyOpen": false,
+        "EarlySpiritShopUnlock": true
+      },
+      "Entries": {
+        "sprinton.hurst.TriggerActions.WoodsmanHurst.EarlyShopLetter.Check": {
+          "Id": "sprinton.hurst.TriggerActions.WoodsmanHurst.EarlyShopLetter.Check",
+          "MarkActionApplied": true,
+          "Trigger": "DayEnding",
+          "Action": "AddMail Current sprinton.hurst.HurstSpiritShopEarlyOpen tomorrow"
+        }
+      }
+    }
+  ]
 }

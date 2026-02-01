@@ -1,250 +1,345 @@
 {
-    "Changes": 
-        [
-        {
-                "LogName": "Hurst Specific Dialogue",
-                "Action": "EditData",
-                "Target": "Characters/Dialogue/WoodsmanHurst",
-                "Entries": {
-                    
-                    //Vanilla
-                    "Introduction": "{{i18n:WoodsmanHurst.Introduction.{{PlayerName |Contains=Codfish,Eileen,Ashton,Peak}}}}",
-                    "cc_Begin": "{{i18n:WoodsmanHurst.cc_Begin}}",
-                    "cc_Boulder": "{{i18n:WoodsmanHurst.cc_Boulder}}",
-                    "cc_Bridge": "{{i18n:WoodsmanHurst.cc_Bridge}}",
-                    "cc_Bus": "{{i18n:WoodsmanHurst.cc_Bus}}",
-                    "cc_Greenhouse": "{{i18n:WoodsmanHurst.cc_Greenhouse}}",
-                    "cc_Minecart": "{{i18n:WoodsmanHurst.cc_Minecart}}",
-                    "cc_Complete": "{{i18n:WoodsmanHurst.cc_Complete}}",
-                    "movieTheater": "{{i18n:WoodsmanHurst.movieTheater}}",
-                    "GreenRain": "{{i18n:WoodsmanHurst.GreenRain}}",
-                    "GreenRainFinished": "{{i18n:WoodsmanHurst.GreenRainFinished}}",
-                    "GreenRain_2": "{{i18n:WoodsmanHurst.GreenRain_2}}",
-                    "luauBest": "{{i18n:WoodsmanHurst.luauBest}}",
-                    "DumpsterDiveComment": "{{i18n:WoodsmanHurst.DumpsterDiveComment}}",
-                    
+  "Changes": [
+    {
+      "LogName": "Hurst Specific Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        //Vanilla
+        "Introduction": "{{i18n:WoodsmanHurst.Introduction.{{PlayerName |Contains=Codfish,Eileen,Ashton,Peak}}}}",
+        "cc_Begin": "{{i18n:WoodsmanHurst.cc_Begin}}",
+        "cc_Boulder": "{{i18n:WoodsmanHurst.cc_Boulder}}",
+        "cc_Bridge": "{{i18n:WoodsmanHurst.cc_Bridge}}",
+        "cc_Bus": "{{i18n:WoodsmanHurst.cc_Bus}}",
+        "cc_Greenhouse": "{{i18n:WoodsmanHurst.cc_Greenhouse}}",
+        "cc_Minecart": "{{i18n:WoodsmanHurst.cc_Minecart}}",
+        "cc_Complete": "{{i18n:WoodsmanHurst.cc_Complete}}",
+        "movieTheater": "{{i18n:WoodsmanHurst.movieTheater}}",
+        "GreenRain": "{{i18n:WoodsmanHurst.GreenRain}}",
+        "GreenRainFinished": "{{i18n:WoodsmanHurst.GreenRainFinished}}",
+        "GreenRain_2": "{{i18n:WoodsmanHurst.GreenRain_2}}",
+        "luauBest": "{{i18n:WoodsmanHurst.luauBest}}",
+        "DumpsterDiveComment": "{{i18n:WoodsmanHurst.DumpsterDiveComment}}",
 
-                    //Internal CTs
-                    "HurstMorrisArgument": "{{i18n:WoodsmanHurst.HurstMorrisArgument}}",
-                    "HurstReligion": "{{i18n:WoodsmanHurst.HurstReligion}}",
-                    "HurstMet": "{{i18n:WoodsmanHurst.HurstMet}}",
-                    "HurstCommandmentRenewed": "{{i18n:WoodsmanHurst.HurstCommandmentRenewed}}",
-                    "HurstSpiritCommandment": "{{i18n:WoodsmanHurst.HurstSpiritCommandment}}",
-                    "HurstStopsObeying": "{{i18n:WoodsmanHurst.HurstStopsObeying}}",
-                    
-                    //Specific Date Dialogues
-                    "spring_1_{{YearRepeat}}": "{{i18n:WoodsmanHurst.spring_1}}",
-                    "summer_1_{{YearRepeat}}": "{{i18n:WoodsmanHurst.summer_1}}",
-                    "fall_1_{{YearRepeat}}": "{{i18n:WoodsmanHurst.fall_1}}",
-                    "winter_1_{{YearRepeat}}": "{{i18n:WoodsmanHurst.winter_1}}",
-                    "spring_12_{{YearRepeat}}": "{{i18n:WoodsmanHurst.spring_12}}",
-                    "spring_23_{{YearRepeat}}": "{{i18n:WoodsmanHurst.spring_23}}",
-                    "summer_10_{{YearRepeat}}": "{{i18n:WoodsmanHurst.summer_10}}",
-                    "fall_26_{{YearRepeat}}": "{{i18n:WoodsmanHurst.fall_26}}",
+        //Internal CTs
+        "HurstMorrisArgument": "{{i18n:WoodsmanHurst.HurstMorrisArgument}}",
+        "HurstReligion": "{{i18n:WoodsmanHurst.HurstReligion}}",
+        "HurstMet": "{{i18n:WoodsmanHurst.HurstMet}}",
+        "HurstCommandmentRenewed": "{{i18n:WoodsmanHurst.HurstCommandmentRenewed}}",
+        "HurstSpiritCommandment": "{{i18n:WoodsmanHurst.HurstSpiritCommandment}}",
+        "HurstStopsObeying": "{{i18n:WoodsmanHurst.HurstStopsObeying}}",
 
-                    //ES Intro/Spirit Related CTs
-                    "CamieIntro": "{{i18n:WoodsmanHurst.CamieIntro}}",
-                    "DylanIntro": "{{i18n:WoodsmanHurst.DylanIntro}}",
-                    "EliIntro": "{{i18n:WoodsmanHurst.EliIntro}}",
-                    "EliJunimo2": "{{i18n:WoodsmanHurst.EliJunimo2}}",
-                    "ThistleIntro": "{{i18n:WoodsmanHurst.ThistleIntro.{{HasMod |contains=Squeaks.MGC.CP}}}}",
-                    "NoraIntro": "{{i18n:WoodsmanHurst.NoraIntro}}",
-                    "ValIntro": "{{i18n:WoodsmanHurst.ValIntro}}",
-                    
-                    //Other Modded CTs
-                    "LucikielArrives": "{{i18n:WoodsmanHurst.LucikielArrives}}",
-                    "MeetTheCats": "{{i18n:WoodsmanHurst.MeetTheCats}}",
+        //Specific Date Dialogues
+        "spring_1_{{YearRepeat}}": "{{i18n:WoodsmanHurst.spring_1}}",
+        "summer_1_{{YearRepeat}}": "{{i18n:WoodsmanHurst.summer_1}}",
+        "fall_1_{{YearRepeat}}": "{{i18n:WoodsmanHurst.fall_1}}",
+        "winter_1_{{YearRepeat}}": "{{i18n:WoodsmanHurst.winter_1}}",
+        "spring_12_{{YearRepeat}}": "{{i18n:WoodsmanHurst.spring_12}}",
+        "spring_23_{{YearRepeat}}": "{{i18n:WoodsmanHurst.spring_23}}",
+        "summer_10_{{YearRepeat}}": "{{i18n:WoodsmanHurst.summer_10}}",
+        "fall_26_{{YearRepeat}}": "{{i18n:WoodsmanHurst.fall_26}}",
 
-                    "Daine.TPOChoice_Aliyah_House_17_32": "{{i18n:WoodsmanHurst.Therapy.{{Random:{{Range: 1,10}}}}}}#$action Spiderbuttons.BETAS_DialogueBox Daine.TPOChoice_Aliyah \"{{i18n:AliyahTherapyShoo}}\"#$action SpiderButtons.BETAS_DelayedAction \"Spiderbuttons.BETAS_EmoteNpc WoodsmanHurst 60\" 2000"
-                   
-            }
-        },
-        {
-            "LogName": "Hurst CTs",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/WoodsmanHurst",
-            "When": {"HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true},
-            "Entries": {
-                "CamieOrchidKnife": "{{i18n:WoodsmanHurst.CamieOrchidKnife}}",  
-                "TGC_TwinsLeave": "{{i18n:WoodsmanHurst.TGC_TwinsLeave}}",
-                "ValEmeritusIntro": "{{i18n:WoodsmanHurst.ValEmeritusIntro}}",
-                "ValMinibossBattle": "{{i18n:WoodsmanHurst.ValMinibossBattle}}"
-            }
-        },
-        {
-            "LogName": "Hurst Pre Intro Dialogue",
-            "Action": "EditData",
-            "Target" :"Characters/Dialogue/WoodsmanHurst",
-            "Entries": {
-                "{{Weekday}}": "{{i18n:WoodsmanHurst.Commandment.{{Random:{{Range:1,14}}|key={{Time}}}}}}"
-            },
-            "When": {
-                "DayOfWeek |contains=Friday": false,
-                "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
-                "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": false,
-            }
-        },
-          {
-            "LogName": "Hurst Isolation Dialogue",
-            "Action": "EditData",
-            "Target" :"Characters/Dialogue/WoodsmanHurst",
-            "Entries": {
-                "{{Weekday}}": "{{i18n:WoodsmanHurst.Commandment.{{Random:{{Range:1,20}}|key={{Time}}}}}}"
-            },
-            "When": {
-                "Query: {{Random: {{Range: 1,1}}|key=WHNID}} = 1": true,
-                "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": true,
-                "HurstIsolating": true,
-                
-            }
-        },
-        {
-        "LogName": "Hurst Low Heart Dialogue",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/WoodsmanHurst",
-        "Entries": {
-            "{{Weekday}}": "{{i18n:WoodsmanHurst.LowHearts.{{Random:{{Range: 1,60}}}}}}"
-        },
-        "When": {
-            "DayOfWeek |contains=Friday": false,
-            "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
-            "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": true,
-            "HurstIsolating": false,
-        }
-        },
-        {
-        "LogName": "Hurst Low Heart Dialogue - Fridays",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/WoodsmanHurst",
-        "Entries": {
-            "Fri": "{{i18n:WoodsmanHurst.LowHeartsFriday.{{Random:{{Range: 1,12}}|key={{Time}}}}}}"
-        },
-        "When": {
-            "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
-            "Hearts:WoodsmanHurst": "{{Range: 0, 4}}",
-            "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": true,
-            "HurstIsolating": false,
+        //ES Intro/Spirit Related CTs
+        "CamieIntro": "{{i18n:WoodsmanHurst.CamieIntro}}",
+        "DylanIntro": "{{i18n:WoodsmanHurst.DylanIntro}}",
+        "EliIntro": "{{i18n:WoodsmanHurst.EliIntro}}",
+        "EliJunimo2": "{{i18n:WoodsmanHurst.EliJunimo2}}",
+        "ThistleIntro": "{{i18n:WoodsmanHurst.ThistleIntro.{{HasMod |contains=Squeaks.MGC.CP}}}}",
+        "NoraIntro": "{{i18n:WoodsmanHurst.NoraIntro}}",
+        "ValIntro": "{{i18n:WoodsmanHurst.ValIntro}}",
 
+        //Other Modded CTs
+        "LucikielArrives": "{{i18n:WoodsmanHurst.LucikielArrives}}",
+        "MeetTheCats": "{{i18n:WoodsmanHurst.MeetTheCats}}",
+
+        "Daine.TPOChoice_Aliyah_House_17_32": "{{i18n:WoodsmanHurst.Therapy.{{Random:{{Range: 1,10}}}}}}#$action Spiderbuttons.BETAS_DialogueBox Daine.TPOChoice_Aliyah \"{{i18n:AliyahTherapyShoo}}\"#$action SpiderButtons.BETAS_DelayedAction \"Spiderbuttons.BETAS_EmoteNpc WoodsmanHurst 60\" 2000"
+      }
+    },
+    {
+      "LogName": "Hurst CTs",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "When": { "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true },
+      "Entries": {
+        "CamieOrchidKnife": "{{i18n:WoodsmanHurst.CamieOrchidKnife}}",
+        "TGC_TwinsLeave": "{{i18n:WoodsmanHurst.TGC_TwinsLeave}}",
+        "ValEmeritusIntro": "{{i18n:WoodsmanHurst.ValEmeritusIntro}}",
+        "ValMinibossBattle": "{{i18n:WoodsmanHurst.ValMinibossBattle}}"
+      }
+    },
+    {
+      "LogName": "Hurst Pre Intro Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Commandment.{{Random:{{Range:1,14}}|key={{Time}}}}}}"
+      },
+      "When": {
+        "DayOfWeek |contains=Friday": false,
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": false
+      }
+    },
+    {
+      "LogName": "Hurst Isolation Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Commandment.{{Random:{{Range:1,20}}|key={{Time}}}}}}"
+      },
+      "When": {
+        "Query: {{Random: {{Range: 1,1}}|key=WHNID}} = 1": true,
+        "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": true,
+        "HurstIsolating": true
+      }
+    },
+    {
+      "LogName": "Hurst Low Heart Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.LowHearts.{{Random:{{Range: 1,60}}}}}}"
+      },
+      "When": {
+        "DayOfWeek |contains=Friday": false,
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": true,
+        "HurstIsolating": false
+      }
+    },
+    {
+      "LogName": "Hurst Low Heart Dialogue - Fridays",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "Fri": "{{i18n:WoodsmanHurst.LowHeartsFriday.{{Random:{{Range: 1,12}}|key={{Time}}}}}}"
+      },
+      "When": {
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "Hearts:WoodsmanHurst": "{{Range: 0, 4}}",
+        "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": true,
+        "HurstIsolating": false
+      }
+    },
+    {
+      "LogName": "Hurst High Heart Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.HighHearts.{{Random:{{Range: 1,70}}}}}}"
+      },
+      "When": {
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "HurstIsolating": false,
+        "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": true,
+        "Hearts:WoodsmanHurst": "{{Range: 6, 10}}"
+      }
+    },
+    {
+      "LogName": "Hurst Bundle Donation Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.BundleOverride1}}[{{BundleDonationPool}}]{{i18n:WoodsmanHurst.BundleOverride2}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received#$action AddConversationTopic HurstBundleBoostCooldown 5"
+      },
+      "When": {
+        "Query: {{Random: {{Range: 1,15}}|key=WHBBO}} = 1": true,
+        "HasConversationTopic: |contains=HurstBundleBoostCooldown": false,
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": true,
+        "HurstIsolating": false,
+        "HasFlag: |contains=ccIsComplete": false
+      }
+    },
+    {
+      "LogName": "Hurst Eli and Dylan Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.EnD.{{Random:{{Range: 1,10}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+      },
+      "When": {
+        "HasMod |contains=TenebrousNova.EliDylan.CP": true,
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "Query: {{Random: {{Range: 1,20}}|key=WHENDO}} = 1": true,
+        "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
+      }
+    },
+    {
+      "LogName": "Hurst Aliyah Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Aliyah.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+      },
+      "When": {
+        "HasMod |contains=Daine.TPOChoice": true,
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "Query: {{Random: {{Range: 1,20}}|key=WHAO}} = 1": true,
+        "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
+      }
+    },
+    {
+      "LogName": "Hurst Dahlia Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Dahlia.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+      },
+      "When": {
+        "HasMod |contains=Daine.TPOChoice": true,
+        "HasSeenEvent: |contains=Daine.Dahlia.0H": true,
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "Query: {{Random: {{Range: 1,20}}|key=WHDO}} = 1": true,
+        "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
+      }
+    },
+    {
+      "LogName": "Hurst Cambria Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Cambria.{{Random:{{Range: 1,6}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+      },
+      "When": {
+        "HasMod |contains=Squeaks.MGC.CP": true,
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "Query: {{Random: {{Range: 1,20}}|key=WHCO}} = 1": true,
+        "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
+      }
+    },
+    {
+      "LogName": "Hurst Sig and Sondra Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.SignSon.{{Random:{{Range: 1,10}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+      },
+      "When": {
+        "HasMod |contains=MadDog.HashtagBearFam": true,
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "Query: {{Random: {{Range: 1,20}}|key=WHSignSon}} = 1": true,
+        "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
+      }
+    },
+    {
+      "LogName": "Hurst Gunnar and Gudrun Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.GudnGun.{{Random:{{Range: 1,10}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+      },
+      "When": {
+        "HasMod |contains=MadDog.HashtagBearFam": true,
+        "HasFlag |contains=BearFamExtraMembers": true,
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "Query: {{Random: {{Range: 1,20}}|key=WHGunGud}} = 1": true,
+        "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
+      }
+    },
+    {
+      "LogName": "Hurst Teren Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Teren.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+      },
+      "When": {
+        "HasMod |contains=MadDog.HashtagBearFam": true,
+        "HasSeenEvent": "MadDog.BearFam.16199000",
+        "HasFlag |contains=TerenMysteryMail": true,
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "Query: {{Random: {{Range: 1,20}}|key=WHTeren}} = 1": true,
+        "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
+      }
+    },
+    {
+      "LogName": "Hurst Nora Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Nora.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+      },
+      "When": {
+        "HasMod |contains=Bagi.Nora.CP": true,
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "Query: {{Random: {{Range: 1,20}}|key=WHNora}} = 1": true,
+        "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
+      }
+    },
+    {
+      "LogName": "Hurst Sen Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Sen.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+      },
+      "When": {
+        "HasMod |contains=7thAxis.LitD": true,
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "Query: {{Random: {{Range: 1,20}}|key=WHSen}} = 1": true,
+        "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
+      }
+    },
+    {
+      "LogName": "Hurst Rodney Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Rodney.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+      },
+      "When": {
+        "HasMod |contains=TheFrenchDodo.RodneyOBrien": true,
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "Query: {{Random: {{Range: 1,20}}|key=WHRodney}} = 1": true,
+        "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
+      }
+    },
+    {
+      "LogName": "Hurst Garden Cottage Override",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.TheGardenCottage.{{GardenCottageRange}}}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+      },
+      "When": {
+        "HasMod |contains=AvianRPG.TheGardenCottage": true,
+        "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
+        "Query: {{Random: {{Range: 1,20}}|key=WHTGC}} = 1": true,
+        "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
+      }
+    },
+    {
+      "LogName": "Ward Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/JunimoWard",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:JunimoWard.DailyPool.{{Random:{{Range:1,70}}}}}}"
+      }
+    },
+    {
+      "LogName": "Hurst Override Flag Removal",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "sprinton.hurst.TriggerActions.WoodsmanHurst.OverrideSeenToday.Removal": {
+          "Id": "sprinton.hurst.TriggerActions.WoodsmanHurst.OverrideSeenToday.Removal",
+          "MarkActionApplied": false,
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL Current sprinton.hurst.WoodsmanHurstOverrideSeenToday Any",
+          "Actions": [
+            "RemoveMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday"
+          ]
         }
-        },
-        {
-        "LogName": "Hurst High Heart Dialogue",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/WoodsmanHurst",
-        "Entries": {
-            "{{Weekday}}": "{{i18n:WoodsmanHurst.HighHearts.{{Random:{{Range: 1,70}}}}}}"
-        },
-        "When": {
-            "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
-            "HurstIsolating": false,
-            "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": true,
-            "Hearts:WoodsmanHurst": "{{Range: 6, 10}}"
-        }
-        },
-        {
-        "LogName": "Hurst Bundle Donation Override",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/WoodsmanHurst",
-        "Entries":{
-            "{{Weekday}}": "{{i18n:WoodsmanHurst.BundleOverride1}}[{{BundleDonationPool}}]{{i18n:WoodsmanHurst.BundleOverride2}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received#$action AddConversationTopic HurstBundleBoostCooldown 5"
-        },
-        "When": {
-            "Query: {{Random: {{Range: 1,15}}|key=WHBBO}} = 1": true,
-            "HasConversationTopic: |contains=HurstBundleBoostCooldown": false,
-            "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
-            "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": true,
-            "HurstIsolating": false,
-            "HasFlag: |contains=ccIsComplete": false,
-        }
-        },
-        {
-            "LogName": "Hurst Eli and Dylan Override",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/WoodsmanHurst",
-            "Entries": {
-                "{{Weekday}}": "{{i18n:WoodsmanHurst.EnD.{{Random:{{Range: 1,10}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
-            },
-            "When": {
-                "HasMod |contains=TenebrousNova.EliDylan.CP": true,
-                "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
-                "Query: {{Random: {{Range: 1,20}}|key=WHENDO}} = 1": true,
-                "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
-            
-            }
-        },
-        {
-            "LogName": "Hurst Aliyah Override",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/WoodsmanHurst",
-            "Entries": {
-                "{{Weekday}}": "{{i18n:WoodsmanHurst.Aliyah.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
-            },
-            "When": {
-                "HasMod |contains=Daine.TPOChoice": true,
-                "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
-                "Query: {{Random: {{Range: 1,20}}|key=WHAO}} = 1": true,
-                "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
-            }
-        },
-        {
-            "LogName": "Hurst Dahlia Override",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/WoodsmanHurst",
-            "Entries": {
-                "{{Weekday}}": "{{i18n:WoodsmanHurst.Dahlia.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
-            },
-            "When": {
-                "HasMod |contains=Daine.TPOChoice": true,
-                "HasSeenEvent: |contains=Daine.Dahlia.0H": true,
-                "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
-                "Query: {{Random: {{Range: 1,20}}|key=WHDO}} = 1": true,
-                "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
-            }
-        },
-          {
-            "LogName": "Hurst Cambria Override",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/WoodsmanHurst",
-            "Entries": {
-                "{{Weekday}}": "{{i18n:WoodsmanHurst.Cambria.{{Random:{{Range: 1,6}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
-            },
-            "When": {
-                "HasMod |contains=Squeaks.MGC.CP": true,
-                "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
-                "Query: {{Random: {{Range: 1,20}}|key=WHCO}} = 1": true,
-                "HasSeenEvent: |contains=sprinton.hurst.Hurst8H.P1": true
-            }
-        },
-        {
-            "LogName": "Ward Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/JunimoWard",
-            "Entries": {
-                "{{Weekday}}": "{{i18n:JunimoWard.DailyPool.{{Random:{{Range:1,70}}}}}}"
-            }
-        },
-        {
-            "LogName": "Hurst Override Flag Removal",
-            "Action": "EditData",
-            "Target": "Data/TriggerActions",
-            "Entries": {
-                "sprinton.hurst.TriggerActions.WoodsmanHurst.OverrideSeenToday.Removal": {
-                    "Id": "sprinton.hurst.TriggerActions.WoodsmanHurst.OverrideSeenToday.Removal",
-				    "MarkActionApplied": false,
-                    "Trigger": "DayEnding",
-                    "Condition": "PLAYER_HAS_MAIL Current sprinton.hurst.WoodsmanHurstOverrideSeenToday Any",
-                    "Actions": [ "RemoveMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday"]
-                }
-            }
-        },
-        {
-            "LogName": "Hurst Rain Dialogue",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/rainy",
-            "Entries": {
-                "WoodsmanHurst": "{{i18n:WoodsmanHurst.Rain}}"
-            }
-        }
-        ]
+      }
+    },
+    {
+      "LogName": "Hurst Rain Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "WoodsmanHurst": "{{i18n:WoodsmanHurst.Rain}}"
+      }
     }
-    
+  ]
+}

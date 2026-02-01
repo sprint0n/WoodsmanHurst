@@ -1,81 +1,80 @@
 {
-    "Changes": [
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Jodi",
-            "Entries": {
-                "HurstMorrisArgument": "{{i18n:JodiCT.HurstMorrisArgument}}",
-            }
-        },
-          {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Kent",
-            "Entries": {
-                "HurstMet": "{{i18n:KentCT.HurstMet}}",
-                "HurstStopsObeying": "{{i18n:KentCT.HurstStopsObeying}}",
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Sam",
-            "Entries": {
-                "HurstMorrisArgument": "{{i18n:SamCT.HurstMorrisArgument}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Shane",
-            "Entries": {
-                "HurstMorrisArgument": "{{i18n:ShaneCT.HurstMorrisArgument}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/{{Morris}}",
-            "Entries": {
-                "HurstMorrisArgument": "{{i18n:MorrisCT.HurstMorrisArgument}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Pam",
-            "Entries": {
-                "HurstMorrisArgument": "{{i18n:PamCT.HurstMorrisArgument}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Linus",
-            "Entries": {
-                "HurstMet": "{{i18n:LinusCT.HurstMet}}",
-                "HurstReligion": "{{i18n:LinusCT.HurstReligion}}",
-                "HurstStopsObeying": "{{i18n:LinusCT.HurstStopsObeying}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Wizard",
-            "Entries": {
-                "HurstMet": "{{i18n:WizardCT.HurstMet}}",
-                "HurstReligion": "{{i18n:WizardCT.HurstReligion}}",
-                "HurstCommandmentRenewed": "{{i18n:WizardCT.HurstCommandmentRenewed}}",
-                "HurstStopsObeying": "{{i18n:WizardCT.HurstStopsObeying}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Robin",
-            "Entries": {
-                "HurstStopsObeying": "{{i18n:RobinCT.HurstStopsObeying}}"
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Leah",
-            "Entries": {
-                "HurstStopsObeying": "{{i18n:LeahCT.HurstStopsObeying}}"
-            }
-        },
-        
-    ]
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jodi",
+      "Entries": {
+        "HurstMorrisArgument": "{{i18n:JodiCT.HurstMorrisArgument}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Kent",
+      "Entries": {
+        "HurstMet": "{{i18n:KentCT.HurstMet}}",
+        "HurstStopsObeying": "{{i18n:KentCT.HurstStopsObeying}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Sam",
+      "Entries": {
+        "HurstMorrisArgument": "{{i18n:SamCT.HurstMorrisArgument}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Shane",
+      "Entries": {
+        "HurstMorrisArgument": "{{i18n:ShaneCT.HurstMorrisArgument}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/{{Morris}}",
+      "Entries": {
+        "HurstMorrisArgument": "{{i18n:MorrisCT.HurstMorrisArgument}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Pam",
+      "Entries": {
+        "HurstMorrisArgument": "{{i18n:PamCT.HurstMorrisArgument}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Linus",
+      "Entries": {
+        "HurstMet": "{{i18n:LinusCT.HurstMet}}",
+        "HurstReligion": "{{i18n:LinusCT.HurstReligion}}",
+        "HurstStopsObeying": "{{i18n:LinusCT.HurstStopsObeying}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Wizard",
+      "Entries": {
+        "HurstMet": "{{i18n:WizardCT.HurstMet}}",
+        "HurstReligion": "{{i18n:WizardCT.HurstReligion}}",
+        "HurstCommandmentRenewed": "{{i18n:WizardCT.HurstCommandmentRenewed}}",
+        "HurstStopsObeying": "{{i18n:WizardCT.HurstStopsObeying}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Robin",
+      "Entries": {
+        "HurstStopsObeying": "{{i18n:RobinCT.HurstStopsObeying}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Leah",
+      "Entries": {
+        "HurstStopsObeying": "{{i18n:LeahCT.HurstStopsObeying}}"
+      }
+    }
+  ]
 }

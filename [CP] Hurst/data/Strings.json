@@ -1,22 +1,20 @@
 {
-
-    //INCLUDE THE DAMN FILE
-    "Changes": [
-        {
-            "LogName": "MapStrings",
-            "Action": "EditData",
-            "Target": "strings/StringsFromMaps",
-            "Entries": {
-                "HurstCrops": "{{i18n:ClearingStrings.HurstCrops}}",
-                "HurstTent": "{{i18n:ClearingStrings.HurstTent}}",
-                "HurstNameGrave": "{{i18n:ClearingStrings.HurstNameGrave}}",
-                "HurstSymbolGrave": "{{i18n:ClearingStrings.HurstSymbolGrave}}",
-                "HurstCrystals": "{{i18n:ClearingStrings.HurstCrystals}}",
-                "HurstMailbox": "{{i18n:ClearingStrings.HurstMailbox}}",
-                "HurstJunimoHut": "{{i18n:ClearingStrings.HurstJunimoHut}}",
-                "HurstBigJunimoPlush": "{{i18n:ClearingStrings.HurstBigJunimoPlush}}",
-            }
-        }
-
-    ]
+  //INCLUDE THE DAMN FILE
+  "Changes": [
+    {
+      "LogName": "MapStrings",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": {
+        "HurstCrops": "{{i18n:ClearingStrings.HurstCrops}}",
+        "HurstTent": "{{i18n:ClearingStrings.HurstTent}}",
+        "HurstNameGrave": "{{i18n:ClearingStrings.HurstNameGrave}}",
+        "HurstSymbolGrave": "{{i18n:ClearingStrings.HurstSymbolGrave}}",
+        "HurstCrystals": "{{i18n:ClearingStrings.HurstCrystals}}",
+        "HurstMailbox": "{{i18n:ClearingStrings.HurstMailbox}}",
+        "HurstJunimoHut": "{{i18n:ClearingStrings.HurstJunimoHut}}",
+        "HurstBigJunimoPlush": "{{i18n:ClearingStrings.HurstBigJunimoPlush}}"
+      }
+    }
+  ]
 }
