@@ -72,7 +72,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "{{Weekday}}": "{{i18n:WoodsmanHurst.Commandment.{{Random:{{Range:1,14}}|key={{Time}}}}}}"
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Commandment.{{Random:{{Range:1,14}}}}}}"
       },
       "When": {
         "DayOfWeek |contains=Friday": false,
@@ -85,7 +85,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "{{Weekday}}": "{{i18n:WoodsmanHurst.Commandment.{{Random:{{Range:1,20}}|key={{Time}}}}}}"
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Commandment.{{Random:{{Range:1,20}}}}}}"
       },
       "When": {
         "Query: {{Random: {{Range: 1,1}}|key=WHNID}} = 1": true,
@@ -112,7 +112,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "Fri": "{{i18n:WoodsmanHurst.LowHeartsFriday.{{Random:{{Range: 1,12}}|key={{Time}}}}}}"
+        "Fri": "{{i18n:WoodsmanHurst.LowHeartsFriday.{{Random:{{Range: 1,12}}}}}}"
       },
       "When": {
         "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
@@ -156,7 +156,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "{{Weekday}}": "{{i18n:WoodsmanHurst.EnD.{{Random:{{Range: 1,10}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.EnD.{{Random:{{Range: 1,10}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
       },
       "When": {
         "HasMod |contains=TenebrousNova.EliDylan.CP": true,
@@ -170,7 +170,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "{{Weekday}}": "{{i18n:WoodsmanHurst.Aliyah.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Aliyah.{{Random:{{Range: 1,5}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
       },
       "When": {
         "HasMod |contains=Daine.TPOChoice": true,
@@ -184,7 +184,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "{{Weekday}}": "{{i18n:WoodsmanHurst.Dahlia.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Dahlia.{{Random:{{Range: 1,5}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
       },
       "When": {
         "HasMod |contains=Daine.TPOChoice": true,
@@ -199,7 +199,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "{{Weekday}}": "{{i18n:WoodsmanHurst.Cambria.{{Random:{{Range: 1,6}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Cambria.{{Random:{{Range: 1,6}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
       },
       "When": {
         "HasMod |contains=Squeaks.MGC.CP": true,
@@ -213,7 +213,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "{{Weekday}}": "{{i18n:WoodsmanHurst.SignSon.{{Random:{{Range: 1,10}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.SignSon.{{Random:{{Range: 1,10}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
       },
       "When": {
         "HasMod |contains=MadDog.HashtagBearFam": true,
@@ -227,7 +227,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "{{Weekday}}": "{{i18n:WoodsmanHurst.GudnGun.{{Random:{{Range: 1,10}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.GudnGun.{{Random:{{Range: 1,10}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
       },
       "When": {
         "HasMod |contains=MadDog.HashtagBearFam": true,
@@ -242,7 +242,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "{{Weekday}}": "{{i18n:WoodsmanHurst.Teren.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Teren.{{Random:{{Range: 1,5}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
       },
       "When": {
         "HasMod |contains=MadDog.HashtagBearFam": true,
@@ -258,7 +258,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "{{Weekday}}": "{{i18n:WoodsmanHurst.Nora.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Nora.{{Random:{{Range: 1,5}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
       },
       "When": {
         "HasMod |contains=Bagi.Nora.CP": true,
@@ -272,7 +272,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "{{Weekday}}": "{{i18n:WoodsmanHurst.Sen.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Sen.{{Random:{{Range: 1,5}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
       },
       "When": {
         "HasMod |contains=7thAxis.LitD": true,
@@ -286,7 +286,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "{{Weekday}}": "{{i18n:WoodsmanHurst.Rodney.{{Random:{{Range: 1,5}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Rodney.{{Random:{{Range: 1,5}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
       },
       "When": {
         "HasMod |contains=TheFrenchDodo.RodneyOBrien": true,
@@ -300,7 +300,7 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "{{Weekday}}": "{{i18n:WoodsmanHurst.TheGardenCottage.{{GardenCottageRange}}}}|key={{Time}}}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.TheGardenCottage.{{GardenCottageRange}}}}#$action AddMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday received"
       },
       "When": {
         "HasMod |contains=AvianRPG.TheGardenCottage": true,

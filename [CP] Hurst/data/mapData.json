@@ -27,14 +27,82 @@
       "FromFile": "Assets/Maps/HurstsClearing.tmx"
     },
     {
+      "Action": "Load",
+      "Target": "Maps/{{ModID}}_MistgroveOutskirts",
+      "FromFile": "Assets/Maps/Mistgrove.tmx"
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/LocationContexts",
+      "Entries": {
+        "MistgroveLocationContext": {
+          "AllowRainTotem": false,
+          "MaxPassOutCost": 0,
+          "PassOutMail": [
+            {
+              "Id": "WardPassedOutLetter",
+              "Mail": "sprinton.hurst.WardFoundYouPassedOut"
+            }
+          ],
+          "WeatherConditions": [
+            {
+              "Id": "MistgroveWeather",
+              "Weather": "sunny"
+            }
+          ]
+        }
+      }
+    },
+
+    {
       "LogName": "Add Locations",
       "Action": "EditData",
       "Target": "Data/Locations",
       "Entries": {
         "{{ModID}}_HurstsClearing": {
-          "DisplayName": "Hurst's Clearing",
+          "DisplayName": "{{i18n:HurstsClearingDisplayName}}",
           "DefaultArrivalTile": { "X": 25, "Y": 26 },
           "CreateOnLoad": { "MapPath": "Maps/{{ModID}}_HurstsClearing" }
+        },
+        "{{ModID}}_MistgroveOutskirts": {
+          "DisplayName": "{{i18n:MistgroveDisplayName}}",
+          "DefaultArrivalTile": { "X": 43, "Y": 59 },
+          "CreateOnLoad": { "MapPath": "Maps/{{ModID}}_MistgroveOutskirts" },
+          "FishAreas": {
+            "MistgrovePond": {
+              "DisplayName": "Mistgrove Pond",
+              "Position": null,
+              "CrabPotFishTypes": [],
+              "CrabPotJunkChance": 0.0
+            }
+          },
+          "Fish": [
+            {
+              "Id": "(O)156",
+              "ItemId": "(O)156",
+              "FishAreaID": "MistgrovePond",
+              "Season": null
+            },
+            {
+              "Id": "(O)269",
+              "ItemId": "(O)269",
+              "FishAreaID": "MistgrovePond",
+              "Season": null
+            },
+            {
+              "Id": "(O)796",
+              "ItemId": "(O)796",
+              "FishAreaID": "MistgrovePond",
+              "Season": null
+            },
+            {
+              "Id": "(O)795",
+              "ItemId": "(O)795",
+              "FishAreaID": "MistgrovePond",
+              "Season": null
+            }
+          ]
         }
       }
     },
@@ -58,37 +126,27 @@
         "0 47 {{ModID}}_HurstsClearing 27 26"
       ]
     },
-    /*
-            {
-               "LogName": "MistTest",
-               "Action": "EditMap",
-               "Target": "Maps/{{ModID}}_HurstsClearing",
-               "MapProperties": {
-                  "mushymato.MMAP_SteamOverlay": "T .2 .1 #AF69EE 0.75 8"              
-                }
-            },
-            */
-    /*
+
     {
       "LogName": "Sleep In Hurst's Tent While Dating",
       "Action": "EditMap",
       "Target": "Maps/{{ModID}}_HurstsClearing",
-      "When": { "PLAYER_NPC_RELATIONSHIP Any WoodsmanHurst Dating": true },
+      "When": { "Relationship:WoodsmanHurst |contains=Dating": true },
       "MapTiles": [
         {
           "Position": {
-            "X": "22",
-            "Y": "10"
+            "X": 22,
+            "Y": 10
           },
           "Layer": "Back",
           "SetProperties": {
-            "Bed": true,
+            "Bed": "t",
             "TouchAction": "Sleep"
           }
         }
       ]
     },
-    */
+
     {
       "LogName": "Friday Spirits",
       "Action": "EditMap",
@@ -258,7 +316,7 @@
       ]
     },
     {
-      "LogName": "Friday Spirits",
+      "LogName": "Shopkeeper Spirits Spirits",
       "Action": "EditMap",
       "Target": "Maps/{{ModID}}_HurstsClearing",
       "When": {
@@ -277,6 +335,34 @@
           }
         }
       ]
+    },
+    {
+      "LogName": "Ruined Temple",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModID}}_MistgroveOutskirts",
+      "FromFile": "assets/Maps/{{Season}}RuinedTemple.tmx",
+      "ToArea": {
+        "X": 7,
+        "Y": 11,
+        "Width": 13,
+        "Height": 10
+      },
+      "PatchMode": "ReplaceByLayer",
+      "Update": "OnLocationChange"
+    },
+    {
+      "LogName": "Mistgrove Mist",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModID}}_MistgroveOutskirts",
+      "FromFile": "assets/Maps/{{Season}}Mist.tmx",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 75,
+        "Height": 65
+      },
+      "PatchMode": "Overlay",
+      "Update": "OnLocationChange"
     }
   ]
 }

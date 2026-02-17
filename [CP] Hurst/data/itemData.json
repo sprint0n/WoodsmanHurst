@@ -368,6 +368,48 @@
           "DaysUntilReady": 1
         }
       }
+    },
+    {
+      "LogName": "Mistgrove Warp Totem",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModID}}_MistgroveTotem": {
+          "Name": "{{ModID}}_MistgroveTotem",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.MistgroveWarpTotem}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.MistgroveWarpTotem.Description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 200,
+          "Texture": "{{InternalAssetKey: assets/images/MistgroveWarpTotem.png}}",
+          "SpriteIndex": 0,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ContextTags": ["not_placeable", "totem_item", "mistgrove_item"]
+        }
+      }
+    },
+    {
+      "LogName": "Make Warp Totem",
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+      "Update": "OnLocationChange, OnTimeChange",
+      "Entries": {
+        "{{ModID}}_MistgroveTotem": {
+          "TotemWarp": {
+            "Location": "{{ModID}}_MistgroveOutskirts",
+            "Position": "43, 59",
+            "Color": {
+              "R": "128",
+              "G": "0",
+              "B": "128",
+              "A": "255"
+            }
+          }
+        }
+      }
     }
   ]
 }

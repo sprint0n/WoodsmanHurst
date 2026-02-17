@@ -70,6 +70,12 @@
         "AcceptGift_(O)545": "{{i18n:WoodsmanHurst.AcceptGift_Fluorapatite}}",
         "AcceptGift_(O)MysticSyrup": "{{i18n:WoodsmanHurst.AcceptGift_MysticSyrup}}",
         "AcceptGift_(O)PurpleBook": "{{i18n:WoodsmanHurst.AcceptGift_BookOfStars}}",
+        "AcceptGift_(O)535": "{{i18n:WoodsmanHurst.AcceptGift_Geode.1}}#$action Spiderbuttons.BETAS_PlaySound boulderBreak#{{i18n:WoodsmanHurst.AcceptGift_Geode}}[538 542 566 569 549 548 571 552 574 555 556 557 568 576 558 121 86]",
+
+        "AcceptGift_(O)536": "{{i18n:WoodsmanHurst.AcceptGift_Geode.1}}#$action Spiderbuttons.BETAS_PlaySound boulderBreak#{{i18n:WoodsmanHurst.AcceptGift_FrozenGeode}}[122 82 540 570 539 543 565 547 563 554 553 575 578 562]",
+        "AcceptGift_(O)537": "{{i18n:WoodsmanHurst.AcceptGift_Geode.1}}#$action Spiderbuttons.BETAS_PlaySound boulderBreak#{{i18n:WoodsmanHurst.AcceptGift_MagmaGeode}}[123 84 541 577 544 545 546 550 551 561 573 567 560 564 559 572]",
+        "AcceptGift_(O)749": "{{i18n:WoodsmanHurst.AcceptGift_Geode.1}}#$action Spiderbuttons.BETAS_PlaySound boulderBreak#{{i18n:WoodsmanHurst.AcceptGift_OmniGeode}}[538 542 566 569 549 548 571 552 574 555 556 557 568 576 558 540 570 539 543 565 547 563 554 553 575 578 562 541 577 544 545 546 550 551 561 573 567 560 564 559 572]",
+
         //SVE
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola": "{{i18n:WoodsmanHurst.AcceptGift_JojaItem}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Joja_Veggie": "{{i18n:WoodsmanHurst.AcceptGift_JojaItem}}",

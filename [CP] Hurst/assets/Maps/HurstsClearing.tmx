@@ -1707,12 +1707,7 @@
 </data>
  </layer>
  <objectgroup id="5" name="Buildings">
-  <object id="9" name="TileData" x="352" y="144" width="16" height="16">
-   <properties>
-    <property name="Action" value="Dialogue You can see a simple bed inside."/>
-   </properties>
-  </object>
-  <object id="37" name="TileData" x="352" y="144" width="16" height="16">
+  <object id="37" name="TileData" x="368" y="144" width="16" height="16">
    <properties>
     <property name="Action" value="Message HurstTent"/>
    </properties>

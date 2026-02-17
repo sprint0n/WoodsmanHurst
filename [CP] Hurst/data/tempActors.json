@@ -19,6 +19,12 @@
       "FromFile": "assets/images/Sylva.png"
     },
     {
+      "LogName": "Sylva Temp Actor Sprites",
+      "Action": "Load",
+      "Target": "Characters/ProphetSylva",
+      "FromFile": "assets/images/SylvaSprites.png"
+    },
+    {
       "LogName": "Hurst Temp Actor Sprites",
       "Action": "Load",
       "Target": "Characters/HurstClone",

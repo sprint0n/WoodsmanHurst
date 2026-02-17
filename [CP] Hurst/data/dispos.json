@@ -88,10 +88,10 @@
             {
               "Id": "Default",
               "Condition": null,
-              "Location": "{{ModID}}_HurstsClearing",
+              "Location": "{{ModID}}_MistgroveOutskirts",
               "Tile": {
-                "X": 23,
-                "Y": 10
+                "X": 65,
+                "Y": 21
               },
               "Direction": "Down"
             }

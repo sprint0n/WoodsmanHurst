@@ -33,10 +33,14 @@
       "Action": "EditData",
       "Target": "Characters/Schedules/JunimoWard",
       "Entries": {
+        "Mon": "610 {{ModID}}_MistgroveOutskirts 65 21 2/900 {{ModID}}_MistgroveOutskirts 37 20 1 JunimoWard_Playing/1400 {{ModID}}_MistgroveOutskirts 66 38 1/1800 {{ModID}}_MistgroveOutskirts 21 41 2 JunimoWard_Playing/2300 {{ModID}}_MistgroveOutskirts 65 21 2",
+        "Tue": "610 {{ModID}}_MistgroveOutskirts 65 21 2/620 {{ModID}}_MistgroveOutskirts 60 18 3/1100 {{ModID}}_MistgroveOutskirts 17 11 2 JunimoWard_Waving/1800 {{ModID}}_MistgroveOutskirts 66 38 2 JunimoWard_Waving/2300 {{ModID}}_MistgroveOutskirts 65 21 2",
+        "Wed": "610 {{ModID}}_MistgroveOutskirts 65 21 2/900 {{ModID}}_MistgroveOutskirts 37 20 1 JunimoWard_Playing/1400 {{ModID}}_MistgroveOutskirts 66 38 1/1800 {{ModID}}_MistgroveOutskirts 21 41 2 JunimoWard_Playing/2300 {{ModID}}_MistgroveOutskirts 65 21 2",
+        "Thu": "610 {{ModID}}_MistgroveOutskirts 65 21 2/620 {{ModID}}_MistgroveOutskirts 60 18 3/1100 {{ModID}}_MistgroveOutskirts 17 11 2 JunimoWard_Waving/1800 {{ModID}}_MistgroveOutskirts 66 38 2 JunimoWard_Waving/2300 {{ModID}}_MistgroveOutskirts 65 21 2",
         "Fri": "610 {{ModID}}_HurstsClearing 11 6 2/1000 {{ModID}}_HurstsClearing 15 14 2 square_5_5/1600 {{ModID}}_HurstsClearing 25 7 0/2000 {{ModID}}_HurstsClearing 7 9 0/2350 {{ModID}}_HurstsClearing 23 10 2",
         "Sat": "GOTO Fri",
         "Sun": "610 {{ModID}}_HurstsClearing 23 10 2/900 EastScarp_DeepMountains 100 43 2 JunimoWard_Waving/1500 EastScarp_DeepMountains 102 20 2 JunimoWard_Playing/2100 {{ModID}}_HurstsClearing 23 10 2",
-        "spring": "610 {{ModID}}_HurstsClearing 29 16 0/620 {{ModID}}_HurstsClearing 29 16 0"
+        "spring": "610 {{ModID}}_MistgroveOutskirts 65 21 2/900 {{ModID}}_MistgroveOutskirts 37 20 1 JunimoWard_Playing/1400 {{ModID}}_MistgroveOutskirts 66 38 1/1800 {{ModID}}_MistgroveOutskirts 21 41 2 JunimoWard_Playing/2300 {{ModID}}_MistgroveOutskirts 65 21 2"
       }
     },
     {
