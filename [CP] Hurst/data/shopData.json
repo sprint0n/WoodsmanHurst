@@ -104,8 +104,14 @@
               "ID": "Stardrop Tea",
               "ItemID": "StardropTea",
               "MaxItems": 1,
-              "PerItemCondition": "PLAYER_HAS_SEEN_EVENT Current sprinton.hurst.Hurst8H.P1",
+              "Condition": "PLAYER_HAS_SEEN_EVENT Current sprinton.hurst.Hurst8H.P1",
               "Price": "10000"
+            },
+            {
+              "ID": "Mistgrove Warp Totem",
+              "ItemID": "{{ModID}}_MistgroveTotem",
+              "Price": 300,
+              "Condition": "PLAYER_HAS_MAIL Current sprinton.hurst_MistgroveWarpTotemMail Received"
             }
           ]
         }

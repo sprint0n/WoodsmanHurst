@@ -53,14 +53,12 @@
         "AcceptBirthdayGift_Positive": "{{i18n:WoodsmanHurst.AcceptBirthdayGift_Positive}}",
         "AcceptBirthdayGift_Loved": "{{i18n:WoodsmanHurst.AcceptBirthdayGift_Loved}}",
         "AcceptBirthdayGift_Negative": "{{i18n:WoodsmanHurst.AcceptBirthdayGift_Negative}}",
-        "RejectBouquet": "{{i18n:WoodsmanHurst.RejectBouquet_NotDateable}}",
-        "RejectBouquet_AlreadyAccepted": "{{i18n:WoodsmanHurst.RejectBouquet_AlreadyAccepted}}",
         "RejectItem_(O)286": "{{i18n:WoodsmanHurst.PacifistGiftResponse}}",
         "RejectItem_(O)287": "{{i18n:WoodsmanHurst.PacifistGiftResponse}}",
         "RejectItem_(O)288": "{{i18n:WoodsmanHurst.PacifistGiftResponse}}",
         "RejectItem_(O)109": "{{i18n:WoodsmanHurst.PacifistGiftResponse}}",
-        "RejectMovieTicket": "{{i18n:WoodsmanHurst.TurnDownMovie}}",
-        "RejectMermaidPendant": "{{i18n:WoodsmanHurst.RejectMermaidPendant}}",
+        "RejectItem_(O)809": "{{i18n:WoodsmanHurst.TurnDownMovie}}",
+        "RejectItem_(O)460": "{{i18n:WoodsmanHurst.RejectMermaidPendant}}",
         "BreakUp": "{{i18n:WoodsmanHurst.breakUp}}",
         "AcceptGift_(O)852": "{{i18n:WoodsmanHurst.AcceptGift_DragonTooth}}",
         "AcceptGift_(O)268": "{{i18n:WoodsmanHurst.AcceptGift_Starfruit}}",
@@ -75,7 +73,7 @@
         "AcceptGift_(O)536": "{{i18n:WoodsmanHurst.AcceptGift_Geode.1}}#$action Spiderbuttons.BETAS_PlaySound boulderBreak#{{i18n:WoodsmanHurst.AcceptGift_FrozenGeode}}[122 82 540 570 539 543 565 547 563 554 553 575 578 562]",
         "AcceptGift_(O)537": "{{i18n:WoodsmanHurst.AcceptGift_Geode.1}}#$action Spiderbuttons.BETAS_PlaySound boulderBreak#{{i18n:WoodsmanHurst.AcceptGift_MagmaGeode}}[123 84 541 577 544 545 546 550 551 561 573 567 560 564 559 572]",
         "AcceptGift_(O)749": "{{i18n:WoodsmanHurst.AcceptGift_Geode.1}}#$action Spiderbuttons.BETAS_PlaySound boulderBreak#{{i18n:WoodsmanHurst.AcceptGift_OmniGeode}}[538 542 566 569 549 548 571 552 574 555 556 557 568 576 558 540 570 539 543 565 547 563 554 553 575 578 562 541 577 544 545 546 550 551 561 573 567 560 564 559 572]",
-
+        "AcceptGift_(O)421": "{{i18n:WoodsmanHurst.AcceptGift.Sunflower}}",
         //SVE
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola": "{{i18n:WoodsmanHurst.AcceptGift_JojaItem}}",
         "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Joja_Veggie": "{{i18n:WoodsmanHurst.AcceptGift_JojaItem}}",
@@ -109,6 +107,10 @@
         "AcceptGift_(O)sprinton.hurst_IfritPopRocks": "{{i18n:WoodsmanHurst.AcceptGift_IfritPopRocks}}",
         "AcceptGift_(O)sprinton.hurst_SylphTea": "{{i18n:WoodsmanHurst.AcceptGift_SylphTea}}",
         "AcceptGift_(O)sprinton.hurst_TeardropSpirits": "{{i18n:WoodsmanHurst.AcceptGift_TeardropSpirits}}",
+        "AcceptGift_(O)sprinton.hurst_IronAcorn": "{{i18n:WoodsmanHurst.AcceptGift_IronAcorn.1}}#$action Spiderbuttons.BETAS_PlaySound boulderBreak#{{i18n:WoodsmanHurst.AcceptGift_IronAcorn.2}}[sprinton.hurst_TerraSoup sprinton.hurst_TerraGourd sprinton.hurst_IfritPopRocks sprinton.hurst_SmolderingRose sprinton.hurst_SylphTea sprinton.hurst_ZephyrLily sprinton.hurst_TeardropSpirits sprinton.hurst_TeardropBerry MysticSyrup StardropTea TreasureTotem sprinton.hurst_MistgroveTotem 926 TentKit]",
+        "AcceptGift_(O)sprinton.hurst_FrostedMushroom": "{{i18n:WoodsmanHurst.AcceptGift_FrostedMushroom}}",
+        "AcceptGift_(O)sprinton.hurst_HarmonicGrapes": "{{i18n:WoodsmanHurst.AcceptGift_HarmonicGrapes}}",
+        "AcceptGift_(O)sprinton.hurst_SymphonicBerries": "{{i18n:WoodsmanHurst.AcceptGift_SymphonicBerries}}",
 
         //Liked Items
         "AcceptGift_(O)454": "{{i18n:WoodsmanHurst.AcceptGift_AncientFruit}}",
@@ -128,212 +130,26 @@
       }
     },
     {
-      "LogName": "Hurst Concession Tastes",
+      "LogName": "Hurst Bouquet",
       "Action": "EditData",
-      "Target": "Data/ConcessionTastes",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "WoodsmanHurst": {
-          "Name": "Hurst",
-          "LovedTags": ["Stardrop Sorbet", "Star Cookie", "Rock Candy"],
-          "LikedTags": ["Healthy", "Sweet"],
-          "DislikedTags": ["Joja"]
-        }
+        "RejectBouquet": "{{i18n:WoodsmanHurst.RejectBouquet_NotDateable}}"
+      },
+      "When": {
+        "HurstRomanceStatus": false
       }
     },
     {
-      "LogName": "Movie Theater Hurst",
+      "LogName": "Hurst Bouquet",
       "Action": "EditData",
-      "Target": "Data/MoviesReactions",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
-        "WoodsmanHurst": {
-          "NPCName": "Hurst",
-          "Reactions": [
-            {
-              "Tag": "spring_movie_0",
-              "Response": "{{HurstMovies}}",
-              "Whitelist": [],
-              "SpecialResponses": {
-                "BeforeMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.1}}"
-                },
-                "DuringMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.2}}"
-                },
-                "AfterMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.3}}"
-                }
-              },
-              "ID": "reaction_0"
-            },
-            {
-              "Tag": "summer_movie_0",
-              "Response": "{{HurstMovies}}",
-              "Whitelist": [],
-              "SpecialResponses": {
-                "BeforeMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.4}}"
-                },
-                "DuringMovie": {
-                  "ResponsePoint": null,
-                  "Script": "message \"{{i18n:WoodsmanHurst.Movies.5}}\"",
-                  "Text": ""
-                },
-                "AfterMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.6}}"
-                }
-              },
-              "ID": "reaction_1"
-            },
-            {
-              "Tag": "fall_movie_0",
-              "Response": "{{HurstMovies}}",
-              "Whitelist": [],
-              "SpecialResponses": {
-                "BeforeMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.7}}"
-                },
-                "DuringMovie": {
-                  "ResponsePoint": null,
-                  "Script": "message \"{{i18n:WoodsmanHurst.Movies.8}}\"",
-                  "Text": ""
-                },
-                "AfterMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.9}}"
-                }
-              },
-              "ID": "reaction_2"
-            },
-            {
-              "Tag": "winter_movie_0",
-              "Response": "{{HurstMovies}}",
-              "Whitelist": [],
-              "SpecialResponses": {
-                "BeforeMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.10}}"
-                },
-                "DuringMovie": {
-                  "ResponsePoint": null,
-                  "Script": "message \"{{i18n:WoodsmanHurst.Movies.11}}\"",
-                  "Text": ""
-                },
-                "AfterMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.12}}"
-                }
-              },
-              "ID": "reaction_3"
-            },
-            {
-              "Tag": "spring_movie_1",
-              "Response": "{{HurstMovies}}",
-              "Whitelist": [],
-              "SpecialResponses": {
-                "BeforeMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.13}}"
-                },
-                "DuringMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.14}}"
-                },
-                "AfterMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.15}}"
-                }
-              },
-              "ID": "reaction_4"
-            },
-            {
-              "Tag": "summer_movie_1",
-              "Response": "{{HurstMovies}}",
-              "Whitelist": [],
-              "SpecialResponses": {
-                "BeforeMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.16}}"
-                },
-                "DuringMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.17}}"
-                },
-                "AfterMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.18}}"
-                }
-              },
-              "ID": "reaction_5"
-            },
-            {
-              "Tag": "fall_movie_1",
-              "Response": "{{HurstMovies}}",
-              "Whitelist": [],
-              "SpecialResponses": {
-                "BeforeMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.19}}"
-                },
-                "DuringMovie": {
-                  "ResponsePoint": null,
-                  "Script": "message \"{{i18n:WoodsmanHurst.Movies.20}}\"",
-                  "Text": ""
-                },
-                "AfterMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.21}}"
-                }
-              },
-              "ID": "reaction_6"
-            },
-            {
-              "Tag": "winter_movie_1",
-              "Response": "{{HurstMovies}}",
-              "Whitelist": [],
-              "SpecialResponses": {
-                "BeforeMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.22}}"
-                },
-                "DuringMovie": {
-                  "ResponsePoint": null,
-                  "Script": "message \"{{i18n:WoodsmanHurst.Movies.23}}\"",
-                  "Text": ""
-                },
-                "AfterMovie": {
-                  "ResponsePoint": null,
-                  "Script": "",
-                  "Text": "{{i18n:WoodsmanHurst.Movies.24}}"
-                }
-              },
-              "ID": "reaction_7"
-            }
-          ]
-        }
+        "AcceptBouquet": "{{i18n:WoodsmanHurst.AcceptBouquet}}",
+        "RejectBouquet_AlreadyAccepted": "{{i18n:WoodsmanHurst.RejectBouquet_AlreadyAccepted}}"
+      },
+      "When": {
+        "HurstRomanceStatus": true
       }
     }
   ]

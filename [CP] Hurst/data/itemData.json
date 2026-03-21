@@ -244,6 +244,206 @@
           ],
           "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
           "SpriteIndex": 11
+        },
+        "{{ModID}}_IronAcorn": {
+          "Name": "{{ModID}}_IronAcorn",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.IronAcorn}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.IronAcorn.Description}}",
+          "Type": "Forage",
+          "Category": -81,
+          "Price": 150,
+          "Edibility": 5,
+          "ExcludeFromRandomSale": true,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "ContextTags": [
+            "color_gray",
+            "mistgrove_item",
+            "allergen_nut",
+            "season_spring"
+          ],
+          "Buffs": [
+            {
+              "Duration": 300,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 0,
+                "Defense": 2,
+                "Attack": 0
+              }
+            }
+          ],
+          "GeodeDrops": [
+            //Iron Acorn Geode Drop list:
+            //Terra Soup, Ifrit Pop Rocks, Sylph Tea, Teardrop Spirits, stack of 3-5
+            //Terra Gourd Seeds, Smoldering Rose Seeds, Zephyr Lily seeds, Teardrop Berry seeds, stack of 5-20
+            //Cookout Kit, Tent Kit, Void Essence, Solar Essence, stack of 3-5
+            //Mistgrove Totam, stack of 1, 1% chance
+            //Mystic Syrup, Mystic Seed, Treasure Totem, Stardrop Tea, Golden Animal Cracker, stack of 1, .8% chance (same as prismatic shard from omni geode)
+            {
+              "Chance": 0.25,
+              "SetFlagOnPickup": null,
+              "Precedence": 0,
+              "Condition": null,
+              "Id": "Default",
+              "ItemId": null,
+              "RandomItemId": [
+                "(O){{ModID}}_TerraSoup",
+                "(O){{ModID}}_IfritPopRocks",
+                "(O){{ModID}}_SylphTea",
+                "(O){{ModID}}_TeardropSpirits"
+              ],
+              "MaxItems": null,
+              "MinStack": 3,
+              "MaxStack": 5,
+              "IsRecipe": false,
+              "PerItemCondition": null
+            },
+            {
+              "Chance": 0.25,
+              "SetFlagOnPickup": null,
+              "Precedence": 0,
+              "Condition": null,
+              "Id": "Default",
+              "ItemId": null,
+              "RandomItemId": ["926", "TentKit", "768", "769"],
+              "MaxItems": null,
+              "MinStack": 3,
+              "MaxStack": 5,
+              "IsRecipe": false,
+              "PerItemCondition": null
+            },
+            {
+              "Chance": 1.0,
+              "SetFlagOnPickup": null,
+              "Precedence": 0,
+              "Condition": null,
+              "Id": "Default",
+              "ItemId": null,
+              "RandomItemId": [
+                "{{ModID}}_TerraGourdSeeds",
+                "{{ModID}}_SmolderingRoseSeeds",
+                "{{ModID}}_ZephyrLilySeeds",
+                "{{ModID}}_TeardropBerrySeeds"
+              ],
+              "MaxItems": null,
+              "MinStack": 5,
+              "MaxStack": 20,
+              "IsRecipe": false,
+              "PerItemCondition": null
+            },
+            {
+              "Chance": 0.01,
+              "SetFlagOnPickup": null,
+              "Precedence": 0,
+              "Id": "MistgroveTotem",
+              "ItemId": "(O){{ModID}}_MistgroveTotem",
+              "RandomItemId": null,
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "IsRecipe": false,
+              "PerItemCondition": null
+            },
+            {
+              "Chance": 0.008,
+              "SetFlagOnPickup": null,
+              "Precedence": 0,
+              "Id": "MagicItems",
+              "ItemId": "null",
+              "RandomItemId": [
+                "MysticSyrup",
+                "MysticSeed",
+                "StardropTea",
+                "TreasureTotem"
+              ],
+              "MaxItems": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "IsRecipe": false,
+              "PerItemCondition": null
+            }
+          ],
+          "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "SpriteIndex": 12
+        },
+        "{{ModID}}_FrostedMushroom": {
+          "Name": "{{ModID}}_FrostedMushroom",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.FrostedMushroom}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.FrostedMushroom.Description}}",
+          "Type": "Forage",
+          "Category": -81,
+          "Price": 200,
+          "Edibility": 20,
+          "ExcludeFromRandomSale": true,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "ContextTags": [
+            "color_blue",
+            "mistgrove_item",
+            "season_summer",
+            "edible_mushroom"
+          ],
+          "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "SpriteIndex": 13
+        },
+        "{{ModID}}_HarmonicGrapes": {
+          "Name": "{{ModID}}_HarmonicGrapes",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.HarmonicGrapes}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.HarmonicGrapes.Description}}",
+          "Type": "Forage",
+          "Category": -79,
+          "Price": 150,
+          "Edibility": 15,
+          "ExcludeFromRandomSale": true,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "ContextTags": [
+            "color_purple",
+            "mistgrove_item",
+            "season_fall",
+            "void_item"
+          ],
+          "Buffs": [
+            {
+              "Duration": 600,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 2,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 0,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ],
+          "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "SpriteIndex": 14
+        },
+        "{{ModID}}_SymphonicBerries": {
+          "Name": "{{ModID}}_SymphonicBerries",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.SymphonicBerry}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.SymphonicBerry.Description}}",
+          "Type": "Forage",
+          "Category": -79,
+          "Price": 150,
+          "Edibility": 15,
+          "ExcludeFromRandomSale": true,
+          "IsDrink": false,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "ContextTags": ["color_purple", "mistgrove_item", "season_winter"],
+          "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "SpriteIndex": 15
         }
       }
     },
@@ -383,8 +583,8 @@
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
           "Price": 200,
-          "Texture": "{{InternalAssetKey: assets/images/MistgroveWarpTotem.png}}",
-          "SpriteIndex": 0,
+          "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "SpriteIndex": 17,
           "Edibility": -300,
           "IsDrink": false,
           "ContextTags": ["not_placeable", "totem_item", "mistgrove_item"]
@@ -409,6 +609,33 @@
             }
           }
         }
+      }
+    },
+    {
+      "LogName": "Warp Totem Animation",
+      "Action": "EditData",
+      "Target": "Spacechase0.SpaceCore/TextureOverrides",
+      "When": { "AnimateMistgroveWarpTotem": true },
+      "Entries": {
+        "{{ModID}}_WarpTotemAnimation": {
+          "TargetTexture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "TargetRect": {
+            "X": 48,
+            "Y": 64,
+            "Width": 16,
+            "Height": 16
+          },
+          "SourceTexture": "{{InternalAssetKey: assets/images/WarpTotemAnimation.png}}:0..3@5,{{InternalAssetKey: assets/images/WarpTotemAnimation.png}}:4..7@10,{{InternalAssetKey: assets/images/WarpTotemAnimation.png}}:7..10@5 ",
+          "ChangePerTick": 0.1
+        }
+      }
+    },
+    {
+      "LogName": "Make Warp Totem Craftable",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "{{ModID}}_MistgroveTotem": " 709 5 768 1 769 1 {{ModID}}_TerraGourd 1//{{ModID}}_MistgroveTotem 1/false/{{i18n:WoodsmanHurst.Items.MistgroveWarpTotem}}"
       }
     }
   ]

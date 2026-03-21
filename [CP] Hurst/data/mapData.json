@@ -43,6 +43,11 @@
             {
               "Id": "WardPassedOutLetter",
               "Mail": "sprinton.hurst.WardFoundYouPassedOut"
+            },
+            {
+              "Id": "SylvaPassedOutLetter",
+              "Mail": "sprinton.hurst.SylvaFoundYouPassedOut",
+              "Condition": "PLAYER_HAS_SEEN_EVENT Current sprinton.hurst.Hurst8H.P2"
             }
           ],
           "WeatherConditions": [
@@ -101,6 +106,96 @@
               "ItemId": "(O)795",
               "FishAreaID": "MistgrovePond",
               "Season": null
+            }
+          ],
+          "Forage": [
+            {
+              "Chance": 0.5,
+              "Season": "Spring",
+              "Condition": null,
+              "Id": "IronAcornSpawn",
+              "ItemId": "(O){{ModID}}_IronAcorn",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1
+            },
+            {
+              "Chance": 0.01,
+              "Season": "Spring",
+              "Condition": null,
+              "Id": "TerraSoupSpawn",
+              "ItemId": "(O){{ModID}}_TerraSoup",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1
+            },
+            {
+              "Chance": 0.5,
+              "Season": "Summer",
+              "Condition": null,
+              "Id": "FrostedMushroomSpawn",
+              "ItemId": "(O){{ModID}}_FrostedMushroom",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1
+            },
+            {
+              "Chance": 0.01,
+              "Season": "Summer",
+              "Condition": null,
+              "Id": "IfritPopRocksSpawn",
+              "ItemId": "(O){{ModID}}_IfritPopRocks",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1
+            },
+            {
+              "Chance": 0.5,
+              "Season": "Fall",
+              "Condition": null,
+              "Id": "HarmonicGrapeSpawn",
+              "ItemId": "(O){{ModID}}_HarmonicGrapes",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1
+            },
+            {
+              "Chance": 0.01,
+              "Season": "Fall",
+              "Condition": null,
+              "Id": "SylphTeaSpawn",
+              "ItemId": "(O){{ModID}}_SylphTea",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1
+            },
+            {
+              "Chance": 0.5,
+              "Season": "Winter",
+              "Condition": null,
+              "Id": "SymphonicBerrySpawn",
+              "ItemId": "(O){{ModID}}_SymphonicBerries",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1
+            },
+            {
+              "Chance": 0.01,
+              "Season": "Winter",
+              "Condition": null,
+              "Id": "TeardropSpiritsSpawn",
+              "ItemId": "(O){{ModID}}_TeardropSpirits",
+              "RandomItemId": null,
+              "MinStack": -1,
+              "MaxStack": -1,
+              "Quality": -1
             }
           ]
         }

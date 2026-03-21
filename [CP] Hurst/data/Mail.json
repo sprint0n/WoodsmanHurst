@@ -34,10 +34,11 @@
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "sprinton.hurst.HurstSpiritShopOpened": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopOpened}}",
-        "sprinton.hurst.HurstSpiritShopEarlyOpen": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopEarlyOpen}}",
-        "sprinton.hurst.WardFoundYouPassedOut": " {{i18n:WoodsmanHurst.Mail.sprinton.hurst.WardFoundYouPassedOut}}"
-        // "sprinton.hurst.SylvaFoundYouPassedOut": "Farmer @. The spirits told me of your unconcious self laying on the outskirts of Mistgrove. ^ I took it upon myself to have some of the gods take you home. I hope you found your way home well. Please stay safe. ^ Do not tell Hurst of this. He will worry. ^ Prophet Sylva" --We'll see about this one after i write the event
+        "sprinton.hurst.HurstSpiritShopOpened": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopOpened}}[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstShopOpenTitle}}",
+        "sprinton.hurst.HurstSpiritShopEarlyOpen": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopEarlyOpen}}{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstShopOpenTitle}}",
+        "sprinton.hurst.WardFoundYouPassedOut": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.WardFoundYouPassedOut}}{{i18n:WoodsmanHurst.Mail.sprinton.hurst.WardFoundYouTitle}}",
+        "sprinton.hurst.MistgroveWarpTotemMail": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.MistgroveWarpTotemMail}}%item craftingRecipe sprinton.hurst_MistgroveTotem%% %item id (O)sprinton.hurst_MistgroveTotem 3%%",
+        "sprinton.hurst.SylvaFoundYouPassedOut": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SylvaFoundYouPassedOut}}{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SylvaFoundYouTitle}}"
       }
     },
     {
