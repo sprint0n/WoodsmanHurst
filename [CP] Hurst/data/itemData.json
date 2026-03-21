@@ -637,6 +637,47 @@
       "Entries": {
         "{{ModID}}_MistgroveTotem": " 709 5 768 1 769 1 {{ModID}}_TerraGourd 1//{{ModID}}_MistgroveTotem 1/false/{{i18n:WoodsmanHurst.Items.MistgroveWarpTotem}}"
       }
+    },
+    {
+      "LogName": "Warp Totem Craft Override",
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/CraftingRecipeOverrides",
+      "Entries": {
+        "{{ModID}}_MistgroveTotem": { 
+          "ProductQualifiedId": "(O){{ModID}}_MistgroveTotem",
+          "ProductAmount": 1,
+          "Ingredients": [
+            {
+              "Type": "Item",
+              "Value": "(O)709",
+              "Amount": 5
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)768",
+              "Amount": 1
+            },
+            {
+              "Type": "Item",
+              "Value": "(O)769",
+              "Amount": 1
+            },
+            {
+              "Type": "ContextTag",
+              "Value": "mistgrove_item",
+              "Amount": 1,
+              "OverrideText": "Mistgrove Attuned Item",
+              "OverrideTexturePath": "{{InternalAssetKey: assets/images/WHObjects}}",
+              "OverrideTextureRect": {
+                "X": 48,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+              }
+            }
+          ]
+        }
+      }
     }
   ]
 }
