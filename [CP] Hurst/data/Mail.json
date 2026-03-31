@@ -35,10 +35,11 @@
       "Target": "Data/Mail",
       "Entries": {
         "sprinton.hurst.HurstSpiritShopOpened": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopOpened}}[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstShopOpenTitle}}",
-        "sprinton.hurst.HurstSpiritShopEarlyOpen": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopEarlyOpen}}{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstShopOpenTitle}}",
-        "sprinton.hurst.WardFoundYouPassedOut": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.WardFoundYouPassedOut}}{{i18n:WoodsmanHurst.Mail.sprinton.hurst.WardFoundYouTitle}}",
-        "sprinton.hurst.MistgroveWarpTotemMail": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.MistgroveWarpTotemMail}}%item craftingRecipe sprinton.hurst_MistgroveTotem%% %item id (O)sprinton.hurst_MistgroveTotem 3%%",
-        "sprinton.hurst.SylvaFoundYouPassedOut": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SylvaFoundYouPassedOut}}{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SylvaFoundYouTitle}}"
+        "sprinton.hurst.HurstSpiritShopEarlyOpen": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopEarlyOpen}}[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstShopOpenTitle}}",
+        "sprinton.hurst.WardFoundYouPassedOut": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.WardFoundYouPassedOut}}[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.WardFoundYouTitle}}",
+        "sprinton.hurst.MistgroveWarpTotemMail": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.MistgroveWarpTotemMail}}%item craftingRecipe sprinton.hurst_MistgroveTotem%% %item id (O)sprinton.hurst_MistgroveTotem 3%%[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.MistgroveWarpTotemMailTitle}}",
+        "sprinton.hurst.SylvaFoundYouPassedOut": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SylvaFoundYouPassedOut}}[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SylvaFoundYouTitle}}",
+        "sprinton.hurst.SpiritWalkLetter": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SpiritWalkLetter}}%item specialOrder WoodsmanHurst.SpecialOrders.PowerSpiritWalk%%[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SpiritWalkLetterTitle}}"
       }
     },
     {

@@ -1,0 +1,125 @@
+{
+  "Changes": [
+    {
+      "LogName": "Send Letter for spirit walk",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "When": {
+        "HasSeenEvent |contains=sprinton.hurst.Hurst8H.P2": true,
+        "HasConversationTopic |contains=HurstLetsGo": false
+      },
+      "Entries": {
+        "sprinton.hurst.TriggerActions.WoodsmanHurst.SendSpiriWalkLetter": {
+          "Id": "sprinton.hurst.TriggerActions.WoodsmanHurst.SpiritWalkLetter",
+          "MarkActionApplied": true,
+          "Trigger": "DayEnding",
+          "Action": "AddMail Current sprinton.hurst.SpiritWalkLetter tomorrow"
+        }
+      }
+    },
+    {
+      "LogName": "Hurst Special Orders",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "WoodsmanHurst.SpecialOrders.PowerSpiritWalk": {
+          "Name": "[WoodsmanHurst.SpecialOrders.PowerSpiritWalk_Name]",
+          "Requester": "WoodsmanHurst",
+          "Duration": "Month",
+          "Repeatable": "false",
+          "RequiredTags": "event_sprinton.hurst.Hurst8H.P2",
+          "OrderType": "WoodsmanHurst",
+          "SpecialRule": "",
+          "Text": "[WoodsmanHurst.SpecialOrders.PowerSpiritWalk_Text]",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomisedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "[WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Objective_1_Text]",
+              "RequiredCount": 5,
+              "Data": {
+                "DropBox": "HurstDropBox",
+                "DropBoxGameLocation": "{{ModID}}_HurstsClearing",
+                "DropBoxIndicatorLocation": "15 6.5",
+                "AcceptedContextTags": "item_void_essence"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Objective_1_Text]",
+              "RequiredCount": 5,
+              "Data": {
+                "DropBox": "HurstDropBox",
+                "DropBoxGameLocation": "{{ModID}}_HurstsClearing",
+                "DropBoxIndicatorLocation": "15 6.5",
+                "AcceptedContextTags": "item_solar_essence"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "[WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Objective_2_Text]",
+              "RequiredCount": 15,
+              "Data": {
+                "DropBox": "HurstDropBox",
+                "DropBoxGameLocation": "{{ModID}}_HurstsClearing",
+                "DropBoxIndicatorLocation": "15 6.5",
+                "AcceptedContextTags": "mistgrove_item"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Mail",
+              "Data": {
+                "MailReceived": "sprinton.hurst.SpiritWalkReady",
+                "NoLetter": "true"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Mods/EastScarp/DurationOverride",
+      "Entries": {
+        "WoodsmanHurst.SpecialOrders.PowerSpiritWalk": "-1"
+      }
+    },
+    {
+      "LogName": "Hurst Special Orders Strings",
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "Entries": {
+        "WoodsmanHurst.SpecialOrders.PowerSpiritWalk_Name": "{{i18n:WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Name}}",
+        "WoodsmanHurst.SpecialOrders.PowerSpiritWalk_Text": "{{i18n:WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Text}}",
+        "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Objective_0_Text": "{{i18n:WoodsmanHurst.SpecialOrders.PowerSpiritWalk.ObjectiveText.1}}",
+        "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Objective_1_Text": "{{i18n:WoodsmanHurst.SpecialOrders.PowerSpiritWalk.ObjectiveText.2}}",
+        "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Objective_2_Text": "{{i18n:WoodsmanHurst.SpecialOrders.PowerSpiritWalk.ObjectiveText.3}}"
+      }
+    },
+    {
+      "LogName": "Hurst Drop Box",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModID}}_HurstsClearing",
+      "When": {
+        "HasFlag |contains=sprinton.hurst.SpiritWalkLetter": true,
+        "HasFlag: |contains=sprinton.hurst.SpiritWalkReady": false
+      },
+      "MapTiles": [
+        {
+          "Position": {
+            "X": "15",
+            "Y": "6"
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "DropBox HurstDropBox"
+          }
+        }
+      ]
+    }
+  ]
+}

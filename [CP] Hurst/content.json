@@ -11,7 +11,7 @@
     {
       "LogName": "Includes",
       "Action": "Include",
-      "FromFile": "data/dispos.json, data/Mail.json, data/mapData.json, data/events.json, data/dialogue.json, data/schedule.json, data/gifttastes.json, data/animationData.json, data/conversationTopics.json, data/festivals.json, data/itemData.json, data/Strings.json, data/tempActors.json, data/shopData.json"
+      "FromFile": "data/dispos.json, data/Mail.json, data/mapData.json, data/events.json, data/dialogue.json, data/schedule.json, data/gifttastes.json, data/animationData.json, data/conversationTopics.json, data/festivals.json, data/itemData.json, data/Strings.json, data/tempActors.json, data/shopData.json, data/Quests.json"
     },
     {
       "LogName": "Hurst Portraits",

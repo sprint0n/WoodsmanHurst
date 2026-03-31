@@ -587,7 +587,7 @@
           "SpriteIndex": 17,
           "Edibility": -300,
           "IsDrink": false,
-          "ContextTags": ["not_placeable", "totem_item", "mistgrove_item"]
+          "ContextTags": ["not_placeable", "totem_item", "mistgrove_warp_totem"]
         }
       }
     },
@@ -615,6 +615,7 @@
       "LogName": "Warp Totem Animation",
       "Action": "EditData",
       "Target": "Spacechase0.SpaceCore/TextureOverrides",
+      "Update": "OnLocationChange, OnTimeChange",
       "When": { "AnimateMistgroveWarpTotem": true },
       "Entries": {
         "{{ModID}}_WarpTotemAnimation": {
@@ -643,7 +644,7 @@
       "Action": "EditData",
       "Target": "spacechase0.SpaceCore/CraftingRecipeOverrides",
       "Entries": {
-        "{{ModID}}_MistgroveTotem": { 
+        "{{ModID}}_MistgroveTotem": {
           "ProductQualifiedId": "(O){{ModID}}_MistgroveTotem",
           "ProductAmount": 1,
           "Ingredients": [

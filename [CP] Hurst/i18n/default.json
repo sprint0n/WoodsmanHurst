@@ -336,12 +336,14 @@
   "sprinton.hurst.hurst10H.PlatonicSplit.3": "Does this mean you'll teach me crazy magic?",
   "sprinton.hurst.hurst10H.PlatonicSplit.4": "If I need help, I'll ask.",
   "sprinton.hurst.hurst10H.PlatonicSplit.5": "I'm glad you're doing better. Truly.",
-  "sprinton.hurst.hurst10H.PlatonicSplit.6": "Hurst chuckles to himself.\\speak WoodsmanHurst ",
-  "sprinton.hurst.hurst10H.PlatonicSplit.7": "$b",
-  "sprinton.hurst.hurst10H.PlatonicSplit.8": "You would have been a wonderful Prophet, were you born into Mistgrove. You have such a natural way of helping everyone around you.$1\"",
+  "sprinton.hurst.hurst10H.PlatonicSplit.6": "Hurst chuckles to himself.",
+  "sprinton.hurst.hurst10H.PlatonicSplit.7": "If only I knew how!$1#b#You would have been a wonderful Prophet, were you born into Mistgrove. You have such a natural way of helping everyone around you.$1",
   "sprinton.hurst.hurst10H.PlatonicSplit.9": "I am glad. I see how much you take on to help those around you. I admire you for it.$1",
   "sprinton.hurst.hurst10H.PlatonicSplit.10": "So am I. Yet another thing to thank you for.$1",
   "sprinton.hurst.hurst10H.PlatonicSplit.11": "You are one of the most wonderful people I have ever met. Please remember that. Do not let anyone convince you otherwise.$0#$b#You are marvelous.You are kind. You are loved by those around you.$1#$b#You are one of my truest friends.$4",
+
+  "sprinton.hurst.Hurst10HRouteSplit.false": "#Love.# Friendship(break) switchEvent sprinton.hurst.FriendshipRoute (break) switchEvent sprinton.hurst.FriendshipRoute",
+  "sprinton.hurst.Hurst10HRouteSplit.true": "#Love. (ROMANTIC)# Friendship. (PLATONIC)(break) switchEvent sprinton.hurst.DatingRoute (break) switchEvent sprinton.hurst.FriendshipRoute",
 
   //10H TOKENS
 
@@ -593,9 +595,6 @@
   "sprinton.hurst.10H.Dahlia.7": "I see what's happening. Have fun~!$12",
   "sprinton.hurst.10H.Dahlia.8": "Dahlia pauses next to Hurst and whispers in his ear. You can't hear what she says, but Hurst seems to be very embarrassed. Dahlia skips away laughing.",
 
-  "sprinton.hurst.Hurst10HRouteSplit.false": "#Love.# Friendship(break) switchEvent sprinton.hurst.FriendshipRoute (break) switchEvent sprinton.hurst.FriendshipRoute",
-  "sprinton.hurst.Hurst10HRouteSplit.true": "#Love. (DATE)# Friendship. (STAY FRIENDS)(break) switchEvent sprinton.hurst.DatingRoute (break) switchEvent sprinton.hurst.FriendshipRoute",
-
   "sprinton.hurst.Hurst9H.0": "I do not know. I was quite rude when he offered.$2",
   "sprinton.hurst.Hurst9H.1": "You have to start somewhere!$0#$b#You and Linus both like the woods! You like fruit! You'd be great friends!$2",
   "sprinton.hurst.Hurst9H.2": "There is more to friendship than that...$7",
@@ -633,6 +632,30 @@
   "sprinton.hurst.BathWithHurst.1": "I must admit I am a bit embarrassed. You will be the only person who has seen all of my scars...$2#$b#Well, I cannot think of another who I would feel comfortable with seeing them.$4",
   //////Bathhouse NoBathWithHurst
   "sprinton.hurst.NoBathWithHurst.0": "Ah.$2#$b#In that case, I hope you enjoy the rest of your day.$1",
+
+  "sprinton.hurst.FarmerSickDay.0": "Greetings dear customer! Is that all you'll be needing today?$1",
+  "sprinton.hurst.FarmerSickDay.1": "#Why are you running the register?#Did you get demoted or something?",
+  "sprinton.hurst.FarmerSickDay.2": "Our usual cashiers are all sick! Company policy requires employees 2 paid sick days a year! Isn't that so generous!$1#$b#I did remind them using them shows a lack of dedication, but they don't seem to care!$0#$b#That leaves me to run the place!$1",
+  "sprinton.hurst.FarmerSickDay.3": "That stomach bug going around is a real problem.",
+  "sprinton.hurst.FarmerSickDay.4": "How'd you avoid getting sick?",
+  "sprinton.hurst.FarmerSickDay.5": "That was *such* a generous offer.",
+  "sprinton.hurst.FarmerSickDay.6": "I know! I can't believe none of my staff cared enough to power through!$0#$b#It really opened my eyes to the morale here.$3",
+  "sprinton.hurst.FarmerSickDay.7": "I didn't! But there has to be *someone* running the register! Don't worry though, I've been disinfecting everyting in here!$1",
+  "sprinton.hurst.FarmerSickDay.8": "I know! I was originally going to just make them come in anyway, but sometimes you have to give a bit as a boss!$1",
+  "sprinton.hurst.FarmerSickDay.9": "Speaking of dear customer, you look quite pale yourself! Are you well?$0",
+  "sprinton.hurst.FarmerSickDay.10": "#I just didn't sleep too well last night.#I think I'm starting to catch that bug going around.#Just a bit tired today.",
+  "sprinton.hurst.FarmerSickDay.11": "I must ask you to take care of yourself dear customer! Joja worries for their customers! Without them, who would buy our product!$1",
+  "sprinton.hurst.FarmerSickDay.12": "Dear customer?",
+  "sprinton.hurst.FarmerSickDay.13": "Dear customer!$2",
+  "sprinton.hurst.FarmerSickDay.14": "Do not even try to touch them you vile creature.$5",
+  "sprinton.hurst.FarmerSickDay.15": "You!$2#$b#Why are you here?$0",
+  "sprinton.hurst.FarmerSickDay.16": "Hurst glares at Morris before looking down at you.",
+  "sprinton.hurst.FarmerSickDay.17": "I hope they're ok....",
+  "sprinton.hurst.FarmerSickDay.18": "The spirits told me you were feeling ill.$2#$b#Let us get you somewhere safe.$0",
+  "sprinton.hurst.FarmerSickDay.19": "Hurst picks you up and carries you outside.",
+  "sprinton.hurst.FarmerSickDay.20": "I apologize for my tardiness. I wished to find you sooner.$2",
+  "sprinton.hurst.FarmerSickDay.21": "I hope you do not mind I brought you here. I will be able to tend to you easier.$4",
+  "sprinton.hurst.FarmerSickDay.22": "Rest well my dear.$1#$b#I shall carry you to your own bed once you start to get better.$4",
 
   //Bonus EVENTS
 
@@ -867,16 +890,16 @@
   "WoodsmanHurst.LowHearts.44": "I wish I could show you the spirits I see in this valley.$0#$e#They are quite a sight to behold, especially whenever you are nearby.$1",
   "WoodsmanHurst.LowHearts.45": "I have heard stories that the woman that works at the saloon has a friend in the desert.$0#$e#The concept of a desert is one I find quite strange. How can a place be so dry all the time?$6",
   //Religion/Mistgrove (Basic)
-  "WoodsmanHurst.LowHearts.46": "In my home of Mistgrove, nearly everyone has the ability to see the spirits.$0#$e#It was quite strange to move here, where it seems no one has the same sight.$1",
-  "WoodsmanHurst.LowHearts.47": "The cemetery being in the center of town reminds me of the one back home.$0#$e#We have it in a similar place, due to it being the only place free of constant mist.$3",
+  "WoodsmanHurst.LowHearts.46": "In my home of Mistgrove, everyone has the ability to see the spirits.$0#$e#It was quite strange to move here, where it seems no one has the same sight.$1",
+  "WoodsmanHurst.LowHearts.47": "The cemetery here is quite different from how my people remember the passed.$3#$b#We inscribe their names on the Tree of Remembrance.$3",
   "WoodsmanHurst.LowHearts.48": "Mistgrove is quite a different place from here.$0#$e#We do not have nearly as advanced technology as you.$1",
   "WoodsmanHurst.LowHearts.49": "I miss the lanterns of home at times.$0#$e#Instead of metal and glass, our laterns are woven from vines, with fireflies that live within.$0",
   "WoodsmanHurst.LowHearts.50": "Your shrine to Yoba being tucked away is strange to me.$0#$e#We in Mistgrove have the shrines to the gods in the center of town, where any can access them.$1",
-  "WoodsmanHurst.LowHearts.51": "The buildings here are quite different from my homeland.$0#$e#We live mostly in the trees themselves, or out in the fields.$0",
+  "WoodsmanHurst.LowHearts.51": "The buildings here are quite different from my homeland.$0#$e#We live mostly in ancient ruins, or out in the fields.$0",
   "WoodsmanHurst.LowHearts.52": "My home Mistgrove is constantly covered in a deep mist.$0#$e#It makes a place like this quite strange to me at times.$0",
   "WoodsmanHurst.LowHearts.53": "When I lived in Mistgrove, my task was to wander the forest.$0#$e#There were spirits there who could be quite dangerous to the young. Someone must keep an eye out for them.$3",
   "WoodsmanHurst.LowHearts.54": "Upon my arrival, I mistook the artist as one from Mistgrove.$0#$e#Purple eyes are a shared trait by those from that land.$1",
-  "WoodsmanHurst.LowHearts.55": "The gods of this land are quite different from what I am used to.$0#$e#The gods here have far less variety than those I am accustomed to.$1",
+  "WoodsmanHurst.LowHearts.55": "The gods of this land are quite different from what I am used to.$0#$e#The gods here are a different variety than those I am accustomed to.$1",
   "WoodsmanHurst.LowHearts.56": "Mistgrove is quite beautiful at night.$0#$e#The mist and the fireflies make quite a sight to behold.$1",
   "WoodsmanHurst.LowHearts.57": "If I were to get my hands on some of my homelands crops, would you be willing to grow them?$0#$e#I would love to be able to taste a Teardrop Berry again.$1",
   "WoodsmanHurst.LowHearts.58": "I have asked if the gods would be willing to bless me with some Terra Gourd seeds.$0#$e#The plant itself is bland, but it can make a delicous stew.$1",
@@ -1031,31 +1054,31 @@
   "WoodsmanHurst.LowHearts.winter.5": "The spirits of winter are still new to me.$0#$e#I have known them for far less time than the others.$3",
 
   "WoodsmanHurst.HighHearts.spring.1": "Mistgrove is quite different from here.$0#$e#Our seasons are far less distinct.$1",
-  "WoodsmanHurst.HighHearts.spring.2": "",
-  "WoodsmanHurst.HighHearts.spring.3": "",
-  "WoodsmanHurst.HighHearts.spring.4": "",
-  "WoodsmanHurst.HighHearts.spring.5": "",
+  "WoodsmanHurst.HighHearts.spring.2": "I saw you within the mines yesterday. The gods requested a Ruby for offerings this week.$1#$b#I would have greeted you, but some Bats required my focus.$2",
+  "WoodsmanHurst.HighHearts.spring.3": "I often have a dream of a cabin in the woods. I open the door to a blade on a table.$2#$b#The dream never continues beyond there. It is quite strange.$2",
+  "WoodsmanHurst.HighHearts.spring.4": "%Hurst is tracing a patch on his jacket.$e#$b#Ah, @. Greetings.$0#$b#I was thinking about the previous owner of this jacket, Cedric.$2#$e#I believe you would have been friends.$1",
+  "WoodsmanHurst.HighHearts.spring.5": "Do your friends ever refer to you by names that you dislike?$0#$b#My old friend Eon would call me 'Hursty' in an attempt to irritate me.$1#$e#...$2",
 
   //Summer
-  "WoodsmanHurst.HighHearts.summer.1": "",
-  "WoodsmanHurst.HighHearts.summer.2": "",
-  "WoodsmanHurst.HighHearts.summer.3": "",
-  "WoodsmanHurst.HighHearts.summer.4": "",
-  "WoodsmanHurst.HighHearts.summer.5": "",
+  "WoodsmanHurst.HighHearts.summer.1": "The heat makes me rethink letting my hair grow this long.$1#$e#Before arriving here, my hair used to be quite short. You likely would not recognize me.$1",
+  "WoodsmanHurst.HighHearts.summer.2": "Do you have any experience in styling your hair?$7#$e#I have been considering a different style for the summer.$0",
+  "WoodsmanHurst.HighHearts.summer.3": "The buildings here make me wonder what the ancient city used to look like.$1#$e#Mistgrove is the remainder of a small town near the extreme outskirts of that city.$1",
+  "WoodsmanHurst.HighHearts.summer.4": "Willy and my Spirit-Father would have been good friends.$1#$b#They both have a love for the craft of fishing and boats.$1",
+  "WoodsmanHurst.HighHearts.summer.5": "The hidden woods are beautiful, but the presence of slimes there worries me.$0#$b#I wonder if the slime keeper visits them?$7",
 
   //Fall
-  "WoodsmanHurst.HighHearts.fall.1": "",
-  "WoodsmanHurst.HighHearts.fall.2": "",
-  "WoodsmanHurst.HighHearts.fall.3": "",
-  "WoodsmanHurst.HighHearts.fall.4": "",
-  "WoodsmanHurst.HighHearts.fall.5": "",
+  "WoodsmanHurst.HighHearts.fall.1": "Ah, the return of my favorite season.$1#$b#The chill and color of the leaves makes feel quite elated.$1",
+  "WoodsmanHurst.HighHearts.fall.2": "It was around this time of year that you could find Harmonic Grapes on the forest floor.$1#$b#They were a marvel to me. One of the few times the Void managed to get a foothold in Mistgrove.$3",
+  "WoodsmanHurst.HighHearts.fall.3": "When I first met my friend Aera, he told me he wished he could see the leaves of our home change.$0#$b#He said he heard rumors of them being orange, yellow, and even brown.$1#$e#He would have loved to see this season.$2",
+  "WoodsmanHurst.HighHearts.fall.4": "Farmer, I have a strange question for you.$0#$b#Do you happen to know of a man named Cedric-$2#$e#Nevermind, my apologies. I let my emotions get the better of me.$2",
+  "WoodsmanHurst.HighHearts.fall.5": "This season reminds me of the upcoming winter. It is quite rare I am able to sleep outside during that season.$2#$b#I will have to hope for enough clear nights this season to get my fill.$1",
 
   //Winter
-  "WoodsmanHurst.HighHearts.winter.1": "",
-  "WoodsmanHurst.HighHearts.winter.2": "",
-  "WoodsmanHurst.HighHearts.winter.3": "",
-  "WoodsmanHurst.HighHearts.winter.4": "",
-  "WoodsmanHurst.HighHearts.winter.5": "",
+  "WoodsmanHurst.HighHearts.winter.1": "Do you ever find yourself staring at the stars?$7#$b#On my walk home last night, I found my eyes glued to the sky. Are they not marvelous?$1",
+  "WoodsmanHurst.HighHearts.winter.2": "I enjoy seeing snow, but it reminds me of the difficulty I have in finding enough forage for the season.$1#$b#I often worry about taking too much. I know Linus and Jessie both forage as well.$0",
+  "WoodsmanHurst.HighHearts.winter.3": "The snow here reminds me of the Frosted Mushroom. It would grow during what would be summer if Mistgrove had the proper seasons.$0#$b#Is that odd to you? A mushroom of ice, growing in the season of warmth.$3",
+  "WoodsmanHurst.HighHearts.winter.4": "Before I lived here, my only encounter with snow was the Temple of the Watchers.$0#$b#It was the only place in Mistgrove that would vary between what should have been seasons.$3",
+  "WoodsmanHurst.HighHearts.winter.5": "%Hurst is chewing on an icicle. He waves at you, taking the icicle out of his mouth.$b#Farmer! I was taken by a strange desire to eat this frozen spike. I admit it is a rather interesting experience.$1",
 
   //Misc Daily Dialogues
   "WoodsmanHurst.Rain": "The rain is quite beautiful.$0#$e#It sometimes reminds me of Mistgrove.$1",
@@ -1078,11 +1101,6 @@
   "WoodsmanHurst.Dating.13": "Often I find myself wishing we could sneak away to Mistgrove for a few days.$0#$b#I could show you some of the most beautiful things I have ever seen.$1#$b#After you, of course.$4",
   "WoodsmanHurst.Dating.14": "Would you like to walk the beach at night sometime?$0#$b#I have heard doing so with one you love is marvelous.$4",
   "WoodsmanHurst.Dating.15": "",
-  "WoodsmanHurst.Dating.16": "",
-  "WoodsmanHurst.Dating.17": "",
-  "WoodsmanHurst.Dating.18": "",
-  "WoodsmanHurst.Dating.19": "",
-  "WoodsmanHurst.Dating.20": "",
 
   //ES Mod References
 
@@ -1408,10 +1426,13 @@
   "WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopEarlyOpen": "Greetings @. The spirits have informed me you are truly an Apostle. ^ This means you have the option of accessing a special privilege the spirits bestow upon the Apostles. ^ If you are to visit my clearing on Fridays, the spirits beside my shrine should be visible. ^ Speak with them to learn of what this privilege entails. ^ - Hurst",
   "WoodsmanHurst.Mail.sprinton.hurst.WardFoundYouPassedOut": "You were passed out on the ground! We found you! Our friends carried you home. ^ They might have taken some of your shiny yellow stuff. We don't know. They won't tell us. ^ We're sorry if they did! Please try to not pass out again. ^ Ward",
   "WoodsmanHurst.Mail.sprinton.hurst.MistgroveWarpTotemMail": "I have spoken to Sylva. She and I have come to an understanding with each other. I could not have taken such a leap without your help, so I asked the spirits for something. ^ You will find a method attached to attune a Warp Totem to the Outskirts of Mistgrove. As an Apostle, you have the right to visit. ^ Rasmodius went with me to place a protective barrier when I spoke to Sylva, so you shall not need to worry about demons. ^ -Hurst ^ P.S. I thank you again for being such a wonderful friend. You are marvelous.",
+  "WoodsmanHurst.Mail.sprinton.hurst.SpiritWalkLetter": "Dear @, there is something I wish to show you, but it requires me to impose upon you again. ^ If you are able, would you gather me items attuned to the light, void, and Mistgrove? ^ I will be able to gather the rest myself. I request you place these within the bowl of my shrine. ^ -Hurst ^ P.S. Ward has told me to tell you 'trust us, it's really cool!'. ^ P.P.S. They stood upon my shoulder until I wrote their message to you. My apologies.",
   "WoodsmanHurst.Mail.sprinton.hurst.SylvaFoundYouPassedOut": "Farmer @. The spirits told me of your unconcious self laying on the outskirts of Mistgrove. ^ I took it upon myself to have some of the gods take you home. I hope you found your way home well. Please stay safe. ^ Do not tell Hurst of this. He will worry. ^ -Prophet Sylva",
   "WoodsmanHurst.Mail.sprinton.hurst.HurstOpenShopTitle": "Spirit Shop Open",
   "WoodsmanHurst.Mail.sprinton.hurst.WardFoundYouTitle": "Ward found you passed out",
-  "WoodsmanHurst.Mail.sprinton.hurst.SylvaFoundYouTitle": "Sylva found you passed out.",
+  "WoodsmanHurst.Mail.sprinton.hurst.MistgroveWarpTotemMailTitle": "A warp totem from Hurst",
+  "WoodsmanHurst.Mail.sprinton.hurst.SylvaFoundYouTitle": "Sylva found you passed out",
+  "WoodsmanHurst.Mail.SpiritWalkLetterTitle": "Hurst needs help with gathering some things",
   //Items
   "WoodsmanHurst.Items.TerraGourd": "Terra Gourd",
   "WoodsmanHurst.Items.TerraGourd.Description": "A earthy gourd with rocky skin. Rumor says it's from another dimension.",
@@ -1510,7 +1531,14 @@
   "WoodsmanHurst.SecretNotes.8.Title": "Formal Report to Prophet Sylva of Mistgrove 4",
   "WoodsmanHurst.SecretNotes.9.Title": "Formal Report to Prophet Sylva of Mistgrove 5",
   "WoodsmanHurst.SecretNotes.10.Title": "Transcription of strange sounds coming from radios near the Misted Woods.",
-  "WoodsmanHurst.SecretNotes.11.Title": "Excerpt from the notes of Rasmodius."
+  "WoodsmanHurst.SecretNotes.11.Title": "Excerpt from the notes of Rasmodius.",
+
+  //Special Orders
+  "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Name": "Power the Spell",
+  "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Text": "Hurst has asked you to gather magically attuned items to show you something. He requested you leave the items in the bowl of his clearing shrine...",
+  "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.ObjectiveText.1": "Leave 5 void essence in the bowl of Hurst's Shrine",
+  "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.ObjectiveText.2": "Leave 5 solar essence in the bowl of Hurst's Shrine",
+  "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.ObjectiveText.3": "Leave 15 mistgrove items in the bowl of Hurst's Shrine"
 }
 
 /*

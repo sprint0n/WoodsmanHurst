@@ -6,7 +6,7 @@
       "Target": "Characters/Dialogue/WoodsmanHurst",
       "Entries": {
         //Vanilla
-        "Introduction": "{{i18n:WoodsmanHurst.Introduction.{{PlayerName |Contains=Codfish,Eileen,Ashton,Peak}}}}",
+        "Introduction": "{{i18n:WoodsmanHurst.Introduction.{{PlayerName |Contains=Codfish,Eileen,Ashton,Peak,}}}}",
         "cc_Begin": "{{i18n:WoodsmanHurst.cc_Begin}}",
         "cc_Boulder": "{{i18n:WoodsmanHurst.cc_Boulder}}",
         "cc_Bridge": "{{i18n:WoodsmanHurst.cc_Bridge}}",
@@ -177,6 +177,18 @@
         "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": true,
         "HurstIsolating": false,
         "HasFlag: |contains=ccIsComplete": false
+      }
+    },
+    {
+      "LogName": "Hurst Romantic Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/WoodsmanHurst",
+      "Entries": {
+        "{{Weekday}}": "{{i18n:WoodsmanHurst.Dating.{{Random:{{Range:1,15}}}}}}"
+      },
+      "When": {
+        "Query: {{Random: {{Range: 1,25}}|key=WHDD}} = 1": true,
+        "Relationship:WoodsmanHurst |contains=Dating": true
       }
     },
     {
