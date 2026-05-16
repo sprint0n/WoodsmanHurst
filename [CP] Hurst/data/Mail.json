@@ -39,7 +39,8 @@
         "sprinton.hurst.WardFoundYouPassedOut": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.WardFoundYouPassedOut}}[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.WardFoundYouTitle}}",
         "sprinton.hurst.MistgroveWarpTotemMail": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.MistgroveWarpTotemMail}}%item craftingRecipe sprinton.hurst_MistgroveTotem%% %item id (O)sprinton.hurst_MistgroveTotem 3%%[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.MistgroveWarpTotemMailTitle}}",
         "sprinton.hurst.SylvaFoundYouPassedOut": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SylvaFoundYouPassedOut}}[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SylvaFoundYouTitle}}",
-        "sprinton.hurst.SpiritWalkLetter": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SpiritWalkLetter}}%item specialOrder WoodsmanHurst.SpecialOrders.PowerSpiritWalk%%[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SpiritWalkLetterTitle}}"
+        "sprinton.hurst.SpiritWalkLetter": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SpiritWalkLetter}}%item specialOrder WoodsmanHurst.SpecialOrders.PowerSpiritWalk%%[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SpiritWalkLetterTitle}}",
+        "sprinton.hurst.HurstGiftedSpeakerFish": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstGiftedSpeakerFish}}%item cookingRecipe sprinton.hurst_RaedensBounty%%[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstGiftedSpeakerFishTitle}}"
       }
     },
     {

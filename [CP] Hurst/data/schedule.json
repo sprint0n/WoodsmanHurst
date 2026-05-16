@@ -6,9 +6,9 @@
       "Action": "EditData",
       "Target": "Characters/Schedules/WoodsmanHurst",
       "Entries": {
-        "Mon": "610 {{ModID}}_HurstsClearing 22 10 2/620 Forest 74 82 2 WoodsmanHurst_Foraging/1430 Forest 31 49 3 WoodsmanHurst_Foraging/1630 Forest 18 92 2 WoodsmanHurst_Foraging/1830 {{ModID}}_HurstsClearing 22 10 2 ",
+        "Mon": "610 Forest 74 82 2 WoodsmanHurst_Foraging/1100 Forest 110 99 2/1430 Forest 31 49 3 WoodsmanHurst_Foraging/1630 Forest 18 92 2 WoodsmanHurst_Foraging/1830 {{ModID}}_HurstsClearing 22 10 2 ",
         "Tue": "610 {{ModID}}_HurstsClearing 22 10 2/800 EastScarp_DeepMountains 68 51 1 square_3_3/1100 EastScarp_DeepMountains 41 56 2 square_4_4/1500 EastScarp_DeepMountains 38 16 2 square_3_3/1900 {{ModID}}_HurstsClearing 22 10 2",
-        "Wed": "610 {{ModID}}_HurstsClearing 22 10 2/630 Beach 9 12 3/1300 Beach 48 24 2 WoodsmanHurst_Foraging/1500 EastScarp_Village 15 122 2 WoodsmanHurst_offerings/1900 {{ModID}}_HurstsClearing 22 10 2",
+        "Wed": "610 Beach 9 12 3/1100 Beach 48 24 2 WoodsmanHurst_Foraging/1500 EastScarp_Village 15 122 2 WoodsmanHurst_offerings/1900 {{ModID}}_HurstsClearing 22 10 2",
         "Thu": "610 {{ModID}}_HurstsClearing 22 10 2/830 EastScarp_Village 20 68 1 WoodsmanHurst_Spirits/1200 EastScarp_Village 44 130 2 WoodsmanHurst_offerings/1700 EastScarp_Village 35 99 2 WoodsmanHurst_offerings/2100 {{ModID}}_HurstsClearing 22 10 2",
         "Fri": "610 {{ModID}}_HurstsClearing 22 10 2/620 {{ModID}}_HurstsClearing 15 7 0 WoodsmanHurst_Spirits/2350 {{ModID}}_HurstsClearing 22 10 2",
         "Sat": "610 {{ModID}}_HurstsClearing 22 10 2/830 {{ModID}}_HurstsClearing 22 14 1 WoodsmanHurst_Sobbing/1100 {{ModID}}_HurstsClearing 10 17 2 WoodsmanHurst_Junimos/1600 {{ModID}}_HurstsClearing 21 21 2 WoodsmanHurst_Spirits/2000 {{ModID}}_HurstsClearing 22 16 2 WoodsmanHurst_Junimos/2300 {{ModID}}_HurstsClearing 22 10 0",
@@ -16,7 +16,7 @@
         "Sun8": "MAIL sprinton.hurst.WardRevived/GOTO Sun/610 {{ModID}}_HurstsClearing 22 10 2/800 EastScarp_VillageInn 44 17 0/1100 EastScarp_Village 35 99 2 WoodsmanHurst_Junimos/1600 EastScarp_Village 83 92 1 WoodsmanHurst_offerings/2000 {{ModID}}_HurstsClearing 22 10 2",
         "Thu8": "MAIL sprinton.hurst.WardRevived/GOTO Thu/610 {{ModID}}_HurstsClearing 22 10 2/800 EastScarp_Village 25 70 0/1100 EastScarp_Village 35 99 2 WoodsmanHurst_offerings/1600 EastScarp_Village 83 92 1 WoodsmanHurst_Spirits/2000 {{ModID}}_HurstsClearing 22 10 2",
         "Sat8": "MAIL sprinton.hurst.WardRevived/GOTO Sat/610 {{ModID}}_HurstsClearing 22 10 2/830 {{ModID}}_HurstsClearing 15 8 0 WoodsmanHurst_Spirits/1100 {{ModID}}_HurstsClearing 10 17 2 WoodsmanHurst_Junimos/1600 {{ModID}}_HurstsClearing 21 21 2 WoodsmanHurst_Spirits/2000 {{ModID}}_HurstsClearing 22 16 2 WoodsmanHurst_Junimos/2300 {{ModID}}_HurstsClearing 22 10 0",
-        "spring": "610 {{ModID}}_HurstsClearing 22 10 2/630 Beach 9 12 3/1000 Beach 48 24 2 WoodsmanHurst_Foraging/1400 EastScarp_Village 15 122 2 WoodsmanHurst_offerings/1900 {{ModID}}_HurstsClearing 22 10 2"
+        "spring": "610 Forest 74 82 2 WoodsmanHurst_Foraging/1100 Forest 110 99 2/1430 Forest 31 49 3 WoodsmanHurst_Foraging/1630 Forest 18 92 2 WoodsmanHurst_Foraging/1830 {{ModID}}_HurstsClearing 22 10 2 "
       }
     },
     {

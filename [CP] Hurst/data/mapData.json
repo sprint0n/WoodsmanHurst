@@ -6,17 +6,6 @@
       "FromFile": "assets/images/ShopkeeperSpiritSprites.png"
     },
     {
-      "LogName": "Hurst Letter Shrine",
-      "Action": "EditMap",
-      "Update": "OnLocationChange",
-      "Target": "Maps/{{ModID}}_HurstsClearing",
-      "FromFile": "assets/Maps/HurstGoodEnding.tmx",
-      "ToArea": { "X": 13, "Y": 5, "Width": 5, "Height": 3 },
-      "When": {
-        "HasSeenEvent |contains=sprinton.hurst.Hurst4H": true
-      }
-    },
-    {
       "Action": "Load",
       "Target": "Maps/{{ModID}}_HurstLinusForage",
       "FromFile": "assets/Maps/HurstLinusForage.tmx"
@@ -30,6 +19,17 @@
       "Action": "Load",
       "Target": "Maps/{{ModID}}_MistgroveOutskirts",
       "FromFile": "Assets/Maps/Mistgrove.tmx"
+    },
+    {
+      "LogName": "Hurst Letter Shrine",
+      "Action": "EditMap",
+      "Update": "OnLocationChange",
+      "Target": "Maps/{{ModID}}_HurstsClearing",
+      "FromFile": "assets/Maps/HurstGoodEnding.tmx",
+      "ToArea": { "X": 13, "Y": 5, "Width": 5, "Height": 3 },
+      "When": {
+        "HasSeenEvent |contains=sprinton.hurst.Hurst4H": true
+      }
     },
 
     {
@@ -102,10 +102,59 @@
               "Season": null
             },
             {
+              "Id": "(O)139",
+              "ItemId": "(O)139",
+              "FishAreaID": "MistgrovePond",
+              "Season": "Fall"
+            },
+            {
               "Id": "(O)795",
               "ItemId": "(O)795",
               "FishAreaID": "MistgrovePond",
               "Season": null
+            },
+            {
+              "Id": "(O)sprinton.hurst_Spiritfish",
+              "ItemId": "(O)sprinton.hurst_Spiritfish",
+              "FishAreaID": "MistgrovePond",
+              "Season": null
+            },
+            {
+              "Id": "(O)sprinton.hurst_Fairyfish",
+              "ItemId": "(O)sprinton.hurst_Fairyfish",
+              "FishAreaID": "MistgrovePond",
+              "Season": null
+            },
+            {
+              "Id": "(O)sprinton.hurst_ConjoinedCatfish",
+              "ItemId": "(O)sprinton.hurst_ConjoinedCatfish",
+              "FishAreaID": "MistgrovePond",
+              "Condition": "SEASON winter summer"
+            },
+            {
+              "Id": "(O)sprinton.hurst_FlyingMisteel",
+              "ItemId": "(O)sprinton.hurst_FlyingMisteel",
+              "FishAreaID": "MistgrovePond",
+              "Season": "Fall"
+            },
+            {
+              "Id": "(O)sprinton.hurst_GlacialJellyfish",
+              "ItemId": "(O)sprinton.hurst_GlacialJellyfish",
+              "FishAreaID": "MistgrovePond",
+              "Season": "Summer"
+            },
+            {
+              "Id": "(O)sprinton.hurst_FrigidSunfish",
+              "ItemId": "(O)sprinton.hurst_FrigidSunfish",
+              "FishAreaID": "MistgrovePond",
+              "Season": "Spring"
+            },
+            {
+              "Id": "(O)sprinton.hurst_SpeakerFairyfish",
+              "ItemId": "(O)sprinton.hurst_SpeakerFairyfish",
+              "FishAreaID": "MistgrovePond",
+              "Season": null,
+              "Condition": "SEASON_DAY fall 5 fall 28"
             }
           ],
           "Forage": [
@@ -197,7 +246,10 @@
               "MaxStack": -1,
               "Quality": -1
             }
-          ]
+          ],
+          "MinDailyForageSpawn": 1,
+          "MaxDailyForageSpawn": 3,
+          "MaxSpawnedForageAtOnce": 10
         }
       }
     },
@@ -241,7 +293,16 @@
         }
       ]
     },
-
+    {
+      "LogName": "MMAP Mistgrove",
+      "Action": "EditMap",
+      "Target": "Maps/{{ModID}}_MistgroveOutskirts",
+      "Update": "OnLocationChange",
+      "MapProperties": {
+        "mushymato.MMAP_LightRays": "T",
+        "mushymato.MMAP_WaterColor": "#b12ded #c06be8 #9628c9 #8d21bf"
+      }
+    },
     {
       "LogName": "Friday Spirits",
       "Action": "EditMap",
@@ -411,7 +472,7 @@
       ]
     },
     {
-      "LogName": "Shopkeeper Spirits Spirits",
+      "LogName": "Shopkeeper Spirits",
       "Action": "EditMap",
       "Target": "Maps/{{ModID}}_HurstsClearing",
       "When": {
@@ -458,6 +519,45 @@
       },
       "PatchMode": "Overlay",
       "Update": "OnLocationChange"
+    },
+
+    //Should this be it the mapData file that's already full? Probably not! I'm tired! I don't care! Find the hurst author and yell at him if it's a problem
+    //Ty to mads, I looked at ur code to see how this works
+
+    {
+      "LogName": "CJB Cheats Clearing Warp",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "When": {
+        "HasMod": "CJBok.CheatsMenu"
+      },
+      "Entries": {
+        "sprinton.hurst_HurstsClearing": {
+          "Id": "sprinton.hurst_HurstsClearing",
+          "SectionId": "Lemurkat.EastScarp_EastScarp",
+          "DisplayName": "{{i18n: HurstsClearingDisplayName}}",
+          "Location": "sprinton.hurst_HurstsClearing",
+          "Tile": "25, 26"
+        }
+      }
+    },
+    {
+      "LogName": "CJB Cheats Clearing Warp",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "When": {
+        "HasMod": "CJBok.CheatsMenu",
+        "HasSeenEvent": "sprinton.hurst.Hurst8H.P2"
+      },
+      "Entries": {
+        "sprinton.hurst_MistgroveOutskirts": {
+          "Id": "sprinton.hurst_MistgroveOutskirts",
+          "SectionId": "Lemurkat.EastScarp_EastScarp",
+          "DisplayName": "{{i18n: MistgroveDisplayName}}",
+          "Location": "sprinton.hurst_MistgroveOutskirts",
+          "Tile": "43, 59"
+        }
+      }
     }
   ]
 }

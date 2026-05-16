@@ -11,7 +11,7 @@
     {
       "LogName": "Includes",
       "Action": "Include",
-      "FromFile": "data/dispos.json, data/Mail.json, data/mapData.json, data/events.json, data/dialogue.json, data/schedule.json, data/gifttastes.json, data/animationData.json, data/conversationTopics.json, data/festivals.json, data/itemData.json, data/Strings.json, data/tempActors.json, data/shopData.json, data/Quests.json"
+      "FromFile": "data/dispos.json, data/Mail.json, data/mapData.json, data/events.json, data/dialogue.json, data/schedule.json, data/gifttastes.json, data/animationData.json, data/conversationTopics.json, data/festivals.json, data/itemData.json, data/Strings.json, data/tempActors.json, data/shopData.json, data/Quests.json, data/Fish.json"
     },
     {
       "LogName": "Hurst Portraits",
@@ -278,7 +278,7 @@
     },
     {
       "Name": "FatherJoseph4HCrossover",
-      "Value": "warp FatherJoseph 36 18/speak FatherJoseph \"{{i18n:FatherJoseph4H.1}}\"/emote WoodsmanHurst 40 false/pause 100/speak WoodsmanHurst \"{{i18n:WoodsmanHurst.FatherJoseph4H.1}}\"/pause 100/speak FatherJoseph \"{{i18n:FatherJoseph4H.2}}\"/pause 100/speak WoodsmanHurst \"{{i18n:WoodsmanHurst.FatherJoseph4H.2}}\"/emote FatherJoseph 32 false/pause 100/speak FatherJoseph \"{{i18n:FatherJoseph4H.3}}\"/advancedMove FatherJoseph false -1 0 0 3 -10 0 0 -7 -5 0 1 10/pause 1500",
+      "Value": "warp AvianRPG.TheGardenCottage_FatherJoseph 36 18/speak AvianRPG.TheGardenCottage_FatherJoseph \"{{i18n:FatherJoseph4H.1}}\"/emote WoodsmanHurst 40 false/pause 100/speak WoodsmanHurst \"{{i18n:WoodsmanHurst.FatherJoseph4H.1}}\"/pause 100/speak AvianRPG.TheGardenCottage_FatherJoseph \"{{i18n:FatherJoseph4H.2}}\"/pause 100/speak WoodsmanHurst \"{{i18n:WoodsmanHurst.FatherJoseph4H.2}}\"/emote AvianRPG.TheGardenCottage_FatherJoseph 32 false/pause 100/speak AvianRPG.TheGardenCottage_FatherJoseph \"{{i18n:FatherJoseph4H.3}}\"/advancedMove AvianRPG.TheGardenCottage_FatherJoseph false -1 0 0 3 -10 0 0 -7 -5 0 1 10/pause 1500",
       "When": { "HasMod |contains=AvianRPG.TheGardenCottage": true }
     },
     {
@@ -293,21 +293,25 @@
     {
       "Name": "SpiritWalk_Aliyah", //Aliyah appears if she's installed
       "Value": "warp Daine.TPOChoice_Aliyah 29 49/faceDirection Daine.TPOChoice_Aliyah 2/viewport 29 49 true/fade false/advancedMove farmer false 0 1 3 0 1 10/advancedMove WoodsmanHurst false 0 1 3 0 1 10/advancedMove Daine.TPOChoice_Aliyah false 0 -4 3 10/waitForAllStationary/emote WoodsmanHurst 32/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Aliyah.0}}\"/speak Daine.TPOChoice_Aliyah \"{{i18n:sprinton.hurst.10H.Aliyah.1}}\"/quickQuestion #{{i18n:sprinton.hurst.10H.Aliyah.2}}#{{i18n:sprinton.hurst.10H.Aliyah.3}}(break)speak Daine.TPOChoice_Aliyah \"{{i18n:sprinton.hurst.10H.Aliyah.4}}\"\\speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Aliyah.5}}\"(break)speak Daine.TPOChoice_Aliyah \"{{i18n:sprinton.hurst.10H.Aliyah.6}}\"\\emote WoodsmanHurst 32\\speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Aliyah.7}}\"/emote Daine.TPOChoice_Aliyah 32/advancedMove Daine.TPOChoice_Aliyah false 0 -5 2 10/advancedMove WoodsmanHurst false 2 0 0 6 2 10/advancedMove farmer false 2 0 0 6 2 10/waitForAllStationary/fade/viewport -1000 -1000/changeLocation EastScarp_Village",
-      "When": { "HasMod |contains=Daine.TPOChoice": true }
+      "When": {
+        "HasMod |contains=Daine.TPOChoice": true,
+        "HasSeenEvent |contains=Daine.Aliyah.0H": true
+      }
     },
 
     {
       "Name": "SpiritWalk_BearFam", //Bearfam is replaced by conversation with Hurst
-      "Value": "/advancedMove WoodsmanHurst false 0 2 -10 0 0 10 0 2 3 0 2 100/advancedMove farmer false 0 2 -10 0 0 11 -1 0 0 3 2 0 2 10/pause 5000/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.NoBears.0}}\"/pause 250/quickQuestion #{{i18n:sprinton.hurst.10H.NoBears.1}}#{{i18n:sprinton.hurst.10H.NoBears.2}}#{{i18n:sprinton.hurst.10H.NoBears.3}}(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.NoBears.4}}\"(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.NoBears.5}}\"(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.NoBears.6}}\"/waitForAllStationary/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.NoBears.7}}\""
+      "Value": "/advancedMove WoodsmanHurst false 0 2 -10 0 0 10 0 2 3 0 0 1 2 10/advancedMove farmer false 0 2 -10 0 0 10 0 2 1 0 0 1 2 10/pause 5000/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.NoBears.0}}\"/pause 250/quickQuestion #{{i18n:sprinton.hurst.10H.NoBears.1}}#{{i18n:sprinton.hurst.10H.NoBears.2}}#{{i18n:sprinton.hurst.10H.NoBears.3}}(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.NoBears.4}}\"(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.NoBears.5}}\"(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.NoBears.6}}\"/waitForAllStationary/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.NoBears.7}}\""
     },
-    /*
-       Talk to Mads about this if/when she's off hiatus, for now placeholder, if ur reading the code, consider all of this and the related i18n non-canon
+
+    //Talk to Mads about this if/when she's off hiatus, for now placeholder, if ur reading the code, consider all of this and the related i18n non-canon
 
     {
       "Name": "SpiritWalk_BearFam", //Sondra and Sig
       "Value": "/beginSimultaneousCommand/warp MadDog.HashtagBearFam.Sigurd 50 15/warp MadDog.HashtagBearFam.Sondra 51 15/endSimultaneousCommand/advancedMove WoodsmanHurst false 0 2 -10 0 0 10 3 10/advancedMove farmer false 0 2 -10 0 0 11 -1 0 3 10/pause 1000/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.2Bears.0}}\"/emote farmer 16 false/pause 250/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.2Bears.1}}\"/waitForAllStationary/faceDirection MadDog.HashtagBearFam.Sondra 1 true/faceDirection MadDog.HashtagBearFam.Sigurd 1 false/speak MadDog.HashtagBearFam.Sondra \"{{i18n:sprinton.hurst.10H.2Bears.2}}\"/emote WoodsmanHurst 32 false/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.2Bears.3}}\"/speak MadDog.HashtagBearFam.Sigurd \"{{i18n:sprinton.hurst.10H.2Bears.4}}\"/emote farmer 32 true/emote WoodsmanHurst 32 false/pause 250/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.2Bears.5}}\"/speak MadDog.HashtagBearFam.Sondra \"{{i18n:sprinton.hurst.10H.2Bears.6}}\"/emote WoodsmanHurst 32 true/emote farmer 32 false/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.2Bears.7}}\"/emote MadDog.HashtagBearFam.Sondra 32 true/faceDirection WoodsmanHurst 2 true/faceDirection farmer 2 false/faceDirection MadDog.HashtagBearFam.Sondra 2 true/faceDirection MadDog.HashtagBearFam.Sigurd 2 false/advancedMove farmer false 0 2 3 0 2 10/advancedMove WoodsmanHurst false 0 3 2 0 2 10/waitForAllStationary",
       "When": { "HasMod |contains=MadDog.HashtagBearFam": true }
     },
+    /*
     {
       "Name": "SpiritWalk_BearFam", //Sondra, Sig, Gudrun, Gunnar
       "Value": "/beginSimultaneousCommand/warp MadDog.HashtagBearFam.Sigurd 50 15/warp MadDog.HashtagBearFam.Sondra 51 15/warp MadDog.HashtagBearFam.Gunnar 53 12/warp MadDog.HashtagBearFam.Gudrun 54 14/endSimultaneousCommand/advancedMove WoodsmanHurst false 0 2 -10 0 0 10 3 10/advancedMove farmer false 0 2 -10 0 0 11 -1 0 3 10/pause 700/animate MadDog.HashtagBearFam.Gunnar false true 300 16 17 18 19 20 21/animate MadDog.HashtagBearFam.Gudrun false true 250 34 33 33 33 33 33 34/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.4Bears.0}}\"/emote farmer 16 false/pause 250/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.4Bears.1}}\"/waitForAllStationary/faceDirection MadDog.HashtagBearFam.Sondra 1 true/faceDirection MadDog.HashtagBearFam.Sigurd 1 false/speak MadDog.HashtagBearFam.Sondra \"{{i18n:sprinton.hurst.10H.4Bears.2}}\"/emote WoodsmanHurst 32 false/faceDirection WoodsmanHurst 3 true/faceDirection farmer 3 false/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.4Bears.3}}\"/speak MadDog.HashtagBearFam.Sigurd \"{{i18n:sprinton.hurst.10H.4Bears.4}}\"/emote farmer 32 false/pause 500/emote MadDog.HashtagBearFam.Gudrun 16 false/speak MadDog.HashtagBearFam.Gudrun \"{{i18n:sprinton.hurst.10H.4Bears.5}}\"/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.4Bears.6}}\"/emote farmer 8 true/emote MadDog.HashtagBearFam.Gudrun 32 false/speak MadDog.HashtagBearFam.Gunnar \"{{i18n:sprinton.hurst.10H.4Bears.7}}\"/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.4Bears.8}}\"/emote farmer 8 true/emote MadDog.HashtagBearFam.Sondra 8 false/faceDirection MadDog.HashtagBearFam.Sondra 1 false/speak MadDog.HashtagBearFam.Sigurd \"{{i18n:sprinton.hurst.10H.4Bears.9}}\"/emote WoodsmanHurst 32 false/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.4Bears.10}}\"/pause 250/speak MadDog.HashtagBearFam.Sondra \"{{i18n:sprinton.hurst.10H.4Bears.11}}\"/emote WoodsmanHurst 32 true/emote farmer 32 true/pause 200/speak MadDog.HashtagBearFam.Sigurd \"{{i18n:sprinton.hurst.10H.4Bears.12}}\"/pause 200/faceDirection farmer 0/faceDirection MadDog.HashtagBearFam.Sondra 1/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.4Bears.13}}\"/emote MadDog.HashtagBearFam.Sondra 16 false/speak MadDog.HashtagBearFam.Gudrun \"{{i18n:sprinton.hurst.10H.4Bears.14}}\"/emote WoodsmanHurst 32 false/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.4Bears.15}}\"/faceDirection WoodsmanHurst 2 true/faceDirection farmer 2 true/faceDirection MadDog.HashtagBearFam.Sondra 2 true/faceDirection MadDog.HashtagBearFam.Sigurd 2 false/advancedMove farmer false 0 2 3 0 2 10/advancedMove WoodsmanHurst false 0 3 2 0 2 10/waitForAllStationary",
@@ -372,8 +376,9 @@
       "Value": "/quickQuestion #{{i18n:sprinton.hurst.10H.CaveDreams.0}}#{{i18n:sprinton.hurst.10H.CaveDreams.1}}(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.CaveDreams.2}}\"/pause 250/emote farmer 8 false/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.CaveDreams.3}}\"/emote farmer 28 false/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.CaveDreams.4}}\""
     },
     {
+      ///temporaryAnimatedSprite WH\\Shopkeepers 0 0 16 32 150 6 1000 15 12 false false 1 0 1 0 0 0
       "Name": "SpiritWalk_EnD",
-      "Value": "/pause 1000/faceDirection Nova.Eli 1 true/faceDirection Nova.Dylan 3/speak Nova.Dylan \"{{i18n:sprinton.hurst.10H.EnD.0}}\"/pause 100/speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.1}}\"/pause 100/speak Nova.Dylan \"{{i18n:sprinton.hurst.10H.EnD.2}}\"/emote Nova.Eli 32 false/speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.3}}\"/faceDirection Nova.Eli 2 true/faceDirection Nova.Dylan 2 false/speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.4}}\"/pause 200/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.EnD.5}}\"/emote Nova.Dylan 40 false/pause 100/speak Nova.Dylan \"{{i18n:sprinton.hurst.10H.EnD.6}}\"/jump Nova.Eli 6/speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.7}}\"/emote Nova.Eli 16 false/pause 100/speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.8}}\"/emote farmer 40 false/quickQuestion {{i18n:sprinton.hurst.10H.EnD.9}}#{{i18n:sprinton.hurst.10H.EnD.10}}#{{i18n:sprinton.hurst.10H.EnD.11}}#{{i18n:sprinton.hurst.10H.EnD.12}}(break)speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.13}}\"\\speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.EnD.14}}\"(break)speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.15}}\"(break)speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.16}}\"/emote Nova.Eli 32 false/pause 100/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.EnD.17}}\"/emote Nova.Dylan 40 false/pause 100/speak Nova.Dylan \"{{i18n:sprinton.hurst.10H.EnD.18}}\"/pause 100/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.EnD.19}}\"/pause 100/emote Nova.Dylan 16 false/speak Nova.Dylan \"{{i18n:sprinton.hurst.10H.EnD.20}}\"/message \"{{i18n:sprinton.hurst.10H.EnD.21}}\"/",
+      "Value": "/temporaryAnimatedSprite WH\\EliSpirit 0 0 16 32 250 2 500 44 109 false false 1 0 1 0 0 0/temporaryAnimatedSprite WH\\DylanSpirit 0 0 16 32 250 4 500 47 109 false false 1 0 1 0 0 0/pause 1000/faceDirection Nova.Eli 1 true/faceDirection Nova.Dylan 3/speak Nova.Dylan \"{{i18n:sprinton.hurst.10H.EnD.0}}\"/pause 100/speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.1}}\"/pause 100/speak Nova.Dylan \"{{i18n:sprinton.hurst.10H.EnD.2}}\"/emote Nova.Eli 32 false/speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.3}}\"/faceDirection Nova.Eli 2 true/faceDirection Nova.Dylan 2 false/speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.4}}\"/pause 200/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.EnD.5}}\"/emote Nova.Dylan 40 false/pause 100/speak Nova.Dylan \"{{i18n:sprinton.hurst.10H.EnD.6}}\"/jump Nova.Eli 6/speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.7}}\"/emote Nova.Eli 16 false/pause 100/speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.8}}\"/emote farmer 40 false/quickQuestion {{i18n:sprinton.hurst.10H.EnD.9}}#{{i18n:sprinton.hurst.10H.EnD.10}}#{{i18n:sprinton.hurst.10H.EnD.11}}#{{i18n:sprinton.hurst.10H.EnD.12}}(break)speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.13}}\"\\speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.EnD.14}}\"(break)speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.15}}\"(break)speak Nova.Eli \"{{i18n:sprinton.hurst.10H.EnD.16}}\"/emote Nova.Eli 32 false/pause 100/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.EnD.17}}\"/emote Nova.Dylan 40 false/pause 100/speak Nova.Dylan \"{{i18n:sprinton.hurst.10H.EnD.18}}\"/pause 100/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.EnD.19}}\"/pause 100/emote Nova.Dylan 16 false/speak Nova.Dylan \"{{i18n:sprinton.hurst.10H.EnD.20}}\"/message \"{{i18n:sprinton.hurst.10H.EnD.21}}\"/",
       "When": { "HasMod |contains=TenebrousNova.EliDylan.CP": true }
     },
 
@@ -433,7 +438,7 @@
     },
     {
       "Name": "SpiritWalk_FatherJoseph",
-      "Value": "/speak FatherJoseph \"{{i18n:sprinton.hurst.10H.Joseph.0}}\"/pause 100/speak Beatrice \"{{i18n:sprinton.hurst.10H.Joseph.1}}\"/message \"{{i18n:sprinton.hurst.10H.Joseph.2}}\"/pause 250/speak FatherJoseph \"{{i18n:sprinton.hurst.10H.Joseph.3}}\"",
+      "Value": "/speak AvianRPG.TheGardenCottage_FatherJoseph \"{{i18n:sprinton.hurst.10H.Joseph.0}}\"/pause 100/speak Beatrice \"{{i18n:sprinton.hurst.10H.Joseph.1}}\"/message \"{{i18n:sprinton.hurst.10H.Joseph.2}}\"/pause 250/speak AvianRPG.TheGardenCottage_FatherJoseph \"{{i18n:sprinton.hurst.10H.Joseph.3}}\"",
       "When": {
         "HasMod |contains=AvianRPG.TheGardenCottage": true
       }
@@ -478,13 +483,6 @@
       "Default": "HeartOfFlowers",
       "AllowBlank": false,
       "Description": "{{i18n:Config.PortraitStyleDescription}}",
-      "Section": "Art"
-    },
-    "AnimateMistgroveWarpTotem": {
-      "AllowValues": "true, false",
-      "Default": false,
-      "AllowBlank": false,
-      "Description": "{{i18n:Config.TotemDescription}}",
       "Section": "Art"
     }
   }

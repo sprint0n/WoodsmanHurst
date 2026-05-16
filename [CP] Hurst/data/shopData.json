@@ -80,8 +80,30 @@
               "IsRecipe": true
             },
             {
+              "ID": "MistgroveCakeRecipe",
+              "ItemID": "{{ModID}}_MistgroveCake",
+              "Price": 2000,
+              "IsRecipe": true,
+              "Condition": "PLAYER_HAS_SEEN_EVENT Current sprinton.hurst.Hurst8H.P2"
+            },
+            {
+              "ID": "BalancedMuffinRecipe",
+              "ItemID": "{{ModID}}_BalancedMuffin",
+              "Price": 2000,
+              "IsRecipe": true,
+              "Condition": "PLAYER_HAS_SEEN_EVENT Current sprinton.hurst.Hurst8H.P2"
+            },
+            {
+              "ID": "RaedensBountyRecipe",
+              "ItemID": "{{ModID}}_RaedensBounty",
+              "Price": 2000,
+              "IsRecipe": true,
+              "Condition": "PLAYER_HAS_MAIL Current sprinton.hurst.HurstGiftedSpeakerFish"
+            },
+            {
               "ID": "Random Filler Items",
               "MaxItems": 5,
+              "MinItems": 3,
               "ItemID": "RANDOM_BASE_SEASON_ITEM"
             },
             {
@@ -111,7 +133,7 @@
               "ID": "Mistgrove Warp Totem",
               "ItemID": "{{ModID}}_MistgroveTotem",
               "Price": 300,
-              "Condition": "PLAYER_HAS_MAIL Current sprinton.hurst_MistgroveWarpTotemMail Received"
+              "Condition": "PLAYER_HAS_MAIL Current sprinton.hurst.MistgroveWarpTotemMail Received"
             }
           ]
         }

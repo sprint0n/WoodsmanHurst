@@ -1,0 +1,443 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Fish",
+      "Entries": {
+        "{{ModID}}_Spiritfish": "Spiritfish/55/mixed/8/20/600 2600/spring summer fall winter/both/688 .6 684 .1/2/.4/.1/0/false",
+        "{{ModID}}_Fairyfish": "Fairyfish/60/floater/12/28/600 2600/spring summer fall winter/both/688 .6 684 .1/3/.35/.85/0/false",
+        "{{ModID}}_ConjoinedCatfish": "Conjoined Catfish/80/mixed/20/80/600 2600/spring summer fall winter/raining/668 .6 684 .1/3/.3/.1/0/false",
+        "{{ModID}}_FlyingMisteel": "Flying Misteel/70/dart/12/60/600 2600/spring summer fall winter/both/668 .6 684 .1/3/.25/.75/0/true",
+        "{{ModID}}_SpeakerFairyfish": "Fairyfish/95/mixed/24/56/600 2600/spring summer fall winter/both/668 .6 684 .1/4/.1/.05/5/false",
+        "{{ModID}}_GlacialJellyfish": "GlacialJellyfish/15/float/4/10/600 2600/spring summer fall winter/both/688 .6 684 .1/1/.1/.5/0/false",
+        "{{ModID}}_FrigidSunfish": "FrigidSunfish/40/mixed/6/12/600 2600/spring summer fall winter/both/688 .6 684 .1/2/.15/.5/0/false"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/FishPondData",
+      "Entries": {
+        "{{ModID}}_Spiritfish": {
+          "ID": "{{ModID}}_Spiritfish",
+          "RequiredTags": ["fish_spiritfish"],
+          "Precedence": 0,
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 7,
+              "Chance": 0.1,
+              "ItemID": "(O)457", //Pale Broth
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.1,
+              "ItemID": "(O)338", //Refined Quartz
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 3,
+              "Chance": 0.1,
+              "ItemID": "(O)380", //Iron Ore
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.1,
+              "ItemID": "(O)812", //Roe
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "3": [
+              "(O)80 3", //Quartz
+              "(O)156 3", //Ghostfish
+              "(O)338 3" //Refined Quartz
+            ],
+            "5": [
+              "(O)156 5", //Ghostfish
+              "(O)335 3", //Iron Bar
+              "(O)84 3" //Frozen Tear
+            ],
+            "7": [
+              "(O)335 5", //Iron Bar
+              "(O)157 3", //White Algae
+              "(O)561 1" //Ghost Crystal
+            ]
+          },
+          "WaterColor": [
+            {
+              "Id": "SpiritFishWaterColor",
+              "Color": "GhostWhite",
+              "MinPopulation": 3
+            }
+          ]
+        },
+        "{{ModID}}_Fairyfish": {
+          "ID": "{{ModID}}_Fairyfish",
+          "RequiredTags": ["fish_fairyfish"],
+          "Precedence": 0,
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 7,
+              "Chance": 0.1,
+              "ItemID": "(O)577", //Fairy Stone
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.1,
+              "ItemID": "(O)sprinton.hurst_MistgroveTotem", //Mistgrove Warp Totem
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 3,
+              "Chance": 0.1,
+              "ItemID": "(O)268", //Starfruit
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.1,
+              "ItemID": "(O)812", //Roe
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "3": [
+              "(O)sprinton.hurst_TeardropBerry 3", //Teardrop Berry
+              "(O)268 3", //Starfruit
+              "(O)62 1" //Aquamarine
+            ],
+            "5": [
+              "(O)268 5", //Starfruit
+              "(O)sprinton.hurst_SmolderingRose 3", //Smoldering Rose
+              "(O)66 1" //Amethyst
+            ],
+            "7": [
+              "(O)403 5", //Field Snack
+              "(O)276 3", //Pumpkin
+              "(O)577 1" //Fairy stone
+            ]
+          },
+          "WaterColor": [
+            {
+              "Id": "FairyFishWaterColor",
+              "Color": "DeepSkyBlue",
+              "MinPopulation": 3
+            }
+          ]
+        },
+        "{{ModID}}_ConjoinedCatfish": {
+          "ID": "{{ModID}}_ConjoinedCatfish",
+          "RequiredTags": ["fish_conjoinedcatfish"],
+          "Precedence": 0,
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 7,
+              "Chance": 0.1,
+              "ItemID": "(O)769", //Void Essence
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.1,
+              "ItemID": "(O)86", //Earth Crystal
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 3,
+              "Chance": 0.1,
+              "ItemID": "(O)sprinton.hurst_HarmonicGrapes", //Harmonic Grapes
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.1,
+              "ItemID": "(O)812", //Roe
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "3": [
+              "(O)334 3", //Copper Bar
+              "(O)86 3", //Earth Crystal
+              "(O)330 3" //Clay
+            ],
+            "5": [
+              "(O)268 3", //Purple Mushroom
+              "(O)sprinton.hurst_FrostedMushroom 1", //Frosted Mushroom
+              "(O)66 1" //Amethyst
+            ],
+            "7": [
+              "(O)404 5", //Common Mushroom
+              "(O)276 3", //Pumpkin
+              "(O)257 3" //Morel
+            ]
+          },
+          "WaterColor": [
+            {
+              "Id": "ConjoinedCatfishWaterColor",
+              "Color": "DarkOrange",
+              "MinPopulation": 3
+            }
+          ]
+        },
+        "{{ModID}}_FlyingMisteel": {
+          "ID": "{{ModID}}_FlyingMisteel",
+          "RequiredTags": ["fish_flyingmisteel"],
+          "Precedence": 0,
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 7,
+              "Chance": 0.1,
+              "ItemID": "(O)768", //Solar Essence
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.1,
+              "ItemID": "(O)86", //Earth Crystal
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 3,
+              "Chance": 0.1,
+              "ItemID": "(O)sprinton.hurst_SymphonicBerries", //SymphonicBerries
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.1,
+              "ItemID": "(O)812", //Roe
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "3": [
+              "(O)372 3", //Cllam
+              "(O)380 3", //Iron Ore
+              "(O)397 3" //Sea Urchin
+            ],
+            "5": [
+              "(O)406 3", //Wild Plum
+              "(O)398 3", //Grapes
+              "(O)66 1" //Amethyst
+            ],
+            "7": [
+              "(O)404 5", //Common Mushroom
+              "(O)422 3", //Purple Mushroom
+              "(O)424 3" //Cheese
+            ]
+          },
+          "WaterColor": [
+            {
+              "Id": "FlyingMisteelWaterColor",
+              "Color": "DarkOrchid",
+              "MinPopulation": 3
+            }
+          ]
+        },
+        "{{ModID}}_SpeakerFairyfish": {
+          "ID": "{{ModID}}_SpeakerFairyfish",
+          "RequiredTags": ["fish_speakerfairyfish"],
+          "Precedence": 0,
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.01,
+              "ItemID": "(O)74", //Prismatic Shard
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.1,
+              "ItemID": "(O)sprinton.hurst_IronAcorn", //Iron Acorn
+              "MinQuantity": 3,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 3,
+              "Chance": 0.1,
+              "ItemID": "(O)386", //Iridium Ore
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.1,
+              "ItemID": "(O)812", //Roe
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "3": [
+              "(O)109 1", //Ancient Sword
+              "(O)386 3", //Iridium Ore
+              "(O)394 3" //Rainbow Shell
+            ],
+            "5": [
+              "(O)724 3", //Maple Syrup
+              "(O)420 3", //Red Mushroom
+              "(O)155 3" //Super Cucumber
+            ],
+            "7": [
+              "(O)417 1", //Sweet Gem Berry
+              "(O)595 1", //Fairy Rose
+              "(O)578 1" //Star Shards
+            ]
+          },
+          "WaterColor": [
+            {
+              "Id": "SpeakerFairyFishWaterColor",
+              "Color": "Gold",
+              "MinPopulation": 3
+            }
+          ]
+        },
+        "{{ModID}}_GlacialJellyfish": {
+          "ID": "{{ModID}}_GlacialJellyfish",
+          "RequiredTags": ["fish_glacialjellyfish"],
+          "Precedence": 0,
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.01,
+              "ItemID": "(O)413", //Blue Slime Egg
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.1,
+              "ItemID": "(O)416", //Snow Yam
+              "MinQuantity": 3,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 3,
+              "Chance": 0.1,
+              "ItemID": "(O)536", //Frozen Geode
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.1,
+              "ItemID": "(O)812", //Roe
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "3": [
+              "(O)84 3", //Frozen Tear
+              "(O)233 3", //Ice Cream
+              "(O)335 3" //Iron Bar
+            ],
+            "5": [
+              "(O)233 5", //Ice Cream
+              "(O)335 5", //Iron Bar
+              "(O)536 1" //Frozen Geode
+            ],
+            "7": [
+              "(O)536 3", //Frozen Geode
+              "(O)564 1", //Fire Opal
+              "(O)DeluxeBait 20" //Deluxe bait
+            ]
+          },
+          "WaterColor": [
+            {
+              "Id": "GlacialJellyfishWaterColor",
+              "Color": "Cyan",
+              "MinPopulation": 3
+            }
+          ]
+        },
+        "{{ModID}}_FrigidSunfish": {
+          "ID": "{{ModID}}_FrigidSunfish",
+          "RequiredTags": ["fish_frigidsunfish"],
+          "Precedence": 0,
+          "SpawnTime": -1,
+          "ProducedItems": [
+            {
+              "RequiredPopulation": 9,
+              "Chance": 0.01,
+              "ItemID": "(O)sprinton.hurst_FrostedMushroom", //Frosted Mushroom
+              "MinQuantity": 1,
+              "MaxQuantity": 5
+            },
+            {
+              "RequiredPopulation": 5,
+              "Chance": 0.1,
+              "ItemID": "(O)768", //Solar Essence
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 3,
+              "Chance": 0.1,
+              "ItemID": "(O)84", //Frozen Tear
+              "MinQuantity": 1,
+              "MaxQuantity": 3
+            },
+            {
+              "RequiredPopulation": 0,
+              "Chance": 0.1,
+              "ItemID": "(O)812", //Roe
+              "MinQuantity": 1,
+              "MaxQuantity": 1
+            }
+          ],
+          "PopulationGates": {
+            "3": [
+              "(O)84 3", //Frozen Tear
+              "(O)309 3", //Acorn
+              "(O)770 3" //Mixed seeds
+            ],
+            "5": [
+              "(O)770 5", //Ice Cream
+              "(O)309 5", //Iron Bar
+              "(O)145 1" //Sunfish
+            ],
+            "7": [
+              "(O)145 3", //Sunfish
+              "(O)536 1", //Frozen Geode
+              "(O)DeluxeBait 20" //Deluxe bait
+            ]
+          },
+          "WaterColor": [
+            {
+              "Id": "FrigidSunfishWaterColor",
+              "Color": "DeepSkyBlue",
+              "MinPopulation": 3
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

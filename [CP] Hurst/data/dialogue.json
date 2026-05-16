@@ -132,7 +132,8 @@
         "DayOfWeek |contains=Friday": false,
         "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
         "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": true,
-        "HurstIsolating": false
+        "HurstIsolating": false,
+        "Query: {{Random: {{Range: 1,30}}|key=WLHSO}} = 1": true
       }
     },
     {
@@ -160,7 +161,8 @@
         "HasFlag: |contains=sprinton.hurst.WoodsmanHurstOverrideSeenToday": false,
         "HurstIsolating": false,
         "HasSeenEvent: |contains=sprinton.hurst.HurstIntro": true,
-        "Hearts:WoodsmanHurst": "{{Range: 5, 10}}"
+        "Hearts:WoodsmanHurst": "{{Range: 5, 10}}",
+        "Query: {{Random: {{Range: 1,30}}|key=WHHSO}} = 1": true
       }
     },
     {
@@ -358,7 +360,7 @@
       }
     },
     {
-      "LogName": "Hurst Override Flag Removal",
+      "LogName": "Hurst Dialogue Trigger Actions",
       "Action": "EditData",
       "Target": "Data/TriggerActions",
       "Entries": {
@@ -370,6 +372,13 @@
           "Actions": [
             "RemoveMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday"
           ]
+        },
+        "sprinton.hurst.TriggerActions.WoodsmanHurst.SpeakerFairyFishGift": {
+          "Id": "sprinton.hurst.TriggerActions.WoodsmanHurst.SpeakerFairyFishGift",
+          "MarkActionApplied": true,
+          "Trigger": "Spiderbuttons.BETAS_GiftGiven",
+          "Condition": "ITEM_ID Target WoodsmanHurst, ITEM_ID Input (O)sprinton.hurst_SpeakerFairyFish",
+          "Action": "AddMail Current sprinton.hurst.HurstGiftedSpeakerFish"
         }
       }
     },

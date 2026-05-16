@@ -163,7 +163,7 @@
           "ContextTags": ["color_red", "mistgrove_item", "food_spicy"],
           "Buffs": [
             {
-              "Duration": 600,
+              "Duration": 120,
               "CustomAttributes": {
                 "FarmingLevel": 0,
                 "FishingLevel": 0,
@@ -172,9 +172,9 @@
                 "ForagingLevel": 0,
                 "MaxStamina": 0,
                 "MagneticRadius": 0,
-                "Speed": 1,
-                "Defense": 1,
-                "Attack": 2
+                "Speed": 2,
+                "Defense": 2,
+                "Attack": 4
               }
             }
           ],
@@ -224,7 +224,7 @@
           "ExcludeFromRandomSale": true,
           "IsDrink": true,
           "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
-          "ContextTags": ["color_blue", "mistgrove_item", "food_soup"],
+          "ContextTags": ["color_blue", "mistgrove_item", ""],
           "Buffs": [
             {
               "Duration": 600,
@@ -264,7 +264,7 @@
           ],
           "Buffs": [
             {
-              "Duration": 300,
+              "Duration": 180,
               "CustomAttributes": {
                 "FarmingLevel": 0,
                 "FishingLevel": 0,
@@ -314,8 +314,8 @@
               "ItemId": null,
               "RandomItemId": ["926", "TentKit", "768", "769"],
               "MaxItems": null,
-              "MinStack": 3,
-              "MaxStack": 5,
+              "MinStack": 1,
+              "MaxStack": 3,
               "IsRecipe": false,
               "PerItemCondition": null
             },
@@ -412,7 +412,7 @@
           ],
           "Buffs": [
             {
-              "Duration": 600,
+              "Duration": 300,
               "CustomAttributes": {
                 "FarmingLevel": 0,
                 "FishingLevel": 0,
@@ -444,6 +444,293 @@
           "ContextTags": ["color_purple", "mistgrove_item", "season_winter"],
           "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
           "SpriteIndex": 15
+        },
+
+        "{{ModID}}_Spiritfish": {
+          "Name": "{{ModID}}_Spiritfish",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.Spiritfish}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.Spiritfish.Description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "ExcludeFromFishingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 75,
+          "Edibility": 10,
+          "IsDrink": false,
+          "ContextTags": [
+            "mistgrove_item",
+            "color_white",
+            "fish_spiritfish",
+            "fish_lake"
+          ],
+          "Texture": "{{InternalAssetKey: assets/images/WHOBjects.png}}",
+          "SpriteIndex": 21
+        },
+        "{{ModID}}_Fairyfish": {
+          "Name": "{{ModID}}_Fairyfish",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.Fairyfish}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.Fairyfish.Description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "ExcludeFromFishingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 125,
+          "Edibility": 15,
+          "IsDrink": false,
+          "ContextTags": [
+            "mistgrove_item",
+            "color_blue",
+            "fish_fairyfish",
+            "fish_lake"
+          ],
+          "Buffs": [
+            {
+              "Duration": 300,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 1,
+                "MiningLevel": 0,
+                "LuckLevel": 1,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 0,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ],
+          "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "SpriteIndex": 25
+        },
+        "{{ModID}}_SpeakerFairyfish": {
+          "Name": "{{ModID}}_SpeakerFairyfish",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.SpeakerFairyfish}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.SpeakerFairyfish.Description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "ExcludeFromFishingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 300,
+          "Edibility": 30,
+          "IsDrink": false,
+          "ContextTags": [
+            "mistgrove_item",
+            "color_yellow",
+            "fish_speakerfairyfish",
+            "fish_lake"
+          ],
+          "Buffs": [
+            {
+              "Duration": 300,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 2,
+                "MiningLevel": 0,
+                "LuckLevel": 2,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 0,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ],
+          "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "SpriteIndex": 26
+        },
+        "{{ModID}}_ConjoinedCatfish": {
+          "Name": "{{ModID}}_ConjoinedCatfish",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.ConjoinedCatfish}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.ConjoinedCatfish.Description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "ExcludeFromFishingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 210,
+          "Edibility": 20,
+          "IsDrink": false,
+          "ContextTags": [
+            "mistgrove_item",
+            "color_orange",
+            "fish_conjoinedcatfish",
+            "fish_lake"
+          ],
+          "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "SpriteIndex": 27
+        },
+        "{{ModID}}_FlyingMisteel": {
+          "Name": "{{ModID}}_FlyingMisteel",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.FlyingMisteel}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.FlyingMisteel.Description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "ExcludeFromFishingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 95,
+          "Edibility": 15,
+          "IsDrink": false,
+          "ContextTags": [
+            "mistgrove_item",
+            "color_purple",
+            "fish_flyingmisteel",
+            "fish_lake"
+          ],
+          "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "SpriteIndex": 24
+        },
+        "{{ModID}}_GlacialJellyfish": {
+          "Name": "{{ModID}}_GlacialJellyfish",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.GlacialJellyfish}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.GlacialJellyfish.Description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "ExcludeFromFishingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 50,
+          "Edibility": -25,
+          "IsDrink": false,
+          "ContextTags": [
+            "mistgrove_item",
+            "color_blue",
+            "fish_glacialjellyfish",
+            "fish_lake"
+          ],
+          "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "SpriteIndex": 28
+        },
+        "{{ModID}}_FrigidSunfish": {
+          "Name": "{{ModID}}_FrigidSunfish",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.FrigidSunfish}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.FrigidSunfish.Description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "ExcludeFromFishingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 75,
+          "Edibility": 10,
+          "IsDrink": false,
+          "ContextTags": [
+            "mistgrove_item",
+            "color_blue",
+            "fish_frigidsunfish",
+            "fish_lake"
+          ],
+          "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "SpriteIndex": 29
+        },
+        "{{ModID}}_MistgroveCake": {
+          "Name": "{{ModID}}_MistgroveCake",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.MistgroveCake}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.MistgroveCake.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "ExcludeFromFishingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 230,
+          "Edibility": 90,
+          "IsDrink": false,
+          "ContextTags": [
+            "mistgrove_item",
+            "color_purple",
+            "color_orange",
+            "allergen_egg",
+            "food_cake"
+          ],
+          "Buffs": [
+            {
+              "Duration": 480,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 2,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 2,
+                "Defense": 2,
+                "Attack": 2
+              }
+            }
+          ],
+          "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "SpriteIndex": 32
+        },
+        "{{ModID}}_RaedensBounty": {
+          "Name": "{{ModID}}_RaedensBounty",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.RaedensBounty}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.RaedensBounty.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "ExcludeFromFishingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 250,
+          "Edibility": 60,
+          "IsDrink": false,
+          "ContextTags": ["mistgrove_item", "color_blue", "allergen_fish"],
+          "Buffs": [
+            {
+              "Duration": 420,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 3,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 0,
+                "Defense": 0,
+                "Attack": 0
+              }
+            }
+          ],
+          "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "SpriteIndex": 34
+        },
+        "{{ModID}}_BalancedMuffin": {
+          "Name": "{{ModID}}_BalancedMuffin",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.BalancedMuffin}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.BalancedMuffin.Description}}",
+          "Type": "Cooking",
+          "Category": -7,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "ExcludeFromFishingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 75,
+          "Edibility": 40,
+          "IsDrink": false,
+          "ContextTags": ["mistgrove_item", "color_purple"],
+          "Buffs": [
+            {
+              "Duration": 480,
+              "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 1,
+                "Defense": 1,
+                "Attack": 1
+              }
+            }
+          ],
+          "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "SpriteIndex": 35
         }
       }
     },
@@ -457,17 +744,15 @@
           "DaysInPhase": [2, 2, 2, 2, 2],
           "HarvestItemID": "{{ModID}}_TerraGourd",
           "Texture": "{{InternalAssetKey: assets/images/WHCrops.png}}",
-          "SpriteIndex": 0,
-          "CountForPolyculture": "{{ExcludeFromPerfection}}"
+          "SpriteIndex": 0
         },
 
         "{{ModID}}_SmolderingRoseSeeds": {
           "Seasons": ["summer"],
-          "DaysInPhase": [1, 1, 1, 2, 3, 3],
+          "DaysInPhase": [1, 1, 2, 2, 2, 3],
           "HarvestItemID": "{{ModID}}_SmolderingRose",
           "Texture": "{{InternalAssetKey: assets/images/WHCrops.png}}",
-          "SpriteIndex": 2,
-          "CountForPolyculture": "{{ExcludeFromPerfection}}"
+          "SpriteIndex": 2
         },
         "{{ModID}}_ZephyrLilySeeds": {
           "Seasons": ["fall"],
@@ -475,8 +760,7 @@
           "RegrowDays": 6,
           "HarvestItemID": "{{ModID}}_ZephyrLily",
           "Texture": "{{InternalAssetKey: assets/images/WHCrops.png}}",
-          "SpriteIndex": 4,
-          "CountForPolyculture": "{{ExcludeFromPerfection}}"
+          "SpriteIndex": 4
         },
         "{{ModID}}_TeardropBerrySeeds": {
           "Seasons": ["winter"],
@@ -485,7 +769,6 @@
           "HarvestItemID": "{{ModID}}_TeardropBerry",
           "Texture": "{{InternalAssetKey: assets/images/WHCrops.png}}",
           "SpriteIndex": 6,
-          "CountForPolyculture": "{{ExcludeFromPerfection}}",
           "ExtraHarvestChance": ".2"
         }
       }
@@ -496,7 +779,10 @@
       "Target": "Data/CookingRecipes",
       "Entries": {
         "{{ModID}}_TerraSoup": "{{ModId}}_TerraGourd 1 -6 1/10 10/{{ModID}}_TerraSoup/null",
-        "{{ModID}}_IfritPopRocks": "{{ModID}}_SmolderingRose 1 245 1 92 5/10 10/{{ModID}}_IfritPopRocks/null"
+        "{{ModID}}_IfritPopRocks": "{{ModID}}_SmolderingRose 1 245 1 92 5/10 10/{{ModID}}_IfritPopRocks/null",
+        "{{ModID}}_BalancedMuffin": "{{ModID}}_HarmonicGrapes 1 245 1 246 1 -5 1/10 10/{{ModID}}_BalancedMuffin/null",
+        "{{ModID}}_MistgroveCake": "{{ModID}}_BalancedMuffin 1 {{ModID}}_SymphonicBerries 1 245 1/10 10/{{ModID}}_MistgroveCake/null",
+        "{{ModID}}_RaedensBounty": "{{ModID}}_FrostedMushroom 1 {{ModID}}_TeardropBerry 1 {{ModID}}_FrigidBass 1/10 10/{{ModID}}_RaedensBounty/null"
       }
     },
     {
@@ -612,26 +898,6 @@
       }
     },
     {
-      "LogName": "Warp Totem Animation",
-      "Action": "EditData",
-      "Target": "Spacechase0.SpaceCore/TextureOverrides",
-      "Update": "OnLocationChange, OnTimeChange",
-      "When": { "AnimateMistgroveWarpTotem": true },
-      "Entries": {
-        "{{ModID}}_WarpTotemAnimation": {
-          "TargetTexture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
-          "TargetRect": {
-            "X": 48,
-            "Y": 64,
-            "Width": 16,
-            "Height": 16
-          },
-          "SourceTexture": "{{InternalAssetKey: assets/images/WarpTotemAnimation.png}}:0..3@5,{{InternalAssetKey: assets/images/WarpTotemAnimation.png}}:4..7@10,{{InternalAssetKey: assets/images/WarpTotemAnimation.png}}:7..10@5 ",
-          "ChangePerTick": 0.1
-        }
-      }
-    },
-    {
       "LogName": "Make Warp Totem Craftable",
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
@@ -682,3 +948,24 @@
     }
   ]
 }
+/*
+    {
+      "LogName": "Warp Totem Animation",
+      "Action": "EditData",
+      "Target": "Spacechase0.SpaceCore/TextureOverrides",
+      // "When": { "AnimateMistgroveWarpTotem": true },
+      "Entries": {
+        "{{ModID}}_WarpTotemAnimation": {
+          "TargetTexture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
+          "TargetRect": {
+            "X": 48,
+            "Y": 64,
+            "Width": 16,
+            "Height": 16
+          },
+          "SourceTexture": "{{InternalAssetKey: assets/images/WarpTotemAnimation.png}}:0..3@5,{{InternalAssetKey: assets/images/WarpTotemAnimation.png}}:4..7@10,{{InternalAssetKey: assets/images/WarpTotemAnimation.png}}:7..10@5 ",
+          "ChangePerTick": 0.1
+        }
+      }
+    },
+    */

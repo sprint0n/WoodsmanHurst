@@ -19,7 +19,7 @@
 
           //Like
           "2": "{{i18n:WoodsmanHurst.LikedGift}}",
-          "3": "454 121 577 578 768 254 276 Rafseazz.RSVCP_Spiritual_Essence WWWA.Book.LunarkinTrollTales mistgrove_item",
+          "3": "454 121 577 578 768 254 276 -81 Rafseazz.RSVCP_Spiritual_Essence WWWA.Book.LunarkinTrollTales mistgrove_item",
 
           //Dislike
           "4": "{{i18n:WoodsmanHurst.DislikedGift}}",
@@ -27,7 +27,7 @@
 
           //Hate
           "6": "{{i18n:WoodsmanHurst.HatedGift}}",
-          "7": "167 889 890 769 Book_Mystery MysteryBox GoldenMysteryBox FlashShifter.StardewValleyExpandedCP_Joja_Berry FlashShifter.StardewValleyExpandedCP_Joja_Veggie FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola Book_Void DN.SnS_StygiumOre Cornucopia_AncientWonder",
+          "7": "167 889 890 769 305 308 Book_Mystery MysteryBox GoldenMysteryBox FlashShifter.StardewValleyExpandedCP_Joja_Berry FlashShifter.StardewValleyExpandedCP_Joja_Veggie FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola Book_Void DN.SnS_StygiumOre Cornucopia_AncientWonder EastScarp_Black_Wool EastScarp_Black_Cloth EastScarp_Void_Goat_Milk EastScarp_L_Void_Goat_Milk EastScarp_Void_Goat_Cheese EastScarp_Void_Goat_Cheese_Aged EastScarp_Void_Cake EastScarp_Void_CheeseCake EastScarp_Void_SalmonCake",
 
           //Neutral
           "8": "{{i18n:WoodsmanHurst.NeutralGift}}",
@@ -53,10 +53,10 @@
         "AcceptBirthdayGift_Positive": "{{i18n:WoodsmanHurst.AcceptBirthdayGift_Positive}}",
         "AcceptBirthdayGift_Loved": "{{i18n:WoodsmanHurst.AcceptBirthdayGift_Loved}}",
         "AcceptBirthdayGift_Negative": "{{i18n:WoodsmanHurst.AcceptBirthdayGift_Negative}}",
-        "RejectItem_(O)286": "{{i18n:WoodsmanHurst.PacifistGiftResponse}}",
-        "RejectItem_(O)287": "{{i18n:WoodsmanHurst.PacifistGiftResponse}}",
-        "RejectItem_(O)288": "{{i18n:WoodsmanHurst.PacifistGiftResponse}}",
-        "RejectItem_(O)109": "{{i18n:WoodsmanHurst.PacifistGiftResponse}}",
+        "RejectItem_(O)286": "{{i18n:WoodsmanHurst.WatcherGiftResponse}}",
+        "RejectItem_(O)287": "{{i18n:WoodsmanHurst.WatcherGiftResponse}}",
+        "RejectItem_(O)288": "{{i18n:WoodsmanHurst.WatcherGiftResponse}}",
+        "RejectItem_(O)109": "{{i18n:WoodsmanHurst.WatcherGiftResponse}}",
         "RejectItem_(O)809": "{{i18n:WoodsmanHurst.TurnDownMovie}}",
         "RejectItem_(O)460": "{{i18n:WoodsmanHurst.RejectMermaidPendant}}",
         "BreakUp": "{{i18n:WoodsmanHurst.breakUp}}",
@@ -111,6 +111,7 @@
         "AcceptGift_(O)sprinton.hurst_FrostedMushroom": "{{i18n:WoodsmanHurst.AcceptGift_FrostedMushroom}}",
         "AcceptGift_(O)sprinton.hurst_HarmonicGrapes": "{{i18n:WoodsmanHurst.AcceptGift_HarmonicGrapes}}",
         "AcceptGift_(O)sprinton.hurst_SymphonicBerries": "{{i18n:WoodsmanHurst.AcceptGift_SymphonicBerries}}",
+        "AcceptGift_(O)sprinton.hurst_SpeakerFairyFish": "{{i18n:WoodsmanHurst.AcceptGift_SpeakerFairyfish.{{HasFlag |contains=sprinton.hurst.HurstGiftedSpeakerFish}}}}",
 
         //Liked Items
         "AcceptGift_(O)454": "{{i18n:WoodsmanHurst.AcceptGift_AncientFruit}}",
@@ -124,9 +125,20 @@
         //Hated Items
         "AcceptGift_(O)795": "{{i18n:WoodsmanHurst.AcceptGift_VoidSalmon}}",
         "AcceptGift_(O)769": "{{i18n:WoodsmanHurst.AcceptGift_VoidEssence}}",
+        "AcceptGift_(O)305": "{{i18n:WoodsmanHurst.AcceptGift_VoidEgg}}",
+        "AcceptGift_(O)308": "{{i18n:WoodsmanHurst.AcceptGift_VoidMayo}}",
         "AcceptGift_(O)Book_Void": "{{i18n:WoodsmanHurst.AcceptGift_MonsterCompendium}}",
         "AcceptGift_(O)Cornucopia_AncientWonder": "{{i18n:WoodsmanHurst.AcceptGift_AncientWonder}}",
-        "RejectItem_(O)DN.SnS_StygiumOre": "{{i18n:WoodsmanHurst.RejectGift.StygiumOre}}"
+        "RejectItem_(O)DN.SnS_StygiumOre": "{{i18n:WoodsmanHurst.RejectGift.StygiumOre}}",
+        "AcceptGift_(O)EastScarp_Black_Wool": "{{i18n:WoodsmanHurst.AcceptGift_VoidItem}}",
+        "AcceptGift_(O)EastScarp_Black_Cloth": "{{i18n:WoodsmanHurst.AcceptGift_VoidItem}}",
+        "AcceptGift_(O)EastScarp_Void_Goat_Milk": "{{i18n:WoodsmanHurst.AcceptGift_VoidItem}}",
+        "AcceptGift_(O)EastScarp_L_Void_Goat_Milk": "{{i18n:WoodsmanHurst.AcceptGift_VoidItem}}",
+        "AcceptGift_(O)EastScarp_Void_Goat_Cheese": "{{i18n:WoodsmanHurst.AcceptGift_VoidItem}}",
+        "AcceptGift_(O)EastScarp_Void_Goat_Cheese_Aged": "{{i18n:WoodsmanHurst.AcceptGift_VoidItem}}",
+        "AcceptGift_(O)EastScarp_Void_Cake": "{{i18n:WoodsmanHurst.AcceptGift_VoidItem}}",
+        "AcceptGift_(O)EastScarp_Void_CheeseCake": "{{i18n:WoodsmanHurst.AcceptGift_VoidItem}}",
+        "AcceptGift_(O)EastScarp_Void_SalmonCake": "{{i18n:WoodsmanHurst.AcceptGift_VoidItem}}"
       }
     },
     {

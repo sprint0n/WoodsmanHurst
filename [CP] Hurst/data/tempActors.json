@@ -60,6 +60,42 @@
       "Action": "Load",
       "Target": "WH/Shopkeepers",
       "FromFile": "assets/images/ShopkeeperSpiritSprites.png"
+    },
+    {
+      "LogName": "Eli Spirit Load",
+      "Action": "Load",
+      "Target": "WH/EliSpirit",
+      "FromFile": "assets/images/spirits/EliSpirit.png"
+    },
+    {
+      "LogName": "Dylan Spirit Load",
+      "Action": "Load",
+      "Target": "WH/DylanSpirit",
+      "FromFile": "assets/images/spirits/DylanSpirit.png"
+    },
+    {
+      "LogName": "CITV Spirit Load",
+      "Action": "Load",
+      "Target": "WH/CITVSpirit",
+      "FromFile": "assets/images/spirits/CITVSpirit.png"
+    },
+    {
+      "LogName": "Joseph Spirit Load",
+      "Action": "Load",
+      "Target": "WH/JosephSpirit",
+      "FromFile": "assets/images/spirits/JosephSpirit.png"
+    },
+    {
+      "LogName": "Jacob Spirit Load",
+      "Action": "Load",
+      "Target": "WH/JacobSpirit",
+      "FromFile": "assets/images/spirits/JacobSpirit.png"
+    },
+    {
+      "LogName": "Eloise Spirit Load",
+      "Action": "Load",
+      "Target": "WH/EloiseSpirit",
+      "FromFile": "assets/images/spirits/EloiseSpirit.png"
     }
   ]
 }
