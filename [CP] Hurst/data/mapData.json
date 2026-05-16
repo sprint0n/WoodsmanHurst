@@ -141,13 +141,13 @@
               "Id": "(O)sprinton.hurst_GlacialJellyfish",
               "ItemId": "(O)sprinton.hurst_GlacialJellyfish",
               "FishAreaID": "MistgrovePond",
-              "Season": "Summer"
+              "Season": "Spring"
             },
             {
               "Id": "(O)sprinton.hurst_FrigidSunfish",
               "ItemId": "(O)sprinton.hurst_FrigidSunfish",
               "FishAreaID": "MistgrovePond",
-              "Season": "Spring"
+              "Season": "Summer"
             },
             {
               "Id": "(O)sprinton.hurst_SpeakerFairyfish",

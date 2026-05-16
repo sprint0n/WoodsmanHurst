@@ -112,6 +112,18 @@
         "AcceptGift_(O)sprinton.hurst_HarmonicGrapes": "{{i18n:WoodsmanHurst.AcceptGift_HarmonicGrapes}}",
         "AcceptGift_(O)sprinton.hurst_SymphonicBerries": "{{i18n:WoodsmanHurst.AcceptGift_SymphonicBerries}}",
         "AcceptGift_(O)sprinton.hurst_SpeakerFairyFish": "{{i18n:WoodsmanHurst.AcceptGift_SpeakerFairyfish.{{HasFlag |contains=sprinton.hurst.HurstGiftedSpeakerFish}}}}",
+        "AcceptGift_(O)sprinton.hurst_Spiritfish": "{{i18n:WoodsmanHurst.AcceptGift_Spiritfish}}",
+        "AcceptGift_(O)sprinton.hurst_FlyingMisteel": "{{i18n:WoodsmanHurst.AcceptGift_FlyingMisteel}}",
+        "AcceptGift_(O)sprinton.hurst_Fairyfish": "{{i18n:WoodsmanHurst.AcceptGift_Fairyfish}}",
+        "AcceptGift_(O)sprinton.hurst_ConjoinedCatfish": "{{i18n:WoodsmanHurst.AcceptGift_ConjoinedCatfish}}",
+        "AcceptGift_(O)sprinton.hurst_GlacialJellyfish": "{{i18n:WoodsmanHurst.AcceptGift_GlacialJellyfish}}",
+        "AcceptGift_(O)sprinton.hurst_FrigidSunfish": "{{i18n:WoodsmanHurst.AcceptGift_FrigidSunfish}}",
+        "AcceptGift_(O)sprinton.hurst_BalancedMuffin": "{{i18n:WoodsmanHurst.AcceptGift_BalancedMuffin}}",
+        "AcceptGift_(O)sprinton.hurst_MistgroveCake": "{{i18n:WoodsmanHurst.AcceptGift_MistgroveCake}}",
+        "RejectItem_(O)sprinton.hurst_RaedensBounty": "{{i18n:WoodsmanHurst.RejectGift_RaedensBounty}}",
+
+
+
 
         //Liked Items
         "AcceptGift_(O)454": "{{i18n:WoodsmanHurst.AcceptGift_AncientFruit}}",

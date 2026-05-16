@@ -791,6 +791,15 @@
   "WoodsmanHurst.AcceptGift_SymphonicBerries": "Sylva and I would sit and try to blow through these stems, trying to make music.$0#$b#She was far better at it than I.$1",
   "WoodsmanHurst.AcceptGift_SpeakerFairyfish.false": "%Hurst stares at the fish in his hand for several moments before speaking.#$b#...You truly did love the water.$2#$b#I hope you are happy with where you are now, my master.$2",
   "WoodsmanHurst.AcceptGift_SpeakerFairyfish.true": "I marvel at your skill at fishing.$1#$b#Very few can even come close to catching this marvelous creature.$1",
+  "WoodsmanHurst.AcceptGift_Spiritfish": "My Spirit-Father loved these fish.$0#$b#He taught me how to properly prepare them as soon as I was old enough to hold a knife.$1",
+  "WoodsmanHurst.AcceptGift_FlyingMisteel": "I loved seeing a group of Misteels fly across the lake.$1#$b#There are very few sights like it.$1",
+  "WoodsmanHurst.AcceptGift_Fairyfish": "My Spirit-Father became one of these after his passing.$2#$b#I still remember meeting him again. I hope he is happy wherever he has swam to now.$1",
+  "WoodsmanHurst.AcceptGift_ConjoinedCatfish": "The Fishers of Mistgrove would often require an apprentice to catch this fish to be accepted as a fellow Fisher.$1#$b#My Spirit-Father caught his first when he was 13. He was one of the youngest people in our record to do so.$1",
+  "WoodsmanHurst.AcceptGift_GlacialJellyfish": "I found myself searching for one of these in the group of Jellyfish during the summer.$1#$b#I did not see any.$2",
+  "WoodsmanHurst.AcceptGift_FrigidSunfish": "Ah, you have brought me a rarity.$1#$b#These fish only usually survive a couple days after they are infected by the spores of the Frosted Mushroom.$0",
+  "WoodsmanHurst.AcceptGift_BalancedMuffin": "Aera would often speak of these on our expedition.$2#$b#He truly loved them.$2",
+  "WoodsmanHurst.AcceptGift_MistgroveCake": "I remember my Sight-Mother making this for Sylva and I when my master brought us back after the demon attacked us.$2#$b#It was quite a strange day of Calling.$1",
+  "WoodsmanHurst.RejectGift_RaedensBounty": "...I cannot accept this, my friend.$2#$b#Even seeing her recipe again....$2#$b#It is too much.$2",
   "WoodsmanHurst.RejectGift.StygiumOre": "...Where did you get this?$6#$b#It destroys the spirits around it!$6#$e#You should avoid such things.$0",
   "WoodsmanHurst.AcceptGift.MountainMistbloom": "This plant has a similar essence to those of my home Mistgrove.$0#$e#I thank you for bringing me such a gift.$1", //added line in 1.3-alpha
   "WoodsmanHurst.AcceptGift.Sunflower": "...$0#$b#Sylva was quite fond of these.$2#$e#Thank you for the gift.$1", //added line in 1.3-alpha
@@ -1470,8 +1479,6 @@
   "WoodsmanHurst.Items.SylphTea.Description": "This sour tea makes you feel light as air.",
   "WoodsmanHurst.Items.TeardropSpirits": "Teardrop Spirits",
   "WoodsmanHurst.Items.TeardropSpirits.Description": "This sweet drink makes you feel as if you hear the water speaking.",
-  "WoodsmanHurst.Items.AncientsTears": "Ancient's Tears",
-  "WoodsmanHurst.Items.AncientsTears.Description": "This soup fills you with a deep sorrow.",
   "WoodsmanHurst.Items.IronAcorn": "Iron Acorn",
   "WoodsmanHurst.Items.IronAcorn.Description": "You hear the sound of something rustling inside this acorn.",
   "WoodsmanHurst.Items.FrostedMushroom": "Frosted Mushroom",
@@ -1493,15 +1500,17 @@
   "WoodsmanHurst.Items.ConjoinedCatfish": "Conjoined Catfish",
   "WoodsmanHurst.Items.ConjoinedCatfish.Description": "After they mature, it's extremely rare to find a male anywhere but the back of his mate.",
   "WoodsmanHurst.Items.GlacialJellyfish": "Glacial Jellyfish",
-  "WoodsmanHurst.Items.GlacialJellyfish.Description": "Regular jellyfish can warp into this creature if they drift into the waters of Mistgrove.",
+  "WoodsmanHurst.Items.GlacialJellyfish.Description": "A regular jellyfish that has been warped by the magical waters of Mistgrove",
   "WoodsmanHurst.Items.FrigidSunfish": "Frigid Sunfish",
-  "WoodsmanHurst.Items.FrigidSunfish.Description": "This fish is created when a Sunfish survives infection of Frosted Mushroom spores.",
+  "WoodsmanHurst.Items.FrigidSunfish.Description": " A sunfish in the process of being infected by the spores of a Frosted Mushroom",
   "WoodsmanHurst.Items.RaedensBounty": "Raeden's Bounty",
-  "WoodsmanHurst.Items.RaedensBounty.Description": "This variant of the soup cooked by the Fishers of Mistgrove was created by the Watcher before Hurst.",
+  "WoodsmanHurst.Items.RaedensBounty.Description": "This variant of the soup cooked by the Fishers of Mistgrove was created by Watcher Raeden for her apprentice Hurst.",
   "WoodsmanHurst.Items.BalancedMuffin": "Balanced Muffin",
   "WoodsmanHurst.Items.BalancedMuffin.Description": "This muffin was a beloved snack of Aera of Mistgrove.",
   "WoodsmanHurst.Items.MistgroveCake": "Mistgrove Cake",
   "WoodsmanHurst.Items.MistgroveCake.Description": "This cake would be given to the children of Mistgrove the day they were given their Callings.",
+
+
 
   //Map stuff
   "WoodsmanHurst.SpiritShopDialogue": "The spirits swirl wildly around you.",

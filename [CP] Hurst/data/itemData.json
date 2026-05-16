@@ -262,23 +262,6 @@
             "allergen_nut",
             "season_spring"
           ],
-          "Buffs": [
-            {
-              "Duration": 180,
-              "CustomAttributes": {
-                "FarmingLevel": 0,
-                "FishingLevel": 0,
-                "MiningLevel": 0,
-                "LuckLevel": 0,
-                "ForagingLevel": 0,
-                "MaxStamina": 0,
-                "MagneticRadius": 0,
-                "Speed": 0,
-                "Defense": 2,
-                "Attack": 0
-              }
-            }
-          ],
           "GeodeDrops": [
             //Iron Acorn Geode Drop list:
             //Terra Soup, Ifrit Pop Rocks, Sylph Tea, Teardrop Spirits, stack of 3-5
@@ -412,7 +395,7 @@
           ],
           "Buffs": [
             {
-              "Duration": 300,
+              "Duration": 240,
               "CustomAttributes": {
                 "FarmingLevel": 0,
                 "FishingLevel": 0,
