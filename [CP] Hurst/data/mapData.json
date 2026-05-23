@@ -90,24 +90,6 @@
               "Season": null
             },
             {
-              "Id": "(O)269",
-              "ItemId": "(O)269",
-              "FishAreaID": "MistgrovePond",
-              "Season": null
-            },
-            {
-              "Id": "(O)796",
-              "ItemId": "(O)796",
-              "FishAreaID": "MistgrovePond",
-              "Season": null
-            },
-            {
-              "Id": "(O)139",
-              "ItemId": "(O)139",
-              "FishAreaID": "MistgrovePond",
-              "Season": "Fall"
-            },
-            {
               "Id": "(O)795",
               "ItemId": "(O)795",
               "FishAreaID": "MistgrovePond",
@@ -129,25 +111,25 @@
               "Id": "(O)sprinton.hurst_ConjoinedCatfish",
               "ItemId": "(O)sprinton.hurst_ConjoinedCatfish",
               "FishAreaID": "MistgrovePond",
-              "Condition": "SEASON winter summer"
+              "Condition": "SEASON spring"
             },
             {
               "Id": "(O)sprinton.hurst_FlyingMisteel",
               "ItemId": "(O)sprinton.hurst_FlyingMisteel",
               "FishAreaID": "MistgrovePond",
-              "Season": "Fall"
+              "Condition": "SEASON fall"
             },
             {
               "Id": "(O)sprinton.hurst_GlacialJellyfish",
               "ItemId": "(O)sprinton.hurst_GlacialJellyfish",
               "FishAreaID": "MistgrovePond",
-              "Season": "Spring"
+              "Condition": "SEASON winter"
             },
             {
               "Id": "(O)sprinton.hurst_FrigidSunfish",
               "ItemId": "(O)sprinton.hurst_FrigidSunfish",
               "FishAreaID": "MistgrovePond",
-              "Season": "Summer"
+              "Condition": "SEASON summer"
             },
             {
               "Id": "(O)sprinton.hurst_SpeakerFairyfish",
@@ -300,7 +282,7 @@
       "Update": "OnLocationChange",
       "MapProperties": {
         "mushymato.MMAP_LightRays": "T",
-        "mushymato.MMAP_WaterColor": "#b12ded #c06be8 #9628c9 #8d21bf"
+        "mushymato.MMAP_WaterColor": "#c454f7"
       }
     },
     {

@@ -5,12 +5,12 @@
       "Target": "Data/Fish",
       "Entries": {
         "{{ModID}}_Spiritfish": "Spiritfish/55/mixed/8/20/600 2600/spring summer fall winter/both/688 .6 684 .1/2/.4/.1/0/false",
-        "{{ModID}}_Fairyfish": "Fairyfish/60/floater/12/28/600 2600/spring summer fall winter/both/688 .6 684 .1/3/.35/.85/0/false",
-        "{{ModID}}_ConjoinedCatfish": "Conjoined Catfish/80/mixed/20/80/600 2600/spring summer fall winter/raining/668 .6 684 .1/3/.3/.1/0/false",
-        "{{ModID}}_FlyingMisteel": "Flying Misteel/70/dart/12/60/600 2600/spring summer fall winter/both/668 .6 684 .1/3/.25/.75/0/true",
+        "{{ModID}}_Fairyfish": "Fairyfish/60/floater/12/28/600 2600/spring summer fall winter/both/688 .6 684 .1/3/.2/.85/0/false",
+        "{{ModID}}_ConjoinedCatfish": "Conjoined Catfish/80/mixed/20/80/600 2600/spring summer fall winter/raining/668 .6 684 .1/3/.3/.1/3/false",
+        "{{ModID}}_FlyingMisteel": "Flying Misteel/70/dart/12/60/600 2600/spring summer fall winter/both/668 .6 684 .1/3/.3/.75/0/true",
         "{{ModID}}_SpeakerFairyfish": "Fairyfish/95/mixed/24/56/600 2600/spring summer fall winter/both/668 .6 684 .1/4/.1/.05/5/false",
-        "{{ModID}}_GlacialJellyfish": "GlacialJellyfish/15/float/4/10/600 2600/spring summer fall winter/both/688 .6 684 .1/1/.1/.5/0/false",
-        "{{ModID}}_FrigidSunfish": "FrigidSunfish/40/mixed/6/12/600 2600/spring summer fall winter/both/688 .6 684 .1/2/.15/.5/0/false"
+        "{{ModID}}_GlacialJellyfish": "GlacialJellyfish/15/float/4/10/600 2600/spring summer fall winter/both/688 .6 684 .1/3/.3/.5/0/false",
+        "{{ModID}}_FrigidSunfish": "FrigidSunfish/40/mixed/6/12/600 2600/spring summer fall winter/both/688 .6 684 .1/2/.3/.5/0/false"
       }
     },
     {

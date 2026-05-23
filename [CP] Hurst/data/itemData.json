@@ -765,7 +765,7 @@
         "{{ModID}}_IfritPopRocks": "{{ModID}}_SmolderingRose 1 245 1 92 5/10 10/{{ModID}}_IfritPopRocks/null",
         "{{ModID}}_BalancedMuffin": "{{ModID}}_HarmonicGrapes 1 245 1 246 1 -5 1/10 10/{{ModID}}_BalancedMuffin/null",
         "{{ModID}}_MistgroveCake": "{{ModID}}_BalancedMuffin 1 {{ModID}}_SymphonicBerries 1 245 1/10 10/{{ModID}}_MistgroveCake/null",
-        "{{ModID}}_RaedensBounty": "{{ModID}}_FrostedMushroom 1 {{ModID}}_TeardropBerry 1 {{ModID}}_FrigidBass 1/10 10/{{ModID}}_RaedensBounty/null"
+        "{{ModID}}_RaedensBounty": "{{ModID}}_FrostedMushroom 1 {{ModID}}_TeardropBerry 1 {{ModID}}_FrigidSunfish 1/10 10/{{ModID}}_RaedensBounty/null"
       }
     },
     {

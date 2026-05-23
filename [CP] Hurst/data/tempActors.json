@@ -96,6 +96,43 @@
       "Action": "Load",
       "Target": "WH/EloiseSpirit",
       "FromFile": "assets/images/spirits/EloiseSpirit.png"
+    },
+
+    {
+      "LogName": "Aideen Spirit Load",
+      "Action": "Load",
+      "Target": "WH/AideenSpirit",
+      "FromFile": "assets/images/spirits/AideenSpirit.png"
+    },
+    {
+      "LogName": "Jessie Spirit Load",
+      "Action": "Load",
+      "Target": "WH/JessieSpirit",
+      "FromFile": "assets/images/spirits/JessieSpirit.png"
+    },
+    {
+      "LogName": "Juliet Spirit Load",
+      "Action": "Load",
+      "Target": "WH/JulietSpirit",
+      "FromFile": "assets/images/spirits/JulietSpirit.png"
+    },
+    {
+      "LogName": "Jade Spirit Load",
+      "Action": "Load",
+      "Target": "WH/JadeSpirit",
+      "FromFile": "assets/images/spirits/JadeSpirit.png"
+    },
+    {
+      "LogName": "Beatrice Spirit Load",
+      "Action": "Load",
+      "Target": "WH/BeatriceSpirit",
+      "FromFile": "assets/images/spirits/BeatriceSpirit.png"
+    },
+    {
+      "LogName": "Rosa Spirit Load",
+      "Action": "Load",
+      "Target": "WH/RosaSpirit",
+      "FromFile": "assets/images/spirits/RosaSpirit.png"
     }
   ]
 }
