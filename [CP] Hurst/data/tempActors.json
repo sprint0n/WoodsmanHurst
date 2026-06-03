@@ -133,6 +133,43 @@
       "Action": "Load",
       "Target": "WH/RosaSpirit",
       "FromFile": "assets/images/spirits/RosaSpirit.png"
+    },
+
+    {
+      "LogName": "Ethan Spirit Load",
+      "Action": "Load",
+      "Target": "WH/EthanSpirit",
+      "FromFile": "assets/images/spirits/EthanSpirit.png"
+    },
+    {
+      "LogName": "Michael Spirit Load",
+      "Action": "Load",
+      "Target": "WH/MichaelSpirit",
+      "FromFile": "assets/images/spirits/MichaelSpirit.png"
+    },
+    {
+      "LogName": "Edith Spirit Load",
+      "Action": "Load",
+      "Target": "WH/EdithSpirit",
+      "FromFile": "assets/images/spirits/EdithSpirit.png"
+    },
+    {
+      "LogName": "Jasper Spirit Load",
+      "Action": "Load",
+      "Target": "WH/JasperSpirit",
+      "FromFile": "assets/images/spirits/JasperSpirit.png"
+    },
+    {
+      "LogName": "Victoria Spirit Load",
+      "Action": "Load",
+      "Target": "WH/VictoriaSpirit",
+      "FromFile": "assets/images/spirits/VictoriaSpirit.png"
+    },
+    {
+      "LogName": "Dale Spirit Load",
+      "Action": "Load",
+      "Target": "WH/DaleSpirit",
+      "FromFile": "assets/images/spirits/DaleSpirit.png"
     }
   ]
 }
