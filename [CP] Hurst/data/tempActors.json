@@ -32,30 +32,6 @@
     },
     //Event Spirit TAS
     {
-      "LogName": "Green Spirit Load",
-      "Action": "Load",
-      "Target": "WH/GreenSpirit",
-      "FromFile": "assets/images/GreenSpirit.png"
-    },
-    {
-      "LogName": "Yellow Spirit Load",
-      "Action": "Load",
-      "Target": "WH/YellowSpirit",
-      "FromFile": "assets/images/YellowSpirit.png"
-    },
-    {
-      "LogName": "Orange Spirit Load",
-      "Action": "Load",
-      "Target": "WH/OrangeSpirit",
-      "FromFile": "assets/images/OrangeSpirit.png"
-    },
-    {
-      "LogName": "Blue Spirit Load",
-      "Action": "Load",
-      "Target": "WH/BlueSpirit",
-      "FromFile": "assets/images/BlueSpirit.png"
-    },
-    {
       "LogName": "Shopkeeper Spirit Load",
       "Action": "Load",
       "Target": "WH/Shopkeepers",
@@ -170,6 +146,42 @@
       "Action": "Load",
       "Target": "WH/DaleSpirit",
       "FromFile": "assets/images/spirits/DaleSpirit.png"
+    },
+    {
+      "LogName": "Rodney Spirit Load",
+      "Action": "Load",
+      "Target": "WH/RodneySpirit",
+      "FromFile": "assets/images/spirits/RodneySpirit.png"
+    },
+    {
+      "LogName": "Nora Spirit Load",
+      "Action": "Load",
+      "Target": "WH/NoraSpirit",
+      "FromFile": "assets/images/spirits/NoraSpirit.png"
+    },
+    {
+      "LogName": "Cambria Spirit Load",
+      "Action": "Load",
+      "Target": "WH/CambriaSpirit",
+      "FromFile": "assets/images/spirits/CambriaSpirit.png"
+    },
+    {
+      "LogName": "Bill Spirit Load",
+      "Action": "Load",
+      "Target": "WH/BillSpirit",
+      "FromFile": "assets/images/spirits/BillSpirit.png"
+    },
+    {
+      "LogName": "Friendship Spirit Load",
+      "Action": "Load",
+      "Target": "WH/FriendshipSpirit",
+      "FromFile": "assets/images/spirits/FriendshipSpirit.png"
+    },
+    {
+      "LogName": "Love Spirit Load",
+      "Action": "Load",
+      "Target": "WH/LoveSpirit",
+      "FromFile": "assets/images/spirits/LoveSpirit.png"
     }
   ]
 }

@@ -15,7 +15,10 @@
     {
       "Action": "EditMap",
       "Target": "Maps/{{ModID}}_HurstsClearing",
-      "When": { "HasSeenEvent |contains=sprinton.hurst.Hurst4H": true },
+      "When": {
+        "HasSeenEvent |contains=sprinton.hurst.Hurst4H": true,
+        "HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": false
+      },
       "Priority": "Late",
       "MapTiles": [
         {

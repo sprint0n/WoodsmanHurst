@@ -9,7 +9,7 @@
         "JunimoWard_waving": "0/16 16 17 17 18 18 19 19/0",
         "WoodsmanHurst_offerings": "0/20 20 21 21 22 22/0",
         "WoodsmanHurst_Ward": "0/16 16 17 17 18 18/0",
-        "WoodsmanHurst_Foraging": "0/24 24 25 25 26 26 27 27/0",
+        "WoodsmanHurst_Foraging": "0/24 24 25 25 26 26 27 27/0//offset 0 4",
         "WoodsmanHurst_Sobbing": "0/32 32 33 33 34 34 35 35 35 35 35 35 35 35 35 35 35 35/0",
         "WoodsmanHurst_Spirits": "0/36 36 37 37 38 38 39 39 40 40 41 41 41 41 42 42 42 42 43 43 43 43/0",
         "WoodsmanHurst_PlaceBowl": "0/52 52 53 53 54 54 55 55 56 56 57 57 58 58 59 59/0",
@@ -23,21 +23,21 @@
       "Entries": {
         "{{ModID}}_ShopkeeperSpirits": {
           "Id": "{{ModID}}_ShopkeeperSpirits",
-          "Texture": "Mods/WH/TAS",
+          "Texture": "{{InternalAssetKey: assets/images/ShopkeeperSpiritSprites}}",
           "SourceRect": {
             "X": 0,
             "Y": 0,
             "Width": 16,
             "Height": 32
           },
-          "Interval": 100,
-          "Frames": 6,
+          "Interval": 250,
+          "Frames": 4,
           "Loops": 99999,
           "DrawAboveAlwaysFront": true
         },
         "{{ModID}}_Spirit1": {
           "Id": "{{ModID}}_Spirit1",
-          "Texture": "{{InternalAssetKey: assets/images/GreenSpirit}}",
+          "Texture": "{{InternalAssetKey: assets/images/SpringSpirit}}",
           "SourceRect": {
             "X": 0,
             "Y": 0,
@@ -45,14 +45,14 @@
             "Height": 32,
             "Scale": 2
           },
-          "Interval": 150,
-          "Frames": 8,
+          "Interval": 250,
+          "Frames": 7,
           "Loops": 99999,
           "DrawAboveAlwaysFront": true
         },
         "{{ModID}}_Spirit2": {
           "Id": "{{ModID}}_Spirit2",
-          "Texture": "{{InternalAssetKey: assets/images/YellowSpirit}}",
+          "Texture": "{{InternalAssetKey: assets/images/SummerSpirit}}",
           "SourceRect": {
             "X": 0,
             "Y": 0,
@@ -60,14 +60,14 @@
             "Height": 32,
             "Scale": 2
           },
-          "Interval": 150,
-          "Frames": 8,
+          "Interval": 250,
+          "Frames": 6,
           "Loops": 99999,
           "DrawAboveAlwaysFront": true
         },
         "{{ModID}}_Spirit3": {
           "Id": "{{ModID}}_Spirit3",
-          "Texture": "{{InternalAssetKey: assets/images/OrangeSpirit}}",
+          "Texture": "{{InternalAssetKey: assets/images/FallSpirit}}",
           "SourceRect": {
             "X": 0,
             "Y": 0,
@@ -75,14 +75,14 @@
             "Height": 32,
             "Scale": 2
           },
-          "Interval": 150,
-          "Frames": 8,
+          "Interval": 400,
+          "Frames": 4,
           "Loops": 99999,
           "DrawAboveAlwaysFront": true
         },
         "{{ModID}}_Spirit4": {
           "Id": "{{ModID}}_Spirit4",
-          "Texture": "{{InternalAssetKey: assets/images/BlueSpirit}}",
+          "Texture": "{{InternalAssetKey: assets/images/WinterSpirit}}",
           "SourceRect": {
             "X": 0,
             "Y": 0,
@@ -90,8 +90,8 @@
             "Height": 32,
             "Scale": 2
           },
-          "Interval": 150,
-          "Frames": 8,
+          "Interval": 400,
+          "Frames": 4,
           "Loops": 99999,
           "DrawAboveAlwaysFront": true
         }

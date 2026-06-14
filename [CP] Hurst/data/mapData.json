@@ -2,11 +2,6 @@
   "Changes": [
     {
       "Action": "Load",
-      "Target": "Mods/WH/TAS",
-      "FromFile": "assets/images/ShopkeeperSpiritSprites.png"
-    },
-    {
-      "Action": "Load",
       "Target": "Maps/{{ModID}}_HurstLinusForage",
       "FromFile": "assets/Maps/HurstLinusForage.tmx"
     },
@@ -29,6 +24,18 @@
       "ToArea": { "X": 13, "Y": 5, "Width": 5, "Height": 3 },
       "When": {
         "HasSeenEvent |contains=sprinton.hurst.Hurst4H": true
+      }
+    },
+    {
+      "LogName": "Hurst New Shrine",
+      "Action": "EditMap",
+      "Update": "OnLocationChange",
+      "Target": "Maps/{{ModID}}_HurstsClearing",
+      "FromFile": "assets/Maps/HurstsClearing.tmx",
+      "FromArea": { "X": 13, "Y": 5, "Width": 5, "Height": 3 },
+      "ToArea": { "X": 13, "Y": 5, "Width": 5, "Height": 3 },
+      "When": {
+        "HasSeenEvent |contains=sprinton.hurst.Hurst8H.P1": true
       }
     },
 
@@ -502,9 +509,6 @@
       "PatchMode": "Overlay",
       "Update": "OnLocationChange"
     },
-
-    //Should this be it the mapData file that's already full? Probably not! I'm tired! I don't care! Find the hurst author and yell at him if it's a problem
-    //Ty to mads, I looked at ur code to see how this works
 
     {
       "LogName": "CJB Cheats Clearing Warp",

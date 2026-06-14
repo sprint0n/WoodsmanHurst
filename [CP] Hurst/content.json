@@ -1,3 +1,5 @@
+//
+
 {
   "Format": "2.7.2",
 
@@ -47,8 +49,16 @@
     {
       "LogName": "Blank Event Loads",
       "Action": "Load",
-      "Target": "Data/Events/BathHouse_Entry, Data/Events/JojaMart",
-      "FromFile": "data/blank.json"
+      "Target": "Data/Events/JojaMart",
+      "FromFile": "data/blank.json",
+      "When": { "HasMod |contains=Adam.Joja_Machines": false }
+    },
+    {
+      "LogName": "Blank Event Loads",
+      "Action": "Load",
+      "Target": "Data/Events/BathHouse",
+      "FromFile": "data/blank.json",
+      "When": { "HasMod |contains=elhrvy.NPCJuna": false }
     },
     {
       "LogName": "Secret Note Load",
@@ -215,7 +225,7 @@
       "Value": true,
       "When": {
         "HasSeenEvent |contains=sprinton.hurst.Hurst4H": true,
-        "HasSeenEvent |contains=sprinton.hurst.Hurst5H": false
+        "HasSeenEvent |contains=sprinton.hurst.Hurst6H": false
       }
     },
     {
@@ -273,10 +283,6 @@
       }
     },
     {
-      "Name": "TASHell",
-      "Value": "temporaryAnimatedSprite WH\\GreenSpirit 0 0 16 32 150 8 1000 15 14 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\GreenSpirit 0 0 16 32 150 8 1000 8 26 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\GreenSpirit 0 0 16 32 150 8 1000 26 14 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\GreenSpirit 0 0 16 32 150 8 1000 29 14 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\YellowSpirit 0 0 16 32 150 8 1000 8 3 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\YellowSpirit 0 0 16 32 150 8 1000 21 4 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\YellowSpirit 0 0 16 32 150 8 1000 8 16 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\YellowSpirit 0 0 16 32 150 8 1000 20 20 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\OrangeSpirit 0 0 16 32 150 8 1000 15 10 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\OrangeSpirit 0 0 16 32 150 8 1000 7 11 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\OrangeSpirit 0 0 16 32 150 8 1000 19 24 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\OrangeSpirit 0 0 16 32 150 8 1000 1 25 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\BlueSpirit 0 0 16 32 150 8 1000 10 12 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\BlueSpirit 0 0 16 32 150 8 1000 15 29 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\BlueSpirit 0 0 16 32 150 8 1000 15 3 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\BlueSpirit 0 0 16 32 150 8 1000 24 6 false false 1 0 1 0 0 0/pause 50/temporaryAnimatedSprite WH\\Shopkeepers 0 0 16 32 150 6 1000 16 15 false false 1 0 1 0 0 0"
-    },
-    {
       "Name": "FatherJoseph4HCrossover",
       "Value": "warp AvianRPG.TheGardenCottage_FatherJoseph 36 18/speak AvianRPG.TheGardenCottage_FatherJoseph \"{{i18n:FatherJoseph4H.1}}\"/emote WoodsmanHurst 40 false/pause 100/speak WoodsmanHurst \"{{i18n:WoodsmanHurst.FatherJoseph4H.1}}\"/pause 100/speak AvianRPG.TheGardenCottage_FatherJoseph \"{{i18n:FatherJoseph4H.2}}\"/pause 100/speak WoodsmanHurst \"{{i18n:WoodsmanHurst.FatherJoseph4H.2}}\"/emote AvianRPG.TheGardenCottage_FatherJoseph 32 false/pause 100/speak AvianRPG.TheGardenCottage_FatherJoseph \"{{i18n:FatherJoseph4H.3}}\"/advancedMove AvianRPG.TheGardenCottage_FatherJoseph false -1 0 0 3 -10 0 0 -7 -5 0 1 10/pause 1500",
       "When": { "HasMod |contains=AvianRPG.TheGardenCottage": true }
@@ -286,6 +292,7 @@
       "Value": "emote WoodsmanHurst 40 false"
     },
     //Welcome to the home of my eternal suffering (If you're reading this Nova, I blame ***you*** for this /j)
+    //Any commented out code snippets involving other ES NPCs should be considered non-canon and not representative of how they would act
     {
       "Name": "SpiritWalk_Aliyah",
       "Value": "/changeLocation EastScarp_Village"
@@ -340,12 +347,21 @@
       "When": { "HasMod |contains=TheFrenchDodo.RodneyOBrien": true }
     },
     {
+      "Name": "RodneySpirit",
+      "Value": ""
+    },
+    {
+      "Name": "RodneySpirit",
+      "Value": "/proceedPosition RodneyOBrien/temporaryAnimatedSprite WH\\RodneySpirit 0 0 16 32 250 4 1000 40 37 false false 1 .0001 1 0 0 0/",
+      "When": { "HasMod |contains=TheFrenchDodo.RodneyOBrien": true }
+    },
+    {
       "Name": "SpiritWalk_Nora",
       "Value": "/quickQuestion {{i18n:sprinton.hurst.10H.Jessie.0}}#{{i18n:sprinton.hurst.10H.Jessie.1}}#{{i18n:sprinton.hurst.10H.Jessie.2}}(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Jessie.3}}\"(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Jessie.4}}\"/faceDirection WoodsmanHurst 1 true/faceDirection farmer 3 false/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Jessie.5}}\"/emote farmer 32 false/"
     },
     {
       "Name": "SpiritWalk_Nora",
-      "Value": "/advancedMove Nora false 0 -6 4 10/pause 2000/emote WoodsmanHurst 16 true/emote Nora 32 false/waitForAllStationary/emote WoodsmanHurst 32 false/pause 250/message \"{{i18n:sprinton.hurst.10H.Nora.0}}\"/pause 250/emote farmer 8 false/quickQuestion #{{i18n:sprinton.hurst.10H.Nora.1}}#{{i18n:sprinton.hurst.10H.Nora.2}}#{{i18n:sprinton.hurst.10H.Nora.3}}(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Nora.4}}\"(break)speak Nora \"{{i18n:sprinton.hurst.10H.Nora.5}}\"(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Nora.6}}\"/pause 250/message \"{{i18n:sprinton.hurst.10H.Nora.7}}\"/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Nora.8}}\"/emote Nora 32 false/pause 250/speak Nora \"{{i18n:sprinton.hurst.10H.Nora.9}}\"/emote farmer 32 false/advancedMove Nora false -1 0 0 -5 2 10",
+      "Value": "/advancedMove Nora false 0 -6 4 10/pause 2000/emote WoodsmanHurst 16 true/emote Nora 32 false/proceedPosition Nora/temporaryAnimatedSprite WH\\NoraSpirit 0 0 16 32 250 4 1000 41 51 false false 1 .0008 1 0 0 0/waitForAllStationary/emote WoodsmanHurst 32 false/pause 250/message \"{{i18n:sprinton.hurst.10H.Nora.0}}\"/pause 250/emote farmer 8 false/quickQuestion #{{i18n:sprinton.hurst.10H.Nora.1}}#{{i18n:sprinton.hurst.10H.Nora.2}}#{{i18n:sprinton.hurst.10H.Nora.3}}(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Nora.4}}\"(break)speak Nora \"{{i18n:sprinton.hurst.10H.Nora.5}}\"(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Nora.6}}\"/pause 250/message \"{{i18n:sprinton.hurst.10H.Nora.7}}\"/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Nora.8}}\"/emote Nora 32 false/pause 250/speak Nora \"{{i18n:sprinton.hurst.10H.Nora.9}}\"/emote farmer 32 false/advancedMove Nora false -1 0 0 -5 2 10/removeSprite 41 51/",
       "When": { "HasMod |contains=Bagi.Nora.CP": true }
     },
 
@@ -356,7 +372,7 @@
 
     {
       "Name": "SpiritWalk_Cambria",
-      "Value": "/pause 4000/advancedMove Otter.Cambria false 7 0 1 10/pause 1000/emote Otter.Cambria 16 false/waitForAllStationary/speak Otter.Cambria? \"{{i18n:sprinton.hurst.10H.Cambria.0}}\"/emote WoodsmanHurst 32 true/emote farmer 32 false/message \"{{i18n:sprinton.hurst.10H.Cambria.1}}\"/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Cambria.2}}\"/quickQuestion #{{i18n:sprinton.hurst.10H.Cambria.3}}#{{i18n:sprinton.hurst.10H.Cambria.4}}(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Cambria.5}}\"(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Cambria.6}}\"/emote Otter.Cambria 8 false/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Cambria.7}}\"/pause 250/speak Otter.Cambria \"{{i18n:sprinton.hurst.10H.Cambria.8}}\"/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Cambria.9}}\"/emote Otter.Cambria 32 false/quickQuestion #{{i18n:sprinton.hurst.10H.Cambria.10}}#{{i18n:sprinton.hurst.10H.Cambria.11}}(break)emote WoodsmanHurst 28 false\\speak Otter.Cambria \"{{i18n:sprinton.hurst.10H.Cambria.12}}\"(break)speak Otter.Cambria \"{{i18n:sprinton.hurst.10H.Cambria.13}}\"\\emote farmer 28 true\\emote WoodsmanHurst 28 true\\emote Otter.Cambria 32 true/pause 250/advancedMove Otter.Cambria false 0 -1 11 0 0 2 2 10/pause 100/advancedMove WoodsmanHurst false -15 0 0 6 2 10/advancedMove farmer false -15 0 0 6 2 10/",
+      "Value": "/pause 4000/positionOffset Otter.Cambria 0 10 false/advancedMove Otter.Cambria false 7 0 1 10/pause 1000/emote Otter.Cambria 16 false/waitForAllStationary/temporaryAnimatedSprite WH\\CambriaSpirit 0 0 16 32 250 4 1000 29 56 false false 1000 .0001 1 0 0 0/speak Otter.Cambria? \"{{i18n:sprinton.hurst.10H.Cambria.0}}\"/emote WoodsmanHurst 32 true/emote farmer 32 false/message \"{{i18n:sprinton.hurst.10H.Cambria.1}}\"/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Cambria.2}}\"/quickQuestion #{{i18n:sprinton.hurst.10H.Cambria.3}}#{{i18n:sprinton.hurst.10H.Cambria.4}}(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Cambria.5}}\"(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Cambria.6}}\"/emote Otter.Cambria 8 false/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Cambria.7}}\"/pause 250/speak Otter.Cambria \"{{i18n:sprinton.hurst.10H.Cambria.8}}\"/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Cambria.9}}\"/emote Otter.Cambria 32 false/quickQuestion #{{i18n:sprinton.hurst.10H.Cambria.10}}#{{i18n:sprinton.hurst.10H.Cambria.11}}(break)emote WoodsmanHurst 28 false\\speak Otter.Cambria \"{{i18n:sprinton.hurst.10H.Cambria.12}}\"(break)speak Otter.Cambria \"{{i18n:sprinton.hurst.10H.Cambria.13}}\"\\emote farmer 28 true\\emote WoodsmanHurst 28 true\\emote Otter.Cambria 32 true/pause 250/advancedMove Otter.Cambria false 0 -1 11 0 0 2 2 10/removeSprite 29 56/pause 100/advancedMove WoodsmanHurst false -15 0 0 6 2 10/advancedMove farmer false -15 0 0 6 2 10",
       "When": { "HasMod |contains=Squeaks.MGC.CP": true }
     },
     ///temporaryAnimatedSprite WH\\JessieSpirit 0 0 16 32 350 6 1000 36 51 false false 1000 0 1 0 0 0
@@ -366,7 +382,7 @@
     },
     {
       "Name": "SpiritWalk_Bill",
-      "Value": "/playSound doorClose/warp ToriLK 9 62/temporaryAnimatedSprite WH\\VictoriaSpirit 0 0 16 32 250 4 1000 10 61 false false 1000 0 1 0 0 0/faceDirection MV.Municipal_SheriffBill 0 false/speak MV.Municipal_SheriffBill \"{{i18n:sprinton.hurst.10H.Bill.0}}\"/speak ToriLK \"{{i18n:sprinton.hurst.10H.Bill.1}}\"/speak MV.Municipal_SheriffBill \"{{i18n:sprinton.hurst.10H.Bill.2}}\"/advancedMove MV.Municipal_SheriffBill false 4 0 0 -5 4 10/waitForAllStationary/emote WoodsmanHurst 8 false/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Bill.3}}\"/emote farmer 28 false/pause 250/speak MV.Municipal_SheriffBill \"{{i18n:sprinton.hurst.10H.Bill.4}}\"/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Bill.5}}\"/pause 250/quickQuestion {{i18n:sprinton.hurst.10H.Bill.6}}#{{i18n:sprinton.hurst.10H.Bill.7}}#{{i18n:sprinton.hurst.10H.Bill.8}}#{{i18n:sprinton.hurst.10H.Bill.9}}(break)speak MV.Municipal_SheriffBill \"{{i18n:sprinton.hurst.10H.Bill.10}}\"(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Bill.11}}\"\\speak MV.Municipal_SheriffBill \"{{i18n:sprinton.hurst.10H.Bill.12}}\"(break)speak MV.Municipal_SheriffBill \"{{i18n:sprinton.hurst.10H.Bill.13}}\"/speak MV.Municipal_SheriffBill \"{{i18n:sprinton.hurst.10H.Bill.14}}\"/emote farmer 32 false/advancedMove MV.Municipal_SheriffBill false -1 0 0 -8 4 10/",
+      "Value": "/playSound doorClose/warp ToriLK 9 62/temporaryAnimatedSprite WH\\VictoriaSpirit 0 0 16 32 250 4 1000 10 61 false false 1000 0 1 0 0 0/faceDirection MV.Municipal_SheriffBill 0 false/speak MV.Municipal_SheriffBill \"{{i18n:sprinton.hurst.10H.Bill.0}}\"/speak ToriLK \"{{i18n:sprinton.hurst.10H.Bill.1}}\"/speak MV.Municipal_SheriffBill \"{{i18n:sprinton.hurst.10H.Bill.2}}\"/advancedMove MV.Municipal_SheriffBill false 4 0 0 -5 4 10/waitForAllStationary/temporaryAnimatedSprite WH\\BillSpirit 0 0 16 32 250 4 1000 17 65 false false 1000 .0001 1 0 0 0/emote WoodsmanHurst 8 false/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Bill.3}}\"/emote farmer 28 false/pause 250/speak MV.Municipal_SheriffBill \"{{i18n:sprinton.hurst.10H.Bill.4}}\"/speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Bill.5}}\"/pause 250/quickQuestion {{i18n:sprinton.hurst.10H.Bill.6}}#{{i18n:sprinton.hurst.10H.Bill.7}}#{{i18n:sprinton.hurst.10H.Bill.8}}#{{i18n:sprinton.hurst.10H.Bill.9}}(break)speak MV.Municipal_SheriffBill \"{{i18n:sprinton.hurst.10H.Bill.10}}\"(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.10H.Bill.11}}\"\\speak MV.Municipal_SheriffBill \"{{i18n:sprinton.hurst.10H.Bill.12}}\"(break)speak MV.Municipal_SheriffBill \"{{i18n:sprinton.hurst.10H.Bill.13}}\"/speak MV.Municipal_SheriffBill \"{{i18n:sprinton.hurst.10H.Bill.14}}\"/emote farmer 32 false/advancedMove MV.Municipal_SheriffBill false -1 0 0 -8 4 10/removeSprite 17 65",
       "When": {
         "HasMod |contains=MV.Municipal": true,
         "HasSeenEvent |contains=MV.Municipal_Intro": true
@@ -427,7 +443,7 @@
     */
     {
       "Name": "Spiritwalk_CITV",
-      "Value": " "
+      "Value": "/quickQuestion #{{i18n:sprinton.hurst.hurst10H.MagicQuestion.0}}#{{i18n:sprinton.hurst.hurst10H.MagicQuestion.1}}#{{i18n:sprinton.hurst.hurst10H.MagicQuestion.2}}(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.hurst10H.MagicQuestion.3}}\"(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.hurst10H.MagicQuestion.4.{{HasMod |contains=TenebrousNova.EliDylan.CP}}}}\"(break)speak WoodsmanHurst \"{{i18n:sprinton.hurst.hurst10H.MagicQuestion.5}}\"/pause 500/emote WoodsmanHurst 32 true/"
     },
     {
       "Name": "CITVSpirit",
@@ -459,8 +475,6 @@
       "Value": "/"
     },
     {
-      ///temporaryAnimatedSprite WH\\Shopkeepers 0 0 16 32 150 6 1000 15 12 false false 1 0 1 0 0 0
-
       "Name": "JosephSpirit",
       "Value": "/temporaryAnimatedSprite WH\\JosephSpirit 0 0 16 32 250 5 1000 67 109 false false 1000 0 1 0 0 0",
       "When": { "HasMod |contains=AvianRPG.TheGardenCottage": true }
@@ -485,29 +499,25 @@
       "AllowValues": "true, false",
       "Default": true,
       "AllowBlank": false,
-      "Description": "{{i18n:Config.PerfectionDescription}}",
-      "Section": "General"
+      "Description": "{{i18n:Config.ExcludeFromPerfection.description}}"
     },
     "EarlySpiritShopUnlock": {
       "AllowValues": "true, false",
       "Default": false,
       "AllowBlank": false,
-      "Description": "{{i18n:Config.EarlyShopDescription}}",
-      "Section": "General"
+      "Description": "{{i18n:Config.EarlySpiritShopUnlock.description}}"
     },
     "SwearFilter": {
       "AllowValues": "true, false",
       "Default": false,
       "AllowBlank": false,
-      "Description": "{{i18n:Config.SwearFilterDescription}}",
-      "Section": "General"
+      "Description": "{{i18n:Config.SwearFilter.description}}"
     },
     "PortraitStyle": {
       "AllowValues": "MicrowaveFairy, HeartOfFlowers",
       "Default": "HeartOfFlowers",
       "AllowBlank": false,
-      "Description": "{{i18n:Config.PortraitStyleDescription}}",
-      "Section": "Art"
+      "Description": "{{i18n:Config.PortraitStyle.description}}"
     }
   }
 }
