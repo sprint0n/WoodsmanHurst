@@ -37,7 +37,7 @@
           "Objectives": [
             {
               "Type": "Donate",
-              "Text": "[WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Objective_1_Text]",
+              "Text": "[WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Objective_0_Text]",
               "RequiredCount": 5,
               "Data": {
                 "DropBox": "HurstDropBox",

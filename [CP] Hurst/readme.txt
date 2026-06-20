@@ -11,7 +11,7 @@ Introduction: Enter Cindersap after seeing the Wizard's event that lets you read
 8 Heart Part 1: Enter Hurst's Clearing after seeing his 7 Heart.
 8 Heart Part 2: Enter Hurst's Clearing after seeing his 8 Heart Part 1. 
 9 Heart: Enter the Mountain after seeing his 8 Heart Part 2.
-10 Heart: Enter Hurst's Clearing after seeing his 9 Heart and finishing the "Power the Spirit Walk" special order. (WARNING: THIS EVENT IS CURRENTLY A WORK IN PROGRESS, NOT ALL SPIRITS WILL APPEAR)
+10 Heart: Enter Hurst's Clearing after seeing his 9 Heart and finishing the "Power the Spirit Walk" special order.
 Extra Events
 Morris Fight: Enter the Town after purchasing a Joja Membership. Cannot trigger on Friday.
 Bathouse: Enter the Bathouse when dating Hurst

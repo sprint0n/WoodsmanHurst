@@ -51,14 +51,14 @@
       "Action": "Load",
       "Target": "Data/Events/JojaMart",
       "FromFile": "data/blank.json",
-      "When": { "HasMod |contains=Adam.Joja_Machines": false }
+      "Priority": "Low"
     },
     {
       "LogName": "Blank Event Loads",
       "Action": "Load",
       "Target": "Data/Events/BathHouse",
       "FromFile": "data/blank.json",
-      "When": { "HasMod |contains=elhrvy.NPCJuna": false }
+      "Priority": "Low"
     },
     {
       "LogName": "Secret Note Load",
