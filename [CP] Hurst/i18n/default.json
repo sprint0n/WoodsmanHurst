@@ -1,6 +1,6 @@
 {
   "WoodsmanHurst.DisplayName": "Hurst",
-  "JunimoWard.DisplayName": "Ward",
+  "JunimoWard.DisplayName": "Ward", //Translator notice: Ward and the Pomegranate are the same characters, and refer to themselves as they/we. This is meant to be used in the plural sense to imply they are more than just one mind.
   "Config.ExcludeFromPerfection.name": "Perfection Exclusion",
   "Config.ExcludeFromPerfection.description": "Exclude this mod and its contents from perfection requirements",
   "Config.EarlySpiritShopUnlock.name": "Spirit Shop Early Unlock",
@@ -337,8 +337,8 @@
   "sprinton.hurst.hurst10H.PlatonicSplit.10": "So am I. Yet another thing to thank you for.$1",
   "sprinton.hurst.hurst10H.PlatonicSplit.11": "You are one of the most wonderful people I have ever met. Please remember that. Do not let anyone convince you otherwise.$0#$b#You are marvelous.You are kind. You are loved by those around you.$1#$b#You are one of my truest friends.$4",
 
-  "sprinton.hurst.Hurst10HRouteSplit.false": "#Love.# Friendship(break) switchEvent sprinton.hurst.FriendshipRoute (break) switchEvent sprinton.hurst.FriendshipRoute",
-  "sprinton.hurst.Hurst10HRouteSplit.true": "#Love. (ROMANTIC)# Friendship. (PLATONIC)(break) switchEvent sprinton.hurst.DatingRoute (break) switchEvent sprinton.hurst.FriendshipRoute",
+  "sprinton.hurst.Hurst10HRouteSplit.false": "/question null \" #Love.#Friendship \"/switchEvent sprinton.hurst.FriendshipRoute",
+  "sprinton.hurst.Hurst10HRouteSplit.true": "/quickQuestion #Love. (ROMANTIC)#Friendship. (PLATONIC)(break)switchEvent sprinton.hurst.DatingRoute(break)switchEvent sprinton.hurst.FriendshipRoute",
 
   //10H TOKENS
 
@@ -1506,6 +1506,55 @@
   "WoodsmanHurst.Items.BalancedMuffin.Description": "This muffin was a beloved snack of Aera of Mistgrove.",
   "WoodsmanHurst.Items.MistgroveCake": "Mistgrove Cake",
   "WoodsmanHurst.Items.MistgroveCake.Description": "This cake would be given to the children of Mistgrove the day they were given their Callings.",
+  //Translator Note: added items in 1.1.0
+  "WoodsmanHurst.Items.SpiritfishRoe": "Spiritfish Roe",
+  "WoodsmanHurst.Items.SpiritfishRoe.Description": "Fresh eggs from a Spiritfish. Can be aged in a preserves jar or made into oil.",
+  "WoodsmanHurst.Items.FlyingMisteelRoe": "Flying Misteel Roe",
+  "WoodsmanHurst.Items.FlyingMisteelRoe.Description": "Fresh eggs from a Flying Misteel. Can be aged in a preserves jar or made into oil.",
+  "WoodsmanHurst.Items.FairyfishRoe": "Fairyfish Roe",
+  "WoodsmanHurst.Items.FairyfishRoe.Description": "Fresh eggs from a Fairyfish. Can be aged in a preserves jar or made into oil.",
+  "WoodsmanHurst.Items.SpeakerFairyfishRoe": "Speaker Fairyfish Roe",
+  "WoodsmanHurst.Items.SpeakerFairyfishRoe.Description": "Fresh eggs from a Speaker Fairyfish. Can be aged in a preserves jar or made into oil.",
+  "WoodsmanHurst.Items.ConjoinedCatfishRoe": "Conjoined Catfish Roe",
+  "WoodsmanHurst.Items.ConjoinedCatfishRoe.Description": "Fresh eggs from a Conjoined Catfish. Can be aged in a preserves jar or made into oil.",
+  "WoodsmanHurst.Items.GlacialJellyfishRoe": "Glacial Jellyfish Roe",
+  "WoodsmanHurst.Items.GlacialJellyfishRoe.Description": "Fresh eggs from a Glacial Jellyfish. Can be aged in a preserves jar or made into oil.",
+  "WoodsmanHurst.Items.SpiritfishOil": "Spiritfish Oil",
+  "WoodsmanHurst.Items.SpiritfishOil.Description": "Oil extracted from the roe of Spiritfish.",
+  "WoodsmanHurst.Items.FlyingMisteelOil": "Flying Misteel Oil",
+  "WoodsmanHurst.Items.FlyingMisteelOil.Description": "Oil extracted from the roe of Flying Misteel.",
+  "WoodsmanHurst.Items.FairyfishOil": "Fairyfish Oil",
+  "WoodsmanHurst.Items.FairyfishOil.Description": "Oil extracted from the roe of Fairyfish.",
+  "WoodsmanHurst.Items.SpeakerFairyfishOil": "Speaker Fairyfish Oil",
+  "WoodsmanHurst.Items.SpeakerFairyfishOil.Description": "Oil extracted from the roe of Speaker Fairyfish.",
+  "WoodsmanHurst.Items.ConjoinedCatfishOil": "Conjoined Catfish Oil",
+  "WoodsmanHurst.Items.ConjoinedCatfishOil.Description": "Oil extracted from the roe of Conjoined Catfish.",
+  "WoodsmanHurst.Items.GlacialJellyfishOil": "Glacial Jellyfish Oil",
+  "WoodsmanHurst.Items.GlacialJellyfishOil.Description": "Oil extracted from the roe of Glacial Jellyfish.",
+  "WoodsmanHurst.Items.SpiritfishMayo": "Spiritfish Mayo",
+  "WoodsmanHurst.Items.SpiritfishMayo.Description": "Mayo created from Spiritfish Oil. Who even thinks of making this stuff?",
+  "WoodsmanHurst.Items.FlyingMisteelMayo": "Flying Misteel Mayo",
+  "WoodsmanHurst.Items.FlyingMisteelMayo.Description": "Mayo created from Flying Misteel Oil. Who even thinks of making this stuff?",
+  "WoodsmanHurst.Items.FairyfishMayo": "Fairyfish Mayo",
+  "WoodsmanHurst.Items.FairyfishMayo.Description": "Mayo created from Fairyfish Oil. Who even thinks of making this stuff?",
+  "WoodsmanHurst.Items.SpeakerFairyfishMayo": "Speaker Fairyfish Mayo",
+  "WoodsmanHurst.Items.SpeakerFairyfishMayo.Description": "Mayo created from Speaker Fairyfish Oil. Who even thinks of making this stuff?",
+  "WoodsmanHurst.Items.ConjoinedCatfishMayo": "Conjoined Catfish Mayo",
+  "WoodsmanHurst.Items.ConjoinedCatfishMayo.Description": "Mayo created from Conjoined Catfish Oil. Who even thinks of making this stuff?",
+  "WoodsmanHurst.Items.GlacialJellyfishMayo": "Glacial Jellyfish Mayo.",
+  "WoodsmanHurst.Items.GlacialJellyfishMayo.Description": "Mayo created from Glacial Jellyfish Oil. Who even thinks of making this stuff?",
+  "WoodsmanHurst.Items.AgedSpiritfishRoe": "Aged Spiritfish Roe",
+  "WoodsmanHurst.Items.AgedSpiritfishRoe.Description": "Fish eggs aged in salt to bring out the flavor.",
+  "WoodsmanHurst.Items.AgedFlyingMisteelRoe": "Aged Flying Misteel Roe",
+  "WoodsmanHurst.Items.AgedFlyingMisteelRoe.Description": "Fish eggs aged in salt to bring out the flavor.",
+  "WoodsmanHurst.Items.AgedFairyfishRoe": "Aged Fairyfish Roe",
+  "WoodsmanHurst.Items.AgedFairyfishRoe.Description": "Fish eggs aged in salt to bring out the flavor.",
+  "WoodsmanHurst.Items.AgedSpeakerFairyfishRoe": "Aged Speaker Fairyfish Roe",
+  "WoodsmanHurst.Items.AgedSpeakerFairyfishRoe.Description": "Fish eggs aged in salt to bring out the flavor.",
+  "WoodsmanHurst.Items.AgedConjoinedCatfishRoe": "Aged Conjoined Catfish Roe",
+  "WoodsmanHurst.Items.AgedConjoinedCatfishRoe.Description": "Fish eggs aged in salt to bring out the flavor.",
+  "WoodsmanHurst.Items.AgedGlacialJellyfishRoe": "Aged Glacial Jellyfish Roe",
+  "WoodsmanHurst.Items.AgedGlacialJellyfishRoe.Description": "Fish eggs aged in salt to bring out the flavor.",
 
   //Map stuff
   "WoodsmanHurst.SpiritShopDialogue": "The spirits swirl wildly around you.",
@@ -1556,6 +1605,9 @@
 
   "WoodsmanHurst.SecretNotes.11": "--told me about the terminology of his people. ^Spirits: Mostly mindless creatures of nature and magic. All people draw them. Those with strong magic can see them. Very few people can speak with them. ^Gods: Benevolent creatures of extreme power or intelligence.   ^Demons: Creatures of immense power or intelligence that pose a danger to Humans. ^Apostles: Humans with a strong connection to magic or the spirits. ^ The Woodsman has been quite stubborn about his refusal to explain the deeper secrets of his homeland. I shall-- ",
   "WoodsmanHurst.SecretNotes.12": "--surprised to learn the fables are real. The Woodsman will not speak to me often, but I am one of the few he is 'permitted' to speak to. He refuses to explain what this means. ^ I shall admit I was taken aback when he spoke of Mistgrove. As a younger man, I was quite taken with the legend of the Misted Woods, as were all of my fellow mages. ^ I wonder how they would feel to know such a place is real? I intend to learn more if I--",
+  //Notes 13 and up were added in the 1.1.0 update
+  "WoodsmanHurst.SecretNotes.13": "--having as much trouble as me getting information from the Woodsman. I had hoped that Eli's more... personable nature would lend itself to more information being shared, but it seems he remains as secretive as ever. Eli has said he was also surprised to learn Mistgrove was real. He said he assumed the fables were false like I. I wonder if we were both to--",
+  "WoodsmanHurst.SecretNotes.14": "-persist of her luring residents into the alley to consume their blood. Several offers have been made to her for a peaceful alternative, but Davina refuses to admit she's done anything of the sort. It seems she finds it more enjoyable to trick and decieve her way into getting a meal. She has yet to kill a citizen, but several of the guards are worried it's only a matter of time. It is due to this that the City Guard propose a lifelong ban of Vampire Davina Holloway from the City of-",
 
   "WoodsmanHurst.SecretNotes.1.Title": "Formal Report to Prophet Sylva of Mistgrove 1",
   "WoodsmanHurst.SecretNotes.2.Title": "Formal Report to Prophet Sylva of Mistgrove 2",
@@ -1569,6 +1621,8 @@
   "WoodsmanHurst.SecretNotes.10.Title": "Transcription of strange sounds coming from radios near the Misted Woods.",
   "WoodsmanHurst.SecretNotes.11.Title": "Excerpt from the notes of Rasmodius. I",
   "WoodsmanHurst.SecretNotes.12.Title": "Excerpt from the notes of Rasmodius II",
+  "WoodsmanHurst.SecretNotes.13.Title": "Excerpt from the notes of Rasmodius III",
+  "WoodsmanHurst.SecretNotes.14.Title": "Report on the danger of Vampire Davina Holloway",
 
   //Special Orders
   "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Name": "Power the Spell",

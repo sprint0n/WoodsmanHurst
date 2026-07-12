@@ -1,0 +1,198 @@
+{
+  "Changes": [
+    {
+      "LogName": "Mistgrove Drinks",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": ["(BC)12", "OutputRules"],
+      "Entries": {
+        "{{ModID}}_ZephyrLily": {
+          "Id": "sprinton.hurst.ZephyrLilyToSylphTeaOutput",
+          "Triggers": [
+            {
+              "RequiredItemID": "(O){{ModID}}_ZephyrLily",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemID": "(O){{ModID}}_SylphTea"
+            }
+          ],
+          "MinutesUntilReady": 180
+        },
+        "{{ModID}}_TeardropBerry": {
+          "Id": "sprinton.hurst.TeardropBerryToTeardropSpiritsOutput",
+          "Triggers": [
+            {
+              "Trigger": "ItemPlacedInMachine",
+              "RequiredItemID": "(O){{ModID}}_TeardropBerry",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemID": "(O){{ModID}}_TeardropSpirits"
+            }
+          ],
+          "MinutesUntilReady": 180
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "sprinton.hurst.TeardropBerryToTeardropSpiritsOutput",
+          "ToPosition": "Top"
+        }
+      ]
+    },
+    {
+      "LogName": "Terra Stone",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": ["(BC)Dehydrator", "OutputRules"],
+      "Entries": {
+        "{{ModID}}_TerraStone": {
+          "Id": "sprinton.hurst_TerraStone.TerraGourdToStoneOutput",
+          "Triggers": [
+            {
+              "RequiredItemId": "(O){{ModID}}_TerraGourd",
+              "RequiredCount": 5
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)390",
+              "MinStack": 25,
+              "MaxStack": 25
+            }
+          ],
+          "DaysUntilReady": 1
+        }
+      }
+    },
+    {
+      "LogName": "Mistgrove Aged Roe",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": ["(BC)15", "OutputRules"],
+      "Entries": {
+        "{{ModID}}_SpiritfishRoe": {
+          "Id": "sprinton.hurst.SpiritFishRoeToAgedRoeOutput",
+          "Triggers": [
+            {
+              "RequiredItemId": "(O){{ModID}}_SpiritfishRoe",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)sprinton.hurst_AgedSpiritfishRoe"
+            }
+          ],
+          "MinutesUntilReady": 4000
+        },
+        "{{ModID}}_FlyingMisteelRoe": {
+          "Id": "sprinton.hurst.FlyingMisteelRoeToAgedRoeOutput",
+          "Triggers": [
+            {
+              "RequiredItemId": "(O){{ModID}}_FlyingMisteelRoe",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)sprinton.hurst_AgedFlyingMisteelRoe"
+            }
+          ],
+          "MinutesUntilReady": 4000
+        },
+        "{{ModID}}_FairyfishRoe": {
+          "Id": "sprinton.hurst.FairyfishRoeToAgedRoeOutput",
+          "Triggers": [
+            {
+              "RequiredItemId": "(O){{ModID}}_FairyfishRoe",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)sprinton.hurst_AgedFairyfishRoe"
+            }
+          ],
+          "MinutesUntilReady": 4000
+        },
+        "{{ModID}}_SpeakerFairyfishRoe": {
+          "Id": "sprinton.hurst.SpeakerFairyfishRoeToAgedRoeOutput",
+          "Triggers": [
+            {
+              "RequiredItemId": "(O){{ModID}}_SpeakerFairyfishRoe",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)sprinton.hurst_AgedSpeakerFairyfishRoe"
+            }
+          ],
+          "MinutesUntilReady": 4000
+        },
+        "{{ModID}}_ConjoinedCatfishRoe": {
+          "Id": "sprinton.hurst.ConjoinedCatfishRoeToAgedRoeOutput",
+          "Triggers": [
+            {
+              "RequiredItemId": "(O){{ModID}}_ConjoinedCatfishRoe",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)sprinton.hurst_AgedConjoinedCatfishRoe"
+            }
+          ],
+          "MinutesUntilReady": 4000
+        },
+        "{{ModID}}_GlacialJellyfishRoe": {
+          "Id": "sprinton.hurst.GlacialJellyfishRoeToAgedRoeOutput",
+          "Triggers": [
+            {
+              "RequiredItemId": "(O){{ModID}}_GlacialJellyfishRoe",
+              "RequiredCount": 1
+            }
+          ],
+          "OutputItem": [
+            {
+              "ItemId": "(O)sprinton.hurst_AgedGlacialJellyfishRoe"
+            }
+          ],
+          "MinutesUntilReady": 4000
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "sprinton.hurst.SpiritFishRoeToAgedRoeOutput",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "sprinton.hurst.FlyingMisteelRoeToAgedRoeOutput",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "sprinton.hurst.FairyfishRoeToAgedRoeOutput",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "sprinton.hurst.SpeakerFairyFishRoeToAgedRoeOutput",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "sprinton.hurst.ConjoinedCatfishRoeToAgedRoeOutput",
+          "ToPosition": "Top"
+        },
+        {
+          "Id": "sprinton.hurst.GlacialJellyfishRoeToAgedRoeOutput",
+          "ToPosition": "Top"
+        }
+      ]
+    }
+  ]
+}

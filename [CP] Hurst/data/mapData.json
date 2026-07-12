@@ -544,6 +544,19 @@
           "Tile": "43, 59"
         }
       }
+    },
+    {
+      "LogName": "Add Catfish to Witch Swamp",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "TargetField": ["WitchSwamp", "Fish"],
+      "Entries": {
+        "{{ModID}}_ConjoinedCatfish": {
+          "Id": "{{ModID}}_ConjoinedCatfish",
+          "ItemId": "(O){{ModID}}_ConjoinedCatfish",
+          "Condition": "LOCATION_Season Here spring"
+        }
+      }
     }
   ]
 }

@@ -618,7 +618,6 @@
           "Category": -7,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
-          "ExcludeFromFishingCollection": "{{ExcludeFromPerfection}}",
           "Price": 230,
           "Edibility": 90,
           "IsDrink": false,
@@ -657,7 +656,6 @@
           "Category": -7,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
-          "ExcludeFromFishingCollection": "{{ExcludeFromPerfection}}",
           "Price": 250,
           "Edibility": 60,
           "IsDrink": false,
@@ -690,7 +688,6 @@
           "Category": -7,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
-          "ExcludeFromFishingCollection": "{{ExcludeFromPerfection}}",
           "Price": 75,
           "Edibility": 40,
           "IsDrink": false,
@@ -714,6 +711,186 @@
           ],
           "Texture": "{{InternalAssetKey: assets/images/WHObjects.png}}",
           "SpriteIndex": 35
+        },
+        "{{ModID}}_SpiritfishRoe": {
+          "Name": "{{ModID}}_SpiritfishRoe",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.SpiritfishRoe}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.SpiritfishRoe.Description}}",
+          "Type": "Basic",
+          "Category": -23,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 68,
+          "Edibility": 20,
+          "IsDrink": false,
+          "ContextTags": ["use_reverse_name_for_sorting", "color_blue"],
+          "Texture": "{{InternalAssetKey: assets/images/WHFishOutputs.png}}",
+          "SpriteIndex": 8
+        },
+        "{{ModID}}_FlyingMisteelRoe": {
+          "Name": "{{ModID}}_FlyingMisteelRoe",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.FlyingMisteelRoe}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.FlyingMisteelRoe.Description}}",
+          "Type": "Basic",
+          "Category": -23,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 77,
+          "Edibility": 20,
+          "IsDrink": false,
+          "ContextTags": ["use_reverse_name_for_sorting", "color_purple"],
+          "Texture": "{{InternalAssetKey: assets/images/WHFishOutputs.png}}",
+          "SpriteIndex": 12
+        },
+        "{{ModID}}_FairyfishRoe": {
+          "Name": "{{ModID}}_FairyfishRoe",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.FairyfishRoe}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.FairyfishRoe.Description}}",
+          "Type": "Basic",
+          "Category": -23,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 92,
+          "Edibility": 20,
+          "IsDrink": false,
+          "ContextTags": ["use_reverse_name_for_sorting", "color_blue"],
+          "Texture": "{{InternalAssetKey: assets/images/WHFishOutputs.png}}",
+          "SpriteIndex": 16
+        },
+        "{{ModID}}_SpeakerFairyfishRoe": {
+          "Name": "{{ModID}}_SpeakerFairyfishRoe",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.SpeakerFairyfishRoe}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.SpeakerFairyfishRoe.Description}}",
+          "Type": "Basic",
+          "Category": -23,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 180,
+          "Edibility": 20,
+          "IsDrink": false,
+          "ContextTags": ["use_reverse_name_for_sorting", "color_yellow"],
+          "Texture": "{{InternalAssetKey: assets/images/WHFishOutputs.png}}",
+          "SpriteIndex": 20
+        },
+        "{{ModID}}_ConjoinedCatfishRoe": {
+          "Name": "{{ModID}}_ConjoinedCatfishRoe",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.ConjoinedCatfishRoe}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.ConjoinedCatfishRoe.Description}}",
+          "Type": "Basic",
+          "Category": -23,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 135,
+          "Edibility": 20,
+          "IsDrink": false,
+          "ContextTags": ["use_reverse_name_for_sorting", "color_orange"],
+          "Texture": "{{InternalAssetKey: assets/images/WHFishOutputs.png}}",
+          "SpriteIndex": 24
+        },
+        "{{ModID}}_GlacialJellyfishRoe": {
+          "Name": "{{ModID}}_GlacialJellyfishRoe",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.GlacialJellyfishRoe}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.GlacialJellyfishRoe.Description}}",
+          "Type": "Basic",
+          "Category": -23,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 55,
+          "Edibility": 20,
+          "IsDrink": false,
+          "ContextTags": ["use_reverse_name_for_sorting", "color_blue"],
+          "Texture": "{{InternalAssetKey: assets/images/WHFishOutputs.png}}",
+          "SpriteIndex": 0
+        },
+        "{{ModID}}_AgedSpiritfishRoe": {
+          "Name": "{{ModID}}_AgedSpiritfishRoe",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.AgedSpiritfishRoe}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.AgedSpiritfishRoe.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 136,
+          "Edibility": 40,
+          "IsDrink": false,
+          "ContextTags": ["use_reverse_name_for_sorting", "color_blue"],
+          "Texture": "{{InternalAssetKey: assets/images/WHFishOutputs.png}}",
+          "SpriteIndex": 11
+        },
+        "{{ModID}}_AgedFlyingMisteelRoe": {
+          "Name": "{{ModID}}_AgedFlyingMisteelRoe",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.AgedFlyingMisteelRoe}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.AgedFlyingMisteelRoe.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 154,
+          "Edibility": 40,
+          "IsDrink": false,
+          "ContextTags": ["use_reverse_name_for_sorting", "color_purple"],
+          "Texture": "{{InternalAssetKey: assets/images/WHFishOutputs.png}}",
+          "SpriteIndex": 15
+        },
+        "{{ModID}}_AgedFairyfishRoe": {
+          "Name": "{{ModID}}_AgedFairyfishRoe",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.AgedFairyfishRoe}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.AgedFairyfishRoe.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 184,
+          "Edibility": 40,
+          "IsDrink": false,
+          "ContextTags": ["use_reverse_name_for_sorting", "color_blue"],
+          "Texture": "{{InternalAssetKey: assets/images/WHFishOutputs.png}}",
+          "SpriteIndex": 19
+        },
+        "{{ModID}}_AgedSpeakerFairyfishRoe": {
+          "Name": "{{ModID}}_AgedSpeakerFairyfishRoe",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.AgedSpeakerFairyfishRoe}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.AgedSpeakerFairyfishRoe.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 360,
+          "Edibility": 40,
+          "IsDrink": false,
+          "ContextTags": ["use_reverse_name_for_sorting", "color_yellow"],
+          "Texture": "{{InternalAssetKey: assets/images/WHFishOutputs.png}}",
+          "SpriteIndex": 23
+        },
+        "{{ModID}}_AgedConjoinedCatfishRoe": {
+          "Name": "{{ModID}}_AgedConjoinedCatfishRoe",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.AgedConjoinedCatfishRoe}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.AgedConjoinedCatfishRoe.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 270,
+          "Edibility": 40,
+          "IsDrink": false,
+          "ContextTags": ["use_reverse_name_for_sorting", "color_orange"],
+          "Texture": "{{InternalAssetKey: assets/images/WHFishOutputs.png}}",
+          "SpriteIndex": 27
+        },
+        "{{ModID}}_AgedGlacialJellyfishRoe": {
+          "Name": "{{ModID}}_AgedGlacialJellyfishRoe",
+          "DisplayName": "{{i18n:WoodsmanHurst.Items.AgedGlacialJellyfishRoe}}",
+          "Description": "{{i18n:WoodsmanHurst.Items.AgedGlacialJellyfishRoe.Description}}",
+          "Type": "Basic",
+          "Category": -26,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
+          "Price": 110,
+          "Edibility": 40,
+          "IsDrink": false,
+          "ContextTags": ["use_reverse_name_for_sorting", "color_blue"],
+          "Texture": "{{InternalAssetKey: assets/images/WHFishOutputs.png}}",
+          "SpriteIndex": 3
         }
       }
     },
@@ -766,76 +943,6 @@
         "{{ModID}}_BalancedMuffin": "{{ModID}}_HarmonicGrapes 1 245 1 246 1 -5 1/10 10/{{ModID}}_BalancedMuffin/null",
         "{{ModID}}_MistgroveCake": "{{ModID}}_BalancedMuffin 1 {{ModID}}_SymphonicBerries 1 245 1/10 10/{{ModID}}_MistgroveCake/null",
         "{{ModID}}_RaedensBounty": "{{ModID}}_FrostedMushroom 1 {{ModID}}_TeardropBerry 1 {{ModID}}_FrigidSunfish 1/10 10/{{ModID}}_RaedensBounty/null"
-      }
-    },
-    {
-      "LogName": "Mistgrove Drinks",
-      "Action": "EditData",
-      "Target": "Data/Machines",
-      "TargetField": ["(BC)12", "OutputRules"],
-      "Entries": {
-        "{{ModID}}_ZephyrLily": {
-          "Id": "sprinton.hurst.ZephyrLilyToSylphTeaOutput",
-          "Triggers": [
-            {
-              "RequiredItemID": "(O){{ModID}}_ZephyrLily",
-              "RequiredCount": 1
-            }
-          ],
-          "OutputItem": [
-            {
-              "ItemID": "(O){{ModID}}_SylphTea"
-            }
-          ],
-          "MinutesUntilReady": 180
-        },
-        "{{ModID}}_TeardropBerry": {
-          "Id": "sprinton.hurst.TeardropBerryToTeardropSpiritsOutput",
-          "Triggers": [
-            {
-              "Trigger": "ItemPlacedInMachine",
-              "RequiredItemID": "(O){{ModID}}_TeardropBerry",
-              "RequiredCount": 1
-            }
-          ],
-          "OutputItem": [
-            {
-              "ItemID": "(O){{ModID}}_TeardropSpirits"
-            }
-          ],
-          "MinutesUntilReady": 180
-        }
-      },
-      "MoveEntries": [
-        {
-          "Id": "sprinton.hurst.TeardropBerryToTeardropSpiritsOutput",
-          "ToPosition": "Top"
-        }
-      ]
-    },
-    {
-      "LogName": "Terra Stone",
-      "Action": "EditData",
-      "Target": "Data/Machines",
-      "TargetField": ["(BC)Dehydrator", "OutputRules"],
-      "Entries": {
-        "{{ModID}}_TerraStone": {
-          "Id": "sprinton.hurst_TerraStone.TerraGourdToStoneOutput",
-          "Triggers": [
-            {
-              "RequiredItemId": "(O){{ModID}}_TerraGourd",
-              "RequiredCount": 5
-            }
-          ],
-          "OutputItem": [
-            {
-              "ItemId": "(O)390",
-              "MinStack": 25,
-              "MaxStack": 25
-            }
-          ],
-          "DaysUntilReady": 1
-        }
       }
     },
     {

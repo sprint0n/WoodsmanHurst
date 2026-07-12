@@ -2,7 +2,7 @@ Hurst's 10H has crossover with Meet the Obriens, Nora the Herpetologist, Metalco
 
 Hurst's Clearing is located at the bottom left of the East Scarp Deep Mountains, with a small sign pointing at the warp his clearing
 
-Introduction: Enter Cindersap after seeing the Wizard's event that lets you read Junimo on a sunny weekday. 
+Introduction: Enter Cindersap after seeing the Wizard's event that lets you read Junimo on a sunny weekday. Must have spoken to Hurst a few times before this event can trigger.
 2 Heart: Enter Hurst's Clearing after seeing his Introduction. Cannot trigger on Friday or Sunday.
 4 Heart: Enter Pierre's Shop after seeing his 2 heart. Cannot trigger on Friday or Sunday.
 5 Heart: Enter Hurst's Clearing after seeing his 4 heart in sunny weather. Cannot trigger on Friday or during winter.
@@ -26,6 +26,7 @@ Fri and Sat: In his Clearing
 Sun: Wandering East Scarp Village
 
 Fish Guide:
+All Fish are catchable in the Mistgrove Pond. The Conjoined Catfish is also catchable in the Swamp where you find Void Salmon, but only during the Spring.
 Spiritfish: Catchable any season, any time of day
 Fairyfish: Catchable any season, any time of day
 Speaker Fairyfish: Catchable Fall 5 and Fall 28, Fishing level 5 required, any time of day
