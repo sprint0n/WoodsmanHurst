@@ -15,6 +15,7 @@
         "HurstMailbox": "{{i18n:ClearingStrings.HurstMailbox}}",
         "HurstJunimoHut": "{{i18n:ClearingStrings.HurstJunimoHut}}",
         "HurstBigJunimoPlush": "{{i18n:ClearingStrings.HurstBigJunimoPlush}}",
+        "HurstClearingSign": "{{i18n:ClearingStrings.HurstClearingSign}}",
 
         //Mistgrove Outskirts
         "MerriTombstone": "{{i18n:MistgroveStrings.MerriTombstone}}",

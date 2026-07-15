@@ -148,9 +148,8 @@
           ],
           "Forage": [
             {
-              "Chance": 0.5,
-              "Season": "Spring",
-              "Condition": null,
+              "Chance": 0.9,
+              "Condition": "SEASON spring",
               "Id": "IronAcornSpawn",
               "ItemId": "(O){{ModID}}_IronAcorn",
               "RandomItemId": null,
@@ -159,9 +158,8 @@
               "Quality": -1
             },
             {
-              "Chance": 0.01,
-              "Season": "Spring",
-              "Condition": null,
+              "Chance": 0.1,
+              "Condition": "SEASON spring",
               "Id": "TerraSoupSpawn",
               "ItemId": "(O){{ModID}}_TerraSoup",
               "RandomItemId": null,
@@ -170,9 +168,8 @@
               "Quality": -1
             },
             {
-              "Chance": 0.5,
-              "Season": "Summer",
-              "Condition": null,
+              "Chance": 0.9,
+              "Condition": "SEASON summer",
               "Id": "FrostedMushroomSpawn",
               "ItemId": "(O){{ModID}}_FrostedMushroom",
               "RandomItemId": null,
@@ -181,9 +178,8 @@
               "Quality": -1
             },
             {
-              "Chance": 0.01,
-              "Season": "Summer",
-              "Condition": null,
+              "Chance": 0.1,
+              "Condition": "SEASON summer",
               "Id": "IfritPopRocksSpawn",
               "ItemId": "(O){{ModID}}_IfritPopRocks",
               "RandomItemId": null,
@@ -192,9 +188,8 @@
               "Quality": -1
             },
             {
-              "Chance": 0.5,
-              "Season": "Fall",
-              "Condition": null,
+              "Chance": 0.9,
+              "Condition": "SEASON Fall",
               "Id": "HarmonicGrapeSpawn",
               "ItemId": "(O){{ModID}}_HarmonicGrapes",
               "RandomItemId": null,
@@ -203,9 +198,8 @@
               "Quality": -1
             },
             {
-              "Chance": 0.01,
-              "Season": "Fall",
-              "Condition": null,
+              "Chance": 0.1,
+              "Condition": "SEASON Fall",
               "Id": "SylphTeaSpawn",
               "ItemId": "(O){{ModID}}_SylphTea",
               "RandomItemId": null,
@@ -214,9 +208,8 @@
               "Quality": -1
             },
             {
-              "Chance": 0.5,
-              "Season": "Winter",
-              "Condition": null,
+              "Chance": 0.9,
+              "Condition": "SEASON winter",
               "Id": "SymphonicBerrySpawn",
               "ItemId": "(O){{ModID}}_SymphonicBerries",
               "RandomItemId": null,
@@ -225,9 +218,8 @@
               "Quality": -1
             },
             {
-              "Chance": 0.01,
-              "Season": "Winter",
-              "Condition": null,
+              "Chance": 0.1,
+              "Condition": "SEASON winter",
               "Id": "TeardropSpiritsSpawn",
               "ItemId": "(O){{ModID}}_TeardropSpirits",
               "RandomItemId": null,
