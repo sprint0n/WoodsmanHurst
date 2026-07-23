@@ -1535,6 +1535,16 @@
   "WoodsmanHurst.Items.AgedConjoinedCatfishRoe.Description": "Fish eggs aged in salt to bring out the flavor.",
   "WoodsmanHurst.Items.AgedGlacialJellyfishRoe": "Aged Glacial Jellyfish Roe",
   "WoodsmanHurst.Items.AgedGlacialJellyfishRoe.Description": "Fish eggs aged in salt to bring out the flavor.",
+  "WoodsmanHurst.Items.SolarRabbitFoot": "Solar Rabbit's Foot",
+  "WoodsmanHurst.Items.SolarRabbitFoot.Description": "Many say this brings great fortune. Others claim it brings grave danger.",
+  "WoodsmanHurst.Items.VoidRabbitFoot": "Void Rabbit's Foot",
+  "WoodsmanHurst.Items.VoidRabbitFoot.Description": "Some say this brings great mistfortune. Others claim it brings great luck.",
+  "WoodsmanHurst.Items.SolarWool": "Solar Wool",
+  "WoodsmanHurst.Items.SolarWool.Description": "Soft wool that drops from Solar Bunnies.",
+  "WoodsmanHurst.Items.VoidWool": "Void Wool",
+  "WoodsmanHurst.Items.VoidWool.Description": "Soft wool that drops from Void Bunnies.",
+  "WoodsmanHurst.Items.MistgroveCloth": "Mistgrove Cloth",
+  "WoodsmanHurst.Items.MistgroveCloth.Description": "Clothes in Mistgrove are woven from this material.",
 
   //Map stuff
   "WoodsmanHurst.SpiritShopDialogue": "The spirits swirl wildly around you.",

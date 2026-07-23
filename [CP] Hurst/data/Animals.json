@@ -1,0 +1,163 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add Void and Solar Rabbits",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "When": {
+        "HasSeenEvent |contains=sprinton.hurst.Hurst10H": true
+      },
+      "Entries": {
+        "{{ModID}}_VoidRabbit": {
+          "DisplayName": "Void Rabbit",
+          "House": "Coop",
+          "Gender": "MaleOrFemale",
+          "PurchasePrice": 5000,
+          "SellPrice": 10000,
+          "ShopTexture": "{{InternalAssetKey: assets/images/SolarRabbitShop.png}}",
+          "ShopSourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 32,
+            "Height": 16
+          },
+          "ShopDisplayName": "Mystic Rabbit",
+          "ShopDescription": "Hurst and Eli created something interesting. These shed wool every few days. Lives in the coop.",
+          "ShopMissingBuildingDescription": "Requires a Deluxe Coop!",
+          "RequiredBuilding": "Deluxe Coop",
+          "AlternatePurchaseTypes": [
+            {
+              "ID": "Default",
+              "Condition": null,
+              "AnimalIds": ["{{ModID}}_SolarRabbit", "{{ModID}}_VoidRabbit"]
+            }
+          ],
+          "DaysToProduce": 4,
+          "DaysToMature": 6,
+          "CanGetPregnant": false,
+          "HarvestType": "DropOvernight",
+          "HarvestTool": null,
+          "ProduceItemIds": [
+            {
+              "Id": "DefaultVoidWool",
+              "Condition": null,
+              "MinimumFriendship": 0,
+              "ItemID": "sprinton.hurst_VoidWool"
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            {
+              "Id": "DefaultVoidFoot",
+              "Condition": null,
+              "MinimumFriendship": 0,
+              "ItemId": "sprinton.hurst_VoidRabbitFoot"
+            }
+          ],
+          "ProduceOnMature": false,
+          "DeluxeProduceMinimumFriendship": 0,
+          "DeluxeProduceCareDivisor": 5000.0,
+          "DeluxeProduceLuckMultiplier": 1.02,
+          "CanEatGoldenCrackers": true,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Sound": "rabbit",
+          "BabySound": null,
+          "Texture": "{{InternalAssetKey: assets/images/VoidRabbit.png}}",
+          "BabyTexture": "{{InternalAssetKey: assets/images/VoidBabyRabbit.png}}",
+          "UseFlippedRightForLeft": false,
+          "SpriteWidth": 16,
+          "SpriteHeight": 16,
+          "UseDoubleUniqueAnimationFrames": true,
+          "SleepFrame": 16,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": 16
+          },
+          "SwimOffset": {
+            "X": 0,
+            "Y": 112
+          },
+          "GrassEatAmount": 2,
+          "HappinessDrain": 5,
+          "UpDownPetHitboxTileSize": "1, 1",
+          "LeftRightPetHitboxTileSize": "1, 1",
+          "BabyUpDownPetHitboxTileSize": "1, 1",
+          "BabyLeftRightPetHitboxTileSize": "1, 1",
+          "ShowInSummitCredits": false
+        },
+        "{{ModID}}_SolarRabbit": {
+          "DisplayName": "Solar Rabbit",
+          "House": "Coop",
+          "Gender": "MaleOrFemale",
+          "PurchasePrice": -1,
+          "SellPrice": 10000,
+          "ShopTexture": "{{InternalAssetKey: assets/images/SolarRabbitShop.png}}",
+          "ShopSourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 32,
+            "Height": 16
+          },
+          "ShopDisplayName": "Mystic Rabbit",
+          "ShopDescription": "Hurst and Eli created something interesting. These shed wool every few days. Lives in the coop.",
+          "ShopMissingBuildingDescription": "Requires a Deluxe Coop!",
+          "RequiredBuilding": "Deluxe Coop",
+          "DaysToProduce": 4,
+          "DaysToMature": 6,
+          "CanGetPregnant": false,
+          "HarvestType": "DropOvernight",
+          "HarvestTool": null,
+          "ProduceItemIds": [
+            {
+              "Id": "DefaultSolarWool",
+              "Condition": null,
+              "MinimumFriendship": 0,
+              "ItemID": "sprinton.hurst_SolarWool"
+            }
+          ],
+          "DeluxeProduceItemIds": [
+            {
+              "Id": "DefaultSolarFoot",
+              "Condition": null,
+              "MinimumFriendship": 0,
+              "ItemId": "sprinton.hurst_SolarRabbitFoot"
+            }
+          ],
+          "ProduceOnMature": false,
+          "DeluxeProduceMinimumFriendship": 0,
+          "DeluxeProduceCareDivisor": 5000.0,
+          "DeluxeProduceLuckMultiplier": 1.02,
+          "CanEatGoldenCrackers": true,
+          "ProfessionForHappinessBoost": 2,
+          "ProfessionForQualityBoost": 2,
+          "ProfessionForFasterProduce": -1,
+          "Sound": "rabbit",
+          "BabySound": null,
+          "Texture": "{{InternalAssetKey: assets/images/SolarRabbit.png}}",
+          "BabyTexture": "{{InternalAssetKey: assets/images/SolarBabyRabbit.png}}",
+          "UseFlippedRightForLeft": false,
+          "SpriteWidth": 16,
+          "SpriteHeight": 16,
+          "UseDoubleUniqueAnimationFrames": true,
+          "SleepFrame": 16,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": 16
+          },
+          "SwimOffset": {
+            "X": 0,
+            "Y": 112
+          },
+          "GrassEatAmount": 2,
+          "HappinessDrain": 5,
+          "UpDownPetHitboxTileSize": "1, 1",
+          "LeftRightPetHitboxTileSize": "1, 1",
+          "BabyUpDownPetHitboxTileSize": "1, 1",
+          "BabyLeftRightPetHitboxTileSize": "1, 1",
+          "ShowInSummitCredits": false
+        }
+      }
+    }
+  ]
+}
