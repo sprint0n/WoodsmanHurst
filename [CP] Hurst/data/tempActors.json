@@ -28,7 +28,7 @@
       "LogName": "Hurst Temp Actor Sprites",
       "Action": "Load",
       "Target": "Characters/HurstClone",
-      "FromFile": "assets/Characters/WoodsmanHurst.png"
+      "FromFile": "assets/Characters/{{SpriteStyle}}/WoodsmanHurst.png"
     },
     //Event Spirit TAS
     {

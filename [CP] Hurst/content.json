@@ -13,7 +13,7 @@
     {
       "LogName": "Includes",
       "Action": "Include",
-      "FromFile": "data/dispos.json, data/Mail.json, data/mapData.json, data/events.json, data/dialogue.json, data/schedule.json, data/gifttastes.json, data/animationData.json, data/conversationTopics.json, data/festivals.json, data/itemData.json, data/Strings.json, data/tempActors.json, data/shopData.json, data/Quests.json, data/Fish.json, data/Machines.json, data/Animals.json"
+      "FromFile": "data/dispos.json, data/Mail.json, data/mapData.json, data/events.json, data/dialogue.json, data/schedule.json, data/gifttastes.json, data/animationData.json, data/conversationTopics.json, data/festivals.json, data/itemData.json, data/Strings.json, data/tempActors.json, data/shopData.json, data/Quests.json, data/Fish.json, data/Machines.json, data/Animals.json, data/WatchersJournal.json"
     },
     {
       "LogName": "Hurst Portraits",
@@ -26,7 +26,7 @@
       "LogName": "Hurst Sprites",
       "Action": "Load",
       "Target": "Characters/WoodsmanHurst",
-      "FromFile": "assets/Characters/{{TargetWithoutPath}}.png"
+      "FromFile": "assets/Characters/{{SpriteStyle}}/{{TargetWithoutPath}}.png"
     },
     {
       "LogName": "Ward Sprites",
@@ -518,6 +518,12 @@
       "Default": "HeartOfFlowers",
       "AllowBlank": false,
       "Description": "{{i18n:Config.PortraitStyle.description}}"
+    },
+    "SpriteStyle": {
+      "AllowValues": "Cuter, Vanilla",
+      "Default": "Cuter",
+      "AllowBlank": false,
+      "Description": "{{i18n:Config.SpriteStyle.description}}"
     }
   }
 }

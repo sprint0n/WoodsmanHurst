@@ -1,0 +1,592 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/PeacefulEnd.Parchment/Books",
+      "Entries": {
+        "{{ModID}}_WatchersJournal": {
+          "Format": "1.0.0",
+          "ID": "{{ModID}}_WatchersJournal",
+          "Appearance": {
+            "TintColor": "153 51 255"
+          },
+          "Overlay": [
+            {
+              "Type": "Image",
+              "TexturePath": "Assets/PeacefulEnd.Parchment/bookmark1",
+              "TextureSourceRectangle": {
+                "X": 0,
+                "Y": 0,
+                "Width": 24,
+                "Height": 17
+              },
+              "HoverTextureSourceRectangle": {
+                "X": 0,
+                "Y": 17,
+                "Width": 24,
+                "Height": 17
+              },
+              "TintColor": "38 71 7",
+              "SpriteEffects": "FlipHorizontally",
+              "Position": {
+                "X": -64,
+                "Y": 192
+              },
+              "Scale": 4,
+              "Action": "PeacefulEnd.Parchment_GoToStart",
+              "Condition": "!PeacefulEnd.Parchment_CurrentPageIndex 0"
+            }
+          ],
+          "Pages": [
+            {
+              "Id": "WatchersJournalCover",
+              "Elements": [
+                {
+                  "Type": "Title",
+                  "Text": "The Watcher's Journal",
+                  "Alignment": "Center"
+                },
+                {
+                  "Type": "Heading",
+                  "Text": "For the good of Mistgrove",
+                  "Alignment": "Center"
+                },
+                {
+                  "Type": "Button",
+                  "TexturePath": "Assets/PeacefulEnd.Parchment/button1",
+                  "TextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "HoverTextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 18,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "Text": "Zazel",
+                  "FontType": "Small",
+                  "Sizing": "ShrinkToFit",
+                  "Alignment": "Center",
+                  "Scale": 1,
+                  "Padding": 1,
+                  "Action": "PeacefulEnd.Parchment_JumpToChapter The1stWatcher"
+                },
+                {
+                  "Type": "Button",
+                  "TexturePath": "Assets/PeacefulEnd.Parchment/button1",
+                  "TextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "HoverTextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 18,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "Text": "Carba",
+                  "FontType": "Small",
+                  "Sizing": "ShrinkToFit",
+                  "Alignment": "Center",
+                  "Scale": 1,
+                  "Padding": 1,
+                  "Action": "PeacefulEnd.Parchment_JumpToChapter The4thWatcher"
+                },
+                {
+                  "Type": "Button",
+                  "TexturePath": "Assets/PeacefulEnd.Parchment/button1",
+                  "TextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "HoverTextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 18,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "Text": "Auloron",
+                  "FontType": "Small",
+                  "Sizing": "ShrinkToFit",
+                  "Alignment": "Center",
+                  "Scale": 1,
+                  "Padding": 1,
+                  "Action": "PeacefulEnd.Parchment_JumpToChapter The10thWatcher"
+                },
+                {
+                  "Type": "Button",
+                  "TexturePath": "Assets/PeacefulEnd.Parchment/button1",
+                  "TextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "HoverTextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 18,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "Text": "Alger",
+                  "FontType": "Small",
+                  "Sizing": "ShrinkToFit",
+                  "Alignment": "Center",
+                  "Scale": 1,
+                  "Padding": 1,
+                  "Action": "PeacefulEnd.Parchment_JumpToChapter The19thWatcher"
+                },
+                {
+                  "Type": "Button",
+                  "TexturePath": "Assets/PeacefulEnd.Parchment/button1",
+                  "TextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "HoverTextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 18,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "Text": "Hern",
+                  "FontType": "Small",
+                  "Sizing": "ShrinkToFit",
+                  "Alignment": "Center",
+                  "Scale": 1,
+                  "Padding": 1,
+                  "Action": "PeacefulEnd.Parchment_JumpToChapter The24thWatcher"
+                },
+                {
+                  "Type": "Button",
+                  "TexturePath": "Assets/PeacefulEnd.Parchment/button1",
+                  "TextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "HoverTextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 18,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "Text": "Selasi",
+                  "FontType": "Small",
+                  "Sizing": "ShrinkToFit",
+                  "Alignment": "Center",
+                  "Scale": 1,
+                  "Padding": 1,
+                  "Action": "PeacefulEnd.Parchment_JumpToChapter The28thWatcher"
+                }
+              ]
+            },
+            {
+              "Id": "TableOfContentContinued",
+              "Elements": [
+                {
+                  "Type": "Button",
+                  "TexturePath": "Assets/PeacefulEnd.Parchment/button1",
+                  "TextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "HoverTextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 18,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "Text": "Echium",
+                  "FontType": "Small",
+                  "Sizing": "ShrinkToFit",
+                  "Alignment": "Center",
+                  "Scale": 1,
+                  "Padding": 1,
+                  "Action": "PeacefulEnd.Parchment_JumpToChapter The34thWatcher"
+                },
+                {
+                  "Type": "Button",
+                  "TexturePath": "Assets/PeacefulEnd.Parchment/button1",
+                  "TextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "HoverTextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 18,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "Text": "Méabh",
+                  "FontType": "Small",
+                  "Sizing": "ShrinkToFit",
+                  "Alignment": "Center",
+                  "Scale": 1,
+                  "Padding": 1,
+                  "Action": "PeacefulEnd.Parchment_JumpToChapter The46thWatcher"
+                },
+                {
+                  "Type": "Button",
+                  "TexturePath": "Assets/PeacefulEnd.Parchment/button1",
+                  "TextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "HoverTextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 18,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "Text": "Aylu",
+                  "FontType": "Small",
+                  "Sizing": "ShrinkToFit",
+                  "Alignment": "Center",
+                  "Scale": 1,
+                  "Padding": 1,
+                  "Action": "PeacefulEnd.Parchment_JumpToChapter The51stWatcher"
+                },
+                {
+                  "Type": "Button",
+                  "TexturePath": "Assets/PeacefulEnd.Parchment/button1",
+                  "TextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "HoverTextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 18,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "Text": "Valerian",
+                  "FontType": "Small",
+                  "Sizing": "ShrinkToFit",
+                  "Alignment": "Center",
+                  "Scale": 1,
+                  "Padding": 1,
+                  "Action": "PeacefulEnd.Parchment_JumpToChapter The63rdWatcher"
+                },
+                {
+                  "Type": "Button",
+                  "TexturePath": "Assets/PeacefulEnd.Parchment/button1",
+                  "TextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "HoverTextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 18,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "Text": "Veis",
+                  "FontType": "Small",
+                  "Sizing": "ShrinkToFit",
+                  "Alignment": "Center",
+                  "Scale": 1,
+                  "Padding": 1,
+                  "Action": "PeacefulEnd.Parchment_JumpToChapter The72thWatcher"
+                },
+                {
+                  "Type": "Button",
+                  "TexturePath": "Assets/PeacefulEnd.Parchment/button1",
+                  "TextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "HoverTextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 18,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "Text": "Raeden",
+                  "FontType": "Small",
+                  "Sizing": "ShrinkToFit",
+                  "Alignment": "Center",
+                  "Scale": 1,
+                  "Padding": 1,
+                  "Action": "PeacefulEnd.Parchment_JumpToChapter The75thWatcher"
+                },
+                {
+                  "Type": "Button",
+                  "TexturePath": "Assets/PeacefulEnd.Parchment/button1",
+                  "TextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "HoverTextureSourceRectangle": {
+                    "X": 0,
+                    "Y": 18,
+                    "Width": 18,
+                    "Height": 18
+                  },
+                  "Text": "Hurst",
+                  "FontType": "Small",
+                  "Sizing": "ShrinkToFit",
+                  "Alignment": "Center",
+                  "Scale": 1,
+                  "Padding": 1,
+                  "Action": "PeacefulEnd.Parchment_JumpToChapter The76thWatcher"
+                }
+              ]
+            },
+
+            //1st Watcher
+            {
+              "Id": "TheFirst",
+              "ChapterId": "The1stWatcher",
+              "Elements": [
+                {
+                  "Type": "Heading",
+                  "Text": "I am the First.",
+                  "Alignment": "Center",
+                  "SpacingAfter": 72
+                },
+                {
+                  "Type": "Paragraph",
+                  "Text": "I discovered this journal within the woods. I worry it may be a trap laid by the spirits.\n They can be a dangerous lot to associate with, but I believe the usefulness of passing on knowledge is worth the risk.",
+                  "SpacingAfter": 16
+                }
+              ]
+            },
+            {
+              "Id": "TheSaviorsDeath",
+              "ChapterId": "The1stWatcher",
+              "Elements": [
+                {
+                  "Type": "Heading",
+                  "Text": "Put a gravestone image here?",
+                  "Alignment": "Center",
+                  "SpacingAfter": 72
+                },
+                {
+                  "Type": "Paragraph",
+                  "Text": "After 300 years, the Savior has died. She was beloved by humans and spirits alike. ...I distrust them. They aren't Human. They don't think like us. But they wept as much as I at her death.\n I do not think I will ever trust them. But we found comfort in each other today. Maybe one day we can find a balance."
+                }
+              ]
+            },
+            {
+              "Id": "IronAcorns",
+              "ChapterID": "The1stWatcher",
+              "Elements": [
+                {
+                  "Type": "Heading",
+                  "Text": "The Iron Acorn",
+                  "Alignment": "Center",
+                  "SpacingAfter": 36
+                },
+                {
+                  "Type": "Image",
+                  "ItemId": "{{ModID}}_IronAcorn",
+                  "DisplayName": "",
+                  "Description": "Any Human from Mistgrove would recognize this.",
+                  "Scale": 4,
+                  "Alignment": "Center",
+                  "SpacingAfter": 12
+                },
+                {
+                  "Type": "Paragraph",
+                  "Text": "If by some nightmare these no longer exist in your time, I have taken the liberty of drawing the likeness of one. These were invaluable to the Savior when she lead us away from the ruined city. Inside of each one is a bounty of food, far more than should be able to be contained in such a small thing."
+                }
+              ]
+            },
+
+            //4th Watcher
+            {
+              "Id": "MushroomDiscovered",
+              "ChapterId": "The4thWatcher",
+              "Elements": [
+                {
+                  "Type": "Heading",
+                  "Text": "I have made a new discovery.",
+                  "Alignment": "Center",
+                  "SpacingAfter": 36
+                },
+                {
+                  "Type": "Image",
+                  "ItemId": "{{ModID}}_FrostedMushroom",
+                  "DisplayName": "",
+                  "Description": "It appears to be a frozen over mushroom.",
+                  "Scale": 4,
+                  "Alignment": "Center",
+                  "SpacingAfter": 12
+                },
+                {
+                  "Type": "Paragraph",
+                  "Text": "Such a thing would be seen as impossible if not for the spirits. They create things that I cannot help but marvel at. The mushroom is frozen solid, but still lives! The spirits have told me it is also safe to consume. Should we try to create a farm?"
+                }
+              ]
+            },
+            {
+              "Id": "DoTheyNotKnow?",
+              "ChapterId": "The4thWatcher",
+              "Elements": [
+                {
+                  "Type": "Paragraph",
+                  "Text": "The townsfolk still shy away from me. Do they not understand the monsters we fight? The pain we suffer? The horrors...",
+                  "Alignment": "Left",
+                  "SpacingAfter": 16
+                },
+                {
+                  "Type": "Paragraph",
+                  "Text": "I will remain strong. They do not understand. This is fine. Only one need suffer, and it appears that one shall be me. I hope those who come after will be able to bear the weight as I do. I do not know how many of us there will be. Shall I be the last? Will there be hundreds after me?",
+                  "SpacingAfter": 16
+                }
+              ]
+            },
+            {
+              "Id": "NewApprentice",
+              "ChapterId": "The4thWatcher",
+              "Elements": [
+                {
+                  "Type": "Paragraph",
+                  "Text": "I have met my apprentice. She is far more outgoing than I. Such a thing is good. She helps me speak to the others in a way I could not by myself. I worry about what nightmares I may plague her with. I can only hope she is strong enough to handle them.",
+                  "SpacingAfter": 16
+                },
+                {
+                  "Type": "Paragraph",
+                  "Text": "She has grown so much. She was merely a child when we first met. She is now nearly the age I was when I became the Watcher. I worry this means my time is coming to a close. There was still so much I wished to teach her.."
+                }
+              ]
+            },
+            {
+              "Id": "ApprenticeInherits",
+              "ChapterId": "The4thWatcher",
+              "Elements": [
+                {
+                  "Type": "Heading",
+                  "Text": "My master has died.",
+                  "SpacingAfter": 120,
+                  "Alignment": "Center"
+                },
+                {
+                  "Type": "Paragraph",
+                  "Text": "...She did not have the chance to teach me her final lessons.\n\nMay her soul find peace."
+                }
+              ]
+            },
+            //10th Watcher -- Auloron
+            {
+              "Id": "TheDeepestWoods",
+              "ChapterID": "The10thWatcher",
+              "Elements": [
+                {
+                  "Type": "Heading",
+                  "Text": "A strange tear...",
+                  "SpacingAfter": 20,
+                  "Alignment": "Center"
+                },
+                {
+                  "Type": "Paragraph",
+                  "Text": "I have started to explore the deeper sections of the woods! The demons and spirits are more powerful that far out, but the plants and animals have far more interesting variants!"
+                }
+              ]
+            },
+
+            //19th Watcher -- Alger
+            {
+              "Id": "MagicalDisease",
+              "ChapterId": "The19thWatcher",
+              "Elements": [
+                {
+                  "Type": "Heading",
+                  "Text": "A new disease spreads.",
+                  "SpacingAfter": 40,
+                  "Alignment": "Center"
+                },
+                {
+                  "Type": "Paragraph",
+                  "Text": "Worry spreads faster than the disease itself. We had barely grown accustomed to the newest Callings when the disease started. Did we have a bad harvest? Have the spirits turned their favor?\n\nI intend to find the cause. I greatly worry for what will happen if we cannot find the source of the danger.",
+                  "SpacingAfter": 40
+                }
+              ]
+            },
+            {
+              "Id": "MagicalDiseaseCont",
+              "ChapterId": "The19thWatcher",
+              "Elements": [
+                {
+                  "Type": "Paragraph",
+                  "Text": "The fish. They've been infected. I should have stopped them the moment I saw the strange frosting on the Sunfish. This is my failure.",
+                  "SpacingAfter": 40
+                },
+                {
+                  "Type": "Paragraph",
+                  "Text": "It appears when the spores of the Frosted Mushroom take root in a living creature, they become dangerous to consume. We throw out any Sunfish we capture now. It appears to be limited to the Sunfish, but I worry if it spreads..."
+                }
+              ]
+            },
+            {
+              "Id": "The19thMuses",
+              "ChapterId": "The19thWatcher",
+              "Elements": [
+                {
+                  "Type": "Paragraph",
+                  "Text": "I have found myself reading the musings of my predecessors. They often ask how long before this journal will truly assist those who inherit it. I sometimes wonder the same myself.\nTo my future brothers and sisters who read will read these words, I hope we have helped somewhat.\n\nEven if it is merely to prolong your inevitable ruin."
+                }
+              ]
+            }
+            //24th Watcher -- Hern
+
+            //28th Watcher -- Selasi
+
+            //34th Watcher -- Echium
+
+            //46th Watcher -- Méabh
+
+            //51st Watcher -- Aylu
+
+            //63rd watcher -- Valerian
+
+            //72th Watcher -- Veis
+
+            //75th Watcher -- Raeden
+
+            //76th Watcher -- Hurst
+          ]
+        }
+      }
+    },
+
+    {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_MistgroveOutskirts",
+      "MapTiles": [
+        {
+          "Position": { "X": 14, "Y": 15 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "PeacefulEnd.Parchment_OpenBook {{ModId}}_WatchersJournal"
+          }
+        }
+      ]
+    }
+  ]
+}

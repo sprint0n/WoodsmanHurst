@@ -10,8 +10,10 @@
   "Config.SwearFilter.description": "Replace Explicit language with non-explicit language",
   "Config.PortraitStyle.name": "Portrait Style",
   "Config.PortraitStyle.description": "Set the style of Hurst's portraits to MicrowaveFairy or HeartOfFlowers",
-  "config.PortraitStyle.values.HeartOfFlowers": "HeartOfFlowers",
-  "config.PortraitStyle.values.MicrowaveFairy": "MicrowaveFairy",
+  "Config.SpriteStyle.name": "Sprite Style",
+  "Config.SpriteStyle.description": "Set the style of Hurst's sprites to Slightly Cuter or Vanilla",
+  "config.SpriteStyle.values.HeartOfFlowers": "Vanilla",
+  "config.SpriteStyle.values.MicrowaveFairy": "Cuter",
   //Hurst Events
   //Intro
   "sprinton.hurst.HurstIntro.0": "Farmer.",
