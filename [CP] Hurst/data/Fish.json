@@ -47,7 +47,7 @@
             {
               "RequiredPopulation": 0,
               "Chance": 0.1,
-              "ItemID": "(O)sprinton.hurst_SpiritFishRoe", //Roe
+              "ItemID": "(O)sprinton.hurst_SpiritfishRoe", //Roe
               "MinQuantity": 1,
               "MaxQuantity": 1
             }

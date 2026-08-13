@@ -1,0 +1,62 @@
+{
+  "Changes": [
+    {
+      "LogName": "Hurst Dialogue Trigger Actions",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "sprinton.hurst.TriggerActions.WoodsmanHurst.OverrideSeenToday.Removal": {
+          "Id": "sprinton.hurst.TriggerActions.WoodsmanHurst.OverrideSeenToday.Removal",
+          "MarkActionApplied": false,
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL Current sprinton.hurst.WoodsmanHurstOverrideSeenToday Any",
+          "Actions": [
+            "RemoveMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday"
+          ]
+        },
+        "sprinton.hurst.TriggerActions.WoodsmanHurst.SpeakerFairyFishGift": {
+          "Id": "sprinton.hurst.TriggerActions.WoodsmanHurst.SpeakerFairyFishGift",
+          "MarkActionApplied": true,
+          "Trigger": "Spiderbuttons.BETAS_GiftGiven",
+          "Condition": "ITEM_ID Target WoodsmanHurst, ITEM_ID Input (O)sprinton.hurst_SpeakerFairyFish",
+          "Action": "AddMail Current sprinton.hurst.HurstGiftedSpeakerFish"
+        }
+      }
+    },
+    {
+      "LogName": "Guarantee Early Shop Letter",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "When": {
+        "HasSeenEvent |contains=sprinton.hurst.HurstIntro": true,
+        "HasFlag |contains=sprinton.hurst.HurstSpiritShopEarlyOpen": false,
+        "EarlySpiritShopUnlock": true
+      },
+      "Entries": {
+        "sprinton.hurst.TriggerActions.WoodsmanHurst.EarlyShopLetter.Check": {
+          "Id": "sprinton.hurst.TriggerActions.WoodsmanHurst.EarlyShopLetter.Check",
+          "MarkActionApplied": true,
+          "Trigger": "DayEnding",
+          "Action": "AddMail Current sprinton.hurst.HurstSpiritShopEarlyOpen tomorrow"
+        }
+      }
+    },
+    {
+      "LogName": "Send Letter for spirit walk",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "When": {
+        "HasSeenEvent |contains=sprinton.hurst.Hurst8H.P2": true,
+        "HasConversationTopic |contains=HurstLetsGo": false
+      },
+      "Entries": {
+        "sprinton.hurst.TriggerActions.WoodsmanHurst.SendSpiriWalkLetter": {
+          "Id": "sprinton.hurst.TriggerActions.WoodsmanHurst.SpiritWalkLetter",
+          "MarkActionApplied": true,
+          "Trigger": "DayEnding",
+          "Action": "AddMail Current sprinton.hurst.SpiritWalkLetter tomorrow"
+        }
+      }
+    }
+  ]
+}

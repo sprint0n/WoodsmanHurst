@@ -599,7 +599,7 @@
           "ExcludeFromShippingCollection": "{{ExcludeFromPerfection}}",
           "ExcludeFromFishingCollection": "{{ExcludeFromPerfection}}",
           "Price": 75,
-          "Edibility": 10,
+          "Edibility": -200,
           "IsDrink": false,
           "ContextTags": [
             "mistgrove_item",

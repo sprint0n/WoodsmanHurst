@@ -125,7 +125,7 @@
             {
               "ID": "Stardrop Tea",
               "ItemID": "StardropTea",
-              "MaxItems": 1,
+              "MaxStack": 1,
               "Condition": "PLAYER_HAS_SEEN_EVENT Current sprinton.hurst.Hurst8H.P1",
               "Price": "10000"
             },

@@ -45,24 +45,6 @@
         "sprinton.hurst.SpiritWalkLetter": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SpiritWalkLetter}}%item specialOrder WoodsmanHurst.SpecialOrders.PowerSpiritWalk%%[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.SpiritWalkLetterTitle}}",
         "sprinton.hurst.HurstGiftedSpeakerFish": "{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstGiftedSpeakerFish}}%item cookingRecipe sprinton.hurst_RaedensBounty%%[#]{{i18n:WoodsmanHurst.Mail.sprinton.hurst.HurstGiftedSpeakerFishTitle}}"
       }
-    },
-    {
-      "LogName": "Guarantee Early Shop Letter",
-      "Action": "EditData",
-      "Target": "Data/TriggerActions",
-      "When": {
-        "HasSeenEvent |contains=sprinton.hurst.HurstIntro": true,
-        "HasFlag |contains=sprinton.hurst.HurstSpiritShopEarlyOpen": false,
-        "EarlySpiritShopUnlock": true
-      },
-      "Entries": {
-        "sprinton.hurst.TriggerActions.WoodsmanHurst.EarlyShopLetter.Check": {
-          "Id": "sprinton.hurst.TriggerActions.WoodsmanHurst.EarlyShopLetter.Check",
-          "MarkActionApplied": true,
-          "Trigger": "DayEnding",
-          "Action": "AddMail Current sprinton.hurst.HurstSpiritShopEarlyOpen tomorrow"
-        }
-      }
     }
   ]
 }

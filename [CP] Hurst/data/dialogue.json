@@ -360,29 +360,6 @@
       }
     },
     {
-      "LogName": "Hurst Dialogue Trigger Actions",
-      "Action": "EditData",
-      "Target": "Data/TriggerActions",
-      "Entries": {
-        "sprinton.hurst.TriggerActions.WoodsmanHurst.OverrideSeenToday.Removal": {
-          "Id": "sprinton.hurst.TriggerActions.WoodsmanHurst.OverrideSeenToday.Removal",
-          "MarkActionApplied": false,
-          "Trigger": "DayEnding",
-          "Condition": "PLAYER_HAS_MAIL Current sprinton.hurst.WoodsmanHurstOverrideSeenToday Any",
-          "Actions": [
-            "RemoveMail Current sprinton.hurst.WoodsmanHurstOverrideSeenToday"
-          ]
-        },
-        "sprinton.hurst.TriggerActions.WoodsmanHurst.SpeakerFairyFishGift": {
-          "Id": "sprinton.hurst.TriggerActions.WoodsmanHurst.SpeakerFairyFishGift",
-          "MarkActionApplied": true,
-          "Trigger": "Spiderbuttons.BETAS_GiftGiven",
-          "Condition": "ITEM_ID Target WoodsmanHurst, ITEM_ID Input (O)sprinton.hurst_SpeakerFairyFish",
-          "Action": "AddMail Current sprinton.hurst.HurstGiftedSpeakerFish"
-        }
-      }
-    },
-    {
       "LogName": "Hurst Rain Dialogue",
       "Action": "EditData",
       "Target": "Characters/Dialogue/rainy",
