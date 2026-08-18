@@ -20,6 +20,22 @@
           "Trigger": "Spiderbuttons.BETAS_GiftGiven",
           "Condition": "ITEM_ID Target WoodsmanHurst, ITEM_ID Input (O)sprinton.hurst_SpeakerFairyFish",
           "Action": "AddMail Current sprinton.hurst.HurstGiftedSpeakerFish"
+        },
+        "{{ModID}}_EventCoolDown_CoolDownCounter_WoodsmanHurst": {
+          "Id": "{{ModID}}_EventCoolDown_CoolDownCounter_WoodsmanHurst",
+          "MarkActionApplied": false,
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL Current WoodsmanHurst_EventCooldownActive, !PLAYER_STAT Current WoodsmanHurst_EventCooldownStat 0",
+          "Actions": ["IncrementStat WoodsmanHurst_EventCooldownStat -1"]
+        },
+        "{{ModID}}_EventCoolDown_TimerHitZero_WoodsmanHurst": {
+          "Id": "{{ModID}}_EventCoolDown_TimerHitZero_WoodsmanHurst",
+          "MarkActionApplied": false,
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL Current WoodsmanHurst_EventCooldownActive, PLAYER_STAT Current WoodsmanHurst_EventCooldownStat 0",
+          "Actions": [
+            "RemoveMail Current WoodsmanHurst_EventCooldownActive all"
+          ]
         }
       }
     },

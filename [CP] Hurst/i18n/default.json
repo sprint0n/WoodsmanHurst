@@ -12,8 +12,9 @@
   "Config.PortraitStyle.description": "Set the style of Hurst's portraits to MicrowaveFairy or HeartOfFlowers",
   "Config.SpriteStyle.name": "Sprite Style",
   "Config.SpriteStyle.description": "Set the style of Hurst's sprites to Slightly Cuter or Vanilla",
-  "config.SpriteStyle.values.HeartOfFlowers": "Vanilla",
-  "config.SpriteStyle.values.MicrowaveFairy": "Cuter",
+  "Config.SpriteStyle.values.HeartOfFlowers": "Vanilla",
+  "Config.SpriteStyle.values.MicrowaveFairy": "Cuter",
+  "Config.Event Cooldown Length.description": "Adjusts number of days you have to wait between NPC events.\n\n(Default 3 days)",
   //Hurst Events
   //Intro
   "sprinton.hurst.HurstIntro.0": "Farmer.",
@@ -1308,7 +1309,7 @@
   "JunimoWard.DailyPool.50": "The Watcher before Hurst was really cool!$0#$e#She spoke funny, but was really good at scaring away monsters!$2",
   //Spirits/Other Junimo
   "JunimoWard.DailyPool.51": "We don't know a lot of other Junimo like us.$0#$e#A lot of them are more... mindless?$9",
-  "JunimoWard.DailyPool.52": "Our friends in the community center really like gifts!$0#$e#You should bring them some!$2",
+  "JunimoWard.DailyPool.52": "Our friends in the community center really liked gifts!$0#$e#Did you ever bring them any?$2", //Line tweaked in 1.2.0
   "JunimoWard.DailyPool.53": "The spirits in the Valley are a lot less talkative then the Mistgrove ones.$0#$e#It's hard to make friends with them.$1",
   "JunimoWard.DailyPool.54": "Do you know any other Junimo that are like us?$0#$e#We like our friends, but sometimes we wish they were... smarter.$1",
   "JunimoWard.DailyPool.55": "One time we tried to ask why the ocean spirits hate Hurst so much.$0#$e#They wouldn't tell us.$1",

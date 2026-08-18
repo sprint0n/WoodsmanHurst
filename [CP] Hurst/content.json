@@ -524,6 +524,12 @@
       "Default": "Cuter",
       "AllowBlank": false,
       "Description": "{{i18n:Config.SpriteStyle.description}}"
+    },
+    "Event Cooldown Length": {
+      "AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+      "Default": "3",
+      "AllowBlank": false,
+      "Description": "{{i18n:Config.Event Cooldown Length.description}}"
     }
   }
 }

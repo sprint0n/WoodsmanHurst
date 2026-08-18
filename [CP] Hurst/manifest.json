@@ -4,7 +4,7 @@
   "Version": "1.1.1",
   "Description": "Adds a simple Woodsman to the game",
   "UniqueID": "sprinton.hurst",
-  "UpdateKeys": ["Nexus:28800"],
+  "UpdateKeys": ["Nexus:45324"],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
   },

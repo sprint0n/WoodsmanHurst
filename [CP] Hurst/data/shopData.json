@@ -102,32 +102,28 @@
             },
             {
               "ID": "Random Filler Items",
-              "MaxItems": 5,
-              "MinItems": 3,
-              "ItemID": "RANDOM_BASE_SEASON_ITEM"
+              "MaxItems": 3,
+              "AvailableStock": "{{Random: {{Range: 3,5}}}}",
+              "AvailableStockLimit": "Player",
+              "ItemID": "RANDOM_ITEMS (O)",
+              "PerItemCondition": "ITEM_CATEGORY Target -26 -28 -74 -75 -79 -80 -81"
             },
             {
               "ID": "Random Rare Items",
               "MaxItems": 2,
               "MaxStack": 1,
-              "RandomItemId": [
-                "(O)72",
-                "(O)82",
-                "(O)84",
-                "(O)86",
-                "(O)103",
-                "(O)126",
-                "(O)127",
-                "(O)430",
-                "(O)454"
-              ]
+              "AvailableStock": "{{Random: {{Range: 1,5}}}}",
+              "AvailableStockLimit": "Player",
+              "ItemID": "RANDOM_ITEMS (O)",
+              "PerItemCondition": "ITEM_ID Target 72 82 84 86 103 126 127 430 454"
             },
             {
               "ID": "Stardrop Tea",
               "ItemID": "StardropTea",
-              "MaxStack": 1,
               "Condition": "PLAYER_HAS_SEEN_EVENT Current sprinton.hurst.Hurst8H.P1",
-              "Price": "10000"
+              "Price": "10000",
+              "AvailableStock": 1,
+              "AvailableStockLimit": "Player"
             },
             {
               "ID": "Mistgrove Warp Totem",
