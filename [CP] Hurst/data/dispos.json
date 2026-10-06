@@ -17,6 +17,8 @@
           "CanBeRomanced": "{{HurstRomanceStatus}}",
           "CanVisitIsland": false,
           "IntroductionsQuest": false,
+          "Calendar": "UnknownUntilMet",
+          "SocialTab": "UnknownUntilMet",
           "ItemDeliveryQuests": "{{HurstSocialStatus}}",
           "WinterStarParticipant": "{{HurstSocialStatus}}",
           "FlowerDanceCanDance": "{{HurstSocialStatus}}",

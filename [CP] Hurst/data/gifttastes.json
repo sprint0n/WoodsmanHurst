@@ -15,15 +15,15 @@
         "WoodsmanHurst": {
           //Love
           "0": "{{i18n:WoodsmanHurst.LovedGift}}",
-          "1": "852 268 637 872 417 545 MysticSyrup PurpleBook FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry Rafseazz.RSVCP_Mountain_Mistbloom MV.Municipal.StampJunimo WWWA.Book.MysteriesOfTheDwarves WWWA.Book.TheJojaConspiracy TenebrousNova.EnD_Junimeel Sauri.MM_MistyEssence sprinton.hurst_TeardropSpirits sprinton.hurst_SmolderingRose Cornucopia_RoyalHoneyToast MadDog.STW_CherryLimeade ",
+          "1": "852 268 637 872 417 545 MysticSyrup PurpleBook FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry Rafseazz.RSVCP_Mountain_Mistbloom MV.Municipal.StampJunimo WWWA.Book.MysteriesOfTheDwarves WWWA.Book.TheJojaConspiracy TenebrousNova.EnD_Junimeel Sauri.MM_MistyEssence sprinton.hurst_TeardropSpirits sprinton.hurst_SmolderingRose Cornucopia_RoyalHoneyToast MadDog.STW_CherryLimeade Ex0dus.CVRemixed_StarblossomTea",
 
           //Like
           "2": "{{i18n:WoodsmanHurst.LikedGift}}",
-          "3": "454 121 577 578 768 254 276 -81 Rafseazz.RSVCP_Spiritual_Essence WWWA.Book.LunarkinTrollTales mistgrove_item",
+          "3": "454 121 577 578 768 254 276 -81 Rafseazz.RSVCP_Spiritual_Essence WWWA.Book.LunarkinTrollTales mistgrove_item MoogleCharm DragonClaw",
 
           //Dislike
           "4": "{{i18n:WoodsmanHurst.DislikedGift}}",
-          "5": "-4 445 430 101 166 198 209 212 213 214 219 225 226 227 228 242 728 730 732 733 food_seafood food_sushi allergen_fish allergin_shellfish",
+          "5": "-4 445 430 101 166 198 209 212 213 214 219 225 226 227 228 242 728 730 732 733 food_seafood food_sushi allergen_fish allergin_shellfish ChimeraBone",
 
           //Hate
           "6": "{{i18n:WoodsmanHurst.HatedGift}}",
@@ -31,7 +31,7 @@
 
           //Neutral
           "8": "{{i18n:WoodsmanHurst.NeutralGift}}",
-          "9": "203 233 103 104 446 857 WWWA.Book.TheBookOfYoba"
+          "9": "203 233 103 104 446 857 WWWA.Book.TheBookOfYoba OrichalcumOrb MysticWand"
         }
       }
     },
@@ -121,6 +121,14 @@
         "AcceptGift_(O)sprinton.hurst_BalancedMuffin": "{{i18n:WoodsmanHurst.AcceptGift_BalancedMuffin}}",
         "AcceptGift_(O)sprinton.hurst_MistgroveCake": "{{i18n:WoodsmanHurst.AcceptGift_MistgroveCake}}",
         "RejectItem_(O)sprinton.hurst_RaedensBounty": "{{i18n:WoodsmanHurst.RejectGift_RaedensBounty}}",
+
+        //Chocobo Valley Remixed
+        "AcceptGift_(O)Ex0dus.CVRemixed_StarblossomTea": "{{i18n:WoodsmanHurst.AcceptGift_StarblossomTea}}",
+        "AcceptGift_(O)Ex0dus.CVRemixed_MoogleCharm": "{{i18n:WoodsmanHurst.AcceptGift_MoogleCharm}}",
+        "AcceptGift_(O)Ex0dus.CVRemixed_DragonClaw": "{{i18n:WoodsmanHurst.AcceptGift_DragonClaw}}",
+        "AcceptGift_(O)Ex0dus.CVRemixed_ChimeraBone": "{{i18n:WoodsmanHurst.AcceptGift_ChimeraBone}}",
+        "AcceptGift_(O)Ex0dus.CVRemixed_OrichalcumOrb": "{{i18n:WoodsmanHurst.AcceptGift_StrangeMagicItem}}",
+        "AcceptGift_(O)Ex0dus.CVRemixed_MysticWand": "{{i18n:WoodsmanHurst.AcceptGift_StrangeMagicItem}}",
 
         //Liked Items
         "AcceptGift_(O)454": "{{i18n:WoodsmanHurst.AcceptGift_AncientFruit}}",

@@ -35,6 +35,19 @@
         "PillarsNearTemple": "{{i18n:MistgroveStrings.PillarsNearTemple}}",
         "MistgroveExit": "{{i18n:MistgroveStrings.MistgroveExit}}"
       }
+    },
+    {
+      "LogName": "Dynamic Strings",
+      "Action": "EditData",
+      "Target": "Strings/WH.DynamicStrings",
+      "Entries": {
+        "WizardName": "{{i18n:DynamicStrings.Wizard.Name.{{HasMod |contains=Nomori.RomRas}}}}",
+        "WizardJob": "{{i18n:DynamicStrings.Wizard.Job.{{HasMod |contains=Nomori.RomRas}}}}",
+        "WizardGender": "{{i18n:DynamicStrings.Wizard.Gender.{{HasMod |contains=Nomori.RomRas}}}}",
+        "WizardGenderHe": "{{i18n:DynamicStrings.Wizard.GenderHe.{{HasMod |contains=Nomori.RomRas}}}}",
+        "WizardGenderHis": "{{i18n:DynamicStrings.Wizard.GenderHis.{{HasMod |contains=Nomori.RomRas}}}}",
+        "WizardGenderHim": "{{i18n:DynamicStrings.Wizard.GenderHim.{{HasMod |contains=Nomori.RomRas}}}}"
+      }
     }
   ]
 }

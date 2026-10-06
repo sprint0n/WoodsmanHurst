@@ -499,37 +499,37 @@
       "AllowValues": "true, false",
       "Default": true,
       "AllowBlank": false,
-      "Description": "{{i18n:Config.ExcludeFromPerfection.description}}"
+      "Description": "Exclude this mod and its contents from perfection requirements"
     },
     "EarlySpiritShopUnlock": {
       "AllowValues": "true, false",
       "Default": false,
       "AllowBlank": false,
-      "Description": "{{i18n:Config.EarlySpiritShopUnlock.description}}"
+      "Description": "Open the shop in Hurst's clearing after seeing his intro event instead of 6 Heart"
     },
     "SwearFilter": {
       "AllowValues": "true, false",
       "Default": false,
       "AllowBlank": false,
-      "Description": "{{i18n:Config.SwearFilter.description}}"
+      "Description": "Replace Explicit language with non-explicit language"
     },
     "PortraitStyle": {
       "AllowValues": "MicrowaveFairy, HeartOfFlowers",
       "Default": "HeartOfFlowers",
       "AllowBlank": false,
-      "Description": "{{i18n:Config.PortraitStyle.description}}"
+      "Description": "Set the style of Hurst's portraits to MicrowaveFairy or HeartOfFlowers"
     },
     "SpriteStyle": {
       "AllowValues": "Cuter, Vanilla",
       "Default": "Cuter",
       "AllowBlank": false,
-      "Description": "{{i18n:Config.SpriteStyle.description}}"
+      "Description": "Set the style of Hurst's sprites to Slightly Cuter or Vanilla"
     },
     "Event Cooldown Length": {
       "AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
       "Default": "3",
       "AllowBlank": false,
-      "Description": "{{i18n:Config.Event Cooldown Length.description}}"
+      "Description": "Adjusts number of days you have to wait between NPC events.\n\n(Default 3 days)"
     }
   }
 }

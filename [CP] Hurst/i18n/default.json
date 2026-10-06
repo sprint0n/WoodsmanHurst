@@ -1,7 +1,8 @@
 {
-  //Note for translators: Lines were added in 1.1.0, line numbers 1513, 1570 and 1608 (Items, ClearingStrings and SecretNotes sections)
+  //translator notes: 1.1.2 added Chocobo valley Gift Tastes (line 818), secret note 15 (line 1582) and Dynamic Strings (line 1607 onwards)
+
   "WoodsmanHurst.DisplayName": "Hurst",
-  "JunimoWard.DisplayName": "Ward", //Translator notice: Ward and the Pomegranate are the same characters, and refer to themselves as they/we. This is meant to be used in the plural sense to imply they are more than just one mind.
+  "JunimoWard.DisplayName": "Ward", //Translator notice: Ward and the Pomegranate are the same character, and refer to themselves as they/we. This is meant to be used in the plural sense to imply they are more than just one mind.
   "Config.ExcludeFromPerfection.name": "Perfection Exclusion",
   "Config.ExcludeFromPerfection.description": "Exclude this mod and its contents from perfection requirements",
   "Config.EarlySpiritShopUnlock.name": "Spirit Shop Early Unlock",
@@ -12,9 +13,10 @@
   "Config.PortraitStyle.description": "Set the style of Hurst's portraits to MicrowaveFairy or HeartOfFlowers",
   "Config.SpriteStyle.name": "Sprite Style",
   "Config.SpriteStyle.description": "Set the style of Hurst's sprites to Slightly Cuter or Vanilla",
-  "Config.SpriteStyle.values.HeartOfFlowers": "Vanilla",
-  "Config.SpriteStyle.values.MicrowaveFairy": "Cuter",
+  "Config.SpriteStyle.values.Vanilla": "Vanilla",
+  "Config.SpriteStyle.values.Cuter": "Cuter",
   "Config.Event Cooldown Length.description": "Adjusts number of days you have to wait between NPC events.\n\n(Default 3 days)",
+  "Config.Event Cooldown Length.name": "Event Cooldown Length",
   //Hurst Events
   //Intro
   "sprinton.hurst.HurstIntro.0": "Farmer.",
@@ -79,7 +81,7 @@
   "sprinton.hurst.Hurst4H.13": "Apostles?",
   "sprinton.hurst.Hurst4H.14": "Why do you speak with me then?",
   "sprinton.hurst.Hurst4H.15": "No. The prophet asks the spirits, who decide on the punishment. The prophet is merely the mouthpiece.$3",
-  "sprinton.hurst.Hurst4H.16": "Apostles are what you would call people with magic in their blood, or an affinity toward the gods. The Wizard, for example.$3",
+  "sprinton.hurst.Hurst4H.16": "Apostles are what you would call people with magic in their blood, or an affinity toward the gods. The [LocalizedTest Strings/WH.DynamicStrings:Wizard.Job], for example.$3",
   "sprinton.hurst.Hurst4H.17": "As one who can see the Junimo, you are considered an apostle. But even that status may not be enough.$3",
   "sprinton.hurst.Hurst4H.18": "I tell you this because I fear that our friendship may have violated my Commandment.$2#$b#You likely noticed, but the Pomegranate has been vanishing.$0",
   "sprinton.hurst.Hurst4H.19": "I do not wish to end this friendship. But I fear the repercussions of disobeying the Prophet.",
@@ -581,9 +583,9 @@
   "sprinton.hurst.hurst10H.MagicQuestion.0": "So how'd you use the stuff I got for you?",
   "sprinton.hurst.hurst10H.MagicQuestion.1": "How'd you know how to make this spell?",
   "sprinton.hurst.hurst10H.MagicQuestion.2": "How long does this spell last?",
-  "sprinton.hurst.hurst10H.MagicQuestion.3": "Using the magic attuned to the items helped me and the Wizard weave a spell for you to see the spirits on this walk.$1#$b#I am glad it worked.$1",
-  "sprinton.hurst.hurst10H.MagicQuestion.4.false": "I asked the Wizard for assistance. The magic I used in Mistgrove merely required asking the spirits, it is quite more difficult here to do such things.$3#$b#The spirits and magic are far less permeated into the world.$1",
-  "sprinton.hurst.hurst10H.MagicQuestion.4.true": "I spoke with Eli and the Wizard. They helped me weave the spell.$1#$b#Magic here is far more difficult. In Mistgrove, I merely had to ask the spirits for the magic to work.$3",
+  "sprinton.hurst.hurst10H.MagicQuestion.3": "Using the magic attuned to the items helped me and the [LocalizedTest Strings/WH.DynamicStrings:Wizard.Job] weave a spell for you to see the spirits on this walk.$1#$b#I am glad it worked.$1",
+  "sprinton.hurst.hurst10H.MagicQuestion.4.false": "I asked the [LocalizedTest Strings/WH.DynamicStrings:Wizard.Job] for assistance. The magic I used in Mistgrove merely required asking the spirits, it is quite more difficult here to do such things.$3#$b#The spirits and magic are far less permeated into the world.$1",
+  "sprinton.hurst.hurst10H.MagicQuestion.4.true": "I spoke with Eli and the [LocalizedTest Strings/WH.DynamicStrings:Wizard.Job]. They helped me weave the spell.$1#$b#Magic here is far more difficult. In Mistgrove, I merely had to ask the spirits for the magic to work.$3",
   "sprinton.hurst.hurst10H.MagicQuestion.5": "It should wear off by the time our walk concludes.$3#$b#Do not worry, it should not have any long term consequences.$3",
 
   //Father joseph
@@ -814,6 +816,12 @@
   "WoodsmanHurst.RejectMovie": "I do not know what this is.$2#$b#Perhaps you intended it for someone else.",
   "WoodsmanHurst.RejectMermaidPendant": "I must decline. I do not follow such practices.$0",
 
+  "WoodsmanHurst.AcceptGift_StarblossomTea": "Quite a delicious drink!$1#$b#I thank you for gifting me such a wonder.$1",
+  "WoodsmanHurst.AcceptGift_MoogleCharm": "How fascinating! Such a charm seems to repel dangerous creatures...$0#$b#It is odd to find a charm that works opposite from the Watchers' Cloak.$3",
+  "WoodsmanHurst.AcceptGift_DragonClaw": "This appears to be the remains of something quite dangerous.$6#$b#Did you best such a creature yourself?$7",
+  "WoodsmanHurst.AcceptGift_ChimeraBone": "Interesting... this appears to be a bone from a demon!$3#$b#I did not know they could leave behind such things!$7#$b#I beg you to be careful with it. It may be dangerous.$5",
+  "WoodsmanHurst.AcceptGift_StrangeMagicItem": "This item is quite odd... I can see the magic about it, but cannot place the function...$7#$b#I urge you to be careful with such things.$3",
+
   // Hurst festival dialogues
   "WoodsmanHurst.EggFestival.1": "Greetings. Are you going to participate in the hunt?$0#$b#If so, I wish you luck. I have heard tales of how proficient a hunter Abigail is.$1",
   "JunimoWard.EggFestival": "\"Don't worry, we know how you can win! We'll show you where all the eggs are hidden!$2\"",
@@ -853,7 +861,7 @@
   "WoodsmanHurst.SpiritsEve2": "The gods wander our world this night.$0#$e#They will be much easier notice, even to those who usually cannot see them.$3",
   "JunimoWard.SpiritsEve2": "If you see our friends today, say hi! We've told them all about you.$2",
 
-  "WoodsmanHurst.IceFestival": "I worry Ward will try to sneak a fish home again.$0#$b#Last time they found a fish, they had Rasmodius hide it, even from my sight.$0#$b#The smell stuck in the clearing for nearly a week afterwards.$2",
+  "WoodsmanHurst.IceFestival": "I worry Ward will try to sneak a fish home again.$0#$b#Last time they found a fish, they had [LocalizedTest Strings/WH.DynamicStrings:Wizard.Name] hide it, even from my sight.$0#$b#The smell stuck in the clearing for nearly a week afterwards.$2",
   "JunimoWard.IceFestival": "Hurst didn't like our prank last time.$1",
   "WoodsmanHurst.IceFestival2": "I wish you luck in your fishing.$0#$b#If Ward asks for a fish, please do not give one to them. They have... ulterior motives.$0",
   "JunimoWard.IceFestival2": "Can we please have a fish if you catch extra? Please?$2",
@@ -874,7 +882,7 @@
   "WoodsmanHurst.LowHearts.6": "The spirits swirl about you nearly constantly.$0#$e#It seems they find you fascinating.$1",
   "WoodsmanHurst.LowHearts.7": "I fear for what would happen if the demon known as Joja gets a stronger foothold in the town.$3#$e#It seems to be opposed to the gods.$5",
   "WoodsmanHurst.LowHearts.8": "The gods speak of your grandfather fondly.$0#$e#I wonder kind of man he was to leave such an impression.$3",
-  "WoodsmanHurst.LowHearts.9": "Rasmodius is quite powerful.$0#$e#The only other Apostle I have met with his control over magic is the Prophet Sylva.",
+  "WoodsmanHurst.LowHearts.9": "[LocalizedTest Strings/WH.DynamicStrings:Wizard.Name] is quite powerful.$0#$e#The only other Apostle I have met with his control over magic is the Prophet Sylva.",
   "WoodsmanHurst.LowHearts.10": "I wonder what the gods do with the offerings.$0#$e#There is never anything left behind.$3",
   "WoodsmanHurst.LowHearts.11": "I try to keep my clearing from becoming overgrown.$0#$e#It can be difficult at times.$7",
   "WoodsmanHurst.LowHearts.12": "The artist who lives by the ranch is extremely talented.$0#$e#Everytime I see her, spirits of art and creativity are all around her.$1",
@@ -905,7 +913,7 @@
   "WoodsmanHurst.LowHearts.37": "On occasion, I have taken in injured animals to the veterinarian.$0#$e#His daughter enjoys sharing her knowledge of birds with me whenever I do so.$1",
   "WoodsmanHurst.LowHearts.38": "I find the slime breeder quite interesting.$0#$e#She seems to have no fear for the dangerous creatures!$6",
   "WoodsmanHurst.LowHearts.39": "The ocean somewhat terrifies me.$0#$b#As a child, I was nearly drowned by a violent ocean spirit.$6#$e#I still do not know what I had done to offend her so.$2",
-  "WoodsmanHurst.LowHearts.40": "Rasmodius has asked me to teach him how to speak with the spirits.$0#$e#He fails to understand it is not a talent I can teach.$3",
+  "WoodsmanHurst.LowHearts.40": "[LocalizedTest Strings/WH.DynamicStrings:Wizard.Name] has asked me to teach [LocalizedTest Strings/WH.DynamicStrings:Wizard.GenderHim] how to speak with the spirits.$0#$e#[LocalizedTest Strings/WH.DynamicStrings:Wizard.GenderHe] fails to understand it is not a talent I can teach.$3",
   "WoodsmanHurst.LowHearts.41": "%Hurst seems to be speaking to the air.$0#$e#I must ask you to not do such a thing. The people here will fail to understand it is a prank.$3",
   "WoodsmanHurst.LowHearts.42": "Are you close with the townsfolk?$0#$e#They are all good people, are they not? I sometimes wish I could be permitted to speak to them so.$2",
   "WoodsmanHurst.LowHearts.43": "%Hurst is staring into the distance.#$e#I sometimes worry my atonement will never end.$2",
@@ -965,7 +973,7 @@
 
   //Hurst High Heart Dialogue Pool
   "WoodsmanHurst.HighHearts.1": "I wish you could understand the spirits as well.$0#$e#They have such fascinating conversations with one another.$3",
-  "WoodsmanHurst.HighHearts.2": "Rasmodius is one of the few I have met who knows of Mistgrove.$0#$e#Even then, he knows very little about my homeland.$1",
+  "WoodsmanHurst.HighHearts.2": "[LocalizedTest Strings/WH.DynamicStrings:Wizard.Name] is one of the few I have met who knows of Mistgrove.$0#$e#Even then, [LocalizedTest Strings/WH.DynamicStrings:Wizard.GenderHe] knows very little about my homeland.$1",
   "WoodsmanHurst.HighHearts.3": "I find the woman of the ranch fascinating.$0#$e#She is beloved by the animals.$1",
   "WoodsmanHurst.HighHearts.4": "Some of the gods have told me their true names.$0#$e#It is a great honor to be given such knowledge.$3",
   "WoodsmanHurst.HighHearts.5": "As Watcher, I was very comfortable with seeing large amounts of spirits.$0#$e#The sheer amount of spirits about the Community Center still gives me pause, however.$3",
@@ -1016,7 +1024,7 @@
   "WoodsmanHurst.HighHearts.50": "Have you been to the distant island?$0#$e#The gods talk about it occasionally, but I have never been myself.$1",
   "WoodsmanHurst.HighHearts.51": "The gods talk about a strange rainbow gem.$0#$e#They say if you offer it to the god of the desert, they will bless you with an offering of their very own.$7",
   "WoodsmanHurst.HighHearts.52": "I have sometimes found strange spirits near the cave on the beach.$0#$e#I wonder if there is something that attracts them.$7",
-  "WoodsmanHurst.HighHearts.53": "There exist demons as well as gods.$2#$e#I am sure you have met a few during your exploration of the mines.$0#$b#We must thank Rasmodius for keeping this valley safe from them.$1",
+  "WoodsmanHurst.HighHearts.53": "There exist demons as well as gods.$2#$e#I am sure you have met a few during your exploration of the mines.$0#$b#We must thank [LocalizedTest Strings/WH.DynamicStrings:Wizard.Name] for keeping this valley safe from them.$1",
   "WoodsmanHurst.HighHearts.54": "The gods have allowed me to harness their powers once or twice.$0#$e#The Spirit of Mystery can somehow do it without their permission.$6#$b#That is part of why I find him so distasteful.$5",
   "WoodsmanHurst.HighHearts.55": "How has your %farm farm been recently?$0#$e#I have done my best to convince the gods of the storm to leave your farm be.$0#$b#They enjoy striking crops with lightning.$1",
   "WoodsmanHurst.HighHearts.56": "That couple Evelyn and George have been here for quite a long time.$0#$e#I wonder what they have seen in their lives.$1",
@@ -1041,7 +1049,7 @@
   "WoodsmanHurst.HighHearts.74": "Farmers are quite rare in Mistgrove.$0#$e#Most of our food comes from forage.$1#$b#Such a thing would not stop Sight-Mother however.$1",
   "WoodsmanHurst.HighHearts.75": "I think you would enjoy Mistgrove.$0#$e#The people there are kind hearted, much like you.$5",
   "WoodsmanHurst.HighHearts.76": "The gods have spoken to me about the offerings.$0#$e#They enjoy them, but seem to think I should not push myself to exhaustion for them.$3#$b#How benevolent!$3",
-  "WoodsmanHurst.HighHearts.77": "Rasmodius has a few strange spirits near his tower.$0$e#I have tried to speak with them, but they would not answer me.$3",
+  "WoodsmanHurst.HighHearts.77": "[LocalizedTest Strings/WH.DynamicStrings:Wizard.Name] has a few strange spirits near [LocalizedTest Strings/WH.DynamicStrings:Wizard.GenderHis] tower.$0$e#I have tried to speak with them, but they would not answer me.$3",
   "WoodsmanHurst.HighHearts.78": "When I was still Watcher, I would sometimes cross over into the worlds of the spirits.$0#$e#They are quite beautiful, but extremely dangerous.$3",
   "WoodsmanHurst.HighHearts.79": "The gods showed me their world once.$0#$e#It is quite a beautiful, if confusing, place.$3",
   "WoodsmanHurst.HighHearts.80": "Wandering the mist is something I miss about my home.$0#$e#Seeing deep purples of the mist is a sight to behold.$1",
@@ -1288,13 +1296,13 @@
   //Ancient City
   "JunimoWard.DailyPool.31": "We remember the old city in Mistgrove.$0#$e#We were still young when it was new!$2",
   "JunimoWard.DailyPool.32": "Sometimes we like to explore the ruins of the old city.$0#$e#It looked really cool!.$0",
-  "JunimoWard.DailyPool.33": "The ancient city was weird!$0#$e#Everyone there was like the Wizard of the Valley! Super magical! Super weird!$2",
+  "JunimoWard.DailyPool.33": "The ancient city was weird!$0#$e#Everyone there was like the [LocalizedTest Strings/WH.DynamicStrings:Wizard.Job] of the Valley! Super magical! Super weird!$2",
   "JunimoWard.DailyPool.34": "Do you have any friends you miss?$0#$e#We had some friends a long long time ago. The lived in the ancient city.$1",
   "JunimoWard.DailyPool.35": "If you ever find old ruins in the deep forests of Mistgrove, you should probably run away.$0#$e#Sometimes dangerous things live there.$3",
   "JunimoWard.DailyPool.36": "We're old. Really old.$0#$e#Our first memories stretch back to when the ancient city was just a small town.$0",
   "JunimoWard.DailyPool.37": "Whenever we get bored we sometimes wander into the ancient ruins of Mistgrove.$0#$e#We like to see how everything has changed.$0",
   "JunimoWard.DailyPool.38": "One time we got stuck in a trap left in the ruins.$0#$e#We were surprised they left behind strong enough magic to capture us!$8",
-  "JunimoWard.DailyPool.39": "The Wizard is one of the only people we've met who knows about the ancient city.$0#$e#We didn't think anyone other than Hurst and Sylva knew about it!$2",
+  "JunimoWard.DailyPool.39": "The [LocalizedTest Strings/WH.DynamicStrings:Wizard.Job] is one of the only people we've met who knows about the ancient city.$0#$e#We didn't think anyone other than Hurst and Sylva knew about it!$2",
   "JunimoWard.DailyPool.40": "Mistgrove is built on the outskirts of a really old city!$0#$e#The city was really magical. Then bad stuff happened.$1",
   //Watchers and Prophets
   "JunimoWard.DailyPool.41": "We remember the first Prophet. They were our friend.$0#$e#They asked us to protect the new townspeople.$2",
@@ -1344,7 +1352,7 @@
     "WoodsmanHurst.STW.5": "",
 
 
-//Right On Time
+  //Right On Time
 
    "WoodsmanHurst.ROT.1": "",
    "WoodsmanHurst.ROT.2": "",
@@ -1368,50 +1376,19 @@
     "WoodsmanHurst.Kobolds.5": "",
 
 
-   //SnS
-    "WoodsmanHurst.Val.1": "",
-    "WoodsmanHurst.Val.2": "",
-    "WoodsmanHurst.Val.3": "",
-    "WoodsmanHurst.Val.4": "",
-    "WoodsmanHurst.Val.5": "",
+    //Chasing Ephemera
+    "WoodsmanHurst.Wisteria.1": "",
+    "WoodsmanHurst.Wisteria.2": "",
+    "WoodsmanHurst.Wisteria.3": "",
+    "WoodsmanHurst.Wisteria.4": "",
+    "WoodsmanHurst.Wisteria.5": "",
 
-    "WoodsmanHurst.Hector.1": "",
-    "WoodsmanHurst.Hector.2": "",
-    "WoodsmanHurst.Hector.3": "",
-    "WoodsmanHurst.Hector.4": "",
-    "WoodsmanHurst.Hector.5": "",
-
-    "WoodsmanHurst.Coriander.1": "",
-    "WoodsmanHurst.Coriander.2": "",
-    "WoodsmanHurst.Coriander.3": "",
-    "WoodsmanHurst.Coriander.4": "",
-    "WoodsmanHurst.Coriander.5": "",
-
-    "WoodsmanHurst.Roslin.1": "",
-    "WoodsmanHurst.Roslin.2": "",
-    "WoodsmanHurst.Roslin.3": "",
-    "WoodsmanHurst.Roslin.4": "",
-    "WoodsmanHurst.Roslin.5": "",
-
-    "WoodsmanHurst.Dandelion.1": "",
-    "WoodsmanHurst.Dandelion.2": "",
-    "WoodsmanHurst.Dandelion.3": "",
-    "WoodsmanHurst.Dandelion.4": "",
-    "WoodsmanHurst.Dandelion.5": "",
-
-    "WoodsmanHurst.Arden.1": "",
-    "WoodsmanHurst.Arden.2": "",
-    "WoodsmanHurst.Arden.3": "",
-    "WoodsmanHurst.Arden.4": "",
-    "WoodsmanHurst.Arden.5": "",
-
-    "WoodsmanHurst.Lorin.1": "",
-    "WoodsmanHurst.Lorin.2": "",
-    "WoodsmanHurst.Lorin.3": "",
-    "WoodsmanHurst.Lorin.4": "",
-    "WoodsmanHurst.Lorin.5": "",
-
-
+    //Classical Roots
+    "WoodsmanHurst.Aella.1": "",
+    "WoodsmanHurst.Aella.2": "",
+    "WoodsmanHurst.Aella.3": "",
+    "WoodsmanHurst.Aella.4": "",
+    "WoodsmanHurst.Aella.5": "",
 */
 
   //VANILLA NPC CONVERSATION TOPICS
@@ -1450,7 +1427,7 @@
   "WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopOpened": "I thank you for listening to my story, even if it was rather grim. ^ I apologize for causing an argument with you. I did not wish to spark anger between us. ^ I bear news that I hope will make up for my mistakes. The Shopkeepers have said you can trade with them. . ^ From now on, when you visit my clearings on Fridays, they should be beside my shrine. What they offer may interest you. ^ - Hurst",
   "WoodsmanHurst.Mail.sprinton.hurst.HurstSpiritShopEarlyOpen": "Greetings @. The spirits have informed me you are truly an Apostle. ^ This means you have a special privilege the spirits bestow upon the Apostles. ^ If you are to visit my clearing on Fridays, the spirits beside my shrine should be visible. ^ Speak with them to learn what this privilege entails. ^ - Hurst",
   "WoodsmanHurst.Mail.sprinton.hurst.WardFoundYouPassedOut": "You were passed out on the ground! We found you! Our friends carried you home. ^ They might have taken some of your shiny yellow stuff. We don't know. They won't tell us. ^ We're sorry if they did! Please try to not pass out again. ^ Ward",
-  "WoodsmanHurst.Mail.sprinton.hurst.MistgroveWarpTotemMail": "I have spoken to Sylva. She and I have come to an understanding. I could not have made such a choice without your help, so I asked the spirits for a gift. ^ You will find a method attached to attune a Warp Totem to the Outskirts of Mistgrove. As an Apostle, you have the right to visit. ^ Rasmodius went with me to place a protective barrier when I spoke to Sylva, so you shall not need to worry about demons. ^ -Hurst ^ P.S. I thank you again for being such a wonderful friend. You are marvelous.",
+  "WoodsmanHurst.Mail.sprinton.hurst.MistgroveWarpTotemMail": "I have spoken to Sylva. She and I have come to an understanding. I could not have made such a choice without your help, so I asked the spirits for a gift. ^ You will find a method attached to attune a Warp Totem to the Outskirts of Mistgrove. As an Apostle, you have the right to visit. ^ [LocalizedTest Strings/WH.DynamicStrings:Wizard.Name] went with me to place a protective barrier when I spoke to Sylva, so you shall not need to worry about demons. ^ -Hurst ^ P.S. I thank you again for being such a wonderful friend. You are marvelous.",
   "WoodsmanHurst.Mail.sprinton.hurst.SpiritWalkLetter": "Dear @, there is something I wish to show you, but it requires me to impose upon you again. ^ If you are able, would you gather me items attuned to the light, void, and Mistgrove? ^ I will be able to gather the rest myself. I request you place these within the bowl of my shrine. ^ -Hurst ^ P.S. Ward has told me to tell you 'trust us, it's really cool!'. ^ P.P.S. They stood upon my shoulder until I wrote their message to you. My apologies.",
   "WoodsmanHurst.Mail.sprinton.hurst.SylvaFoundYouPassedOut": "Farmer @. The spirits told me of your unconcious self laying on the outskirts of Mistgrove. ^ I took it upon myself to have some of the gods take you home. I hope you found your way home well. Please stay safe. ^ Do not tell Hurst of this. He will worry. ^ -Prophet Sylva",
   "WoodsmanHurst.Mail.sprinton.hurst.HurstShopOpenTitle": "Spirit Shop Open",
@@ -1601,6 +1578,8 @@
   //Notes 13 and up were added in the 1.1.0 update
   "WoodsmanHurst.SecretNotes.13": "--having as much trouble as me getting information from the Woodsman. I had hoped that Eli's more... personable nature would lend itself to more information being shared, but it seems he remains as secretive as ever. Eli has said he was also surprised to learn Mistgrove was real. He said he assumed the fables were false like I. I wonder if we were both to--",
   "WoodsmanHurst.SecretNotes.14": "-persist of her luring residents into the alley to consume their blood. Several offers have been made to her for a peaceful alternative, but Davina refuses to admit she's done anything of the sort. It seems she finds it more enjoyable to trick and decieve her way into getting a meal. She has yet to kill a citizen, but several of the guards are worried it's only a matter of time. It is due to this that the City Guard propose a lifelong ban of Vampire Davina Holloway from the City of-",
+  //Added in 1.1.2
+  "WoodsmanHurst.SecretNotes.15": "I have dreams of what may have happened had you returned. ^ We would be a family. You and Cedric. Eon and I. ...You and me. We would have taught our children the ways of the woods and the plants. Perhaps they would become a Forager. Maybe a Farmer. Maybe even one might become a Fisher. ^ You meet your apprentice in these dreams. She is loud. She is wild. She is so different from you, and yet exactly the apprentice you would have. You teach her everything Raeden taught you. You show her the deepest secrets of the woods. We all grow a little older. ^ And then one day I'd see your apprentice alone. She wears the cloak instead of you. She has the same look that was in your eyes the day Raeden died. And I know I've lost you forever. ^ At least as we are now, you have a chance of outlasting me. Even if we may never speak again.",
 
   "WoodsmanHurst.SecretNotes.1.Title": "Formal Report to Prophet Sylva of Mistgrove 1",
   "WoodsmanHurst.SecretNotes.2.Title": "Formal Report to Prophet Sylva of Mistgrove 2",
@@ -1612,17 +1591,32 @@
   "WoodsmanHurst.SecretNotes.8.Title": "Formal Report to Prophet Sylva of Mistgrove 4",
   "WoodsmanHurst.SecretNotes.9.Title": "Formal Report to Prophet Sylva of Mistgrove 5",
   "WoodsmanHurst.SecretNotes.10.Title": "Transcription of strange sounds coming from radios near the Misted Woods.",
-  "WoodsmanHurst.SecretNotes.11.Title": "Excerpt from the notes of Rasmodius. I",
-  "WoodsmanHurst.SecretNotes.12.Title": "Excerpt from the notes of Rasmodius II",
-  "WoodsmanHurst.SecretNotes.13.Title": "Excerpt from the notes of Rasmodius III",
+  "WoodsmanHurst.SecretNotes.11.Title": "Excerpt from the notes of [LocalizedTest Strings/WH.DynamicStrings:Wizard.Name]. I",
+  "WoodsmanHurst.SecretNotes.12.Title": "Excerpt from the notes of [LocalizedTest Strings/WH.DynamicStrings:Wizard.Name] II",
+  "WoodsmanHurst.SecretNotes.13.Title": "Excerpt from the notes of [LocalizedTest Strings/WH.DynamicStrings:Wizard.Name] III",
   "WoodsmanHurst.SecretNotes.14.Title": "Report on the danger of Vampire Davina Holloway",
+  "WoodsmanHurst.SecretNotes.15.Title": "Unsent letter from Prophet Sylva to Hurst of East Scarp",
 
   //Special Orders
   "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Name": "Power the Spell",
   "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.Text": "Hurst has asked you to gather magically attuned items to show you something. He requested you leave the items in the bowl of his clearing shrine...",
   "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.ObjectiveText.1": "Leave 5 void essence in the bowl of Hurst's Shrine",
   "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.ObjectiveText.2": "Leave 5 solar essence in the bowl of Hurst's Shrine",
-  "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.ObjectiveText.3": "Leave 15 mistgrove items in the bowl of Hurst's Shrine"
+  "WoodsmanHurst.SpecialOrders.PowerSpiritWalk.ObjectiveText.3": "Leave 15 mistgrove items in the bowl of Hurst's Shrine",
+
+  //Dynamic Strings -- added in 1.1.2
+  "DynamicStrings.Wizard.Name.true": "Rasmodia",
+  "DynamicStrings.Wizard.Name.false": "Rasmodius",
+  "DynamicStrings.Wizard.Job.true": "Witch",
+  "DynamicStrings.Wizard.Job.false": "Wizard",
+  "DynamicStrings.Wizard.Gender.true": "woman",
+  "DynamicStrings.Wizard.Gender.false": "man",
+  "DynamicStrings.Wizard.GenderHe.true": "she",
+  "DynamicStrings.Wizard.GenderHe.false": "he",
+  "DynamicStrings.Wizard.GenderHis.true": "her",
+  "DynamicStrings.Wizard.GenderHis.false": "his",
+  "DynamicStrings.Wizard.GenderHim.true": "her",
+  "DynamicStrings.Wizard.GenderHim.false": "him"
 }
 
 /*

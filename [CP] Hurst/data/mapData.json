@@ -118,7 +118,7 @@
               "Id": "(O)sprinton.hurst_ConjoinedCatfish",
               "ItemId": "(O)sprinton.hurst_ConjoinedCatfish",
               "FishAreaID": "MistgrovePond",
-              "Condition": "SEASON spring"
+              "Condition": "SEASON spring WEATHER Here Rain Storm"
             },
             {
               "Id": "(O)sprinton.hurst_FlyingMisteel",
@@ -546,7 +546,7 @@
         "{{ModID}}_ConjoinedCatfish": {
           "Id": "{{ModID}}_ConjoinedCatfish",
           "ItemId": "(O){{ModID}}_ConjoinedCatfish",
-          "Condition": "LOCATION_Season Here spring"
+          "Condition": "LOCATION_Season Here spring WEATHER Here Rain Storm"
         }
       }
     }
